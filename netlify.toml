@@ -1,11 +1,11 @@
 [build]
   publish = "."
 
-# Only redirect truly missing pages to homepage (404 fallback)
+# 404 fallback — send unknown paths to homepage
 [[redirects]]
   from = "/*"
   to = "/index.html"
-  status = 200
+  status = 404
 
 # ── SECURITY HEADERS ─────────────────────────────────────────────────
 [[headers]]
