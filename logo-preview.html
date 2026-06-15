@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0a0a0f; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; padding: 24px; color: #f0f0f5; }
+  h3 { font-size: 11px; color: #555577; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; }
+  .section { margin-bottom: 32px; }
+
+  .fake-header {
+    background: rgba(10,10,15,0.98);
+    border: 1px solid #22223a;
+    border-radius: 10px;
+    padding: 0 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo-wrap {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 19px; font-weight: 800; letter-spacing: -0.5px;
+    color: #f0f0f5; text-decoration: none;
+  }
+  .logo-wrap .highlight { color: #f0b429; }
+  nav { display: flex; gap: 2px; }
+  nav a { padding: 5px 11px; border-radius: 7px; font-size: 13px; color: #9999b0; text-decoration: none; }
+  nav a.active { color: #f0f0f5; background: #16161f; }
+  .x-btn { padding: 5px 14px; background: #f0f0f5; color: #0a0a0f; border-radius: 20px; font-weight: 700; font-size: 12px; margin-left: 8px; text-decoration: none; }
+  .sizes { display: flex; gap: 24px; align-items: flex-end; flex-wrap: wrap; }
+  .size-item { text-align: center; }
+  .size-item p { font-size: 10px; color: #555577; margin-top: 6px; }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════
+     CANONICAL LOGO — used at all sizes
+     Just change width/height, keep viewBox
+     Unique IDs per instance to avoid conflicts
+═══════════════════════════════════════ -->
+
+<!-- 1. HEADER -->
+<div class="section">
+  <h3>1. Site Header</h3>
+  <div class="fake-header">
+    <div class="logo-wrap">
+      <svg width="36" height="36" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="h-bg" cx="50%" cy="40%" r="60%">
+            <stop offset="0%" stop-color="#1a1a2e"/>
+            <stop offset="100%" stop-color="#0a0a0f"/>
+          </radialGradient>
+          <radialGradient id="h-glow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#f0b429" stop-opacity="0.25"/>
+            <stop offset="100%" stop-color="#f0b429" stop-opacity="0"/>
+          </radialGradient>
+          <linearGradient id="h-bolt" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ffd96a"/>
+            <stop offset="100%" stop-color="#f0b429"/>
+          </linearGradient>
+        </defs>
+        <rect width="400" height="400" fill="url(#h-bg)"/>
+        <circle cx="200" cy="185" r="130" fill="url(#h-glow)"/>
+        <circle cx="200" cy="200" r="175" fill="none" stroke="#f0b429" stroke-width="2" stroke-opacity="0.3"/>
+        <circle cx="200" cy="200" r="170" fill="none" stroke="#f0b429" stroke-width="1" stroke-opacity="0.15"/>
+        <polygon points="220,60 150,210 195,210 175,345 265,175 215,175 240,60"
+          fill="url(#h-bolt)" stroke="#ffd96a" stroke-width="2" stroke-linejoin="round"/>
+      </svg>
+      AI <span class="highlight">TechWire</span>
+    </div>
+    <nav>
+      <a href="#" class="active">Home</a>
+      <a href="#">AI &amp; Tech</a>
+      <a href="#">Finance</a>
+      <a href="#">Crypto</a>
+      <a href="#" class="x-btn">𝕏 Follow</a>
+    </nav>
+  </div>
+</div>
+
+<!-- 2. SIZES — all identical design, just scaled -->
+<div class="section">
+  <h3>2. Sizes — all same design</h3>
+  <div class="sizes">
+
+    <!-- 120px with text -->
+    <div class="size-item">
+      <svg width="120" height="120" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="s1-bg" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#1a1a2e"/><stop offset="100%" stop-color="#0a0a0f"/></radialGradient>
+          <radialGradient id="s1-glow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#f0b429" stop-opacity="0.25"/><stop offset="100%" stop-color="#f0b429" stop-opacity="0"/></radialGradient>
+          <linearGradient id="s1-bolt" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ffd96a"/><stop offset="100%" stop-color="#f0b429"/></linearGradient>
+        </defs>
+        <rect width="400" height="400" fill="url(#s1-bg)"/>
+        <circle cx="200" cy="185" r="130" fill="url(#s1-glow)"/>
+        <circle cx="200" cy="200" r="175" fill="none" stroke="#f0b429" stroke-width="2" stroke-opacity="0.3"/>
+        <circle cx="200" cy="200" r="170" fill="none" stroke="#f0b429" stroke-width="1" stroke-opacity="0.15"/>
+        <polygon points="220,60 150,210 195,210 175,345 265,175 215,175 240,60" fill="url(#s1-bolt)" stroke="#ffd96a" stroke-width="2" stroke-linejoin="round"/>
+        <text x="200" y="362" font-family="Arial Black,sans-serif" font-size="24" font-weight="900" fill="#f0b429" text-anchor="middle" letter-spacing="4">AI TECHWIRE</text>
+        <text x="200" y="383" font-family="Arial,sans-serif" font-size="11" fill="#ffffff" fill-opacity="0.4" text-anchor="middle" letter-spacing="2">WHERE AI MEETS MONEY</text>
+      </svg>
+      <p>120px (social)</p>
+    </div>
+
+    <!-- 48px no text -->
+    <div class="size-item">
+      <svg width="48" height="48" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="s2-bg" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#1a1a2e"/><stop offset="100%" stop-color="#0a0a0f"/></radialGradient>
+          <radialGradient id="s2-glow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#f0b429" stop-opacity="0.25"/><stop offset="100%" stop-color="#f0b429" stop-opacity="0"/></radialGradient>
+          <linearGradient id="s2-bolt" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ffd96a"/><stop offset="100%" stop-color="#f0b429"/></linearGradient>
+        </defs>
+        <rect width="400" height="400" fill="url(#s2-bg)"/>
+        <circle cx="200" cy="185" r="130" fill="url(#s2-glow)"/>
+        <circle cx="200" cy="200" r="175" fill="none" stroke="#f0b429" stroke-width="2" stroke-opacity="0.3"/>
+        <circle cx="200" cy="200" r="170" fill="none" stroke="#f0b429" stroke-width="1" stroke-opacity="0.15"/>
+        <polygon points="220,60 150,210 195,210 175,345 265,175 215,175 240,60" fill="url(#s2-bolt)" stroke="#ffd96a" stroke-width="2" stroke-linejoin="round"/>
+      </svg>
+      <p>48px</p>
+    </div>
+
+    <!-- 36px header -->
+    <div class="size-item">
+      <svg width="36" height="36" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="s3-bg" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#1a1a2e"/><stop offset="100%" stop-color="#0a0a0f"/></radialGradient>
+          <linearGradient id="s3-bolt" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ffd96a"/><stop offset="100%" stop-color="#f0b429"/></linearGradient>
+        </defs>
+        <rect width="400" height="400" fill="url(#s3-bg)"/>
+        <circle cx="200" cy="200" r="175" fill="none" stroke="#f0b429" stroke-width="2" stroke-opacity="0.3"/>
+        <polygon points="220,60 150,210 195,210 175,345 265,175 215,175 240,60" fill="url(#s3-bolt)" stroke="#ffd96a" stroke-width="2" stroke-linejoin="round"/>
+      </svg>
+      <p>36px (header)</p>
+    </div>
+
+    <!-- 32px favicon -->
+    <div class="size-item">
+      <svg width="32" height="32" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="s4-bolt" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ffd96a"/><stop offset="100%" stop-color="#f0b429"/></linearGradient>
+        </defs>
+        <rect width="400" height="400" fill="#1a1a2e"/>
+        <circle cx="200" cy="200" r="175" fill="none" stroke="#f0b429" stroke-width="3" stroke-opacity="0.4"/>
+        <polygon points="220,60 150,210 195,210 175,345 265,175 215,175 240,60" fill="url(#s4-bolt)"/>
+      </svg>
+      <p>32px (favicon)</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- 3. FOOTER -->
+<div class="section">
+  <h3>3. Footer</h3>
+  <div style="background:#111118;border:1px solid #22223a;border-radius:10px;padding:14px;display:inline-flex;align-items:center;gap:10px">
+    <svg width="28" height="28" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="f-bg" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#1a1a2e"/><stop offset="100%" stop-color="#0a0a0f"/></radialGradient>
+        <linearGradient id="f-bolt" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ffd96a"/><stop offset="100%" stop-color="#f0b429"/></linearGradient>
+      </defs>
+      <rect width="400" height="400" fill="url(#f-bg)"/>
+      <circle cx="200" cy="200" r="175" fill="none" stroke="#f0b429" stroke-width="2" stroke-opacity="0.3"/>
+      <polygon points="220,60 150,210 195,210 175,345 265,175 215,175 240,60" fill="url(#f-bolt)" stroke="#ffd96a" stroke-width="2" stroke-linejoin="round"/>
+    </svg>
+    <span style="font-size:16px;font-weight:800;color:#f0f0f5">AI <span style="color:#f0b429">TechWire</span></span>
+  </div>
+</div>
+
+</body>
+</html>
