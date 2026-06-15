@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://aitechwire.io/sitemap.xml
+
+# Block irrelevant paths
+Disallow: /img/
+Disallow: /logo-preview.html
