@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Browse by Topic — AI TechWire</title>
+  <meta name="description" content="Browse AI TechWire articles by topic: AI, Bitcoin, DeFi, Finance, Stablecoins, Crypto, and more." />
+  <link rel="canonical" href="https://aitechwire.io/topics/" />
+  <meta property="og:title" content="Browse by Topic — AI TechWire" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    .topics-wrap { max-width: 900px; margin: 0 auto; padding: 48px 24px 80px; }
+
+    /* Tag Cloud */
+    .tag-cloud { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 40px; }
+    .tag-btn {
+      padding: 8px 18px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .tag-btn:hover { border-color: var(--accent); color: var(--text-primary); }
+    .tag-btn.active { background: var(--accent); color: #0a0a0f; border-color: var(--accent); }
+    .tag-count { font-size: 11px; opacity: 0.7; font-weight: 500; }
+
+    /* Article List */
+    .article-list { display: flex; flex-direction: column; gap: 16px; }
+    .article-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 24px;
+      transition: all 0.2s;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .article-card:hover { border-color: var(--accent); background: var(--bg-card-hover); }
+    .article-card-meta { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+    .article-card-date { font-size: 12px; color: var(--text-muted); }
+    .article-card-title { font-size: 18px; font-weight: 800; color: var(--text-primary); line-height: 1.3; margin-bottom: 8px; letter-spacing: -0.3px; }
+    .article-card-excerpt { font-size: 14px; color: var(--text-secondary); line-height: 1.5; }
+    .article-card-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+    .article-tag {
+      font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 12px;
+      background: rgba(240,180,41,0.1); color: var(--accent); cursor: pointer;
+    }
+    .article-tag:hover { background: rgba(240,180,41,0.2); }
+
+    .results-header { font-size: 14px; color: var(--text-muted); margin-bottom: 20px; }
+    .results-header span { color: var(--accent); font-weight: 700; }
+
+    .no-results { text-align: center; padding: 48px; color: var(--text-muted); }
+  </style>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'><rect width='400' height='400' fill='%231a1a2e'/><circle cx='200' cy='200' r='175' fill='none' stroke='%23f0b429' stroke-width='3' stroke-opacity='0.4'/><polygon points='220,60 150,210 195,210 175,345 265,175 215,175 240,60' fill='%23f0b429'/></svg>" />
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="/" class="logo">
+      <svg width="36" height="36" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0">
+        <defs>
+          <radialGradient id="lgbg" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#1a1a2e"/><stop offset="100%" stop-color="#0a0a0f"/></radialGradient>
+          <linearGradient id="lgbolt" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ffd96a"/><stop offset="100%" stop-color="#f0b429"/></linearGradient>
+        </defs>
+        <rect width="400" height="400" fill="url(#lgbg)"/>
+        <circle cx="200" cy="200" r="175" fill="none" stroke="#f0b429" stroke-width="2" stroke-opacity="0.3"/>
+        <polygon points="220,60 150,210 195,210 175,345 265,175 215,175 240,60" fill="url(#lgbolt)" stroke="#ffd96a" stroke-width="2" stroke-linejoin="round"/>
+      </svg>
+      AI <span>TechWire</span>
+    </a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/ai-tech/">AI & Tech</a>
+      <a href="/finance/">Finance</a>
+      <a href="/crypto/">Crypto</a>
+      <a href="/real-estate/">Real Estate</a>
+      <a href="https://x.com/AITechWireIO" target="_blank" rel="noopener noreferrer" class="nav-x-btn">𝕏 Follow</a>
+    </nav>
+  </div>
+</header>
+
+<div class="topics-wrap">
+  <h1 style="font-size:32px;font-weight:900;letter-spacing:-1px;margin-bottom:8px">Browse by Topic</h1>
+  <p style="color:var(--text-secondary);margin-bottom:32px;font-size:15px">Click any topic to filter articles. Click again to clear.</p>
+
+  <!-- Tag Cloud -->
+  <div class="tag-cloud" id="tagCloud"></div>
+
+  <!-- Results -->
+  <div class="results-header" id="resultsHeader">Showing all <span id="countLabel">0</span> articles</div>
+  <div class="article-list" id="articleList"></div>
+  <div class="no-results" id="noResults" style="display:none">No articles yet for this topic. Check back soon.</div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="logo" style="margin-bottom:12px">
+        <svg width="28" height="28" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient id="fbg" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#1a1a2e"/><stop offset="100%" stop-color="#0a0a0f"/></radialGradient><linearGradient id="fbolt" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ffd96a"/><stop offset="100%" stop-color="#f0b429"/></linearGradient></defs><rect width="400" height="400" fill="url(#fbg)"/><circle cx="200" cy="200" r="175" fill="none" stroke="#f0b429" stroke-width="2" stroke-opacity="0.3"/><polygon points="220,60 150,210 195,210 175,345 265,175 215,175 240,60" fill="url(#fbolt)" stroke="#ffd96a" stroke-width="2" stroke-linejoin="round"/></svg>
+        AI <span>TechWire</span>
+      </div>
+      <p>Where AI meets money.</p>
+    </div>
+    <div class="footer-col"><h4>Sections</h4><ul><li><a href="/ai-tech/">AI & Tech</a></li><li><a href="/finance/">Finance</a></li><li><a href="/crypto/">Crypto</a></li><li><a href="/real-estate/">Real Estate</a></li></ul></div>
+    <div class="footer-col"><h4>Follow Us</h4><ul><li><a href="https://x.com/AITechWireIO" target="_blank" rel="noopener noreferrer">𝕏 @AITechWireIO</a></li></ul></div>
+    <div class="footer-col"><h4>Browse</h4><ul><li><a href="/topics/">All Topics</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><span>© 2026 AI TechWire. All rights reserved.</span><span>Powered by <a href="#" style="color:var(--accent)">Lexonia Group</a></span></div>
+</footer>
+
+<script>
+let articles = [];
+let activeTag = null;
+
+async function init() {
+  try {
+    const res = await fetch('/articles.json');
+    articles = await res.json();
+    // Sort by date newest first
+    articles.sort((a, b) => new Date(b.date) - new Date(a.date));
+    buildTagCloud();
+    renderArticles(articles);
+
+    // Check URL for tag param
+    const params = new URLSearchParams(window.location.search);
+    const tag = params.get('tag');
+    if (tag) selectTag(tag);
+  } catch(e) {
+    console.error('Could not load articles.json', e);
+  }
+}
+
+function buildTagCloud() {
+  const tagCounts = {};
+  articles.forEach(a => a.tags.forEach(t => { tagCounts[t] = (tagCounts[t]||0) + 1; }));
+  const tags = Object.entries(tagCounts).sort((a,b) => b[1] - a[1]);
+
+  const cloud = document.getElementById('tagCloud');
+  cloud.innerHTML = tags.map(([tag, count]) =>
+    `<button class="tag-btn" onclick="selectTag('${tag}')" data-tag="${tag}">
+      ${tag} <span class="tag-count">${count}</span>
+    </button>`
+  ).join('');
+}
+
+function selectTag(tag) {
+  if (activeTag === tag) {
+    activeTag = null;
+    document.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
+    renderArticles(articles);
+    history.replaceState(null, '', '/topics/');
+  } else {
+    activeTag = tag;
+    document.querySelectorAll('.tag-btn').forEach(b => {
+      b.classList.toggle('active', b.dataset.tag === tag);
+    });
+    const filtered = articles.filter(a => a.tags.includes(tag));
+    renderArticles(filtered, tag);
+    history.replaceState(null, '', `/topics/?tag=${encodeURIComponent(tag)}`);
+  }
+}
+
+function formatDate(dateStr) {
+  return new Date(dateStr + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+}
+
+function renderArticles(list, filterTag) {
+  const container = document.getElementById('articleList');
+  const header    = document.getElementById('resultsHeader');
+  const noResults = document.getElementById('noResults');
+  const countLabel = document.getElementById('countLabel');
+
+  if (filterTag) {
+    header.innerHTML = `Showing <span>${list.length}</span> article${list.length !== 1 ? 's' : ''} tagged <span>${filterTag}</span>`;
+  } else {
+    header.innerHTML = `Showing all <span>${list.length}</span> articles`;
+  }
+
+  countLabel.textContent = list.length;
+
+  if (list.length === 0) {
+    container.innerHTML = '';
+    noResults.style.display = 'block';
+    return;
+  }
+
+  noResults.style.display = 'none';
+  container.innerHTML = list.map(a => `
+    <a href="${a.url}" class="article-card">
+      <div class="article-card-meta">
+        <span class="category-badge badge-${a.section === 'AI & Tech' ? 'ai' : a.section === 'Finance' ? 'finance' : a.section === 'Crypto & Web3' ? 'crypto' : 'realestate'}"
+          style="font-size:11px;padding:2px 8px">${a.section}</span>
+        <span class="article-card-date">${formatDate(a.date)}</span>
+      </div>
+      <div class="article-card-title">${a.title}</div>
+      <div class="article-card-excerpt">${a.excerpt}</div>
+      <div class="article-card-tags">
+        ${a.tags.map(t => `<span class="article-tag" onclick="event.preventDefault();event.stopPropagation();selectTag('${t}')">${t}</span>`).join('')}
+      </div>
+    </a>
+  `).join('');
+}
+
+init();
+</script>
+
+</body>
+</html>
