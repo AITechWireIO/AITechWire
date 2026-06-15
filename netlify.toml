@@ -1,17 +1,39 @@
 [build]
   publish = "."
 
+# Only redirect truly missing pages to homepage (404 fallback)
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 
+# ── SECURITY HEADERS ─────────────────────────────────────────────────
 [[headers]]
   for = "/*"
   [headers.values]
+    # Clickjacking protection
     X-Frame-Options = "DENY"
+
+    # MIME type sniffing protection
     X-Content-Type-Options = "nosniff"
+
+    # Referrer privacy
     Referrer-Policy = "strict-origin-when-cross-origin"
+
+    # HTTPS enforcement (1 year)
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+
+    # Disable browser features we don't use
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+
+    # XSS protection (legacy browsers)
+    X-XSS-Protection = "1; mode=block"
+
+    # Content Security Policy
+    # Allows: self, inline styles (needed for SVGs), Google Fonts, X/Twitter links
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+
+    # Cache HTML pages for 1 hour
     Cache-Control = "public, max-age=3600"
 
 [[headers]]
@@ -23,3 +45,8 @@
   for = "/js/*"
   [headers.values]
     Cache-Control = "public, max-age=86400"
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
