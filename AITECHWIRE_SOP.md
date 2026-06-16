@@ -129,13 +129,37 @@ Rotate styles: eccentric/philosophical, contrarian, emoji (1–3 max), sharp one
 | Macro / debasement | @LynAldenContact |
 | Ethereum / DeFi | @VitalikButerin |
 
-### Article Promotion Rule
-Every article published gets its own X post immediately after deploy:
-- Link to the article on aitechwire.io
-- Sharp hook — key stat or contrarian angle, not a headline repeat
-- Tag relevant accounts per tagging rules above
-- This is SEPARATE from the daily queue posts — fires immediately on publish
-- Goes to `#x-posts` Discord channel
+### Article Promotion Rule — NON-NEGOTIABLE STANDARD
+
+> **Every article published MUST have an OG image. No exceptions. A post without an image card is substandard and will not be published.**
+
+**Automated pipeline sequence (hardcoded in `aitechwire_daily.py`):**
+1. Article HTML written
+2. `generate_og_image(headline, section, path, summary)` — 1200×630px, dark theme, pillar color
+3. `add_og_tags_to_html()` — injects `og:image`, `og:image:width/height`, `twitter:image`
+4. QA (`qa_site.py`) — hard stop if fails, Discord error alert fires
+5. Deploy to GitHub — `GIT_TERMINAL_PROMPT=0 git push origin main`
+6. `post_article_to_x_with_image()` — uploads image via v1.1, posts tweet with `media_ids`
+7. Discord `#x-posts` notification
+
+**OG image spec:**
+- Size: 1200×630px (Twitter `summary_large_image` standard)
+- Background: #0a0a0f (matches site dark theme)
+- Left accent bar: pillar color (purple/teal/gold/red)
+- Fonts: Inter Bold (headline 64px), Inter Bold auto-sized (subtitle 22–36px)
+- Subtitle: first sentence of article summary — article-specific, never generic tagline
+- Footer: “⚡ AI TechWire” (gold) + “aitechwire.io” (muted)
+- Generator: `scripts/og_image_generator.py` — zero API cost, runs in <1s
+
+**X post with image standard:**
+- Hook: key stat or contrarian angle — NOT a repeat of the headline
+- Article link included
+- Tag relevant accounts (see Tagging Rules)
+- Image uploaded via `tweepy.API.media_upload()` — v1.1 endpoint
+- `media_ids` passed to `create_tweet()` — v2 endpoint
+- Fires IMMEDIATELY after deploy — separate from daily queue
+
+**Why this matters:** X shows a grey placeholder without `og:image`. Image cards get 3–5x more engagement. This is the minimum viable standard for a professional media publication.
 
 ### Article Catalyst Rule
 For any article covering a specific protocol (AERO, HYPE, etc.):
