@@ -120,6 +120,30 @@ Rules: max 2 stories per pillar in top 6. Highest scored → article. Most scrol
 Sharp. Opinionated. Forward-looking. Data-backed. Cite sources. No fluff. Not corporate.
 Rotate styles: eccentric/philosophical, contrarian, emoji (1–3 max), sharp one-liner, implication-focused.
 
+### Tagging Rules (X posts)
+| Topic | Always tag |
+|-------|------------|
+| Aerodrome / AERO | @wagmiAlexander @DromosLabs |
+| Hyperliquid / HYPE | @KookCapitalLLC |
+| Bitcoin / Saylor thesis | @saylor |
+| Macro / debasement | @LynAldenContact |
+| Ethereum / DeFi | @VitalikButerin |
+
+### Article Promotion Rule
+Every article published gets its own X post immediately after deploy:
+- Link to the article on aitechwire.io
+- Sharp hook — key stat or contrarian angle, not a headline repeat
+- Tag relevant accounts per tagging rules above
+- This is SEPARATE from the daily queue posts — fires immediately on publish
+- Goes to `#x-posts` Discord channel
+
+### Article Catalyst Rule
+For any article covering a specific protocol (AERO, HYPE, etc.):
+- **Always research upcoming catalysts on CT via Grok** before finalizing the article
+- Include a dedicated “Upcoming Catalysts” section with specific, sourced items
+- Cite the key CT accounts following that protocol
+- Tag relevant builders/founders in the closing line
+
 ### Key Voices to Reference
 - Raoul Pal (@RaoulGMI) — Exponential Age, AI + Crypto
 - Lynn Alden (@LynAldenContact) — Currency debasement, monetary policy
