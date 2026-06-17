@@ -11,9 +11,10 @@ AI researches trending topics → Lexie synthesizes + writes → auto-posts to X
 
 ## 📋 Daily Pipeline — Full Sequence
 
-### 6:50 AM CDT — (future) Editorial preview
-> Not yet built. Will send Telegram summary of top stories before pipeline runs.
-> For now: fully autonomous.
+### 6:50 AM CDT — Editorial Preview (`editorial_preview.py`)
+> **Built 2026-06-17.** Runs Grok research, scores top 6 stories, sends Oleg a preview via Telegram + Discord #research-feed — 10 minutes before the pipeline fires.
+> Format: ranked story list with pillar, score/50, headline, key voices.
+> No writing, no posting — pure visibility.
 
 ### 7:00 AM CDT — Pipeline runs (`aitechwire_daily.py`)
 
@@ -109,6 +110,7 @@ Rules: max 2 stories per pillar in top 6. Highest scored → article. Most scrol
 - Vague or generic ("AI is growing fast")
 - No financial angle
 - Not verifiable / no real source
+- **Hyperliquid / HYPE as primary subject** — excluded by editorial decision June 16. HYPE may be referenced as context within other stories but never as standalone article topic.
 
 ### Content Pillars
 1. **AI & Tech** — OpenAI, Anthropic, NVIDIA, AI agents, infrastructure, enterprise adoption
@@ -118,7 +120,33 @@ Rules: max 2 stories per pillar in top 6. Highest scored → article. Most scrol
 
 ### Voice
 Sharp. Opinionated. Forward-looking. Data-backed. Cite sources. No fluff. Not corporate.
-Rotate styles: eccentric/philosophical, contrarian, emoji (1–3 max), sharp one-liner, implication-focused.
+
+### Post Style Rotation (5 types, one per daily post)
+1. **ECCENTRIC** — unconventional/philosophical angle, makes reader stop and think
+2. **CONTRARIAN** — surprising take backed by a specific named data point
+3. **EDUCATIONAL** — Use EXACTLY: *"Let me break it down for you 👇"* as opener. Complex mechanism explained in plain language. For: Fed mechanics, DeFi yield, AI capex cycles, monetary debasement, crypto vs gold. ~1x/week max.
+4. **SHARP ONE-LINER** — under 120 chars, one devastating observation
+5. **IMPLICATION** — don’t report the news, tell the reader what it MEANS for their money
+
+### Cross-Asset Comparison Rule — MANDATORY
+At least **1 of 5 daily posts** MUST compare asset classes:
+- Crypto vs Stocks (returns, risk, liquidity)
+- Crypto vs Gold (store of value, portability, track record)
+- Crypto vs Real Estate (cap rates vs DeFi yields)
+- AI Tech vs Crypto (infrastructure plays, where money flows)
+- DeFi vs Traditional Finance (fees, speed, transparency)
+
+**Why:** All-crypto feeds only attract crypto natives. Cross-asset comparisons attract the broader smart-investor audience we’re building.
+
+### Content Quality Rules
+- NO pure price action posts (“X up 18%”) — always add investment thesis
+- Named data points required (“4.2% inflation” not “high inflation”)
+- Thought leader references quote the IDEA, not just the person
+- Every post must make a smart investor think, not just react
+
+### Editorial Exclusions
+- **HYPE/Hyperliquid** — excluded from all standalone articles and X posts. Context-only mention allowed.
+- Any pure speculation story with no investment thesis
 
 ### Tagging Rules (X posts)
 | Topic | Always tag |
@@ -128,6 +156,27 @@ Rotate styles: eccentric/philosophical, contrarian, emoji (1–3 max), sharp one
 | Bitcoin / Saylor thesis | @saylor |
 | Macro / debasement | @LynAldenContact |
 | Ethereum / DeFi | @VitalikButerin |
+
+### Content QA Standard — NON-NEGOTIABLE (Oleg: "utmost importance")
+
+**Every X post runs through `qa_x_post()` before posting. Failed posts are dropped, not fixed.**
+
+| Check | Rule |
+|---|---|
+| Sentence | Complete, ends with . ! or ? |
+| Length | ≤280 chars including handle |
+| Handle | Must end with \| @AITechWireIO |
+| Opener | No sycophantic starts (Appreciate, Great point, Thanks...) |
+| Educational | MUST use exact phrase: "Let me break it down for you 👇" |
+| Price action | If post mentions % move, must include WHY (investment thesis) |
+| Numbers | Only from real research data — never fabricated |
+| Substance | Minimum 40 chars of actual content |
+
+**Batch check (`qa_post_batch()`) — every 5-post batch:**
+- ≥1 cross-asset comparison post (crypto vs stocks/gold/AI/real estate)
+- Mix of 5 style types (eccentric, contrarian, educational, one-liner, implication)
+
+---
 
 ### Article Promotion Rule — NON-NEGOTIABLE STANDARD
 
@@ -189,7 +238,7 @@ For any article covering a specific protocol (AERO, HYPE, etc.):
 | `#performance` | Weekly engagement summary (impressions, likes, top post) |
 | `#memory-updates` | When MEMORY.md is updated — what changed and why |
 
-**Status: Not yet built. Currently all reporting goes to Telegram.**
+**Status: Built 2026-06-17. Script: `scripts/editorial_preview.py`**
 
 ---
 
@@ -260,5 +309,5 @@ If pipeline errors:
 1. **Build Discord integration** — wire pipeline outputs to channels above
 2. **Performance tracking** — pull X analytics weekly, log to `memory/performance-log.md`
 3. **Weekly performance cron** — Sunday AM, update scoring weights
-4. **6:50 AM editorial preview** — Telegram summary of planned stories (optional, fully autonomous for now)
+4. **6:50 AM editorial preview** — Telegram + Discord #research-feed preview of top 6 stories (`editorial_preview.py`)
 5. **Beehiiv newsletter** — subscriber capture + automated sends
