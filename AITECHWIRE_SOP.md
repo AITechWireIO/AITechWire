@@ -125,15 +125,15 @@ The primary content strategy is **analysis of what opinion leaders say, write, a
 
 | Leader | Handle | Focus |
 |---|---|---|
-| Michael Saylor | @saylor | Bitcoin as hard money, corporate treasury |
-| Vitalik Buterin | @VitalikButerin | Ethereum, DeFi, crypto philosophy |
-| Lyn Alden | @LynAldenContact | Currency debasement, monetary policy |
-| Raoul Pal | @RaoulGMI | Exponential Age, AI + Crypto macro |
-| Jordi Visser | @jvisserlabs | AI macro, 22V research |
-| Anthony Scaramucci | @scaramucci | Institutional crypto, SkyBridge |
-| Larry Fink | @LarryFink | BlackRock ETF flows, institutional adoption |
-| Alexander Cutler | @wagmiAlexander | DeFi, Aerodrome, on-chain economy |
-| Jeremy Allaire | @jerallaire | Stablecoins, Circle/USDC |
+| Michael Saylor | @saylor | MicroStrategy Exec Chairman — Bitcoin hard money thesis |
+| Vitalik Buterin | @VitalikButerin | Ethereum co-founder — DeFi, crypto philosophy |
+| Lyn Alden (Schwartzer) | @LynAldenContact | Macro analyst — monetary policy, currency debasement |
+| Raoul Pal | @RaoulGMI | Real Vision CEO — Exponential Age, AI + Crypto macro |
+| Jordi Visser | @jvisserlabs | 22V Research, Head of AI Macro Nexus |
+| Anthony Scaramucci | @scaramucci | SkyBridge Capital founder — institutional crypto |
+| Laurence "Larry" Fink | @LarryFink | BlackRock Chairman & CEO — ETF flows, institutional adoption |
+| Alexander Cutler | @wagmiAlexander | Aerodrome Finance / Dromos Labs — DeFi, on-chain economy |
+| Jeremy Allaire | @jerallaire | Circle co-founder & CEO — USDC, stablecoins |
 
 **Content angles:** Their latest thread → "What [Name] just said and why it matters". Their interview → key insight pulled, framed for our audience. Their contrarian take → we analyze the data behind it.
 
