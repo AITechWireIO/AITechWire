@@ -26,12 +26,12 @@ AI researches trending topics → Lexie synthesizes + writes → auto-posts to X
 
 **Step 2: SCORING (automated)**
 Each story scored 0–10 on 4 dimensions:
-- **RELEVANCE** — fits our 4 pillars (AI/tech, finance, crypto, real estate)
+- **RELEVANCE** — fits our 4 pillars (AI/tech, finance, crypto/DeFi, prediction markets)
 - **VELOCITY** — volume of discussion on X right now (high/medium/low)
 - **STAKES** — direct financial/investment impact for a large segment
 - **SCROLL-STOP** — surprising, contrarian, high-consequence enough to make smart investors pause
 
-Rules: max 2 stories per pillar in top 6. Highest scored → article. Most scroll-stop → post #1.
+Rules: max 2 per pillar in top 6 (crypto gets 3). Highest scored → article. Most scroll-stop → post #1.
 
 **Step 3: WRITING (Claude Sonnet)**
 - 5 X posts — rotate styles: eccentric, contrarian, emoji, one-liner, sharp take
@@ -115,8 +115,27 @@ Rules: max 2 stories per pillar in top 6. Highest scored → article. Most scrol
 ### Content Pillars
 1. **AI & Tech** — OpenAI, Anthropic, NVIDIA, AI agents, infrastructure, enterprise adoption
 2. **Finance & Investing** — Fed, rates, S&P/NASDAQ, macro, AI stocks, institutional flows
-3. **Crypto & Web3** — Bitcoin, Ethereum, DeFi (AERO, Hyperliquid), stablecoins (USDC), on-chain data
-4. **Real Estate** — Housing market, mortgage rates, Midwest markets, AI in real estate
+3. **Crypto, DeFi & Web3** — Bitcoin, Ethereum, DeFi (Aerodrome/AERO, Uniswap, Curve), stablecoins, on-chain data, L2s, TVL, protocol revenue
+4. **Prediction Markets** — Polymarket, Kalshi, election odds, macro event probabilities, crowd vs analyst divergence
+
+**PAUSED:** Real Estate — returns when rate cuts begin. No new real estate content until then.
+
+### Opinion Leader Focus
+The primary content strategy is **analysis of what opinion leaders say, write, and do** — not generic news.
+
+| Leader | Handle | Focus |
+|---|---|---|
+| Michael Saylor | @saylor | Bitcoin as hard money, corporate treasury |
+| Vitalik Buterin | @VitalikButerin | Ethereum, DeFi, crypto philosophy |
+| Lyn Alden | @LynAldenContact | Currency debasement, monetary policy |
+| Raoul Pal | @RaoulGMI | Exponential Age, AI + Crypto macro |
+| Jordi Visser | @jvisserlabs | AI macro, 22V research |
+| Anthony Scaramucci | @scaramucci | Institutional crypto, SkyBridge |
+| Larry Fink | @LarryFink | BlackRock ETF flows, institutional adoption |
+| Alexander Cutler | @wagmiAlexander | DeFi, Aerodrome, on-chain economy |
+| Jeremy Allaire | @jerallaire | Stablecoins, Circle/USDC |
+
+**Content angles:** Their latest thread → "What [Name] just said and why it matters". Their interview → key insight pulled, framed for our audience. Their contrarian take → we analyze the data behind it.
 
 ### Voice
 Sharp. Opinionated. Forward-looking. Data-backed. Cite sources. No fluff. Not corporate.
@@ -132,7 +151,7 @@ Sharp. Opinionated. Forward-looking. Data-backed. Cite sources. No fluff. Not co
 At least **1 of 5 daily posts** MUST compare asset classes:
 - Crypto vs Stocks (returns, risk, liquidity)
 - Crypto vs Gold (store of value, portability, track record)
-- Crypto vs Real Estate (cap rates vs DeFi yields)
+- Crypto vs Prediction Markets (what odds say vs what price says)
 - AI Tech vs Crypto (infrastructure plays, where money flows)
 - DeFi vs Traditional Finance (fees, speed, transparency)
 
@@ -146,6 +165,7 @@ At least **1 of 5 daily posts** MUST compare asset classes:
 
 ### Editorial Exclusions
 - **HYPE/Hyperliquid** — excluded from all standalone articles and X posts. Context-only mention allowed.
+- **Real Estate** — PAUSED. No new articles or posts until rate cuts begin.
 - Any pure speculation story with no investment thesis
 
 ### Tagging Rules (X posts)
@@ -173,7 +193,7 @@ At least **1 of 5 daily posts** MUST compare asset classes:
 | Substance | Minimum 40 chars of actual content |
 
 **Batch check (`qa_post_batch()`) — every 5-post batch:**
-- ≥1 cross-asset comparison post (crypto vs stocks/gold/AI/real estate)
+- ≥1 cross-asset comparison post (crypto vs stocks/gold/AI/DeFi vs TradFi)
 - Mix of 5 style types (eccentric, contrarian, educational, one-liner, implication)
 
 ---
