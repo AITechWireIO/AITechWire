@@ -134,6 +134,7 @@ The primary content strategy is **analysis of what opinion leaders say, write, a
 | Laurence "Larry" Fink | @LarryFink | BlackRock Chairman & CEO — ETF flows, institutional adoption |
 | Alexander Cutler | @wagmiAlexander | Aerodrome Finance / Dromos Labs — DeFi, on-chain economy |
 | Jeremy Allaire | @jerallaire | Circle co-founder & CEO — USDC, stablecoins |
+| Ki Young Ju | @ki_young_ju | CryptoQuant founder & CEO — Bitcoin on-chain data, market cycles |
 
 **Content angles:** Their latest thread → "What [Name] just said and why it matters". Their interview → key insight pulled, framed for our audience. Their contrarian take → we analyze the data behind it.
 
