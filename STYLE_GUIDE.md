@@ -90,3 +90,34 @@ Like a smart investor talking to another smart investor at dinner.
 - Per session: log what worked, what didn't, what Oleg corrected
 - Monthly: review style guide, update with new patterns
 - Goal: autonomous operation — Oleg calibrates at the start, Lexie runs independently
+
+---
+
+## 📊 Data-Backed Patterns (updated weekly)
+*Last updated: June 21, 2026 — Week 1 analytics*
+
+### Formula: Contrarian + Named Figure + Punchy Ending = Top Performer
+Week 1 data: Contrarian posts averaged **11.3 impressions** vs 5.5 reactive, 3.3 educational.
+Best post: "OpenAI burns $34B a year..." — 30 impressions (3-5x above average).
+
+**The winning formula:**
+1. Open with a counterintuitive claim
+2. Back it with ONE specific named figure (dollar amount, %, named official)
+3. Close with a crisp investor takeaway (2-4 words: "Eyes open." / "One of them is wrong.")
+
+### One-liners: best conversion, weakest reach
+100% like rate in Week 1 but avg 1.5 impressions. Strong content held back by follower count.
+As account grows, one-liners may become key engagement drivers — watch this signal.
+
+### Named officials > generic "the Fed"
+Posts naming Warsh with specific rate (3.50-3.75%) outperformed generic Fed references.
+Rule: always name the person + attach a real number.
+
+### Article promos need standalone value
+Promo tweets averaged 3.0 impressions but felt like ads. Minimum bar: the promo tweet
+must work as a standalone insight even if reader never clicks the link.
+
+### HARD PATTERN — "Let me break it down 👇" enforcement
+This phrase appeared on a standalone tweet in Week 1 despite being explicitly banned in both
+the style guide AND the pipeline prompt. The ban language has been hardened in `aitechwire_daily.py`.
+This is a zero-tolerance rule: standalone tweet + this phrase = rewrite immediately.
