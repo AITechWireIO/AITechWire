@@ -2,18 +2,96 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aitechwire.io/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://aitechwire.io/ai-tech/ai-agents-and-money.html</loc>
+    <loc>https://aitechwire.io/ai-tech/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aitechwire.io/finance/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aitechwire.io/crypto/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aitechwire.io/prediction-markets/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aitechwire.io/topics/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aitechwire.io/crypto/2026-06-21-aerodrome-aero-catalysts-merger-mainnet-base-airdrop.html</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aitechwire.io/crypto/2026-06-21-stablecoin-and-rwa-growth-outlook-strengthens.html</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aitechwire.io/prediction-markets/2026-06-20-polymarket-claude-opus-leads-best-ai-model-on-june-20-at-94.html</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aitechwire.io/prediction-markets/2026-06-19-prediction-markets-tighten-bitcoin-range-outlook.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aitechwire.io/real-estate/2026-06-18-higher-rates-pressure-real-estate-sentiment.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aitechwire.io/real-estate/2026-06-17-pending-home-sales-data-released-today.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aitechwire.io/crypto/2026-06-16-hyperliquid-hype-flips-solana-in-market-cap.html</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aitechwire.io/crypto/2026-06-16-aero-hyperliquid-defi-revenue-machines.html</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aitechwire.io/ai-tech/anthropic-ipo-965-billion.html</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aitechwire.io/crypto/future-of-ai-crypto.html</loc>
+    <loc>https://aitechwire.io/ai-tech/ai-agents-and-money.html</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -25,39 +103,15 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aitechwire.io/real-estate/2026-06-15-midwest-housing-holds-firm-as-coastal-markets-crack-under-71.html</loc>
+    <loc>https://aitechwire.io/crypto/future-of-ai-crypto.html</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aitechwire.io/real-estate/2026-06-15-midwest-multifamily-sees-institutional-surge-as-cap-rates-ho.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <loc>https://aitechwire.io/crypto/2026-06-18-aerodrome-predictive-allocation-defi-prediction-market.html</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https:/aitechwire.io/ai-tech/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https:/aitechwire.io/crypto/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https:/aitechwire.io/finance/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https:/aitechwire.io/real-estate/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
 </urlset>
