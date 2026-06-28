@@ -25,11 +25,16 @@ AI researches trending topics → Lexie synthesizes + writes → auto-posts to X
 - Output: 8 raw stories with metadata
 
 **Step 2: SCORING (automated)**
-Each story scored 0–10 on 4 dimensions:
+Each story scored 0–10 on 5 dimensions:
 - **RELEVANCE** — fits our 4 pillars (AI/tech, finance, crypto/DeFi, prediction markets)
 - **VELOCITY** — volume of discussion on X right now (high/medium/low)
 - **STAKES** — direct financial/investment impact for a large segment
 - **SCROLL-STOP** — surprising, contrarian, high-consequence enough to make smart investors pause
+- **EDITORIAL FIT** — has investment thesis/analysis, not pure price action
+
+**HARD RULE 1: Reject pure price action news.** Stories like "Bitcoin dipped to $63K" or "Tech stock up 5%" are automatically excluded unless they include explicit analysis language: "why", "analysis", "breakdown", "thesis", "implication", "explained", etc. Price + macro context alone ≠ analysis.
+
+**HARD RULE 2: Reject pure FUD without balance.** Stories with doom language ("collapse", "crash", "panic", "meltdown", "disaster") are excluded unless they include balanced perspective: "why", "opportunity", "structural", "thesis", "long-term", etc. Don't become a "fear-mongering resource" — bearish takes must have reasoning or counterbalance.
 
 Rules: max 2 per pillar in top 6 (crypto gets 3). Highest scored → article. Most scroll-stop → post #1.
 
@@ -208,9 +213,36 @@ At least **1 of 5 daily posts** MUST compare asset classes:
 2. `generate_og_image(headline, section, path, summary)` — 1200×630px, dark theme, pillar color
 3. `add_og_tags_to_html()` — injects `og:image`, `og:image:width/height`, `twitter:image`
 4. QA (`qa_site.py`) — hard stop if fails, Discord error alert fires
-5. Deploy to GitHub — `GIT_TERMINAL_PROMPT=0 git push origin main`
-6. `post_article_to_x_with_image()` — uploads image via v1.1, posts tweet with `media_ids`
-7. Discord `#x-posts` notification
+5. **Rebuild homepage** — `python3 ../scripts/build_index.py` — auto-regenerates index.html with newest article as hero
+6. Deploy to GitHub — `GIT_TERMINAL_PROMPT=0 git push origin main`
+7. `post_article_to_x_with_image()` — uploads image via v1.1, posts tweet with `media_ids`
+8. Discord `#x-posts` notification
+
+### Homepage Auto-Update System (Index Builder)
+
+**New in June 2026:** All articles automatically appear on the homepage. No manual index editing.
+
+**How it works:**
+- Every article includes `<meta property="article:published_time" content="YYYY-MM-DD">` in the `<head>`
+- Before deploy, run: `python3 ../scripts/build_index.py`
+- Script scans all articles, sorts by date (newest first), regenerates `index.html`
+- Hero section = latest article automatically
+- Trending sidebar = top 4 newest articles
+- Category sections = 2 latest per category
+
+**For manual article posts:**
+```bash
+# After writing article, run before git push:
+python3 /home/ubuntu/.openclaw/workspace/scripts/build_index.py
+
+# Then:
+cd /home/ubuntu/.openclaw/workspace/aitechwire
+git add .
+git commit -m "Publish: [article title]"
+git push origin main
+```
+
+**Full deployment SOP:** see `/home/ubuntu/.openclaw/workspace/AITECHWIRE_DEPLOY_SOP.md`
 
 **OG image spec:**
 - Size: 1200×630px (Twitter `summary_large_image` standard)
