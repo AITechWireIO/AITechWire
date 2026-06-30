@@ -18,6 +18,7 @@
   --finance-color: #38d9a9;
   --crypto-color: #f0b429;
   --realestate-color: #e86c5d;
+  --pm-color: #4ec9f0;
   --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 }
@@ -147,6 +148,8 @@ nav a:hover, nav a.active {
   max-width: 1200px;
   margin: 48px auto 0;
   padding: 0 24px;
+}
+.hero-inner {
   display: grid;
   grid-template-columns: 1fr 380px;
   gap: 24px;
@@ -192,6 +195,7 @@ nav a:hover, nav a.active {
 .badge-finance { background: rgba(56, 217, 169, 0.15); color: var(--finance-color); }
 .badge-crypto { background: rgba(240, 180, 41, 0.15); color: var(--crypto-color); }
 .badge-realestate { background: rgba(232, 108, 93, 0.15); color: var(--realestate-color); }
+.badge-pm { background: rgba(78, 201, 240, 0.15); color: var(--pm-color); }
 
 .hero-title {
   font-size: 26px;
@@ -206,6 +210,11 @@ nav a:hover, nav a.active {
 .hero-meta { color: var(--text-muted); font-size: 12px; display: flex; gap: 12px; }
 
 .hero-sidebar { display: flex; flex-direction: column; gap: 16px; }
+.hero-badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: rgba(240,180,41,0.15); color: var(--accent); margin-bottom: 12px; }
+.hero-subtitle { color: var(--text-secondary); font-size: 15px; margin-bottom: 20px; line-height: 1.6; }
+.hero-cta { display: inline-block; padding: 10px 22px; background: var(--accent); color: #0a0a0f; border-radius: 8px; font-weight: 700; font-size: 14px; transition: background 0.2s; }
+.hero-cta:hover { background: var(--accent-dim); }
+.sidebar-label { font-size: 10px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--text-muted); padding-bottom: 8px; border-bottom: 1px solid var(--border); margin-bottom: 4px; }
 
 /* ---- SECTION HEADER ---- */
 .section-header {
@@ -234,6 +243,7 @@ nav a:hover, nav a.active {
 .line-ai { background: var(--ai-color); }
 .line-finance { background: var(--finance-color); }
 .line-crypto { background: var(--crypto-color); }
+.line-pm { background: var(--pm-color); }
 .line-realestate { background: var(--realestate-color); }
 
 .see-all {
@@ -286,6 +296,8 @@ nav a:hover, nav a.active {
 .card-img-finance { background: linear-gradient(135deg, #0a2618 0%, #1a4d30 100%); }
 .card-img-crypto { background: linear-gradient(135deg, #2a1a00 0%, #4d3800 100%); }
 .card-img-realestate { background: linear-gradient(135deg, #2a0a0a 0%, #4d1a15 100%); }
+.card-img-ai-tech { background: linear-gradient(135deg, #1a1030 0%, #2d1b69 100%); }
+.card-img-prediction-markets { background: linear-gradient(135deg, #0a1a2a 0%, #1a3a50 100%); }
 
 .card-body { padding: 16px; }
 
@@ -491,7 +503,7 @@ footer {
 
 /* ---- RESPONSIVE ---- */
 @media (max-width: 900px) {
-  .hero { grid-template-columns: 1fr; }
+  .hero-inner { grid-template-columns: 1fr; }
   .hero-sidebar { display: none; }
   .cards-grid { grid-template-columns: repeat(2, 1fr); }
   .x-promo { grid-template-columns: 1fr; }
