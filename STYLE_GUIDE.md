@@ -94,30 +94,59 @@ Like a smart investor talking to another smart investor at dinner.
 ---
 
 ## 📊 Data-Backed Patterns (updated weekly)
-*Last updated: June 21, 2026 — Week 1 analytics*
+*Last updated: June 28, 2026 — Week 2 analytics*
 
-### Formula: Contrarian + Named Figure + Punchy Ending = Top Performer
-Week 1 data: Contrarian posts averaged **11.3 impressions** vs 5.5 reactive, 3.3 educational.
-Best post: "OpenAI burns $34B a year..." — 30 impressions (3-5x above average).
+### 📊 2-Week Performance Table (Jun 15–28, 2026)
 
-**The winning formula:**
-1. Open with a counterintuitive claim
-2. Back it with ONE specific named figure (dollar amount, %, named official)
-3. Close with a crisp investor takeaway (2-4 words: "Eyes open." / "One of them is wrong.")
+| Style | Week 1 avg imp | Week 2 avg imp | Trend |
+|-------|---------------|---------------|-------|
+| Contrarian | 11.3 | 8.2 | ⚠️ Down — only works with verdict |
+| Educational | 3.3 | **12.5** | 🚀 Best performer in Week 2 |
+| Reactive | 5.5 | 9.0 | ⬆️ Strong when event-driven |
+| Cross-asset | 2.7 | 8.0 | 🚀 Best improvement |
+| One-liner | 1.5 | 7.0 | ⬆️ Gaining as reach grows |
+| Thread [1/n] | n/a | **14.0** | 🎯 Best reach format |
 
-### One-liners: best conversion, weakest reach
-100% like rate in Week 1 but avg 1.5 impressions. Strong content held back by follower count.
-As account grows, one-liners may become key engagement drivers — watch this signal.
+### NEW: Educational + Reactive = The Sweet Spot
+**Week 2 discovery:** The best standalone post of the week was educational but anchored in a live macro event.
+> *"When the Fed leans hawkish, growth stocks and crypto bleed while banks and defensives gain. It's not random — higher yields make future earnings worth less today. That's why the Nasdaq dropped hard on strong jobs data. Know the mechanism."*
+
+17 impressions, 3 likes — highest like count of the week.
+
+**Rule:** Don't write abstract educational posts. Write "here's why THIS THING happening right now works the way it does."
+**Ending format:** Close with a short command. "Know the mechanism." / "Know the math." / "Understand the incentive."
+
+### Thread Openers Are the Reach King
+Highest single-post impressions of Week 2: **26** (thread opener) vs 17 (best standalone).
+**Thread opener formula:**
+1. Open with a specific large dollar figure: "$1.34B out of Bitcoin ETFs in a single week."
+2. Add named contrast (e.g., Saylor keeps buying vs ETF holders selling)
+3. End [1/3] tweet with punchy verdict
+**Rule:** Reserve threads for the #1 story of the week. Thread hook MUST have a specific dollar/% figure.
+
+### Contrarian Rule: Verdict Required
+Contrarian dropped from 11.3 → 8.2 impressions when posts ended in ambiguity ("Either X or Y").
+Strong contrarian from Week 1: always ended with a verdict ("Eyes open." / "One of them is wrong.").
+**Rule:** Every contrarian post must close with a decisive takeaway. No ambiguous endings.
+
+### Cross-Asset is Catching Fire
+Cross-asset improved +5.3 avg impressions. The "AI semis + crypto trading the same thesis" angle is resonating — this is AITechWire's unique position in the space.
+> *"Bitcoin hit a 20-month low, then bounced to $61,100 on a memory chip earnings report. That is the AI trade now — semis, crypto, and risk assets moving as one. The diversification you thought you had may not exist anymore."*
+
+Rule: At least 1 cross-asset post per day. Semis ↔ crypto, AI capex ↔ DeFi, prediction markets ↔ equities.
+
+### Duplication Fatigue Is Real
+June 25-26 had two nearly identical Saylor conviction posts (11 → 10 impressions). Slight drop is real signal.
+**Rule:** No more than 1 post per narrative angle per day. If the thread covers the ETF story, the daily queue covers something else.
 
 ### Named officials > generic "the Fed"
 Posts naming Warsh with specific rate (3.50-3.75%) outperformed generic Fed references.
 Rule: always name the person + attach a real number.
 
 ### Article promos need standalone value
-Promo tweets averaged 3.0 impressions but felt like ads. Minimum bar: the promo tweet
-must work as a standalone insight even if reader never clicks the link.
+Promo tweet must work as a standalone insight even if reader never clicks the link.
+Week 2 promo: 11 impressions + 1 RT — it worked because the hook was interesting on its own.
 
 ### HARD PATTERN — "Let me break it down 👇" enforcement
-This phrase appeared on a standalone tweet in Week 1 despite being explicitly banned in both
-the style guide AND the pipeline prompt. The ban language has been hardened in `aitechwire_daily.py`.
-This is a zero-tolerance rule: standalone tweet + this phrase = rewrite immediately.
+Zero-tolerance: standalone tweet + this phrase = rewrite immediately.
+Banned in standalone tweets. Allowed only in numbered thread series (1/n, 2/n).

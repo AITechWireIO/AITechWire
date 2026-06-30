@@ -212,11 +212,21 @@ At least **1 of 5 daily posts** MUST compare asset classes:
 1. Article HTML written
 2. `generate_og_image(headline, section, path, summary)` — 1200×630px, dark theme, pillar color
 3. `add_og_tags_to_html()` — injects `og:image`, `og:image:width/height`, `twitter:image`
-4. QA (`qa_site.py`) — hard stop if fails, Discord error alert fires
-5. **Rebuild homepage** — `python3 ../scripts/build_index.py` — auto-regenerates index.html with newest article as hero
-6. Deploy to GitHub — `GIT_TERMINAL_PROMPT=0 git push origin main`
-7. `post_article_to_x_with_image()` — uploads image via v1.1, posts tweet with `media_ids`
-8. Discord `#x-posts` notification
+4. **QA Phase 1: Automated checks** (`qa_site.py`)
+   - Must pass: `�df1 CLEAR TO DEPLOY` (no errors)
+   - Hard stop if fails — Discord error alert fires
+5. **QA Phase 2: Visual check** (manual browser inspection)
+   - Verify CSS is loaded (not plain text)
+   - Verify formatting looks correct
+   - Verify all links work
+   - **CRITICAL:** Never remove code just to "pass" QA. Fix the actual issue.
+6. **Rebuild homepage** — `python3 ../scripts/build_index.py` — auto-regenerates index.html with newest article as hero
+7. **QA again** — re-run `qa_site.py` after rebuild, visual check homepage
+8. Deploy to GitHub — `GIT_TERMINAL_PROMPT=0 git push origin main`
+9. `post_article_to_x_with_image()` — uploads image via v1.1, posts tweet with `media_ids`
+10. Discord `#x-posts` notification
+
+**MANDATORY:** See `/QA_SOP.md` for complete QA workflow (Oleg's rule: "You should not be publishing without full QA cycle!")
 
 ### Homepage Auto-Update System (Index Builder)
 

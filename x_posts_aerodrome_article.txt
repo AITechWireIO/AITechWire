@@ -1,0 +1,73 @@
+X THREAD 1: AERO BULL CASE (Post immediately after article launch)
+================================================================================
+
+🧵 AERO vs UNI: The DEX war just moved to Ethereum. Let me break down why AERO could be a 20–40x from here.
+
+Aerodrome dominated on Base by doing one thing: aligning incentives with token holders instead of VCs. 5x the volume. 51% of stablecoin pairs.
+
+Now it's launching on Ethereum mainnet (July 2026) with Predictive Allocation — a capital efficiency upgrade Uniswap can't match.
+
+The upside math:
+• Flat market, 15% Ethereum share: +13–70% ($0.52–$0.79)
+• 5x ETH bull, 15% share: +300–500% ($1.89–$2.84)
+• 5x ETH bull, 30% share PLUS FX dominance: +2,000–4,000% ($9.40–$17.60)
+
+Why the FX matters (this is the hidden layer most miss):
+
+Uniswap's Ethereum mainnet looks like $19.9B/30d volume. It's not. It's missing:
+• Stablecoin FX (USDC/USDT swaps): +$15–25B/30d
+• Token launch liquidity: +$5–10B baseline, +$20–30B in bull
+• Real addressable market: $40–150B/30d
+
+Aerodrome already owns 51% of stablecoin FX on Base. If it does that on Ethereum, AERO isn't just competing for WETH/USDC volume. It's become the default routing layer for everyone moving capital between stablecoins.
+
+That's 10–20x larger than current market cap.
+
+Full analysis → https://aitechwire.io/articles/aerodrome-ethereum-l1-competition.html | @AITechWireIO | #AERO #Ethereum
+
+================================================================================
+
+X THREAD 2: UNI RISK CASE (Post 2–4 hours later, different angle)
+================================================================================
+
+Unpopular take: UNI doesn't collapse in the AERO scenario. But it faces 5–10 years of structural underperformance.
+
+Here's the trap UNI investors are walking into:
+
+In a 5x ETH bull market, UNI probably trades $8–12/token (170–310% from $2.90). Sounds great.
+
+But if AERO captures 30% of Ethereum volume—especially in stablecoins—UNI settles at $6–8/token (100–175%).
+
+Meanwhile, the rest of DeFi is up 5–8x. UNI is up 2–4x. You made money. You got destroyed relative to the market.
+
+That's the real risk. Not a crash. Irrelevance.
+
+Why Uniswap is vulnerable:
+1. VC token overhang (team/investors selling on every bounce)
+2. Weak governance (community can't override token inflation)
+3. No stablecoin moat (unlike Curve, which owns USDC routing)
+4. Predictable tech (Uniswap v4 is good, but AERO's Predictive Allocation is a category shift)
+
+UNI's edge: massive ecosystem integrations + institutional relationships. That buys time but doesn't stop the bleed.
+
+Watch the first month (July). If AERO captures 20%+ on flagship pairs + dominates stablecoin FX, you're looking at a multi-year UNI underperformance story.
+
+Full analysis → https://aitechwire.io/articles/aerodrome-ethereum-l1-competition.html | @AITechWireIO | #UNI #AERO #DeFi
+
+================================================================================
+
+BACKUP: SHORT-FORM TEASER (use if you want to drive clicks fast)
+================================================================================
+
+🔥 NEW: "AERO vs UNI: The DEX War Comes to Ethereum"
+
+The math on Aerodrome's Ethereum launch:
+• Flat market: +13–70%
+• ETH 5x bull: +2,000–4,000% if AERO replicates Base stablecoin dominance
+• UNI: structural underperformance, not collapse
+
+Why the hidden layer (stablecoin FX) changes everything.
+
+→ Full scenario breakdown: https://aitechwire.io/articles/aerodrome-ethereum-l1-competition.html | #AERO #UNI
+
+================================================================================
