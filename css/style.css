@@ -151,8 +151,9 @@ nav a:hover, nav a.active {
 }
 .hero-inner {
   display: grid;
-  grid-template-columns: 1fr 380px;
+  grid-template-columns: 280px 1fr;
   gap: 24px;
+  align-items: stretch;
 }
 
 .hero-main {
@@ -161,11 +162,15 @@ nav a:hover, nav a.active {
   border-radius: 16px;
   overflow: hidden;
   cursor: pointer;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s, box-shadow 0.2s;
   position: relative;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-.hero-main:hover { border-color: var(--accent); }
+.hero-main:hover { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
 
 .hero-img {
   width: 100%;
@@ -505,6 +510,7 @@ footer {
 @media (max-width: 900px) {
   .hero-inner { grid-template-columns: 1fr; }
   .hero-sidebar { display: none; }
+  .hero-main { min-height: 360px; }
   .cards-grid { grid-template-columns: repeat(2, 1fr); }
   .x-promo { grid-template-columns: 1fr; }
   .footer-inner { grid-template-columns: 1fr 1fr; }
