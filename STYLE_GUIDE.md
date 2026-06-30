@@ -150,3 +150,48 @@ Week 2 promo: 11 impressions + 1 RT — it worked because the hook was interesti
 ### HARD PATTERN — "Let me break it down 👇" enforcement
 Zero-tolerance: standalone tweet + this phrase = rewrite immediately.
 Banned in standalone tweets. Allowed only in numbered thread series (1/n, 2/n).
+
+---
+
+## ✍️ Dev.to Voice & Style (separate from X/LinkedIn investor voice)
+
+*Added 2026-06-30 per Cowork editorial brief*
+
+**Audience:** Technical professionals — developers, engineers, product builders, AI practitioners. NOT investors, NOT crypto traders.
+
+**Core principle:** Guide, not lecturer. Technical but human. Story-first, resolution-last. Like a senior engineer explaining something to a sharp colleague over coffee.
+
+### Mandatory Article Structure (SCQA / McKinsey Pyramid)
+
+1. **Story** — open with a human scene the reader already feels. Never a definition or "AI is transforming..."
+2. **Complication** — one specific shift or tension. Not vague trends.
+3. **Question** — state it directly
+4. **Answer** — lead with it (Pyramid = answer first, evidence second)
+5. **Three things we can learn** — mandatory subheading; 3 distinct portable takeaways with reasoning, not summaries
+6. **Resolution** — honest IRL reality check: effort vs. payoff, limits, what it actually takes
+7. **CTA** — "Follow @AITechWire on X for daily AI and tech updates."
+
+**Scale check (required):** somewhere in the article establish how common the problem is, grounded in a sourced data point.
+
+### Dev.to Topics (strict gate — only these publish to Dev.to)
+- ✅ AI capabilities, agents, integration use cases
+- ✅ Blockchain technology infrastructure/protocols (NOT pricing/DeFi/tokens)
+- ✅ Futuristic technology (pure tech angle)
+- ❌ Crypto/DeFi/prediction markets/finance → skip Dev.to, site+X+LinkedIn only
+
+### What to NEVER do in Dev.to articles
+- No investment angle ("what to own / watch / avoid")
+- No vague openers ("AI is changing everything...")
+- No unresolved endings
+- No "Let me break it down for you 👇" (that's the investor/X voice)
+- No fabricated facts (SOP 07 always applies)
+- No price action or market commentary
+
+### Voice contrast: Dev.to vs X/LinkedIn
+| | Dev.to | X / LinkedIn |
+|---|---|---|
+| Audience | Technical professionals | Smart investors |
+| Voice | Engineer talking to engineer | Investor at dinner |
+| Entry point | A problem the builder feels | A problem the investor feels |
+| Ends with | "Here's what it takes IRL" | "Here's what it means for your money" |
+| Investment angle | ❌ None | ✅ Always |
