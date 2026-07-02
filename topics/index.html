@@ -158,7 +158,8 @@ let searchQuery = '';
 
 async function init() {
   try {
-    const res = await fetch('/articles.json');
+    const res = await fetch('/articles.json?v=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
     articles = await res.json();
     // Sort by date newest first
     articles.sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -199,6 +200,7 @@ async function init() {
     if (tag) selectTag(tag);
   } catch(e) {
     console.error('Could not load articles.json', e);
+    document.getElementById('resultsHeader').innerHTML = '⚠️ Could not load articles — <a href="/topics/" style="color:var(--accent)">reload</a>';
   }
 }
 
@@ -282,7 +284,7 @@ function renderArticles(list, filterTag, query) {
       <div class="article-card-title">${a.title}</div>
       <div class="article-card-excerpt">${a.excerpt}</div>
       <div class="article-card-tags">
-        ${a.tags.map(t => `<span class="article-tag" onclick="event.preventDefault();event.stopPropagation();selectTag('${t}')">${t}</span>`).join('')}
+        ${(a.tags||[]).map(t => `<span class="article-tag" onclick="event.preventDefault();event.stopPropagation();selectTag('${t}')">${t}</span>`).join('')}
       </div>
     </a>
   `).join('');
