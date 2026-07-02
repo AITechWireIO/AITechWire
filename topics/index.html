@@ -253,7 +253,6 @@ function renderArticles(list, filterTag, query) {
   const container = document.getElementById('articleList');
   const header    = document.getElementById('resultsHeader');
   const noResults = document.getElementById('noResults');
-  const countLabel = document.getElementById('countLabel');
 
   if (query && filterTag) {
     header.innerHTML = `<span>${list.length}</span> result${list.length !== 1 ? 's' : ''} for &ldquo;${query}&rdquo; in <span>${filterTag}</span>`;
@@ -264,8 +263,6 @@ function renderArticles(list, filterTag, query) {
   } else {
     header.innerHTML = `Showing all <span>${list.length}</span> articles`;
   }
-
-  countLabel.textContent = list.length;
 
   if (list.length === 0) {
     container.innerHTML = '';
