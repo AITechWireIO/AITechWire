@@ -165,6 +165,7 @@ async function init() {
     // Normalise missing fields
     articles.forEach(a => {
       if (!a.tags) a.tags = [];
+      if (!a.excerpt && a.description) a.excerpt = a.description;
       if (!a.section && a.category) {
         const smap = {'crypto':'Crypto & Web3','ai-tech':'AI & Tech','finance':'Finance','prediction-markets':'Prediction Markets','real-estate':'Real Estate'};
         a.section = smap[a.category] || 'News';
@@ -221,7 +222,7 @@ function filterAndRender() {
     list = list.filter(a =>
       a.title.toLowerCase().includes(searchQuery) ||
       (a.excerpt || '').toLowerCase().includes(searchQuery) ||
-      a.tags.some(t => t.toLowerCase().includes(searchQuery))
+      (a.tags||[]).some(t => t.toLowerCase().includes(searchQuery))
     );
   }
   renderArticles(list, activeTag, searchQuery);
