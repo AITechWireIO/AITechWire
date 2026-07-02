@@ -62,6 +62,24 @@
     .results-header span { color: var(--accent); font-weight: 700; }
 
     .no-results { text-align: center; padding: 48px; color: var(--text-muted); }
+
+    /* Search Box */
+    .search-wrap { position: relative; margin-bottom: 28px; }
+    .search-input {
+      width: 100%; padding: 14px 48px 14px 20px; box-sizing: border-box;
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 12px; font-size: 15px; color: var(--text-primary);
+      font-family: inherit; outline: none; transition: border-color 0.15s;
+    }
+    .search-input::placeholder { color: var(--text-muted); }
+    .search-input:focus { border-color: var(--accent); }
+    .search-icon { position: absolute; right: 16px; top: 50%; transform: translateY(-50%); font-size: 18px; pointer-events: none; opacity: 0.4; }
+    .search-clear {
+      position: absolute; right: 14px; top: 50%; transform: translateY(-50%);
+      background: none; border: none; cursor: pointer; color: var(--text-muted);
+      font-size: 18px; line-height: 1; display: none; padding: 4px;
+    }
+    .search-clear:hover { color: var(--text-primary); }
   </style>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'><rect width='400' height='400' fill='%231a1a2e'/><circle cx='200' cy='200' r='175' fill='none' stroke='%23f0b429' stroke-width='3' stroke-opacity='0.4'/><polygon points='220,60 150,210 195,210 175,345 265,175 215,175 240,60' fill='%23f0b429'/></svg>" />
   <meta property="og:image" content="https://aitechwire.io/img/og-default.png" />
@@ -91,6 +109,7 @@
       <a href="/finance/">Finance</a>
       <a href="/crypto/">Crypto &amp; Web3</a>
       <a href="/prediction-markets/">Prediction Markets</a>
+      <a href="/topics/" class="active">Archive</a>
       <a href="https://x.com/AITechWireIO" target="_blank" rel="noopener noreferrer" class="nav-x-btn">𝕏 Follow</a>
     </nav>
   </div>
@@ -98,7 +117,14 @@
 
 <div class="topics-wrap">
   <h1 style="font-size:32px;font-weight:900;letter-spacing:-1px;margin-bottom:8px">Browse by Topic</h1>
-  <p style="color:var(--text-secondary);margin-bottom:32px;font-size:15px">Click any topic to filter articles. Click again to clear.</p>
+  <p style="color:var(--text-secondary);margin-bottom:28px;font-size:15px">Search all articles or filter by topic. Every article ever published is here.</p>
+
+  <!-- Search Box -->
+  <div class="search-wrap">
+    <input type="search" class="search-input" id="searchInput" placeholder="Search articles — try 'AERO', 'Lyn Alden', 'Bitcoin'..." autocomplete="off" />
+    <span class="search-icon" id="searchIcon">🔍</span>
+    <button class="search-clear" id="searchClear" aria-label="Clear search">×</button>
+  </div>
 
   <!-- Tag Cloud -->
   <div class="tag-cloud" id="tagCloud"></div>
@@ -128,6 +154,7 @@
 <script>
 let articles = [];
 let activeTag = null;
+let searchQuery = '';
 
 async function init() {
   try {
@@ -136,7 +163,26 @@ async function init() {
     // Sort by date newest first
     articles.sort((a, b) => new Date(b.date) - new Date(a.date));
     buildTagCloud();
-    renderArticles(articles);
+    filterAndRender();
+
+    // Wire up search
+    const searchInput = document.getElementById('searchInput');
+    const searchClear = document.getElementById('searchClear');
+    const searchIcon  = document.getElementById('searchIcon');
+    searchInput.addEventListener('input', () => {
+      searchQuery = searchInput.value.trim().toLowerCase();
+      searchClear.style.display = searchQuery ? 'block' : 'none';
+      searchIcon.style.display  = searchQuery ? 'none' : 'block';
+      filterAndRender();
+    });
+    searchClear.addEventListener('click', () => {
+      searchInput.value = '';
+      searchQuery = '';
+      searchClear.style.display = 'none';
+      searchIcon.style.display  = 'block';
+      searchInput.focus();
+      filterAndRender();
+    });
 
     // Check URL for tag param
     const params = new URLSearchParams(window.location.search);
@@ -160,34 +206,49 @@ function buildTagCloud() {
   ).join('');
 }
 
+function filterAndRender() {
+  let list = articles;
+  if (activeTag) list = list.filter(a => a.tags.includes(activeTag));
+  if (searchQuery) {
+    list = list.filter(a =>
+      a.title.toLowerCase().includes(searchQuery) ||
+      (a.excerpt || '').toLowerCase().includes(searchQuery) ||
+      a.tags.some(t => t.toLowerCase().includes(searchQuery))
+    );
+  }
+  renderArticles(list, activeTag, searchQuery);
+}
+
 function selectTag(tag) {
   if (activeTag === tag) {
     activeTag = null;
     document.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
-    renderArticles(articles);
-    history.replaceState(null, '', '/topics/');
+    history.replaceState(null, '', searchQuery ? '/topics/' : '/topics/');
   } else {
     activeTag = tag;
     document.querySelectorAll('.tag-btn').forEach(b => {
       b.classList.toggle('active', b.dataset.tag === tag);
     });
-    const filtered = articles.filter(a => a.tags.includes(tag));
-    renderArticles(filtered, tag);
-    history.replaceState(null, '', `/topics/?tag=${encodeURIComponent(tag)}`);
+    if (!searchQuery) history.replaceState(null, '', `/topics/?tag=${encodeURIComponent(tag)}`);
   }
+  filterAndRender();
 }
 
 function formatDate(dateStr) {
   return new Date(dateStr + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 }
 
-function renderArticles(list, filterTag) {
+function renderArticles(list, filterTag, query) {
   const container = document.getElementById('articleList');
   const header    = document.getElementById('resultsHeader');
   const noResults = document.getElementById('noResults');
   const countLabel = document.getElementById('countLabel');
 
-  if (filterTag) {
+  if (query && filterTag) {
+    header.innerHTML = `<span>${list.length}</span> result${list.length !== 1 ? 's' : ''} for &ldquo;${query}&rdquo; in <span>${filterTag}</span>`;
+  } else if (query) {
+    header.innerHTML = `<span>${list.length}</span> result${list.length !== 1 ? 's' : ''} for &ldquo;${query}&rdquo;`;
+  } else if (filterTag) {
     header.innerHTML = `Showing <span>${list.length}</span> article${list.length !== 1 ? 's' : ''} tagged <span>${filterTag}</span>`;
   } else {
     header.innerHTML = `Showing all <span>${list.length}</span> articles`;
