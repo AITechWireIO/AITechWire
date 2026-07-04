@@ -143,6 +143,20 @@ The primary content strategy is **analysis of what opinion leaders say, write, a
 
 **Content angles:** Their latest thread → "What [Name] just said and why it matters". Their interview → key insight pulled, framed for our audience. Their contrarian take → we analyze the data behind it.
 
+### Opinion Leader Rotation Rules
+
+**Weekly cap:** Max 1 article per opinion leader per calendar week.
+
+**Consecutive-article rule (added 2026-07-03, Oleg-approved):**
+Never publish the same opinion leader in two consecutive articles. Before the top-scoring candidate is selected, the pipeline must check the last published article's OL tag. If the top candidate's `key_voices` matches the last article's OL, it is demoted — the next eligible candidate is selected instead.
+
+**Exception:** A genuine major breaking event (regulatory ruling, major announcement, or speech) may justify back-to-back coverage IF:
+1. The editorial score is exceptional (top-scoring by a clear margin)
+2. The two articles cover materially different angles
+3. The demotion override is explicitly logged
+
+This exception should be rare. When it fires, log it to `#pipeline-log` with the reason.
+
 ### Voice
 Sharp. Opinionated. Forward-looking. Data-backed. Cite sources. No fluff. Not corporate.
 
