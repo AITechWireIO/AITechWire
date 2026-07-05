@@ -1,6 +1,6 @@
 # AITechWire Style Guide
-*Living document — updated from real feedback and performance data*
-*Last updated: June 17, 2026*
+*Living document - updated from real feedback and performance data*
+*Last updated: July 5, 2026*
 
 ---
 
@@ -22,7 +22,7 @@ Start there. Pull them in. Let the topic come to them.
 
 ---
 
-## Article Structure — The Layered Framework
+## Article Structure - The Layered Framework
 
 ### ❌ Wrong (linear explainer)
 > "Bittensor is a decentralized AI network where miners compete to provide machine intelligence..."
@@ -32,11 +32,11 @@ Start there. Pull them in. Let the topic come to them.
 > What if you could own the infrastructure instead?"
 
 **The layers:**
-1. **Reader's world** — what problem do they already feel?
-2. **Why it's getting worse** — centralized capture, rising costs, locked-out upside
-3. **Why existing solutions fail** — subscription models, hyperscaler monopolies
-4. **How the new thing restructures it** — mechanism explained simply
-5. **Investment lens** — what to own, what to watch, what to avoid
+1. **Reader's world** - what problem do they already feel?
+2. **Why it's getting worse** - centralized capture, rising costs, locked-out upside
+3. **Why existing solutions fail** - subscription models, hyperscaler monopolies
+4. **How the new thing restructures it** - mechanism explained simply
+5. **Investment lens** - what to own, what to watch, what to avoid
 
 Depth is fine. Wrong entry point is not.
 
@@ -46,17 +46,17 @@ Depth is fine. Wrong entry point is not.
 
 ### 1. Contrarian
 Challenge the consensus. Named data point. Investment implication.
-> *"Goldman, JPMorgan, and UBS all just moved their first Fed cut to 2027. Not a delay — a repricing. Polymarket: 69% odds of zero cuts in 2026. If your portfolio was priced for easing, Warsh's dot plot today is your wake-up call."*
+> *"Goldman, JPMorgan, and UBS all just moved their first Fed cut to 2027. Not a delay - a repricing. Polymarket: 69% odds of zero cuts in 2026. If your portfolio was priced for easing, Warsh's dot plot today is your wake-up call."*
 
-### 2. Educational — "Let me break it down for you 👇"
+### 2. Educational - "Let me break it down for you 👇"
 EXACT phrase required. ~1x/week max.
 For: Fed policy, DeFi yield, AI capex, monetary theory.
-⚠️ ONLY for Twitter THREADS (multiple follow-up tweets) or articles — NEVER on a single standalone tweet.
+⚠️ ONLY for Twitter THREADS (multiple follow-up tweets) or articles - NEVER on a single standalone tweet.
 A standalone tweet leads straight into the substance. No setup line needed.
 
 ### 3. Cross-asset comparison (at least 1 per day)
 Crypto vs stocks. DeFi vs TradFi. Bitcoin vs gold. Required daily.
-> *"NYSE runs 6.5 hours/day. Base runs 24/7/365. Tokenized stocks on DeFi don't just change where you trade — they change who gets access."*
+> *"NYSE runs 6.5 hours/day. Base runs 24/7/365. Tokenized stocks on DeFi don't just change where you trade - they change who gets access."*
 
 ### 4. Reactive / breaking news
 Best story of the day beats pre-baked queue. Always.
@@ -72,8 +72,8 @@ Short. Sharp. One idea. Let the reader finish the thought.
 - Complete sentence ending with . ! or ?
 - Under 280 chars total including " | @AITechWireIO"
 - No sycophantic openers: never start with Appreciate / Great / Thanks / Glad you
-- ALL numbers from real research — never fabricated
-- Every price action post needs an investment thesis — not just "X up Y%"
+- ALL numbers from real research - never fabricated
+- Every price action post needs an investment thesis - not just "X up Y%"
 - No standalone HYPE/Hyperliquid articles (may appear as context only)
 
 ---
@@ -89,67 +89,80 @@ Like a smart investor talking to another smart investor at dinner.
 - Weekly: pull X analytics → update performance table in `memory/style-feedback.md`
 - Per session: log what worked, what didn't, what Oleg corrected
 - Monthly: review style guide, update with new patterns
-- Goal: autonomous operation — Oleg calibrates at the start, Lexie runs independently
+- Goal: autonomous operation - Oleg calibrates at the start, Lexie runs independently
 
 ---
 
 ## 📊 Data-Backed Patterns (updated weekly)
-*Last updated: June 28, 2026 — Week 2 analytics*
+*Last updated: July 5, 2026 — Week 4 analytics (Jun 28 – Jul 5)*
 
-### 📊 2-Week Performance Table (Jun 15–28, 2026)
+### 📊 4-Week Performance Table (Jun 15 – Jul 5, 2026)
 
-| Style | Week 1 avg imp | Week 2 avg imp | Trend |
-|-------|---------------|---------------|-------|
-| Contrarian | 11.3 | 8.2 | ⚠️ Down — only works with verdict |
-| Educational | 3.3 | **12.5** | 🚀 Best performer in Week 2 |
-| Reactive | 5.5 | 9.0 | ⬆️ Strong when event-driven |
-| Cross-asset | 2.7 | 8.0 | 🚀 Best improvement |
-| One-liner | 1.5 | 7.0 | ⬆️ Gaining as reach grows |
-| Thread [1/n] | n/a | **14.0** | 🎯 Best reach format |
+| Style | Wk1 avg | Wk2 avg | Wk3 avg | **Wk4 avg** | 4-wk trend |
+|-------|---------|---------|---------|-------------|------------|
+| Reactive | 5.5 | 9.0 | 5.4 | **30.2** | 🚀 Surged — investment angle required |
+| Contrarian | 11.3 | 8.2 | 8.1 | **27.7** | 🚀 Career-best — named analysts unlock ceiling |
+| Article promo | 3.0 | 11.0 | 7.3 | **19.5** | ⬆️ Best week ever — standalone hook |
+| Cross-asset | 2.7 | 8.0 | 7.5 | **17.0** | ⬆️ Growing — structural reframe needed |
+| Educational | 3.3 | 12.5 | 9.3 | **11.7** | Stable — 0 likes in Wk4; needs command ending |
+| One-liner | 1.5 | 7.0 | 7.0 | n/a | Consistent when posted |
+| Thread [1/n] | n/a | 14.0 | 2.5 | n/a | HIGH VARIANCE — $500M+ hook required |
 
-### NEW: Educational + Reactive = The Sweet Spot
-**Week 2 discovery:** The best standalone post of the week was educational but anchored in a live macro event.
-> *"When the Fed leans hawkish, growth stocks and crypto bleed while banks and defensives gain. It's not random — higher yields make future earnings worth less today. That's why the Nasdaq dropped hard on strong jobs data. Know the mechanism."*
+### 🏆 New #1 Format: Named Analyst + Live Thesis Validation
+**Week 4 discovery:** When a named analyst’s thesis plays out live on the same day, writing that post immediately produces the highest single-post ceiling.
+> *“The macro-to-crypto transmission @jvisserlabs has mapped is printing live: Warsh signals easing inflation pressure → rate hike odds collapse → BTC jumps. When the thesis you mapped plays out in real time, you don’t trade the news — you already have the position.”*
 
-17 impressions, 3 likes — highest like count of the week.
+47 views, 2 likes. **Rule:** When @jvisserlabs/@LynAldenContact/@saylor/@RaoulGMI thesis plays out SAME DAY, write it immediately. Don’t queue — live validation window is 2-4 hours.
 
-**Rule:** Don't write abstract educational posts. Write "here's why THIS THING happening right now works the way it does."
-**Ending format:** Close with a short command. "Know the mechanism." / "Know the math." / "Understand the incentive."
+### Reactive Is Back — But ONLY With Investment Angle Leading
+Reactive swung from 5.4 avg (Wk3) to 30.2 avg (Wk4). The fix: lead with investor implication, not the event.
+- ❌ Wrong: “Scaramucci defended Trump crypto dealings today.”
+- ✅ Right: “When high-profile political capital gets visibly tied to a crypto narrative, the regulatory risk premium reprices fast.”
+**Rule:** NEVER open a reactive post with what happened. Open with what it means for the reader’s portfolio or position.
 
-### Thread Openers Are the Reach King
-Highest single-post impressions of Week 2: **26** (thread opener) vs 17 (best standalone).
-**Thread opener formula:**
-1. Open with a specific large dollar figure: "$1.34B out of Bitcoin ETFs in a single week."
-2. Add named contrast (e.g., Saylor keeps buying vs ETF holders selling)
-3. End [1/3] tweet with punchy verdict
-**Rule:** Reserve threads for the #1 story of the week. Thread hook MUST have a specific dollar/% figure.
+### Educational: Live-Anchored Only + Command Ending Required
+When tied to a live event: 12-17 avg views + best like rates.
+When abstract/evergreen: 3-9 avg views + 0 likes.
+**Rule:** Only write educational posts when something specific happened TODAY that makes the mechanism matter right now.
+**Ending format (required):** Close with a command. “Know the mechanism.” / “Know the math.” / “This changes how you read the next data release.”
 
-### Contrarian Rule: Verdict Required
-Contrarian dropped from 11.3 → 8.2 impressions when posts ended in ambiguity ("Either X or Y").
-Strong contrarian from Week 1: always ended with a verdict ("Eyes open." / "One of them is wrong.").
-**Rule:** Every contrarian post must close with a decisive takeaway. No ambiguous endings.
+### Thread Openers: High-Variance Weapon — $500M+ Hook Required
+Highest single post: 26V (Wk2 thread, $1.34B ETF figure). Lowest: 2.5V (Wk3 platitude opener).
+**Formula:** Lead with dollar/% figure ≥$500M + named contrast + punchy [1/3] verdict.
+**Rule:** Reserve threads for the #1 story of the week ONLY. No dollar figure = write it as standalone instead.
 
-### Cross-Asset is Catching Fire
-Cross-asset improved +5.3 avg impressions. The "AI semis + crypto trading the same thesis" angle is resonating — this is AITechWire's unique position in the space.
-> *"Bitcoin hit a 20-month low, then bounced to $61,100 on a memory chip earnings report. That is the AI trade now — semis, crypto, and risk assets moving as one. The diversification you thought you had may not exist anymore."*
+### Contrarian Rule: Verdict Required (Confirmed 4 Weeks Straight)
+Contrarian floors at 8V+ with verdict. Falls to 4-5V with ambiguous ending.
+**Rule:** Every contrarian post must close with a decisive 1-3 word verdict:
+“Eyes open.” / “One of them is wrong.” / “Watch the flows.” / “Act accordingly.”
 
-Rule: At least 1 cross-asset post per day. Semis ↔ crypto, AI capex ↔ DeFi, prediction markets ↔ equities.
+### Cross-Asset: Structural Reframe, Not Just Comparison
+- ❌ Weak: “Bitcoin and semis are both down this week.”
+- ✅ Strong: “The line between crypto markets and AI infrastructure plays just disappeared.”
+**Rule:** End every cross-asset post with a structural conclusion. “These two assets are now trading the same thesis.”
 
-### Duplication Fatigue Is Real
-June 25-26 had two nearly identical Saylor conviction posts (11 → 10 impressions). Slight drop is real signal.
-**Rule:** No more than 1 post per narrative angle per day. If the thread covers the ETF story, the daily queue covers something else.
+### Named Person > Named Institution > Generic Reference
+“Citi just cut BTC/ETH targets” (77V) vs generic “Wall St turned bearish” (6V avg).
+**Rule:** Always name the person + number. Never leave it generic.
 
-### Named officials > generic "the Fed"
-Posts naming Warsh with specific rate (3.50-3.75%) outperformed generic Fed references.
-Rule: always name the person + attach a real number.
+### Article Promos: Standalone Hook Required, Vague Descriptions Banned
+Wk4 best promo: 16V + 1RT (standalone thesis hook). Worst: 26V, 0 likes (“Lyn Alden likely posted charts” — vague).
+**Rule:** Promo tweets must work as standalone insights. Never describe what the article “might” be about.
 
-### Article promos need standalone value
-Promo tweet must work as a standalone insight even if reader never clicks the link.
-Week 2 promo: 11 impressions + 1 RT — it worked because the hook was interesting on its own.
+### Holiday Timing Kill: Hold Financial Posts on US Market Holidays
+NY Fed $9.96B post got 1V on July 4th — good post, timing failure.
+**Rule:** On major US trading holidays (July 4, Thanksgiving, Christmas, Labor Day), hold financial reactive posts.
 
-### HARD PATTERN — "Let me break it down 👇" enforcement
-Zero-tolerance: standalone tweet + this phrase = rewrite immediately.
-Banned in standalone tweets. Allowed only in numbered thread series (1/n, 2/n).
+### Reply Game: Quality Gate Required
+79 replies generated 612 views in Wk4, but 0.14 likes/reply vs 0.81 likes/main post.
+Top replies (jvisserlabs, VitalikButerin): 24-47 views when they add specific data.
+Low replies: 0-5 views when formulaic (“Most people miss that” opener on 70%+ of replies).
+**Rule:** Cap replies at 40-50/week. Vary hook. Every reply must add a specific data point not in original thread.
+
+### HARD PATTERN — “Let me break it down 👇” PERMANENT BAN in standalone tweets
+Zero tolerance. Standalone tweet + this phrase = rewrite immediately.
+Allowed only: numbered thread series (1/n, 2/n) or article body.
+Current status: Violation-free since June 17, 2026.
 
 ---
 
@@ -157,23 +170,23 @@ Banned in standalone tweets. Allowed only in numbered thread series (1/n, 2/n).
 
 *Added 2026-06-30 per Cowork editorial brief*
 
-**Audience:** Technical professionals — developers, engineers, product builders, AI practitioners. NOT investors, NOT crypto traders.
+**Audience:** Technical professionals - developers, engineers, product builders, AI practitioners. NOT investors, NOT crypto traders.
 
 **Core principle:** Guide, not lecturer. Technical but human. Story-first, resolution-last. Like a senior engineer explaining something to a sharp colleague over coffee.
 
 ### Mandatory Article Structure (SCQA / McKinsey Pyramid)
 
-1. **Story** — open with a human scene the reader already feels. Never a definition or "AI is transforming..."
-2. **Complication** — one specific shift or tension. Not vague trends.
-3. **Question** — state it directly
-4. **Answer** — lead with it (Pyramid = answer first, evidence second)
-5. **Three things we can learn** — mandatory subheading; 3 distinct portable takeaways with reasoning, not summaries
-6. **Resolution** — honest IRL reality check: effort vs. payoff, limits, what it actually takes
-7. **CTA** — "Follow @AITechWire on X for daily AI and tech updates."
+1. **Story** - open with a human scene the reader already feels. Never a definition or "AI is transforming..."
+2. **Complication** - one specific shift or tension. Not vague trends.
+3. **Question** - state it directly
+4. **Answer** - lead with it (Pyramid = answer first, evidence second)
+5. **Three things we can learn** - mandatory subheading; 3 distinct portable takeaways with reasoning, not summaries
+6. **Resolution** - honest IRL reality check: effort vs. payoff, limits, what it actually takes
+7. **CTA** - "Follow @AITechWire on X for daily AI and tech updates."
 
 **Scale check (required):** somewhere in the article establish how common the problem is, grounded in a sourced data point.
 
-### Dev.to Topics (strict gate — only these publish to Dev.to)
+### Dev.to Topics (strict gate - only these publish to Dev.to)
 - ✅ AI capabilities, agents, integration use cases
 - ✅ Blockchain technology infrastructure/protocols (NOT pricing/DeFi/tokens)
 - ✅ Futuristic technology (pure tech angle)
