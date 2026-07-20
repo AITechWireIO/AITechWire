@@ -1,6 +1,6 @@
 # AITechWire Style Guide
 *Living document - updated from real feedback and performance data*
-*Last updated: July 5, 2026*
+*Last updated: July 19, 2026*
 
 ---
 
@@ -94,19 +94,19 @@ Like a smart investor talking to another smart investor at dinner.
 ---
 
 ## 📊 Data-Backed Patterns (updated weekly)
-*Last updated: July 12, 2026 - Week 5 analytics (Jul 5-12)*
+*Last updated: July 19, 2026 - Week 6 analytics (Jul 12-19)*
 
-### 📊 5-Week Performance Table (Jun 15 - Jul 12, 2026)
+### 📊 6-Week Performance Table (Jun 15 - Jul 19, 2026)
 
-| Style | Wk1 avg | Wk2 avg | Wk3 avg | Wk4 avg | **Wk5 avg** | 5-wk trend |
-|-------|---------|---------|---------|---------|-------------|------------|
-| Article promo | 3.0 | 11.0 | 7.3 | 19.5 | **87.5** | 🚀 CEILING UNLOCKED on institutional bridge events |
-| Reactive | 5.5 | 9.0 | 5.4 | 30.2 | **44.7** | 🚀 #1 format - investment angle first, always |
-| Cross-asset | 2.7 | 8.0 | 7.5 | 17.0 | **19.5** | ⬆️ Growing - structural reframe required |
-| One-liner | 1.5 | 7.0 | 7.0 | n/a | **16.6** | Best like rate Wk5 - specific $figure + reframe |
-| Contrarian | 11.3 | 8.2 | 8.1 | 27.7 | **10.7** | ⚠️ Needs named source to perform. Generic = 10V floor |
-| Educational | 3.3 | 12.5 | 9.3 | 11.7 | **- (0 posts)** | QUOTA RULE: minimum 1/week anchored to live event |
-| Thread [1/n] | n/a | 14.0 | 2.5 | n/a | n/a | HIGH VARIANCE - $500M+ hook required |
+| Style | Wk1 | Wk2 | Wk3 | Wk4 | Wk5 | **Wk6** | Trend / Rule |
+|-------|-----|-----|-----|-----|-----|---------|--------------|
+| Article promo | 3.0 | 11.0 | 7.3 | 19.5 | 87.5* | **n/a** | 🚀 Ceiling unlocked on DeFi↔TradFi bridge events (*$SECZ inflated) |
+| Cross-asset | 2.7 | 8.0 | 7.5 | 17.0 | 19.5 | **14.5** | ➡️ Structural reframe required. End with thesis verdict |
+| Thread [1/n] | n/a | 14.0 | 2.5 | n/a | n/a | **14.0** | ⚠️ $500M+ hook ONLY. Platitude hook = 2-3V |
+| Reactive | 5.5 | 9.0 | 5.4 | 30.2 | 44.7 | **12.1** | ⚠️ Wk6: 20 posts = self-dilution. CAP AT 8-10/week |
+| Contrarian | 11.3 | 8.2 | 8.1 | 27.7 | 10.7 | **10.7** | ✅ BULLETPROOF FLOOR. 3 weeks at 10.7. Daily anchor. |
+| Educational | 3.3 | 12.5 | 9.3 | 11.7 | - | **10.0 (1.33L)** | 🏆 Best like rate Wk6. Min 1/week. Max 2/week. |
+| One-liner | 1.5 | 7.0 | 7.0 | n/a | 16.6 | **4.0** | ⚠️ Inline URL killed 1 post (3V). Never embed URL in body. |
 
 ### 🏆 Format #1: Institutional Bridge Event = Highest Reach Ceiling
 **Week 5 discovery:** When a real-world institution (NYSE, major bank, ETF) officially adopts or lists a crypto/DeFi asset, these posts reach audiences on BOTH sides of the traditional/crypto divide simultaneously. The $SECZ NYSE listing generated 311V + 275V - the two highest-impression posts in AITechWire history.
@@ -163,7 +163,8 @@ NY Fed $9.96B post got 1V on July 4th - good post, timing failure.
 79 replies generated 612 views in Wk4, but 0.14 likes/reply vs 0.81 likes/main post.
 Top replies (jvisserlabs, VitalikButerin): 24-47 views when they add specific data.
 Low replies: 0-5 views when formulaic ("Most people miss that" opener on 70%+ of replies).
-**Rule:** Cap replies at 40-50/week. Vary hook. Every reply must add a specific data point not in original thread.
+Wk6 update: Compressed to 6 replies = only 40 impressions total. Too far in the other direction.
+**Rule:** Target 20-30 replies per week. Start with the specific data point, not an opener formula. Only reply to @jvisserlabs/@saylor/@LynAldenContact/@RaoulGMI threads with a unique data point the original thread didn't have.
 
 ### HARD PATTERN — "Let me break it down 👇" PERMANENT BAN in standalone tweets
 Zero tolerance. Standalone tweet + this phrase = rewrite immediately.
@@ -182,8 +183,24 @@ The Paradigm $1.2B fund post (22V, 3 likes — best like count of the week) foll
 **Rule:** When a story has a ≥$500M figure and a before/after moment, write it as a one-liner with this structure. Don't over-explain.
 
 ### Contrarian Without Named Source = Generic Opinion (Week 5 lesson)
-Week 4 contrarian averaged 27.7V (Citi, VitalikButerin, Tom Lee named). Week 5 contrarian averaged 10.7V (generic takes).
+Week 4 contrarian averaged 27.7V (Citi, VitalikButerin, Tom Lee named). Week 5-6 contrarian averaged 10.7V both weeks (generic takes or named but no named institution to push against).
 **Rule:** Never write a contrarian post without naming who you're disagreeing with. "Wall Street is wrong" < "Citi just cut their BTC target." The named source is the credibility.
+
+### 🆕 Sports/Pop-Culture Crossover = Reach Without Resonance (Week 6 discovery)
+England vs Argentina Polymarket post (Jul 16): 53V, 0 likes. Highest impression post of the week — lowest engagement rate. Sports event distribution hits non-investor audience who don't follow or engage.
+**Rule:** Max 1 sports/pop-culture crossover post per week. Treat as brand awareness only, not community-building. Never anchor the investment thesis on a sports metaphor.
+
+### 🆕 Inline URL = Algorithmic Suppression (Week 6 discovery)
+Lyn Alden post with raw t.co URL mid-sentence: 3V — among lowest standalone impressions of the week. X's algorithm deprioritizes posts with body-embedded URLs as promotional/spam.
+**Rule:** NEVER embed a URL inside the body of a standalone post. Pure text only. Article promos may have a trailing link (separate line). For reactive posts, write the insight as text — link goes in a reply if needed.
+
+### 🆕 Reactive Format Self-Dilution (Week 6 discovery)
+Wk6 had 20 reactive posts (47.6% of all posts). Reactive avg collapsed from 44.7 (Wk5) to 12.1 (Wk6). When everything is reactive, nothing feels urgent. Same themes repeated (Polymarket odds, ETF flows, Saylor/BTC) = narrative fatigue within a single week.
+**Rule:** HARD CAP: Maximum 2 reactive posts per daily batch of 5. Maximum 8-10 reactive posts per full week. If the pipeline wants to write a 3rd reactive in a day, convert it to contrarian or educational instead.
+
+### 🆕 RT-Bait Posts: Write 1/week Specifically for Shareability (Week 6 discovery)
+Wk5: 1 RT ($SECZ event). Wk6: 0 RTs. Two consecutive RT-free weeks signal content isn't hitting the shareable threshold. The Paradigm $1.2B one-liner (Wk5: 22V, 3L) got likes but no RTs. RTs require a post that feels like intelligence — the reader shares it because it makes THEM look smart.
+**Rule:** Write at least 1 post per week with this specific structure: [Named institution/figure] + [specific $X figure] + [structural reframe that makes the reader feel like an insider] — under 200 chars. That's the RT-bait formula.
 
 ---
 
