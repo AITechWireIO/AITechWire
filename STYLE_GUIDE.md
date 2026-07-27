@@ -1,6 +1,6 @@
 # AITechWire Style Guide
 *Living document - updated from real feedback and performance data*
-*Last updated: July 19, 2026*
+*Last updated: July 26, 2026*
 
 ---
 
@@ -94,19 +94,25 @@ Like a smart investor talking to another smart investor at dinner.
 ---
 
 ## 📊 Data-Backed Patterns (updated weekly)
-*Last updated: July 19, 2026 - Week 6 analytics (Jul 12-19)*
+*Last updated: July 26, 2026 - Week 8 analytics (Jul 19-26, real X API data)*
 
-### 📊 6-Week Performance Table (Jun 15 - Jul 19, 2026)
+### 📊 8-Week Performance Table (Jun 15 - Jul 26, 2026)
 
-| Style | Wk1 | Wk2 | Wk3 | Wk4 | Wk5 | **Wk6** | Trend / Rule |
-|-------|-----|-----|-----|-----|-----|---------|--------------|
-| Article promo | 3.0 | 11.0 | 7.3 | 19.5 | 87.5* | **n/a** | 🚀 Ceiling unlocked on DeFi↔TradFi bridge events (*$SECZ inflated) |
-| Cross-asset | 2.7 | 8.0 | 7.5 | 17.0 | 19.5 | **14.5** | ➡️ Structural reframe required. End with thesis verdict |
-| Thread [1/n] | n/a | 14.0 | 2.5 | n/a | n/a | **14.0** | ⚠️ $500M+ hook ONLY. Platitude hook = 2-3V |
-| Reactive | 5.5 | 9.0 | 5.4 | 30.2 | 44.7 | **12.1** | ⚠️ Wk6: 20 posts = self-dilution. CAP AT 8-10/week |
-| Contrarian | 11.3 | 8.2 | 8.1 | 27.7 | 10.7 | **10.7** | ✅ BULLETPROOF FLOOR. 3 weeks at 10.7. Daily anchor. |
-| Educational | 3.3 | 12.5 | 9.3 | 11.7 | - | **10.0 (1.33L)** | 🏆 Best like rate Wk6. Min 1/week. Max 2/week. |
-| One-liner | 1.5 | 7.0 | 7.0 | n/a | 16.6 | **4.0** | ⚠️ Inline URL killed 1 post (3V). Never embed URL in body. |
+| Style | Wk1 | Wk2 | Wk3 | Wk4 | Wk5 | Wk6 | Wk7 | **Wk8** | Trend / Rule |
+|-------|-----|-----|-----|-----|-----|-----|-----|---------|---------------|
+| Article promo | 3.0 | 11.0 | 7.3 | 19.5 | 87.5* | n/a | 14.2 | **14.2** | Standalone thesis required. Content cluster before promo = amplifier. |
+| Cross-asset | 2.7 | 8.0 | 7.5 | 17.0 | 19.5 | 14.5 | 11.0 | **13.4** | ➡️ TradFi analogy = RT-bait. Structural reframe required. "Watch the flows" BANNED as ending. |
+| Thread [1/n] | n/a | 14.0 | 2.5 | n/a | n/a | 14.0 | 14.0 | **13.8** | ✅ Stable at 13-14V. Named leader + $500M+ hook = formula. |
+| Reactive | 5.5 | 9.0 | 5.4 | 30.2 | 44.7 | 12.1 | 64.0† | **47.0††** | ⚠️ Ex-sports: ~10V. Sports outlier dominates. CAP 8-10/week. |
+| Contrarian | 11.3 | 8.2 | 8.1 | 27.7 | 10.7 | 10.7 | 14.0 | **32.0‡** | ⬆️ ‡One post (Vitalik/BCI). Named figure+$X+verdict = formula. Floor rising. |
+| Educational | 3.3 | 12.5 | 9.3 | 11.7 | - | 10.0 | 8.3 | **8.0 (1.0L)** | 🏆 Best like rate every week. DeFi+TradFi analogy = RT-bait. Min 1/week. |
+| One-liner | 1.5 | 7.0 | 7.0 | n/a | 16.6 | 4.0 | — | **—** | Use when story has $500M+ + before/after moment. |
+
+†Wk7 reactive: inflated by Lamine Yamal 195V sports post. Ex-sports: 16V.
+††Wk8 reactive: same Yamal post still in window (Jul 20). Ex-sports: ~10V.
+‡Wk8 contrarian: only 1 post (Vitalik/BCI, 32V, 1L). Formula confirmed.
+
+**Wk8 totals (25 main posts, excl thread sub-tweets):** 516V | 17L | 2RT
 
 ### 🏆 Format #1: Institutional Bridge Event = Highest Reach Ceiling
 **Week 5 discovery:** When a real-world institution (NYSE, major bank, ETF) officially adopts or lists a crypto/DeFi asset, these posts reach audiences on BOTH sides of the traditional/crypto divide simultaneously. The $SECZ NYSE listing generated 311V + 275V - the two highest-impression posts in AITechWire history.
@@ -140,7 +146,8 @@ Highest single post: 26V (Wk2 thread, $1.34B ETF figure). Lowest: 2.5V (Wk3 plat
 ### Contrarian Rule: Verdict Required (Confirmed 4 Weeks Straight)
 Contrarian floors at 8V+ with verdict. Falls to 4-5V with ambiguous ending.
 **Rule:** Every contrarian post must close with a decisive 1-3 word verdict:
-"Eyes open." / "One of them is wrong." / "Watch the flows." / "Act accordingly."
+"Eyes open." / "One of them is wrong." / "Act accordingly." / "The answer matters."
+⚠️ **"Watch the flows" is RETIRED** — appeared 3x in Wk8 as filler. It reads like a template. Delete it from endings.
 
 ### Cross-Asset: Structural Reframe, Not Just Comparison
 - ❌ Weak: "Bitcoin and semis are both down this week."
@@ -203,6 +210,40 @@ Wk5: 1 RT ($SECZ event). Wk6: 0 RTs. Two consecutive RT-free weeks signal conten
 **Rule:** Write at least 1 post per week with this specific structure: [Named institution/figure] + [specific $X figure] + [structural reframe that makes the reader feel like an insider] — under 200 chars. That's the RT-bait formula.
 
 ---
+
+
+### 🆕 DeFi Demystified via TradFi Analogy = First Organic RTs (Week 7 discovery)
+Wk7 had 2 organic RTs — both from the Jul 23 Aerodrome pair: educational post (1RT) + cross-asset (1RT). What made them RT-able:
+- Educational: "DeFi yield isn't speculation. Protocols like AerodromeFi generate real holder revenue from trading fees — the same mechanism as a stock exchange skimming spread."
+- Cross-asset: "AerodromeFi just out-earned Ethereum and Uniswap in holder revenue over 90 days."
+Both use a **TradFi anchor** (stock exchange mechanics, named protocols) to make DeFi legible to non-DeFi readers. Readers share it because it makes them look smart for connecting TradFi knowledge to DeFi.
+**Rule:** Write 1 DeFi-demystified post/week using the formula: "[DeFi thing] works like [TradFi thing you already understand]." End with structural verdict. This is the RT-bait formula for educational content.
+
+### 🆕 No Conditional Framing in Post Body (Week 7 lesson)
+The Scaramucci tweet front-running post (7V, 0L) opened with "If true" — instant credibility kill. Conditional language signals the author isn't convinced. Why should the reader be?
+**Rule:** Never hedge inside the post body. "If this is accurate" / "may have" / "could suggest" = delete and restate as fact or don't post. If you can't state a position, find a different angle.
+
+### 🆕 Contrarian Floor Rising — Formula Locked (Week 7 confirmation)
+Contrarian went from 10.7 avg (Wk5-6) to 14.0 in Wk7. Best performer: Vitalik/BCI thesis (32V). Formula: [Named figure] + [challenges a [$X figure] assumption] + [implicit or explicit verdict].
+Worst: Generic "corporate BTC treasury firms" — no named company, vague ending = 8V.
+**Rule (sharpened):** Contrarian = Named figure + challenge to quantified assumption + 1-3 word verdict. Generic market takes ≠ contrarian.
+
+### 🆕 Sports Crossover Confirmed at Scale — Pattern Locked (Week 7-8)
+Wk6: 53V, 0L. Wk7: 195V, 1L. Wk8: same Yamal post (Jul 20) was still the #1 impression post of the entire week — for the second consecutive week. Sports algorithmic distribution is real and persistent.
+**Rule (permanent):** Sports crossover = 1/week maximum. Count as brand awareness only. Investment angle must be the FRAME, never the hook. Exclude from all style-performance analysis.
+
+### 🆕 Content Cluster → Article Promo = Amplifier (Week 8 discovery)
+Aerodrome article promo (25V) was the 3rd highest post of the week — driven by momentum from 2 days of Aerodrome posts preceding it (Jul 23 educational + cross-asset, both got organic RTs). The audience was primed. The promo felt like a conclusion, not a cold pitch.
+**New rule:** Before publishing an article promo, fire 1-2 related standalone posts in the same week on the same theme. Promo fires last — as the payoff, not the introduction. Article clusters > isolated promos.
+
+### 🆕 Off-Schedule Posting Buries Good Content (Week 8 lesson)
+Alphabet/Tesla capex post (Jul 25, 04:50 UTC): 3V, 1 like — 33% like conversion rate (highest of the week!) but lowest impressions. Good post, dead time. This account's active audience based on impression patterns is 12:00-20:00 UTC.
+**Rule:** All pipeline posts must fire between 12:00-20:00 UTC. If the cron misfires off-schedule, hold content for the next standard slot. Firing good content into the 01:00-11:00 UTC dead zone is a waste.
+
+### 🆕 "Watch the flows" Retired (Week 8)
+Phrase appeared as a closing line in 3+ posts during Week 8. It's become a template filler with no informational value. Once a phrase becomes a template, it signals low effort to readers.
+**BANNED phrases (filler endings):** "Watch the flows." / "Eyes are on..." / "Worth watching."
+**Approved verdict endings:** "Eyes open." / "One of them is wrong." / "Act accordingly." / "The answer matters." / "Own accordingly." / "Know the mechanism."
 
 ## ✍️ Dev.to Voice & Style (separate from X/LinkedIn investor voice)
 
