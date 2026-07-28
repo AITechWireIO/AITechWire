@@ -288,8 +288,9 @@
   <div class="newsletter-inner">
     <h2>⚡ The AI TechWire Morning Brief</h2>
     <p>Top AI, markets, and crypto stories — delivered every morning before the bell. Free forever.</p>
-    <form class="newsletter-form" onsubmit="return false;">
-      <input type="email" placeholder="your@email.com" />
+    <form class="newsletter-form" name="newsletter" method="POST" data-netlify="true" action="/subscribe-success.html">
+      <input type="hidden" name="form-name" value="newsletter" />
+      <input type="email" name="email" placeholder="your@email.com" required />
       <button type="submit">Subscribe Free</button>
     </form>
   </div>

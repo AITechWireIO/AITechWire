@@ -263,8 +263,9 @@
   <div class="newsletter-inner">
     <h2>📈 Markets & Money — Daily Brief</h2>
     <p>Pre-market briefing: what moved, what matters, what to watch. Every morning, free.</p>
-    <form class="newsletter-form" onsubmit="return false;">
-      <input type="email" placeholder="your@email.com" />
+    <form class="newsletter-form" name="newsletter" method="POST" data-netlify="true" action="/subscribe-success.html">
+      <input type="hidden" name="form-name" value="newsletter" />
+      <input type="email" name="email" placeholder="your@email.com" required />
       <button type="submit">Subscribe Free</button>
     </form>
   </div>
