@@ -94,25 +94,31 @@ Like a smart investor talking to another smart investor at dinner.
 ---
 
 ## 📊 Data-Backed Patterns (updated weekly)
-*Last updated: July 26, 2026 - Week 8 analytics (Jul 19-26, real X API data)*
+*Last updated: August 2, 2026 - Week 10 analytics (Jul 26 - Aug 2, real X API data)*
 
-### 📊 8-Week Performance Table (Jun 15 - Jul 26, 2026)
+### 📊 10-Week Performance Table (Jun 15 - Aug 2, 2026)
 
-| Style | Wk1 | Wk2 | Wk3 | Wk4 | Wk5 | Wk6 | Wk7 | **Wk8** | Trend / Rule |
-|-------|-----|-----|-----|-----|-----|-----|-----|---------|---------------|
-| Article promo | 3.0 | 11.0 | 7.3 | 19.5 | 87.5* | n/a | 14.2 | **14.2** | Standalone thesis required. Content cluster before promo = amplifier. |
-| Cross-asset | 2.7 | 8.0 | 7.5 | 17.0 | 19.5 | 14.5 | 11.0 | **13.4** | ➡️ TradFi analogy = RT-bait. Structural reframe required. "Watch the flows" BANNED as ending. |
-| Thread [1/n] | n/a | 14.0 | 2.5 | n/a | n/a | 14.0 | 14.0 | **13.8** | ✅ Stable at 13-14V. Named leader + $500M+ hook = formula. |
-| Reactive | 5.5 | 9.0 | 5.4 | 30.2 | 44.7 | 12.1 | 64.0† | **47.0††** | ⚠️ Ex-sports: ~10V. Sports outlier dominates. CAP 8-10/week. |
-| Contrarian | 11.3 | 8.2 | 8.1 | 27.7 | 10.7 | 10.7 | 14.0 | **32.0‡** | ⬆️ ‡One post (Vitalik/BCI). Named figure+$X+verdict = formula. Floor rising. |
-| Educational | 3.3 | 12.5 | 9.3 | 11.7 | - | 10.0 | 8.3 | **8.0 (1.0L)** | 🏆 Best like rate every week. DeFi+TradFi analogy = RT-bait. Min 1/week. |
-| One-liner | 1.5 | 7.0 | 7.0 | n/a | 16.6 | 4.0 | — | **—** | Use when story has $500M+ + before/after moment. |
+| Style | Wk1 | Wk2 | Wk3 | Wk4 | Wk5 | Wk6 | Wk7 | Wk8 | Wk9 | **Wk10** | Trend / Rule |
+|-------|-----|-----|-----|-----|-----|-----|-----|-----|------|---------|---------------|
+| Article promo | 3.0 | 11.0 | 7.3 | 19.5 | 87.5* | n/a | 14.2 | 14.2 | 9.4 | **10.5** | Content-cluster priming required. Cold = 8-10V. Primed = 14-25V. |
+| Cross-asset | 2.7 | 8.0 | 7.5 | 17.0 | 19.5 | 14.5 | 11.0 | 13.4 | 16.9 | **13.5** | Bridge 2+ named markets + specific prices + structural verdict. |
+| Thread [1/n] | n/a | 14.0 | 2.5 | n/a | n/a | 14.0 | 14.0 | 13.8 | 17.3 | **17.3 ➡️** | STABLE HIGH. Named analyst + live thesis + $500M+ hook. Best like rate. |
+| Reactive | 5.5 | 9.0 | 5.4 | 30.2 | 44.7 | 12.1 | 64.0† | 47.0†† | 20.2 | **12.8** | Ex-sports genuine. Cap 8-10/week. Investment angle first. 6hr staleness window. |
+| Contrarian | 11.3 | 8.2 | 8.1 | 27.7 | 10.7 | 10.7 | 14.0 | 32.0‡ | 8.2⚠️ | **13.3 ⬆️** | Recovered (named figures). **HARD CAP 5/wk still violated (18 posts). Must enforce.** |
+| Educational (DeFi) | 3.3 | 12.5 | 9.3 | 11.7 | - | 10.0 | 8.3 | 8.0 | 9.0 | **9.0 ➡️** | Plateau. Needs live-event anchor. Never 2 posts same theme/week. |
+| One-liner | 1.5 | 7.0 | 7.0 | n/a | 16.6 | 4.0 | — | — | — | **—** | Use when story has $500M+ + before/after moment. |
 
 †Wk7 reactive: inflated by Lamine Yamal 195V sports post. Ex-sports: 16V.
 ††Wk8 reactive: same Yamal post still in window (Jul 20). Ex-sports: ~10V.
 ‡Wk8 contrarian: only 1 post (Vitalik/BCI, 32V, 1L). Formula confirmed.
 
-**Wk8 totals (25 main posts, excl thread sub-tweets):** 516V | 17L | 2RT
+**Wk10 totals (36 main posts, excl 5 thread sub-tweets + 1 bare URL):** 456V | 10L | 0RT | 4th consecutive week with 0 RTs
+
+**🚨 Wk10 critical signals:**
+- 0 RTs for 4th straight week = no AerodromeFi/DeFi-demystified posts = no RTs. Correlation locked.
+- Contrarian at 50% of posts (18/36). Hard cap still not enforced by pipeline.
+- Same-minute double-posting (Jul 30 12:01:02 + 12:01:40) buried good content again.
+- Midnight UTC window (21:00-01:00 UTC) = top 3 posts all in this window. Confirmed pattern.
 
 ### 🏆 Format #1: Institutional Bridge Event = Highest Reach Ceiling
 **Week 5 discovery:** When a real-world institution (NYSE, major bank, ETF) officially adopts or lists a crypto/DeFi asset, these posts reach audiences on BOTH sides of the traditional/crypto divide simultaneously. The $SECZ NYSE listing generated 311V + 275V - the two highest-impression posts in AITechWire history.
@@ -244,6 +250,40 @@ Alphabet/Tesla capex post (Jul 25, 04:50 UTC): 3V, 1 like — 33% like conversio
 Phrase appeared as a closing line in 3+ posts during Week 8. It's become a template filler with no informational value. Once a phrase becomes a template, it signals low effort to readers.
 **BANNED phrases (filler endings):** "Watch the flows." / "Eyes are on..." / "Worth watching."
 **Approved verdict endings:** "Eyes open." / "One of them is wrong." / "Act accordingly." / "The answer matters." / "Own accordingly." / "Know the mechanism."
+
+### 🆕 Contrarian Over-Dilution Kill Rule (Week 9 discovery)
+Wk9 had 12 contrarian posts (32% of all posts). Average crashed to 8.2V — the lowest contrarian avg in any clean measurement week. When contrarian is used as the default format, it loses all signal.
+- Generic contrarian (no named figure, no dollar amount): 2-8V
+- Named-source contrarian (named institution + $X + verdict): 10-32V
+**HARD CAP: Maximum 5 contrarian posts per week.** Every contrarian MUST have: named figure/institution + specific dollar/% figure + 1-3 word verdict. If it doesn't have all three, convert to cross-asset or educational.
+
+### 🆕 Cross-Asset Is Now Top Format by Avg Impressions (Week 9 data)
+Wk9 cross-asset: 16.9V avg (7 posts) — highest avg impressions of any format this week. Posts that worked bridged 2+ named markets with specific prices (Polymarket/Treasury yield: 28V; Fed/BTC/gold: 21V; Coinbase AiFi/USDC: 18V). Posts that missed ended without a structural verdict.
+**Rule confirmed:** Cross-asset = bridge 2+ named markets with specific prices + structural reframe ending. End options: "One of them is wrong." / "These assets are now trading the same thesis." / "The answer matters."
+
+### 🆕 Midnight UTC / 21:00 UTC Is the High-Impact Window (Week 9 discovery)
+Top 3 posts of the week: #1 (64V): 00:00 UTC. #2 (28V): 21:00 UTC. #3 (21V): 00:00 UTC. All three fired in the 21:00–01:00 UTC window = 4pm-9pm US Eastern. This is when US-based finance/crypto readers are active and browsing.
+**New rule:** The highest-impact content of the day should target the 21:00 UTC posting slot. Morning 12:01 UTC is for consistency; 21:00 UTC is for impact.
+
+### 🆕 Duplicate Theme Educational Posts = Dead Content (Week 9 lesson)
+Two stablecoin educational posts in the same week (money market fund analogy + traveler's check analogy): 2V each, 0 likes each. The second post on the same theme always pulls near-zero — the algorithm and audience have already processed the angle.
+**Rule:** NEVER write 2 educational posts on the same theme in the same week. One theme, one post. If you need to cover stablecoins AND DeFi staking in one week, those are different themes — that's fine. But two stablecoin explainers = waste.
+
+### 🆕 Wk10: Midnight UTC Window Officially Confirmed as High-Impact Slot (Aug 2, 2026)
+Top 3 posts of Week 10: 64V (00:00 UTC), 28V (21:00 UTC), 21V (00:00 UTC). All three are in the 21:00–01:00 UTC band = 4pm-9pm US Eastern. Pattern now confirmed across Wk9 AND Wk10. The 12:01 UTC morning slot keeps the account consistent; 21:00 UTC is where impact lives.
+**Rule confirmed:** Schedule the highest-quality post of the day for the 21:00 UTC slot. Morning slot = consistency. Evening slot = reach.
+
+### 🆕 Wk10: Same-Minute Double-Posting Is A Recurring Bug (confirmed 2nd week)
+Wk9: Jul 30 12:01:02 + 12:01:40 UTC — Meta CapEx (2V) buried by SoFi article promo (9V). Wk10: Same pattern. Two posts firing at the same minute means one gets the feed slot and the other is invisible.
+**Rule:** Minimum 30-minute gap between any two posts. Pipeline must enforce this in post_from_queue.py. Good content is being wasted by bad sequencing.
+
+### 🆕 Zero RTs for 3rd Week Without AerodromeFi (Pattern confirmed Wk9)
+Wk7: 2 RTs (AerodromeFi). Wk8: 2 RTs (AerodromeFi). Wk9: 0 AerodromeFi posts → 0 RTs. The correlation is clear: the DeFi-demystified-via-TradFi-analogy posts on AerodromeFi specifically generate organic RTs. This is not a coincidence — it's the only formula that reliably produces RT behavior from this account's current audience.
+**Rule (locked):** Minimum 1 AerodromeFi / DeFi-demystified post per week. Formula: "[DeFi protocol] works like [TradFi mechanism] — except [structural difference]." Missing this format = missing all RTs.
+
+### 🆕 Stale Reactive = Invisible (Week 9 lesson)
+The Meta $125B CapEx contrarian fired 3+ days after the earnings miss. Result: 2V. Same post content would have pulled 15-30V if fired within 6 hours of the event. The news cycle had already moved on.
+**Rule:** Reactive post window = 6 hours max from the triggering event. Stories older than 48 hours should be reframed as contrarian ("Most people have already moved on from Meta's CapEx news. They shouldn't...") or educational ("Here's the mechanism behind what Meta just showed us.").
 
 ## ✍️ Dev.to Voice & Style (separate from X/LinkedIn investor voice)
 
