@@ -1,6 +1,6 @@
 # AITechWire Style Guide
 *Living document - updated from real feedback and performance data*
-*Last updated: July 26, 2026*
+*Last updated: August 9, 2026*
 
 ---
 
@@ -94,25 +94,26 @@ Like a smart investor talking to another smart investor at dinner.
 ---
 
 ## 📊 Data-Backed Patterns (updated weekly)
-*Last updated: August 2, 2026 - Week 10 analytics (Jul 26 - Aug 2, real X API data)*
+*Last updated: August 9, 2026 - Week 11 analytics (Aug 2 - Aug 9, real X API data)*
 
-### 📊 10-Week Performance Table (Jun 15 - Aug 2, 2026)
+### 📊 11-Week Performance Table (Jun 15 - Aug 9, 2026)
 
-| Style | Wk1 | Wk2 | Wk3 | Wk4 | Wk5 | Wk6 | Wk7 | Wk8 | Wk9 | **Wk10** | Trend / Rule |
-|-------|-----|-----|-----|-----|-----|-----|-----|-----|------|---------|---------------|
-| Article promo | 3.0 | 11.0 | 7.3 | 19.5 | 87.5* | n/a | 14.2 | 14.2 | 9.4 | **10.5** | Content-cluster priming required. Cold = 8-10V. Primed = 14-25V. |
-| Cross-asset | 2.7 | 8.0 | 7.5 | 17.0 | 19.5 | 14.5 | 11.0 | 13.4 | 16.9 | **13.5** | Bridge 2+ named markets + specific prices + structural verdict. |
-| Thread [1/n] | n/a | 14.0 | 2.5 | n/a | n/a | 14.0 | 14.0 | 13.8 | 17.3 | **17.3 ➡️** | STABLE HIGH. Named analyst + live thesis + $500M+ hook. Best like rate. |
-| Reactive | 5.5 | 9.0 | 5.4 | 30.2 | 44.7 | 12.1 | 64.0† | 47.0†† | 20.2 | **12.8** | Ex-sports genuine. Cap 8-10/week. Investment angle first. 6hr staleness window. |
-| Contrarian | 11.3 | 8.2 | 8.1 | 27.7 | 10.7 | 10.7 | 14.0 | 32.0‡ | 8.2⚠️ | **13.3 ⬆️** | Recovered (named figures). **HARD CAP 5/wk still violated (18 posts). Must enforce.** |
-| Educational (DeFi) | 3.3 | 12.5 | 9.3 | 11.7 | - | 10.0 | 8.3 | 8.0 | 9.0 | **9.0 ➡️** | Plateau. Needs live-event anchor. Never 2 posts same theme/week. |
-| One-liner | 1.5 | 7.0 | 7.0 | n/a | 16.6 | 4.0 | — | — | — | **—** | Use when story has $500M+ + before/after moment. |
+| Style | Wk1 | Wk2 | Wk3 | Wk4 | Wk5 | Wk6 | Wk7 | Wk8 | Wk9 | Wk10 | **Wk11** | Trend / Rule |
+|-------|-----|-----|-----|-----|-----|-----|-----|-----|------|------|----------|---------------|
+| Article promo | 3.0 | 11.0 | 7.3 | 19.5 | 87.5* | n/a | 14.2 | 14.2 | 9.4 | 10.5 | **5.0⬇️** | Content-cluster priming MANDATORY. Cold = 5V⚠️. Primed = 14-25V. URL in body = 0V penalty. |
+| Cross-asset | 2.7 | 8.0 | 7.5 | 17.0 | 19.5 | 14.5 | 11.0 | 13.4 | 16.9 | 13.5 | **10.0** | Bridge 2+ named markets + specific prices + structural verdict. |
+| Thread [1/n] | n/a | 14.0 | 2.5 | n/a | n/a | 14.0 | 14.0 | 13.8 | 17.3 | 17.3 | **4.0⬇️** | ONLY with weekly/same-day hook. Monthly aggregate = 4V. Weekly = 17V. |
+| Reactive | 5.5 | 9.0 | 5.4 | 30.2 | 44.7 | 12.1 | 64.0† | 47.0†† | 20.2 | 12.8 | **20.0⬆️** | TOP FORMAT with breaking news. MUST name winner/loser/beneficiary in sentence 1. Cap 8-10/week. 6hr staleness window. |
+| Contrarian | 11.3 | 8.2 | 8.1 | 27.7 | 10.7 | 10.7 | 14.0 | 32.0‡ | 8.2 | 13.3 | **7.8⬇️** | Quality dropped (no named figures this week). Named = 10-14V. Generic = 6-8V. HARD CAP 5/wk. |
+| Educational (DeFi) | 3.3 | 12.5 | 9.3 | 11.7 | - | 10.0 | 8.3 | 8.0 | 9.0 | 9.0 | **5.4⬇️** | Plateau. ONLY write with live event anchor. No anchor = 3V. AerodromeFi DeFi-demystified MANDATORY 1/week. |
+| One-liner | 1.5 | 7.0 | 7.0 | n/a | 16.6 | 4.0 | — | — | — | — | **—** | Use when story has $500M+ + before/after moment. |
 
 †Wk7 reactive: inflated by Lamine Yamal 195V sports post. Ex-sports: 16V.
 ††Wk8 reactive: same Yamal post still in window (Jul 20). Ex-sports: ~10V.
 ‡Wk8 contrarian: only 1 post (Vitalik/BCI, 32V, 1L). Formula confirmed.
 
-**Wk10 totals (36 main posts, excl 5 thread sub-tweets + 1 bare URL):** 456V | 10L | 0RT | 4th consecutive week with 0 RTs
+**Wk11 totals (19 main posts):** 138V | 6L | 0RT | 5th consecutive week with 0 RTs
+**Wk10 totals (36 main posts):** 456V | 10L | 0RT | 4th consecutive week with 0 RTs
 
 **🚨 Wk10 critical signals:**
 - 0 RTs for 4th straight week = no AerodromeFi/DeFi-demystified posts = no RTs. Correlation locked.
@@ -284,6 +285,24 @@ Wk7: 2 RTs (AerodromeFi). Wk8: 2 RTs (AerodromeFi). Wk9: 0 AerodromeFi posts →
 ### 🆕 Stale Reactive = Invisible (Week 9 lesson)
 The Meta $125B CapEx contrarian fired 3+ days after the earnings miss. Result: 2V. Same post content would have pulled 15-30V if fired within 6 hours of the event. The news cycle had already moved on.
 **Rule:** Reactive post window = 6 hours max from the triggering event. Stories older than 48 hours should be reframed as contrarian ("Most people have already moved on from Meta's CapEx news. They shouldn't...") or educational ("Here's the mechanism behind what Meta just showed us.").
+
+### 🆕 Wk11: Reactive is #1 Format When Breaking News Names a Winner (Aug 9, 2026)
+GPT-5.6 Sol post (20V): "GPT-5.6 Sol is now free to everyone. OpenAI just torched its own margin floor... The winner here isn't any frontier lab — it's NVIDIA." The reactive format peaked because the post didn't just describe the event — it named NVIDIA as the structural beneficiary in the same sentence.
+**New rule:** Every reactive post MUST name a winner, loser, or structural beneficiary in sentence 1. "X happened" = reportage. "X happened, and Y is the beneficiary" = investment intelligence. Without this, reactive posts are invisible.
+
+### 🆕 Wk11: $X Placeholder = Broken Post — Zero Tolerance (Aug 9, 2026)
+At least 2 posts this week contained unfilled `$X` placeholders in the published body. The Galaxy Digital post still worked at 12V/1L but would have been stronger. The issue signals a research pipeline failure where figure sourcing wasn't completed.
+**Rule:** NEVER publish a post with `$X`, `[X]`, `[amount]`, or `[figure]` in the body. These are pipeline errors. Add validation to post_from_queue.py to reject posts containing unfilled placeholders. Reject and alert.
+
+### 🆕 Wk11: Thread Opener Hook Recency Matters — Weekly vs Monthly (Aug 9, 2026)
+Wk11 thread opener: "US spot ETH ETFs pulled $365M in July" = 4V.
+Compare Wk2: "$1.34B out of Bitcoin ETFs in a single week" = 26V.
+Same topic (ETF outflows), same format (thread opener), same approximate dollar scale — but monthly aggregate vs weekly figure. The weekly frame signals urgency; the monthly frame feels like a historical data point.
+**Rule:** Thread opener hook figures MUST be scoped to the current week or same-day, not monthly aggregates. If you only have a monthly figure, reframe it: "$365M in July = ~$90M/week pace" — or use it as body content, not the hook.
+
+### 🆕 Wk11: Zero RTs for 5th Consecutive Week Without AerodromeFi (Pattern locked)
+Wk7: 2 RTs. Wk8: 2 RTs. Wk9: 0. Wk10: 0. Wk11: 0. This is no longer a coincidence — it's a confirmed causal relationship. When AerodromeFi/DeFi-demystified posts are absent, RTs are absent. The account has no other confirmed RT-generation mechanism at its current follower count.
+**Rule (mandatory):** AerodromeFi/DeFi-demystified post is REQUIRED weekly. It is not optional content — it is the RT engine. Formula: "[DeFi protocol] works like [TradFi mechanism you already understand] — except [structural difference that benefits holders]." Miss this = miss all RTs.
 
 ## ✍️ Dev.to Voice & Style (separate from X/LinkedIn investor voice)
 
