@@ -1,5 +1,18 @@
 [
   {
+    "title": "Vitalik highlights single-digit overhead LLM proving",
+    "url": "/ai-tech/2026-08-12-vitalik-highlights-single-digit-overhead-llm-proving.html",
+    "section": "AI & Tech",
+    "date": "2026-08-12",
+    "excerpt": "VitalikButerin praised recent work achieving <10x overhead for LLM inference proving via STARKs. It matters as it accelerates practical ZK for AI agents and verifiable computation.",
+    "tags": [
+      "AI"
+    ],
+    "key_voices": [
+      "@vitalikbuterin"
+    ]
+  },
+  {
     "title": "AI supercycle drives resilient 2026 market outlook",
     "url": "/ai-tech/2026-08-11-ai-supercycle-drives-resilient-2026-market-outlook.html",
     "section": "AI & Tech",
