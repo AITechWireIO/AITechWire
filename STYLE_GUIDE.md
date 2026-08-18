@@ -94,32 +94,36 @@ Like a smart investor talking to another smart investor at dinner.
 ---
 
 ## 📊 Data-Backed Patterns (updated weekly)
-*Last updated: August 9, 2026 - Week 11 analytics (Aug 2 - Aug 9, real X API data)*
+*Last updated: August 16, 2026 - Week 12 analytics (Aug 9 - Aug 16, real X API data)*
 
-### 📊 11-Week Performance Table (Jun 15 - Aug 9, 2026)
+### 📊 12-Week Performance Table (Jun 15 - Aug 16, 2026)
 
-| Style | Wk1 | Wk2 | Wk3 | Wk4 | Wk5 | Wk6 | Wk7 | Wk8 | Wk9 | Wk10 | **Wk11** | Trend / Rule |
-|-------|-----|-----|-----|-----|-----|-----|-----|-----|------|------|----------|---------------|
-| Article promo | 3.0 | 11.0 | 7.3 | 19.5 | 87.5* | n/a | 14.2 | 14.2 | 9.4 | 10.5 | **5.0⬇️** | Content-cluster priming MANDATORY. Cold = 5V⚠️. Primed = 14-25V. URL in body = 0V penalty. |
-| Cross-asset | 2.7 | 8.0 | 7.5 | 17.0 | 19.5 | 14.5 | 11.0 | 13.4 | 16.9 | 13.5 | **10.0** | Bridge 2+ named markets + specific prices + structural verdict. |
-| Thread [1/n] | n/a | 14.0 | 2.5 | n/a | n/a | 14.0 | 14.0 | 13.8 | 17.3 | 17.3 | **4.0⬇️** | ONLY with weekly/same-day hook. Monthly aggregate = 4V. Weekly = 17V. |
-| Reactive | 5.5 | 9.0 | 5.4 | 30.2 | 44.7 | 12.1 | 64.0† | 47.0†† | 20.2 | 12.8 | **20.0⬆️** | TOP FORMAT with breaking news. MUST name winner/loser/beneficiary in sentence 1. Cap 8-10/week. 6hr staleness window. |
-| Contrarian | 11.3 | 8.2 | 8.1 | 27.7 | 10.7 | 10.7 | 14.0 | 32.0‡ | 8.2 | 13.3 | **7.8⬇️** | Quality dropped (no named figures this week). Named = 10-14V. Generic = 6-8V. HARD CAP 5/wk. |
-| Educational (DeFi) | 3.3 | 12.5 | 9.3 | 11.7 | - | 10.0 | 8.3 | 8.0 | 9.0 | 9.0 | **5.4⬇️** | Plateau. ONLY write with live event anchor. No anchor = 3V. AerodromeFi DeFi-demystified MANDATORY 1/week. |
-| One-liner | 1.5 | 7.0 | 7.0 | n/a | 16.6 | 4.0 | — | — | — | — | **—** | Use when story has $500M+ + before/after moment. |
+| Style | Wk1 | Wk2 | Wk3 | Wk4 | Wk5 | Wk6 | Wk7 | Wk8 | Wk9 | Wk10 | Wk11 | **Wk12** | Trend / Rule |
+|-------|-----|-----|-----|-----|-----|-----|-----|-----|------|------|----------|----------|---------------|
+| Article promo (thesis-led) | — | — | — | — | — | — | — | — | — | — | — | **340V** | Lead with investment verdict, NOT headline. 340V vs 5-10V for headline-only. |
+| Article promo (headline-only) | 3.0 | 11.0 | 7.3 | 19.5 | 87.5* | n/a | 14.2 | 14.2 | 9.4 | 10.5 | 5.0 | **18.8** | Content-cluster priming required. Cold = 5V⚠️. Primed = 14-25V. URL in body = 0V. |
+| Educational (DeFi demystified) | 3.3 | 12.5 | 9.3 | 11.7 | - | 10.0 | 8.3 | 8.0 | 9.0 | 9.0 | 5.4 | **24.8🚀** | RT ENGINE. Wk12: 4 RTs. MANDATORY 1/week. Formula: "[Protocol] works like [TradFi] — except [difference]." |
+| Cross-asset | 2.7 | 8.0 | 7.5 | 17.0 | 19.5 | 14.5 | 11.0 | 13.4 | 16.9 | 13.5 | 10.0 | **7.3** | Bridge 2+ named markets + specific prices + structural verdict. |
+| Thread [1/n] | n/a | 14.0 | 2.5 | n/a | n/a | 14.0 | 14.0 | 13.8 | 17.3 | 17.3 | 4.0 | **—** | ONLY with weekly/same-day hook. Monthly aggregate = 4V. Weekly = 17V. |
+| Reactive | 5.5 | 9.0 | 5.4 | 30.2 | 44.7 | 12.1 | 64.0† | 47.0†† | 20.2 | 12.8 | 20.0 | **6.3⬇️** | TOP FORMAT only with breaking news + winner named in sentence 1. No breaking story = 6V. 6hr staleness window. |
+| Contrarian | 11.3 | 8.2 | 8.1 | 27.7 | 10.7 | 10.7 | 14.0 | 32.0‡ | 8.2 | 13.3 | 7.8 | **8.1** | Named = 10-14V. Generic = 6-8V. HARD CAP 5/wk. Floor holds at ~8V when named source present. |
+| Educational (non-DeFi) | — | — | — | — | — | — | — | — | — | — | — | **5.7** | Needs live event anchor. No anchor = 3-6V regardless of quality. |
+| One-liner | 1.5 | 7.0 | 7.0 | n/a | 16.6 | 4.0 | — | — | — | — | — | **—** | Use when story has $500M+ + before/after moment. |
 
 †Wk7 reactive: inflated by Lamine Yamal 195V sports post. Ex-sports: 16V.
 ††Wk8 reactive: same Yamal post still in window (Jul 20). Ex-sports: ~10V.
 ‡Wk8 contrarian: only 1 post (Vitalik/BCI, 32V, 1L). Formula confirmed.
 
-**Wk11 totals (19 main posts):** 138V | 6L | 0RT | 5th consecutive week with 0 RTs
+**Wk12 totals (29 main posts):** 685V | 7L | 4RT | RT count from DeFi-demystified AERO posts only
+**Wk11 totals (19 main posts):** 138V | 6L | 0RT | 5th consecutive week with 0 RTs (no DeFi demystified)
 **Wk10 totals (36 main posts):** 456V | 10L | 0RT | 4th consecutive week with 0 RTs
 
-**🚨 Wk10 critical signals:**
-- 0 RTs for 4th straight week = no AerodromeFi/DeFi-demystified posts = no RTs. Correlation locked.
-- Contrarian at 50% of posts (18/36). Hard cap still not enforced by pipeline.
-- Same-minute double-posting (Jul 30 12:01:02 + 12:01:40) buried good content again.
-- Midnight UTC window (21:00-01:00 UTC) = top 3 posts all in this window. Confirmed pattern.
+**🚨 Wk12 critical signals:**
+- 4 RTs = all from AerodromeFi DeFi-demystified posts. Causal pattern now locked over 9 weeks.
+- AERO thesis promo (340V, 2RT) = new format template: investment verdict first, never headline first.
+- Contrarian STILL at 10 posts/week vs 5/week hard cap — pipeline not enforcing the cap.
+- Broken article promo published (body = "J") — post_from_queue.py needs content validation gate.
+- Reactive collapsed to 6.3V: no breaking stories with named winners. Format is event-dependent.
 
 ### 🏆 Format #1: Institutional Bridge Event = Highest Reach Ceiling
 **Week 5 discovery:** When a real-world institution (NYSE, major bank, ETF) officially adopts or lists a crypto/DeFi asset, these posts reach audiences on BOTH sides of the traditional/crypto divide simultaneously. The $SECZ NYSE listing generated 311V + 275V - the two highest-impression posts in AITechWire history.
@@ -303,6 +307,22 @@ Same topic (ETF outflows), same format (thread opener), same approximate dollar 
 ### 🆕 Wk11: Zero RTs for 5th Consecutive Week Without AerodromeFi (Pattern locked)
 Wk7: 2 RTs. Wk8: 2 RTs. Wk9: 0. Wk10: 0. Wk11: 0. This is no longer a coincidence — it's a confirmed causal relationship. When AerodromeFi/DeFi-demystified posts are absent, RTs are absent. The account has no other confirmed RT-generation mechanism at its current follower count.
 **Rule (mandatory):** AerodromeFi/DeFi-demystified post is REQUIRED weekly. It is not optional content — it is the RT engine. Formula: "[DeFi protocol] works like [TradFi mechanism you already understand] — except [structural difference that benefits holders]." Miss this = miss all RTs.
+
+### 🆕 Wk12: Article Promo Must Open With Investment Thesis — Not Headline (Aug 16, 2026)
+AERO thesis promo (340V, 2L, 2RT): "AERO is down 70% into a redesign — not an exploit, not a team collapse... The market is pricing this like a rug." Headline-only promos averaged 5-10V the same week. The 30-70x gap is entirely due to the opening line.
+**New rule:** Article promo formula = [investment verdict or market mispricing signal in sentence 1] + [1 specific data point] + [structural implication] → link in footer or reply. NEVER open with story headline or "[Topic] does X" as sentence 1. The post must justify itself without the link.
+
+### 🆕 Wk12: DeFi Demystified Pattern Triple-Locked — 4 RTs Confirm Causality (Aug 16, 2026)
+Wk7: 2RT (AerodromeFi). Wk8: 2RT (AerodromeFi). Wk9: 0RT (no AerodromeFi). Wk10: 0RT. Wk11: 0RT. Wk12: 4RT (2× AerodromeFi standalone + 2× AERO thesis promo). 12-week pattern, 100% correlation. The DeFi-demystified formula is the ONLY confirmed RT mechanism for this account.
+**Rule (non-negotiable):** 1 DeFi-demystified post per week is required. Not optional. Not suggested. Required.
+
+### 🆕 Wk12: Reactive Is Event-Dependent — No Breaking Story = 6V (Aug 16, 2026)
+Wk11 reactive (GPT-5.6 Sol breaking news, NVIDIA named as winner): 20V. Wk12 reactive (stale Fed jobs story, Polymarket odds update, Goldman shift): 6.3V avg. Same format, same rule compliance, different reach — because the triggering events were weak or stale.
+**Rule confirmed:** Reactive is the top format ONLY when: (1) event occurred within 6 hours, AND (2) winner/loser/structural beneficiary named in sentence 1. If either condition fails, do not write reactive. Convert to contrarian or cross-asset instead.
+
+### 🆕 Wk12: Reply Quality Target = 0.5L/Reply With Specific Data (Aug 16, 2026)
+6 replies to @jvisserlabs + @LynAldenContact this week: 3L (0.5L/reply). Best reply: @jvisserlabs thread opener (7V, 1L) named the macro shift specifically. Generic reply runs from prior weeks: 0.05-0.1L/reply. Quality gate is working.
+**Rule confirmed:** Data-first replies to @saylor/@LynAldenContact/@VitalikButerin/@jvisserlabs. Each must add 1 specific data point the original thread missed. No openers. No filler. 0.5L/reply is the quality target. Volume target: 20-30/week.
 
 ## ✍️ Dev.to Voice & Style (separate from X/LinkedIn investor voice)
 
