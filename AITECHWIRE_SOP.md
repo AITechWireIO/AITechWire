@@ -218,6 +218,37 @@ At least **1 of 5 daily posts** MUST compare asset classes:
 
 ---
 
+### Article Promo Tweet — CAPS SUBJECT RULE (added 2026-08-23, Oleg-approved)
+
+**When posting a link to an AITechWire article on X, the main subject must appear in ALL CAPS at the start of the tweet.**
+
+**Goal:** Scroll-stop visibility. A person skimming X should immediately see what the article is about.
+
+**Format:**
+```
+SUBJECT — [hook sentence or investment thesis]
+
+Full breakdown 👇 | @AITechWireIO
+
+https://aitechwire.io/...
+```
+
+**Examples:**
+- ✅ `AERODROME — New DeFi primitive enables real-time reward optimization on Base`
+- ✅ `BITCOIN — BlackRock ETF inflows hit record $1.2B in a single week`
+- ✅ `LYN ALDEN — Why she says the dollar debasement cycle is accelerating`
+- ❌ `New DeFi primitive enables real-time reward optimization on Base` ← generic, no subject
+
+**Subject selection priority:**
+1. Protocol name (AERODROME, BITCOIN, ETHEREUM, SOLANA, etc.)
+2. Institution (BLACKROCK, MICROSTRATEGY, CIRCLE, etc.)
+3. Opinion leader surname (LYN ALDEN, RAOUL PAL, SAYLOR, VITALIK, etc.)
+4. First significant proper noun from the headline (4+ chars, all caps)
+
+**Implementation:** `aitechwire_daily.py` — Step 9 (article promo post), `_cap_subject` logic.
+
+---
+
 ### Article Promotion Rule — NON-NEGOTIABLE STANDARD
 
 > **Every article published MUST have an OG image. No exceptions. A post without an image card is substandard and will not be published.**

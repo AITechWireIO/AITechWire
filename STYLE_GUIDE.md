@@ -94,36 +94,38 @@ Like a smart investor talking to another smart investor at dinner.
 ---
 
 ## 📊 Data-Backed Patterns (updated weekly)
-*Last updated: August 16, 2026 - Week 12 analytics (Aug 9 - Aug 16, real X API data)*
+*Last updated: August 23, 2026 - Week 13 analytics (Aug 16 - Aug 23, real X API data)*
 
-### 📊 12-Week Performance Table (Jun 15 - Aug 16, 2026)
+### 📊 13-Week Performance Table (Jun 15 - Aug 23, 2026)
 
-| Style | Wk1 | Wk2 | Wk3 | Wk4 | Wk5 | Wk6 | Wk7 | Wk8 | Wk9 | Wk10 | Wk11 | **Wk12** | Trend / Rule |
-|-------|-----|-----|-----|-----|-----|-----|-----|-----|------|------|----------|----------|---------------|
-| Article promo (thesis-led) | — | — | — | — | — | — | — | — | — | — | — | **340V** | Lead with investment verdict, NOT headline. 340V vs 5-10V for headline-only. |
-| Article promo (headline-only) | 3.0 | 11.0 | 7.3 | 19.5 | 87.5* | n/a | 14.2 | 14.2 | 9.4 | 10.5 | 5.0 | **18.8** | Content-cluster priming required. Cold = 5V⚠️. Primed = 14-25V. URL in body = 0V. |
-| Educational (DeFi demystified) | 3.3 | 12.5 | 9.3 | 11.7 | - | 10.0 | 8.3 | 8.0 | 9.0 | 9.0 | 5.4 | **24.8🚀** | RT ENGINE. Wk12: 4 RTs. MANDATORY 1/week. Formula: "[Protocol] works like [TradFi] — except [difference]." |
-| Cross-asset | 2.7 | 8.0 | 7.5 | 17.0 | 19.5 | 14.5 | 11.0 | 13.4 | 16.9 | 13.5 | 10.0 | **7.3** | Bridge 2+ named markets + specific prices + structural verdict. |
-| Thread [1/n] | n/a | 14.0 | 2.5 | n/a | n/a | 14.0 | 14.0 | 13.8 | 17.3 | 17.3 | 4.0 | **—** | ONLY with weekly/same-day hook. Monthly aggregate = 4V. Weekly = 17V. |
-| Reactive | 5.5 | 9.0 | 5.4 | 30.2 | 44.7 | 12.1 | 64.0† | 47.0†† | 20.2 | 12.8 | 20.0 | **6.3⬇️** | TOP FORMAT only with breaking news + winner named in sentence 1. No breaking story = 6V. 6hr staleness window. |
-| Contrarian | 11.3 | 8.2 | 8.1 | 27.7 | 10.7 | 10.7 | 14.0 | 32.0‡ | 8.2 | 13.3 | 7.8 | **8.1** | Named = 10-14V. Generic = 6-8V. HARD CAP 5/wk. Floor holds at ~8V when named source present. |
-| Educational (non-DeFi) | — | — | — | — | — | — | — | — | — | — | — | **5.7** | Needs live event anchor. No anchor = 3-6V regardless of quality. |
-| One-liner | 1.5 | 7.0 | 7.0 | n/a | 16.6 | 4.0 | — | — | — | — | — | **—** | Use when story has $500M+ + before/after moment. |
+| Style | Wk1 | Wk2 | Wk3 | Wk4 | Wk5 | Wk6 | Wk7 | Wk8 | Wk9 | Wk10 | Wk11 | Wk12 | **Wk13** | Trend / Rule |
+|-------|-----|-----|-----|-----|-----|-----|-----|-----|------|------|-------|------|----------|---------------|
+| DeFi demystified | 3.3 | 12.5 | 9.3 | 11.7 | - | 10.0 | 8.3 | 8.0 | 9.0 | 9.0 | 5.4 | 24.8 | **19.0🚀** | #1 FORMAT. RT ENGINE. MANDATORY 1/week. Max 1 AERO/wk — Wk13: 3 AERO posts, 3rd underperformed. "No middleman. No extraction." short verdict required before "Know the mechanism." |
+| Article promo (thesis-led) | — | — | — | — | — | — | — | — | — | — | — | 340V | **13.8** | Lead with investment verdict, NOT headline. 340V (thesis) vs 5-10V (headline). Cluster-prime first. |
+| Article promo (headline-only) | 3.0 | 11.0 | 7.3 | 19.5 | 87.5* | n/a | 14.2 | 14.2 | 9.4 | 10.5 | 5.0 | 18.8 | **~5-10V** | Content-cluster priming required. Cold = 5V⚠️. URL in body = 0V. |
+| Cross-asset | 2.7 | 8.0 | 7.5 | 17.0 | 19.5 | 14.5 | 11.0 | 13.4 | 16.9 | 13.5 | 10.0 | 7.3 | **13.2⬆️** | Bridge 2+ named instruments + specific prices + structural verdict. "Steady hands beat loud money" = 35V. |
+| Reactive | 5.5 | 9.0 | 5.4 | 30.2 | 44.7 | 12.1 | 64.0† | 47.0†† | 20.2 | 12.8 | 20.0 | 6.3 | **10.5** | TOP FORMAT only with breaking news + winner named in sentence 1. ZEC 48% jump = 19V (Grayscale named). 6hr staleness window. |
+| Contrarian | 11.3 | 8.2 | 8.1 | 27.7 | 10.7 | 10.7 | 14.0 | 32.0‡ | 8.2 | 13.3 | 7.8 | 8.1 | **9.2** | Named = 10-14V. Generic = 6-8V. HARD CAP 5/wk (still at 9/wk cap violation). Evergreen named-analyst without live anchor = 3V. |
+| Thread [1/n] | n/a | 14.0 | 2.5 | n/a | n/a | 14.0 | 14.0 | 13.8 | 17.3 | 17.3 | 4.0 | — | **—** | ONLY with weekly/same-day hook. Monthly aggregate = 4V. |
+| Educational (non-DeFi) | — | — | — | — | — | — | — | — | — | — | — | 5.7 | **3.0** | Needs live event anchor. No anchor = 3V. 1 post/week max. |
+| One-liner | 1.5 | 7.0 | 7.0 | n/a | 16.6 | 4.0 | — | — | — | — | — | — | **—** | Use when story has $500M+ + before/after moment. |
 
 †Wk7 reactive: inflated by Lamine Yamal 195V sports post. Ex-sports: 16V.
 ††Wk8 reactive: same Yamal post still in window (Jul 20). Ex-sports: ~10V.
 ‡Wk8 contrarian: only 1 post (Vitalik/BCI, 32V, 1L). Formula confirmed.
 
+**Wk13 totals (30 main posts):** 360V | 12L | 3RT | All RTs from DeFi-demystified posts
 **Wk12 totals (29 main posts):** 685V | 7L | 4RT | RT count from DeFi-demystified AERO posts only
 **Wk11 totals (19 main posts):** 138V | 6L | 0RT | 5th consecutive week with 0 RTs (no DeFi demystified)
 **Wk10 totals (36 main posts):** 456V | 10L | 0RT | 4th consecutive week with 0 RTs
 
-**🚨 Wk12 critical signals:**
-- 4 RTs = all from AerodromeFi DeFi-demystified posts. Causal pattern now locked over 9 weeks.
-- AERO thesis promo (340V, 2RT) = new format template: investment verdict first, never headline first.
-- Contrarian STILL at 10 posts/week vs 5/week hard cap — pipeline not enforcing the cap.
-- Broken article promo published (body = "J") — post_from_queue.py needs content validation gate.
-- Reactive collapsed to 6.3V: no breaking stories with named winners. Format is event-dependent.
+**🚨 Wk13 critical signals:**
+- 3 RTs = all from DeFi-demystified AERO posts. Causal pattern now locked across 13 weeks, 100% correlation.
+- Best post: ETH ETF cross-asset (35V) — named specific instrument (Fidelity FETH + $5M specific + "Steady hands beat loud money").
+- DeFi demystified formula variation confirmed: "No middleman. No extraction." before "Know the mechanism." = 34V 2L 1RT vs version without it = 26V 0L 0RT.
+- Contrarian cap STILL not enforced (9 posts vs 5/week). Pipeline rule not implemented.
+- Bessent story duplication: same story Aug 20 (26V) → Aug 22 (4V). Same-story 72h lock rule needed.
+- Reply game at zero again: 5 replies, 0 likes, 21V. Target: 20-30 replies at 0.5L/reply.
 
 ### 🏆 Format #1: Institutional Bridge Event = Highest Reach Ceiling
 **Week 5 discovery:** When a real-world institution (NYSE, major bank, ETF) officially adopts or lists a crypto/DeFi asset, these posts reach audiences on BOTH sides of the traditional/crypto divide simultaneously. The $SECZ NYSE listing generated 311V + 275V - the two highest-impression posts in AITechWire history.
@@ -323,6 +325,24 @@ Wk11 reactive (GPT-5.6 Sol breaking news, NVIDIA named as winner): 20V. Wk12 rea
 ### 🆕 Wk12: Reply Quality Target = 0.5L/Reply With Specific Data (Aug 16, 2026)
 6 replies to @jvisserlabs + @LynAldenContact this week: 3L (0.5L/reply). Best reply: @jvisserlabs thread opener (7V, 1L) named the macro shift specifically. Generic reply runs from prior weeks: 0.05-0.1L/reply. Quality gate is working.
 **Rule confirmed:** Data-first replies to @saylor/@LynAldenContact/@VitalikButerin/@jvisserlabs. Each must add 1 specific data point the original thread missed. No openers. No filler. 0.5L/reply is the quality target. Volume target: 20-30/week.
+
+### 🆕 Wk13: DeFi Demystified Short-Verdict Rule — "No Middleman. No Extraction." (Aug 23, 2026)
+Three Aerodrome posts this week using the same "stock exchange skims spread" metaphor. The Aug 19 version (34V, 2L, 1RT) added "No middleman. No extraction." before "Know the mechanism." The Aug 21 version (same content, minus those 5 words) got 26V, 0L, 0RT. Same formula, same audience, same time window. The 5-word punchy verdict was the difference.
+**New rule:** Every DeFi-demystified post MUST include a ≤7-word punchy verdict before "Know the mechanism." The reader needs to FEEL the structural difference, not just understand it. Options: "No middleman. No extraction." / "The protocol pays you, not itself." / "The spread belongs to the holders."
+
+### 🆕 Wk13: Same-Story Duplication Kill Rule — 72-Hour Lock (Aug 23, 2026)
+Bessent/Treasury bond buyback story: Aug 20 (26V, #3 top post) → Aug 22 (4V, bottom post). Same macro narrative, 44 hours apart. The second post is always invisible. Now 6+ consecutive weeks where same-story second posts pull near-zero impressions.
+**Rule (permanent):** One post per macro narrative per week. If the story deserves a follow-up, wait 72+ hours AND add genuinely new data. Research engine must lock any story angle for 72 hours after a post fires on it. Rephrase + repost = invisible.
+
+### 🆕 Wk13: Evergreen Named-Analyst Post Without Live Event = 3V (Aug 23, 2026)
+Raoul Pal energy/compute thesis (3V), Anthropic Reed's Law (3V) — both had named sources, both well-constructed, both without live event anchors. The named-analyst formula requires: Named analyst + live event validating the thesis TODAY. Without the live event: 3V regardless of quality.
+**Rule (confirmed 4th week):** If the thesis isn't being validated by something that happened within 24 hours, don't write it as a standalone post. Wait for the live anchor or reframe as educational with a different hook.
+
+### 🆕 Wk13: Cross-Asset Needs Named Instruments, Not Generic "Risk Assets" (Aug 23, 2026)
+Top cross-asset post: Ethereum ETFs drew $5M + Fidelity's FETH + "Steady hands beat loud money" = 35V. Bottom cross-asset posts: generic "risk assets vs BTC" framing = 4-8V. The difference is the level of specificity in naming instruments.
+**Rule (sharpened):** Every cross-asset post must name ≥2 specific instruments (ETF ticker, named institution, specific yield/rate) plus a structural verdict that's unique enough to be quotable. "Steady hands beat loud money" = RT-worthy. "One of them is wrong" = still works but becoming familiar. Vary the verdict phrasing.
+
+---
 
 ## ✍️ Dev.to Voice & Style (separate from X/LinkedIn investor voice)
 
