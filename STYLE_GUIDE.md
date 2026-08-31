@@ -1,6 +1,6 @@
 # AITechWire Style Guide
 *Living document - updated from real feedback and performance data*
-*Last updated: August 9, 2026*
+*Last updated: August 30, 2026 (Week 15 review — real X API data)*
 
 ---
 
@@ -94,38 +94,37 @@ Like a smart investor talking to another smart investor at dinner.
 ---
 
 ## 📊 Data-Backed Patterns (updated weekly)
-*Last updated: August 23, 2026 - Week 13 analytics (Aug 16 - Aug 23, real X API data)*
+*Last updated: August 30, 2026 - Week 15 analytics (Aug 23 - Aug 30, real X API data)*
 
-### 📊 13-Week Performance Table (Jun 15 - Aug 23, 2026)
+### 📊 15-Week Performance Table (Jun 15 - Aug 30, 2026)
 
-| Style | Wk1 | Wk2 | Wk3 | Wk4 | Wk5 | Wk6 | Wk7 | Wk8 | Wk9 | Wk10 | Wk11 | Wk12 | **Wk13** | Trend / Rule |
-|-------|-----|-----|-----|-----|-----|-----|-----|-----|------|------|-------|------|----------|---------------|
-| DeFi demystified | 3.3 | 12.5 | 9.3 | 11.7 | - | 10.0 | 8.3 | 8.0 | 9.0 | 9.0 | 5.4 | 24.8 | **19.0🚀** | #1 FORMAT. RT ENGINE. MANDATORY 1/week. Max 1 AERO/wk — Wk13: 3 AERO posts, 3rd underperformed. "No middleman. No extraction." short verdict required before "Know the mechanism." |
-| Article promo (thesis-led) | — | — | — | — | — | — | — | — | — | — | — | 340V | **13.8** | Lead with investment verdict, NOT headline. 340V (thesis) vs 5-10V (headline). Cluster-prime first. |
-| Article promo (headline-only) | 3.0 | 11.0 | 7.3 | 19.5 | 87.5* | n/a | 14.2 | 14.2 | 9.4 | 10.5 | 5.0 | 18.8 | **~5-10V** | Content-cluster priming required. Cold = 5V⚠️. URL in body = 0V. |
-| Cross-asset | 2.7 | 8.0 | 7.5 | 17.0 | 19.5 | 14.5 | 11.0 | 13.4 | 16.9 | 13.5 | 10.0 | 7.3 | **13.2⬆️** | Bridge 2+ named instruments + specific prices + structural verdict. "Steady hands beat loud money" = 35V. |
-| Reactive | 5.5 | 9.0 | 5.4 | 30.2 | 44.7 | 12.1 | 64.0† | 47.0†† | 20.2 | 12.8 | 20.0 | 6.3 | **10.5** | TOP FORMAT only with breaking news + winner named in sentence 1. ZEC 48% jump = 19V (Grayscale named). 6hr staleness window. |
-| Contrarian | 11.3 | 8.2 | 8.1 | 27.7 | 10.7 | 10.7 | 14.0 | 32.0‡ | 8.2 | 13.3 | 7.8 | 8.1 | **9.2** | Named = 10-14V. Generic = 6-8V. HARD CAP 5/wk (still at 9/wk cap violation). Evergreen named-analyst without live anchor = 3V. |
-| Thread [1/n] | n/a | 14.0 | 2.5 | n/a | n/a | 14.0 | 14.0 | 13.8 | 17.3 | 17.3 | 4.0 | — | **—** | ONLY with weekly/same-day hook. Monthly aggregate = 4V. |
-| Educational (non-DeFi) | — | — | — | — | — | — | — | — | — | — | — | 5.7 | **3.0** | Needs live event anchor. No anchor = 3V. 1 post/week max. |
-| One-liner | 1.5 | 7.0 | 7.0 | n/a | 16.6 | 4.0 | — | — | — | — | — | — | **—** | Use when story has $500M+ + before/after moment. |
+| Style | Wk1 | Wk2 | Wk3 | Wk4 | Wk5 | Wk6 | Wk7 | Wk8 | Wk9 | Wk10 | Wk11 | Wk12 | Wk13 | Wk14 | **Wk15** | Trend / Rule |
+|-------|-----|-----|-----|-----|-----|-----|-----|-----|------|------|-------|------|----------|------|----------|---------------|
+| DeFi demystified | 3.3 | 12.5 | 9.3 | 11.7 | - | 10.0 | 8.3 | 8.0 | 9.0 | 9.0 | 5.4 | 24.8 | 19.0 | 8.0 | **7.5⚠️** | RT ENGINE confirmed 15 weeks straight. But 6 posts/wk = impression collapse (25V Wk12 → 7.5V Wk15). MANDATORY 1/week. ANALOGY MUST ROTATE — "stock exchange" formula exhausted. New metaphors required. |
+| Reactive | 5.5 | 9.0 | 5.4 | 30.2 | 44.7 | 12.1 | 64.0† | 47.0†† | 20.2 | 12.8 | 20.0 | 6.3 | 10.5 | 19.7 | **19.5** | Bimodal: breaking story = 90V+; stale/weak story = 5-13V. Ex-outlier avg: ~10.5V. Only write reactive when story is breaking (<6hrs) AND winner named in sentence 1. |
+| Contrarian | 11.3 | 8.2 | 8.1 | 27.7 | 10.7 | 10.7 | 14.0 | 32.0‡ | 8.2 | 13.3 | 7.8 | 8.1 | 9.2 | 14.8 | **13.2** | Named = 10-15V. Generic = 6-8V. HARD CAP 5/wk (finally met this week — 5 posts). Formula: Named figure + [$X or %] + 1-3 word verdict. |
+| Cross-asset | 2.7 | 8.0 | 7.5 | 17.0 | 19.5 | 14.5 | 11.0 | 13.4 | 16.9 | 13.5 | 10.0 | 7.3 | 13.2 | 8.3 | **13.1⬆️** | Best week in months. Named person + named instrument + specific data + Tier 1 verdict. CAP AT 8/week — 16 posts this week risks dilution next week. |
+| Educational | — | — | — | — | — | — | — | — | — | — | — | 5.7 | 3.0 | 7.2 | **10.0** | 1 post only (ETH ETF mechanism), got 1 like. Needs live event anchor always. Max 1/week non-DeFi. |
+| Article-promo | 3.0 | 11.0 | 7.3 | 19.5 | 87.5* | n/a | 14.2 | 14.2 | 9.4 | 10.5 | 5.0 | 18.8 | 13.8 | — | **7.6** | Thesis-led (13V) vs bare-link (3-4V). Investment verdict in sentence 1 is non-negotiable. |
 
 †Wk7 reactive: inflated by Lamine Yamal 195V sports post. Ex-sports: 16V.
 ††Wk8 reactive: same Yamal post still in window (Jul 20). Ex-sports: ~10V.
 ‡Wk8 contrarian: only 1 post (Vitalik/BCI, 32V, 1L). Formula confirmed.
 
+**Wk15 totals (41 main posts):** 525V | 22L | 6RT | All 6 RTs from DeFi-demystified/AERO posts
+**Wk14 totals (33 main posts):** 433V | 19L | 4RT | All RTs from AERO posts
 **Wk13 totals (30 main posts):** 360V | 12L | 3RT | All RTs from DeFi-demystified posts
 **Wk12 totals (29 main posts):** 685V | 7L | 4RT | RT count from DeFi-demystified AERO posts only
-**Wk11 totals (19 main posts):** 138V | 6L | 0RT | 5th consecutive week with 0 RTs (no DeFi demystified)
-**Wk10 totals (36 main posts):** 456V | 10L | 0RT | 4th consecutive week with 0 RTs
 
-**🚨 Wk13 critical signals:**
-- 3 RTs = all from DeFi-demystified AERO posts. Causal pattern now locked across 13 weeks, 100% correlation.
-- Best post: ETH ETF cross-asset (35V) — named specific instrument (Fidelity FETH + $5M specific + "Steady hands beat loud money").
-- DeFi demystified formula variation confirmed: "No middleman. No extraction." before "Know the mechanism." = 34V 2L 1RT vs version without it = 26V 0L 0RT.
-- Contrarian cap STILL not enforced (9 posts vs 5/week). Pipeline rule not implemented.
-- Bessent story duplication: same story Aug 20 (26V) → Aug 22 (4V). Same-story 72h lock rule needed.
-- Reply game at zero again: 5 replies, 0 likes, 21V. Target: 20-30 replies at 0.5L/reply.
+**🚨 Wk15 critical signals:**
+- 6 RTs — ALL from DeFi-demystified/AERO posts. 15-week causal pattern locked. Zero exceptions.
+- DeFi analogy fatigue: 6 AERO posts all used "works like a stock exchange market maker" = avg 7.5V only. The metaphor is exhausted at this frequency. ROTATE THE ANALOGY.
+- Cross-asset at 16 posts (39%) = concentration risk. Cap at 8/week.
+- Reply game: 11 replies, 0 likes. Volume up but quality gate not enforced.
+- #1 post: Grok 4.7/Fable 5.1/GPT-Astra (93V) — NVIDIA named as structural beneficiary (reactive winner rule).
+- Top cross-asset: Bessent buybacks + Lyn Alden framing (29V, 1L) — triple credibility anchors.
+- Top contrarian: Saylor/Polymarket macro convergence (21V, 2L) — 2 likes = bookmarked thesis.
+- 00:00 UTC dead zone: 3 posts averaged 7.3V vs 13.9V overall.
 
 ### 🏆 Format #1: Institutional Bridge Event = Highest Reach Ceiling
 **Week 5 discovery:** When a real-world institution (NYSE, major bank, ETF) officially adopts or lists a crypto/DeFi asset, these posts reach audiences on BOTH sides of the traditional/crypto divide simultaneously. The $SECZ NYSE listing generated 311V + 275V - the two highest-impression posts in AITechWire history.
@@ -276,9 +275,10 @@ Top 3 posts of the week: #1 (64V): 00:00 UTC. #2 (28V): 21:00 UTC. #3 (21V): 00:
 Two stablecoin educational posts in the same week (money market fund analogy + traveler's check analogy): 2V each, 0 likes each. The second post on the same theme always pulls near-zero — the algorithm and audience have already processed the angle.
 **Rule:** NEVER write 2 educational posts on the same theme in the same week. One theme, one post. If you need to cover stablecoins AND DeFi staking in one week, those are different themes — that's fine. But two stablecoin explainers = waste.
 
-### 🆕 Wk10: Midnight UTC Window Officially Confirmed as High-Impact Slot (Aug 2, 2026)
-Top 3 posts of Week 10: 64V (00:00 UTC), 28V (21:00 UTC), 21V (00:00 UTC). All three are in the 21:00–01:00 UTC band = 4pm-9pm US Eastern. Pattern now confirmed across Wk9 AND Wk10. The 12:01 UTC morning slot keeps the account consistent; 21:00 UTC is where impact lives.
-**Rule confirmed:** Schedule the highest-quality post of the day for the 21:00 UTC slot. Morning slot = consistency. Evening slot = reach.
+### 🆕 Wk10: Midnight UTC Window Confirmed (Aug 2, 2026) — Updated Wk15
+Top 3 posts of Week 10: 64V (00:00 UTC), 28V (21:00 UTC), 21V (00:00 UTC).
+**Wk15 update (Aug 30 real data):** Timing analysis across 44 posts shows 18:00 UTC is now the highest-impact slot — 22.6V avg vs 15.3V at 21:00 UTC vs 10.7V at 15:00 UTC vs 6.2V at 00:00 UTC. The midnight dead zone confirmed at less than half the in-window average.
+**Rule updated:** Schedule the highest-quality post of the day for 18:00 UTC (1pm US Eastern). Morning 12:01 UTC = consistency anchor. 18:00 UTC = reach. 00:00 UTC = dead zone, never use.
 
 ### 🆕 Wk10: Same-Minute Double-Posting Is A Recurring Bug (confirmed 2nd week)
 Wk9: Jul 30 12:01:02 + 12:01:40 UTC — Meta CapEx (2V) buried by SoFi article promo (9V). Wk10: Same pattern. Two posts firing at the same minute means one gets the feed slot and the other is invisible.
@@ -341,6 +341,66 @@ Raoul Pal energy/compute thesis (3V), Anthropic Reed's Law (3V) — both had nam
 ### 🆕 Wk13: Cross-Asset Needs Named Instruments, Not Generic "Risk Assets" (Aug 23, 2026)
 Top cross-asset post: Ethereum ETFs drew $5M + Fidelity's FETH + "Steady hands beat loud money" = 35V. Bottom cross-asset posts: generic "risk assets vs BTC" framing = 4-8V. The difference is the level of specificity in naming instruments.
 **Rule (sharpened):** Every cross-asset post must name ≥2 specific instruments (ETF ticker, named institution, specific yield/rate) plus a structural verdict that's unique enough to be quotable. "Steady hands beat loud money" = RT-worthy. "One of them is wrong" = still works but becoming familiar. Vary the verdict phrasing.
+
+### 🆕 Wk15: 18:00 UTC Is the Confirmed Peak-Reach Slot (Aug 30, 2026 — 44-post dataset)
+Timing analysis from real X API data across all 44 main posts Aug 23-30:
+- 00:00 UTC: 4 posts — **6.2V avg** (dead zone — 55% below overall avg)
+- 12:00 UTC: 14 posts — **14.4V avg**
+- 15:00 UTC: 7 posts — **10.7V avg**
+- 16:00 UTC: 4 posts — **16.2V avg**
+- **18:00 UTC: 7 posts — 22.6V avg** ← PEAK WINDOW
+- 21:00 UTC: 7 posts — **15.3V avg**
+The 18:00 UTC slot (1pm US Eastern, active finance/crypto Twitter hours) outperforms all other slots by 40%+. Prior belief that 21:00 UTC was the impact window is revised.
+**Rule:** Queue the highest-quality post of the day for 18:00 UTC. The 21:00 slot is secondary. 00:00 is never used — pipeline must reject posts scheduled outside 12:00-20:00 UTC.
+
+### 🆕 Wk15: DeFi-Demystified Analogy Fatigue — Rotate the Metaphor (Aug 30, 2026)
+After 6+ consecutive weeks of "works like a stock exchange market maker," impressions have collapsed from 25V (Wk12) to 7.5V avg (Wk15). The RT engine still fires (every AERO post this week got 1 RT) but reach has been cut by 70%. The audience has absorbed the metaphor. It no longer surprises.
+**New rule:** The DeFi-demystified formula MUST rotate its TradFi analogy every week. Approved new metaphors:
+- "Works like a mutual fund that pays dividends back to active traders instead of keeping them"
+- "Works like a commodities exchange where the warehouse operator keeps nothing from the spread"
+- "Works like a bond that pays coupon to the market makers instead of the issuer"
+- "Works like an NYSE specialist desk — except the specialist fee flows back to LPs"
+"Works like a stock exchange" is RETIRED. Use a new analogy or don't post.
+
+### 🆕 Wk15: Cross-Asset Verdict Tier List — Never Use Observation Endings (Aug 30, 2026)
+Cross-asset 13.1V avg with 0.44L avg. Posts that got likes: all had Tier 1 verdicts. Posts with 0 likes: all ended on observations or vague comparisons.
+**Tier 1 verdicts (proven):** "Steady hands beat loud money." / "The infrastructure bill goes to one address." / "Trade the same thesis." / "One of them is wrong."
+**Tier 2 (functional):** "The answer matters. Own accordingly." / "Know which one you're betting on."
+**BANNED endings (observations not verdicts):** "Different velocity." / "Same institutional confidence cycle." / "Different mechanisms." / "Watch the flows." / "Worth watching."
+Rule: Every cross-asset post must end in a Tier 1 or Tier 2 verdict. Observation endings = 0 likes regardless of impressions.
+
+### 🆕 Wk15: Cross-Asset Volume Cap — Max 8/week (Aug 30, 2026)
+16 cross-asset posts (39% of total) this week. Format still performing at 13.1V but showing the same over-concentration pattern that killed reactive (Wk6: 20 posts, avg collapsed from 44.7 to 12.1). The top 8 cross-asset posts this week averaged ~18V; the bottom 8 averaged ~8V. The format is diluting.
+**New rule:** Hard cap: maximum 8 cross-asset posts per week. If the pipeline wants to write a 9th, convert to contrarian or educational instead.
+
+### 🆕 Wk15: Reply Game Diagnosis — High Reach, Zero Resonance (Aug 30, 2026)
+11 replies, 149V (13.5V/reply — high reach), 0 likes (0.0L/reply). The replies ARE being seen but are not resonating. Root cause: replies this week were opinion/analysis rather than adding a specific data point the original thread missed. The Wk12 format (3L from 6 replies = 0.5L/reply) used specific data additions. This week drifted back to opinion mode.
+**Rule reconfirmed:** Every reply must ADD a specific, named data point not present in the original thread. Opinion replies = 0 likes regardless of reach. "Most will credit retail FOMO. Wrong. [specific number] says institutions moved first." = the formula.
+
+---
+
+### 🆕 Wk15: Cross-Asset Format Is the Best Like-Converter When Verdict Is Used (Aug 30, 2026)
+Wk15 cross-asset: 10 posts, 13.4V avg, **0.60L avg** — highest like rate of any in-window format this week. Every post that got a like ended with a Tier 1 verdict. Every post with 0 likes ended on an observation or a now-BANNED filler phrase.
+
+Real data comparison this week:
+- Bessent/Lyn Alden “Every intervention that fails makes the next crisis harder to contain.” → 29V, 1L
+- Saylor/Polymarket macro convergence: 21V, 2L
+- Arthur Hayes 2008 parallel “Own the infrastructure layer, not the lenders.” → 18V, 2L
+- NVIDIA Q2/BTC “Same institutional confidence cycle.” → 2V, 0L
+- ETH ETF “Different mechanisms.” → 3V, 0L
+
+**Tier 1 verdicts (converts likes):** “Steady hands beat loud money.” / “The infrastructure bill goes to one address.” / “Own X, not Y.” / “One of them is wrong.”
+**Tier 2 (functional):** “The answer matters. Own accordingly.” / “Know which one you’re betting on.”
+**PERMANENTLY BANNED (confirmed zero likes):** “Different velocity.” / “Same institutional confidence cycle.” / “Different mechanisms.” / “Watch the flows.”
+**Rule:** Every cross-asset post must close with a Tier 1 or Tier 2 verdict. Observation endings = 0 likes regardless of impressions.
+
+### 🆕 Wk15: Contrarian Is the Follower Conversion Format (Aug 30, 2026)
+This week’s top like-converters:
+- Arthur Hayes AI 2008 bubble: 18V, **2L** (11.1% like rate)
+- Saylor/Polymarket macro convergence: 21V, **2L** (9.5% like rate)
+- Bessent/Lyn Alden bond halt: 29V, 1L
+All three are contrarian-format. All three name an analyst + use a known historical/data parallel + state an explicit asset verdict. The 93V Grok/NVIDIA post (highest reach) got **0 likes** — pure algorithmic reach to tech readers who don’t invest. Contrarian converts followers; reactive spikes reach.
+**Rule:** Write minimum 3 contrarian posts per week. Formula: [Named contrarian analyst] + [historical parallel that investing audience knows] + [explicit asset verdict: “Own X not Y” / “Eyes open.”]. This format grows followers.
 
 ---
 
