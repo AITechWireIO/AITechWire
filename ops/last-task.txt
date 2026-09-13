@@ -1,18 +1,47 @@
-=== 2026-09-13T13:15:37Z ===
-NOREPEAT_SELECTOR=2
-REPEAT_CHECK=2
-COMPILE_RC=0
---- contract ---
-  ok   HEADER ok — every article carries the one canonical menu
-  ok   PREVIEW ok — every article has a card X can fetch
-  ok   INDEX ok — every listed article exists (86 entries)
-  ok   TODAY ok — one article dated today
-  ok   LINKS ok — every internal link resolves
-  FAIL REPEAT: -216m-inflows-while-btc-funds-lose-460m.html retells -etfs-pull-216m-inflows-vs-btc-outflows.html - 5 shared words. Readers get the same story twice.
+=== X POST AUDIT 2026-09-13T13:23:46Z ===
 
-PUBLISH CONTRACT VIOLATED — 1 issue(s). Nothing publishes.
---- procs ---
-1892777 /bin/sh -c cd /home/ubuntu/.openclaw/workspace/scripts && { echo "=== $(
---- cron article line ---
-0 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 aitechwire_daily.py >> /home/ubuntu/.openclaw/workspace/logs/aitechwire_daily.log 2>&1
-30 13 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_article_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/aitechwire_daily.log 2>&1
+-- scripts referencing X/twitter posting --
+./b2_reply_batch.py
+./delete_tweets.py
+./aitechwire_daily.py
+./cost_tracker.py
+./reply_performance_check.py
+./post_from_queue.py
+./og_image_generator.py
+./qa_site.py
+./thread_engine.py
+./x_reply_game.py
+./x_reply_monitor.py
+./research_engine.py
+
+-- candidate stores --
+scripts/post_from_queue.py                                   10343 bytes  2026-09-12
+scripts/x_post_queue.json                                     1399 bytes  2026-09-13
+scripts/post_from_queue.py.preXF.bak                          9951 bytes  2026-09-11
+scripts/post_from_queue.py.preMT.bak                         10336 bytes  2026-09-12
+scripts/x_post_queue.json                                     1399 bytes  2026-09-13
+scripts/delete_tweets.py                                       742 bytes  2026-06-16
+scripts/cost_history_v2.json                                 39015 bytes  2026-09-11
+scripts/cost_history.json                                     9606 bytes  2026-09-12
+b1-dash-history.json                                          2031 bytes  2026-09-13
+
+-- dedup guards found --
+./aitechwire_daily.py:195:[redacted] — EDUCATIONAL POST QUOTA: Every daily batch MUST include at least 1 educational post. BEST FORMAT: "[DeFi/crypto mechanism] works like [TradFi thing you already understand]." This produces RTs. End with a command: "Know the mechanism." / "Know the math." / "This changes how you read the next data release."
+./post_from_queue.py:151:        print("📭 Queue empty — all posts already published today")
+
+-- queue contents (most recent 12) --
+post_from_queue.py  (not json) last lines:
+          if isinstance(o,dict):
+              for k,v in o.items():
+                  if k=='text' and isinstance(v,str): out.append(v)
+                  else: _w(v)
+          elif isinstance(o,list):
+              for v in o: _w(v)
+      _w(resp)
+      return '\n'.join(out)
+
+-- cron entries that post --
+*/5 * * * * curl -sf --max-time 5 http://localhost:18789/health > /dev/null 2>&1 || (TS=$(date -u '+%Y-%m-%d %
+
+-- posting log tail --
+(no posting log)
