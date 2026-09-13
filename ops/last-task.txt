@@ -1,5 +1,26 @@
-ledger closer functions: applied
-writer ban list: applied
---- endings the writer will avoid on the next run ---
-  'One of them is wrong.'         <- ETH ETFs pulled $216M in inflows this week. BTC fund
-  ban list (1): One of them is wrong.
+=== REQUEUE: closer rewrite ===
+queue date 2026-09-13, 4 pending, 1 already posted
+
+slot 1  Lisk surged 269%
+  was: ... demolition. Scarcity manufactured on exit. Know the math.
+  now: ... controlled demolition. Supply cut by exit, not by design.
+  211 chars with the handle
+
+slot 2  Prediction markets now price Josh Shapiro
+  was: ...alyst note. The odds are the positioning. Act accordingly.
+  now: ...than any analyst note. Which one are you actually reading?
+  223 chars with the handle
+
+slot 3  Safety regulations on frontier AI
+  was: ...latory layer own the decade. Steady hands beat loud money.
+  now: ...the regulatory layer own the decade, not the loudest ones.
+  231 chars with the handle
+
+3 post(s) rewritten in the live queue
+
+-- how today lands now --
+  SENT     'One of them is wrong.'             
+  pending  None                                
+  pending  'Which one are you actually reading?'
+  pending  None                                
+  pending  'Own accordingly.'                  
