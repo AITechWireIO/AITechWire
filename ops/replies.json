@@ -1,0 +1,45 @@
+{
+ "generated_utc": "2026-09-13T14:02:47Z",
+ "date": "2026-09-13",
+ "count": 3,
+ "swept": 5,
+ "drafts": [
+  {
+   "n": 1,
+   "handle": "CryptoVince_",
+   "lane": "ETF / institutional crypto",
+   "url": "https://x.com/CryptoVince_/status/2099104633935286620",
+   "likes": 18,
+   "replies": 0,
+   "age_min": 124,
+   "seen_before": 0,
+   "reply": "Volume concentration at these levels after an ETF debut historically faded as speculative flows rotated elsewhere.",
+   "chars": 114
+  },
+  {
+   "n": 2,
+   "handle": "Lucky_m_X",
+   "lane": "ETF / institutional crypto",
+   "url": "https://x.com/Lucky_m_X/status/2099099196171198835",
+   "likes": 13,
+   "replies": 1,
+   "age_min": 146,
+   "seen_before": 0,
+   "reply": "Regulatory filings alone do not create institutional liquidity. Custody providers and prime brokers still need to list LTC pairs and offer leverage before large allocators can participate.",
+   "chars": 188
+  },
+  {
+   "n": 3,
+   "handle": "AndreeaTomoiag3",
+   "lane": "ETF / institutional crypto",
+   "url": "https://x.com/AndreeaTomoiag3/status/2099105814598336654",
+   "likes": 9,
+   "replies": 1,
+   "age_min": 120,
+   "seen_before": 0,
+   "reply": "Overlapping Bitcoin options expiry on the same Friday produces extra dealer hedging pressure that equity triple witching does not generate by itself.",
+   "chars": 149
+  }
+ ],
+ "text": "B2 reply batch 2026-09-13 14:00 UTC (seeded from the run's Discord delivery)"
+}
