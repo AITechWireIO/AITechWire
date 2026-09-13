@@ -1,47 +1,96 @@
-=== X POST AUDIT 2026-09-13T13:23:46Z ===
+=== X QUEUE MECHANICS 2026-09-13T13:28:05Z ===
 
--- scripts referencing X/twitter posting --
-./b2_reply_batch.py
-./delete_tweets.py
-./aitechwire_daily.py
-./cost_tracker.py
-./reply_performance_check.py
-./post_from_queue.py
-./og_image_generator.py
-./qa_site.py
-./thread_engine.py
-./x_reply_game.py
-./x_reply_monitor.py
-./research_engine.py
+-- x_post_queue.json (raw, 1399 bytes) --
+{
+  "date": "2026-09-13",
+  "pending": [
+    "Lisk surged 269% on a blockchain shutdown and 100M [redacted] The clearest altcoin catalyst this quarter isn't a product launch \u2014 it's a controlled demolition. Scarcity manufactured on exit. Know the math. | @AITechWireIO",
+    "Prediction markets now price Josh Shapiro as a 2028 frontrunner and September Fed cut odds are shifting in real time. Polymarket and Kalshi move faster than any analyst note. The odds are the positioning. Act accordingly. | @AITechWireIO",
+    "Safety regulations on frontier AI are more likely to entrench OpenAI and Anthropic than slow them. Compliance costs crush challengers. The labs that survive the regulatory layer own the decade. Steady hands beat loud money. | @AITechWireIO",
+    "Gold is up in 2026. ETH ETFs just logged $216M in weekly inflows while BTC bled $460M. Capital doesn't pick one asset class \u2014 it picks the one with the clearest narrative. Right now ETH has it. Own accordingly. | @AITechWireIO"
+  ],
+  "posted": [
+    {
+      "text": "ETH ETFs pulled $216M in inflows this week. BTC funds shed $460M. Institutional rotation doesn't happen quietly \u2014 it happens in $676M swings. ETH is outperforming BTC quarter-to-date. One of them is wrong. | @AITechWireIO",
+      "url": "https://x.com/AITechWireIO/status/2099106920757928446",
+      "time": "2026-09-13T12:04:24.476068"
+    }
+  ]
+}
 
--- candidate stores --
-scripts/post_from_queue.py                                   10343 bytes  2026-09-12
-scripts/x_post_queue.json                                     1399 bytes  2026-09-13
-scripts/post_from_queue.py.preXF.bak                          9951 bytes  2026-09-11
-scripts/post_from_queue.py.preMT.bak                         10336 bytes  2026-09-12
-scripts/x_post_queue.json                                     1399 bytes  2026-09-13
-scripts/delete_tweets.py                                       742 bytes  2026-06-16
-scripts/cost_history_v2.json                                 39015 bytes  2026-09-11
-scripts/cost_history.json                                     9606 bytes  2026-09-12
-b1-dash-history.json                                          2031 bytes  2026-09-13
+-- how the queue is WRITTEN (write_x_posts) --
+resp = client.messages.create(model='claude-sonnet-4-6', max_tokens=1500, messages=[{'role':'user','content':prompt}])
+        raw = resp.content[0].text.strip()
+        match = re.search(r'\[.*\]', raw, re.DOTALL)
+        stories = json.loads(match.group(0)) if match else []
+        log(f"⚠️  Fallback: {len(stories)} stories from Claude knowledge")
+        return stories
 
--- dedup guards found --
-./aitechwire_daily.py:195:[redacted] — EDUCATIONAL POST QUOTA: Every daily batch MUST include at least 1 educational post. BEST FORMAT: "[DeFi/crypto mechanism] works like [TradFi thing you already understand]." This produces RTs. End with a command: "Know the mechanism." / "Know the math." / "This changes how you read the next data release."
-./post_from_queue.py:151:        print("📭 Queue empty — all posts already published today")
+# ─── STEP 2: WRITE X POSTS ────────────────────────────────────────────────────
 
--- queue contents (most recent 12) --
-post_from_queue.py  (not json) last lines:
-          if isinstance(o,dict):
-              for k,v in o.items():
-                  if k=='text' and isinstance(v,str): out.append(v)
-                  else: _w(v)
-          elif isinstance(o,list):
-              for v in o: _w(v)
-      _w(resp)
-      return '\n'.join(out)
+def write_x_posts(client, stories):
+    log("✍️  Writing X posts...")
+    stories_text = "\n".join([
+        f"{i+1}. [{s['section'].upper()}] {s['headline']}\n   {s['summary']}\n   Angle: {s['angle']}"
+        for i, s in enumerate(stories[:5])
+    ])
 
--- cron entries that post --
-*/5 * * * * curl -sf --max-time 5 http://localhost:18789/health > /dev/null 2>&1 || (TS=$(date -u '+%Y-%m-%d %
+    prompt = f"""You are the social media voice of AITechWire (@AITechWireIO).
+Today is {today_str()}.
 
--- posting log tail --
-(no posting log)
+Write 5 X (Twitter) posts based on these stories:
+{stories_text}
+
+RULES FOR EACH POST:
+- MAX 240 characters for the body BEFORE " | @AITechWireIO" is appended — this is a HARD LIMIT, not a guideline
+- COUNT your characters before writing each post. If it exceeds 240, rewrite it shorter — do NOT truncate mid-sentence
+- MUST be a complete thought ending with . or ! or ? - never cut mid-sentence
+- No hashtags (they look spammy)
+- Aim for 160-220 chars — this gives headroom and still delivers punch. A tight 180-char post beats a rejected 285-char post every time
+- Do NOT include " | @AITechWireIO" — it is appended automatically
+
+TONE & STYLE - rotate through these 5 types, one per post:
+
+⭐ PERFORMANCE DATA (16-week real X API data, Jun 15 – Aug 30, 2026):
+   DeFi demystified: 7.9V Wk16 | 7.5V Wk15 | 19.0V Wk13 | 24.8V Wk12 → ANALOGY FATIGUE CONFIRMED. "Works like a stock exchange" is RETIRED — audience has absorbed it. Like rate still 1.0L/post (high quality, low reach). Fi
+
+-- how items LEAVE the queue (post_from_queue) --
+8:If the queue is empty or stale (not today's date), exits silently.
+25:    with open(LOG_PATH, "a") as f:
+32:        for line in open(ENV_PATH):
+52:    r'rate cut', r'rate hike', r'emergency', r'powell', r'warsh.*today',
+65:def freshness_check(post_text, env, slot_num, total_today):
+86:    today_str = datetime.datetime.now(cdt).strftime("%B %d, %Y")
+88:    prompt = f"""Today is {today_str}. I'm about to post this on X:
+101:        payload = json.dumps({
+112:        resp = json.loads(urllib.request.urlopen(req, timeout=15).read())
+135:        queue = json.load(open(QUEUE_PATH))
+141:    # but 7 PM CDT = 00:00 UTC next day, so UTC date.today() returns tomorrow's date
+143:    today = datetime.datetime.now(cdt).strftime('%Y-%m-%d')
+145:    if queue_date != today:
+146:        print(f"⏭️  Queue is from {queue_date} — not today CDT ({today}), skipping")
+151:        print("📭 Queue empty — all posts already published today")
+155:    total_today = len(queue.get('posted', [])) + len(pending)
+156:    slot_num   = len(queue.get('posted', [])) + 1
+158:    log(f"📋 Posting queued tweet [{slot_num}/{total_today}]...")
+165:    if not freshness_check(post_text, env_for_check, slot_num, total_today):
+173:        json.dump(queue, open(QUEUE_PATH, 'w'), indent=2)
+195:        log(f"✅ Posted [{slot_num}/{total_today}]: {url}")
+199:        if 'posted' not in queue:
+200:            queue['posted'] = []
+201:        queue['posted'].append({
+206:        json.dump(queue, open(QUEUE_PATH, 'w'), indent=2)
+210:            post_x_post_live(slot_num, total_today, post_text, url)
+216:        print(f"\n⚡ AITechWire — Queued Post [{slot_num}/{total_today}] Published")
+220:            print(f"📋 {remaining} mor
+
+-- is there a template pool the posts are drawn from --
+3
+aitechwire_daily.py:210:EVERGREEN NAMED-ANALYST BAN without live event (Wk13 confirmed): Raoul Pal energy/compute thesis (3V), Anthropic Reed's Law (3V) — both named analysts, both well-written, both without live event anchors. The formula is: Named analyst + live event that validates the thesis TODAY = 15-35V. Named analyst alone = 3V. If you're writing about what an analyst believes without tying it to something that happened today, don't write it.
+
+-- any record of what was actually sent --
+-rw-rw-r-- 1 ubuntu ubuntu  1399 Sep 13 12:04 x_post_queue.json
+95:- SAFE: [one sentence why it's still accurate]
+96:- STALE: [one sentence what changed]
+193:        tweet_id = result.data['id']
+194:        url      = f"https://x.com/AITechWireIO/status/{tweet_id}"
