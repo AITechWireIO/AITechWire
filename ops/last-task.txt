@@ -1,96 +1,11 @@
-=== post_from_queue.py 125-215 ===
-        return True  # fail-open: if check errors, don't block the post
-
-
-def main():
-    # ── Load queue ──────────────────────────────────────────────
-    if not os.path.exists(QUEUE_PATH):
-        print("📭 No queue file — nothing to post")
-        return
-
-    try:
-        queue = json.load(open(QUEUE_PATH))
-    except Exception as e:
-        print(f"❌ Could not read queue: {e}")
-        return
-
-    # Use CDT (UTC-5) for date comparison — pipeline writes queue at 7 AM CDT
-    # but 7 PM CDT = 00:00 UTC next day, so UTC date.today() returns tomorrow's date
-    cdt = datetime.timezone(datetime.timedelta(hours=-5))
-    today = datetime.datetime.now(cdt).strftime('%Y-%m-%d')
-    queue_date = queue.get('date', '')
-    if queue_date != today:
-        print(f"⏭️  Queue is from {queue_date} — not today CDT ({today}), skipping")
-        return
-
-    pending = queue.get('pending', [])
-    if not pending:
-        print("📭 Queue empty — all posts already published today")
-        return
-
-    post_text = pending[0]
-    total_today = len(queue.get('posted', [])) + len(pending)
-    slot_num   = len(queue.get('posted', [])) + 1
-
-    log(f"📋 Posting queued tweet [{slot_num}/{total_today}]...")
-
-    # ── Freshness gate ───────────────────────────────────────────
-    # Before posting, verify the story hasn't been overtaken by breaking news.
-    # High-volatility topics (geopolitics, earnings, regulatory) get a quick
-    # Grok search. If the situation has materially reversed, skip this post.
-    env_for_check = load_env()
-    if not freshness_check(post_text, env_for_check, slot_num, total_today):
-        # Move stale post to 'skipped' and exit cleanly
-        queue['pending'] = pending[1:]
-        queue.setdefault('skipped', []).append({
-            'text':   post_text,
-            'reason': 'stale — situation changed since morning research',
-            'time':   datetime.datetime.utcnow().isoformat() + 'Z',
-        })
-        json.dump(queue, open(QUEUE_PATH, 'w'), indent=2)
-        print(f"⏭️  Post [{slot_num}] skipped — freshness check failed (story no longer current)")
-        return
-
-    # ── Post to X ───────────────────────────────────────────────
-    env = load_env()
-    missing = [k for k in ('X_CONSUMER_KEY','X_CONSUMER_SECRET',
-                           'X_ACCESS_TOKEN','X_ACCESS_TOKEN_SECRET') if k not in env]
-    if missing:
-        print(f"❌ Missing X credentials: {missing}")
-        return
-
-    try:
-        client = tweepy.Client(
-            consumer_key    = env['X_CONSUMER_KEY'],
-            consumer_secret = env['X_CONSUMER_SECRET'],
-            access_token    = env['X_ACCESS_TOKEN'],
-            access_token_secret = env['X_ACCESS_TOKEN_SECRET'],
-        )
-        result   = client.create_tweet(text=post_text)
-        tweet_id = result.data['id']
-        url      = f"https://x.com/AITechWireIO/status/{tweet_id}"
-        log(f"✅ Posted [{slot_num}/{total_today}]: {url}")
-
-        # ── Update queue ─────────────────────────────────────────
-        queue['pending'] = pending[1:]
-        if 'posted' not in queue:
-            queue['posted'] = []
-        queue['posted'].append({
-            'text': post_text,
-            'url':  url,
-            'time': datetime.datetime.utcnow().isoformat() + 'Z',
-        })
-        json.dump(queue, open(QUEUE_PATH, 'w'), indent=2)
-
-        # Discord notification
-        try:
-            post_x_post_live(slot_num, total_today, post_text, url)
-        except Exception:
-            pass
-
-        # ── Summary for Telegram report ──────────────────────────
-        remaining = len(queue['pending'])
-=== where the queue json is written in aitechwire_daily ===
-51:QUEUE_PATH = "/home/ubuntu/.openclaw/workspace/scripts/x_post_queue.json"
-223:   "Most people think the Fed controls inflation. It doesn't. The Fed only controls short-term rates - inflation is driven by supply chains, energy, and fiscal spending. Raising rates just slows growth. That's the trap."
-470:                'pending': to_queue,
+wired: duplicate check before posting, ledger written after posting
+Traceback (most recent call last):
+  File "/tmp/b2_xdedup_install.py", line 110, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/tmp/b2_xdedup_install.py", line 91, in main
+    + S + 'x_post_queue.json\'), \'post(s) into the ledger\');'
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    'print(\'ledger now\', len(x_dedup.load()))"' % S,
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+TypeError: not all arguments converted during string formatting
