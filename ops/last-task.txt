@@ -1,63 +1,44 @@
-=== ALL cron (ubuntu) ===
-*/5 * * * * /usr/bin/python3 /home/ubuntu/.openclaw/workspace/scripts/improvement_loop_listener.py >
+=== article dates, last 45 days ===
+      1 2026-08-08
+      1 2026-08-09
+      1 2026-08-10
+      1 2026-08-11
+      1 2026-08-12
+      1 2026-08-13
+      1 2026-08-14
+      2 2026-08-15
+      2 2026-08-16
+      1 2026-08-17
+      1 2026-08-18
+      1 2026-08-19
+      1 2026-08-20
+      1 2026-08-21
+      1 2026-08-22
+      1 2026-08-23
+      1 2026-08-24
+      1 2026-08-25
+      1 2026-08-26
+      1 2026-08-27
+      1 2026-08-28
+      1 2026-08-29
+      1 2026-08-30
+      1 2026-08-31
+      2 2026-09-01
+      1 2026-09-02
+      1 2026-09-05
+      1 2026-09-10
+      1 2026-09-12
+      1 2026-09-13
 
+=== reply batch run history ===
+2026-09-11 20:06 UTC drafts= 1 swept= 6
+2026-09-11 20:15 UTC drafts= 3 swept= 3
+2026-09-12 19:51 UTC drafts= 3 swept= 12
+2026-09-12 20:12 UTC drafts= 3 swept= 4
+2026-09-13 14:00 UTC drafts= 3 swept= 5
+2026-09-13 15:36 UTC drafts= 2 swept= 2
+roster: ['zaidlikesmstr']
+handles seen: 14
 
-*/5 * * * * curl -sf --max-time 5 http://localhost:18789/health > /dev/null 2>&1 || (TS=$(date -u '+
-
-*/5 * * * * /usr/bin/python3 /home/ubuntu/.openclaw/workspace/scripts/health_watcher.py >> /home/ubu
-
-0 6 * * 0 /usr/bin/python3 /home/ubuntu/.openclaw/workspace/scripts/ec2_snapshot.py >> /home/ubuntu/
-
-
-0 * * * * cd /home/ubuntu/.openclaw/workspace/scripts && /usr/bin/python3 b1_digest_cron.py >> /home
-
-
-*/15 * * * * /usr/bin/python3 /home/ubuntu/.openclaw/workspace/b1_negotiation_poller.py >> /home/ubu
-0 */2 * * * /usr/bin/python3 /home/ubuntu/.openclaw/workspace/b1-dispatcher/scripts/memory_backup.py
-
-*/5 * * * * /usr/bin/python3 /home/ubuntu/.openclaw/workspace/b1-dispatcher/b1_state_sweep.py >> /ho
-*/45 * * * * /home/ubuntu/b1-dispatcher/scripts/tt_token_refresh.sh >> /tmp/tt_token_refresh.log 2>&
-*/15 * * * * cd /home/ubuntu/.openclaw/workspace && /usr/bin/python3 scripts/b1_dashboard_gen.py >> 
-*/10 * * * * /usr/bin/python3 /home/ubuntu/.openclaw/workspace/scripts/b1_health_alarm.py >> /home/u
-30 8 * * * /bin/bash /home/ubuntu/.openclaw/workspace/scripts/b1_state_backup.sh >> /home/ubuntu/.op
-30 9 * * * /usr/bin/python3 /home/ubuntu/.openclaw/workspace/scripts/b1_ttl_sweep.py >> /home/ubuntu
-0 14 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_batch.py >> /ho
-45 14 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_watchdog.py >>
-0 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 aitechwire_daily.py >> /
-30 13 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_article_watchdog.py 
-5 * * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_status.py >> /home/ubu
-
-=== systemd timers ===
-NEXT                            LEFT LAST                              PASSED UNIT                           ACTIVATES
-Sun 2026-09-13 14:50:00 UTC 1min 16s Sun 2026-09-13 14:40:01 UTC     8min ago sysstat-collect.timer          sysstat-collect.service
-Sun 2026-09-13 15:50:24 UTC  1h 1min Sun 2026-09-13 14:21:15 UTC    27min ago fwupd-refresh.timer            fwupd-refresh.service
-Sun 2026-09-13 20:33:49 UTC 5h 45min Sun 2026-09-13 12:10:20 UTC 2h 38min ago apt-daily.timer                apt-daily.service
-Mon 2026-09-14 00:00:00 UTC       9h Sun 2026-09-13 00:00:00 UTC      14h ago dpkg-db-backup.timer           dpkg-db-backup.service
-Mon 2026-09-14 00:00:00 UTC       9h Sun 2026-09-13 00:00:00 UTC      14h ago sysstat-rotate.timer           sysstat-rotate.service
-Mon 2026-09-14 00:07:00 UTC       9h Sun 2026-09-13 00:07:20 UTC      14h ago sysstat-summary.timer          sysstat-summary.service
-Mon 2026-09-14 00:07:20 UTC       9h Sun 2026-09-13 00:07:20 UTC      14h ago update-notifier-download.timer update-notifier-download.service
-Mon 2026-09-14 00:17:49 UTC       9h Sun 2026-09-13 00:17:49 UTC      14h ago systemd-tmpfiles-clean.timer   systemd-tmpfiles-clean.service
-Mon 2026-09-14 00:30:49 UTC       9h Sun 2026-09-13 00:00:48 UTC      14h ago logrotate.timer                logrotate.service
-Mon 2026-09-14 01:09:15 UTC      10h Mon 2026-09-07 00:16:52 UTC   6 days ago fstrim.timer                   fstrim.service
-Mon 2026-09-14 05:22:32 UTC      14h Sun 2026-09-13 14:26:20 UTC    22min ago certbot.timer                  certbot.service
-Mon 2026-09-14 06:17:29 UTC      15h Sun 2026-09-13 06:56:15 UTC       7h ago apt-daily-upgrade.timer        apt-daily-upgrade.service
-Mon 2026-09-14 07:38:38 UTC      16h Sun 2026-09-13 03:55:20 UTC      10h ago man-db.timer                   man-db.service
-
-=== what invokes post_from_queue ===
-/home/ubuntu/.openclaw/workspace/b1-dispatcher/scripts/cron_backup.json:153:        "message": "Run the queued post script: cd /ho
-/home/ubuntu/.openclaw/workspace/b1-dispatcher/scripts/cron_backup.json:205:        "message": "Run the queued post script: cd /ho
-/home/ubuntu/.openclaw/workspace/b1-dispatcher/scripts/cron_backup.json:257:        "message": "Run the queued post script: cd /ho
-/home/ubuntu/.openclaw/workspace/b1-dispatcher/scripts/cron_backup.json:309:        "message": "Run the queued post script: cd /ho
-/home/ubuntu/.openclaw/workspace/scripts/post_from_queue.py:3:post_from_queue.py — Spread-post queued X tweets for @AITechWireIO
-/home/ubuntu/.openclaw/workspace/scripts/post_from_queue.py:269:            report_failure(source='post_from_queue', error=e, log_
-/home/ubuntu/.openclaw/workspace/scripts/post_from_queue.py:280:            report_failure(source='post_from_queue', error=e, log_
-/home/ubuntu/.openclaw/workspace/cowork-task-log.json:17153:      "summary": "rc=0 | pipeline run results), 3) Today's scheduled a
-/home/ubuntu/.openclaw/workspace/cowork-task-log.json:17160:      "summary": "rc=0 | ireIO at 1 PM Central\n   P: {\"kind\": \"age
-/home/ubuntu/.openclaw/workspace/cowork-task-log.json:27940:      "summary": "rc=0 | /home/ubuntu/.openclaw/workspace/scripts/aite
-/home/ubuntu/.openclaw/workspace/cowork-task-log.json:27961:      "summary": "rc=0 | aitechwire_daily.py: 'model': 'grok-3-mini', 
-/home/ubuntu/.openclaw/workspace/cowork-task-log.json:28290:      "summary": "rc=0 | aitechwire_daily.py: 1 renamed, compile OK\np
-
-=== telegram references in the X posting path ===
-252:        # ── Summary for Telegram report ────────────────────�
-
-=== where notifications go ===
+=== x posts sent today ===
+posted 3 pending 2 skipped 0
