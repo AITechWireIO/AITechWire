@@ -1,0 +1,18 @@
+{
+ "generated_utc": "2026-09-13T13:00:49Z",
+ "today": "2026-09-13",
+ "article_today": [
+  "2026-09-13-eth-etfs-see-216m-inflows-while-btc-funds-lose-460m.html"
+ ],
+ "latest_article": "2026-09-13-eth-etfs-see-216m-inflows-while-btc-funds-lose-460m.html",
+ "article_count": 90,
+ "process_running": "1",
+ "cron": [
+  "0 14 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_batch.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
+  "45 14 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
+  "0 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 aitechwire_daily.py >> /home/ubuntu/.openclaw/workspace/scripts/logs/aitechwire_daily.log 2>&1",
+  "30 13 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_article_watchdog.py >> logs/aitechwire_daily.log 2>&1"
+ ],
+ "log_mtime_utc": null,
+ "log_tail": ""
+}

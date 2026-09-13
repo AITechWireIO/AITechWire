@@ -7,3 +7,4 @@ Sitemap: https://aitechwire.io/sitemap.xml
 # Block irrelevant paths
 Disallow: /img/
 Disallow: /logo-preview.html
+Disallow: /ops/
