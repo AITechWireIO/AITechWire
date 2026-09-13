@@ -1,0 +1,18 @@
+=== 2026-09-13T13:15:37Z ===
+NOREPEAT_SELECTOR=2
+REPEAT_CHECK=2
+COMPILE_RC=0
+--- contract ---
+  ok   HEADER ok — every article carries the one canonical menu
+  ok   PREVIEW ok — every article has a card X can fetch
+  ok   INDEX ok — every listed article exists (86 entries)
+  ok   TODAY ok — one article dated today
+  ok   LINKS ok — every internal link resolves
+  FAIL REPEAT: -216m-inflows-while-btc-funds-lose-460m.html retells -etfs-pull-216m-inflows-vs-btc-outflows.html - 5 shared words. Readers get the same story twice.
+
+PUBLISH CONTRACT VIOLATED — 1 issue(s). Nothing publishes.
+--- procs ---
+1892777 /bin/sh -c cd /home/ubuntu/.openclaw/workspace/scripts && { echo "=== $(
+--- cron article line ---
+0 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 aitechwire_daily.py >> /home/ubuntu/.openclaw/workspace/logs/aitechwire_daily.log 2>&1
+30 13 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_article_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/aitechwire_daily.log 2>&1
