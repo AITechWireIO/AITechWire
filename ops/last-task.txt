@@ -1,11 +1,21 @@
-wired: duplicate check before posting, ledger written after posting
-Traceback (most recent call last):
-  File "/tmp/b2_xdedup_install.py", line 110, in <module>
-    sys.exit(main())
-             ~~~~^^
-  File "/tmp/b2_xdedup_install.py", line 91, in main
-    + S + 'x_post_queue.json\'), \'post(s) into the ledger\');'
-          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    'print(\'ledger now\', len(x_dedup.load()))"' % S,
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
-TypeError: not all arguments converted during string formatting
+=== X DEDUP VERIFY 2026-09-13T13:51:05Z ===
+
+-- wiring present --
+B2-X-DEDUP markers: 3
+compiles: yes
+
+-- ledger --
+backfilled 1 from today's queue; ledger holds 1 post(s) at /home/ubuntu/.openclaw/workspace/x_posted_history.json
+  2026-09-13T12:04  ETH ETFs pulled $216M in inflows this week. BTC funds shed $460M. Institutional rotation doe
+
+-- dry run against the live queue (nothing is posted) --
+pending 4 -> would post 3, would skip 1 as repeats
+  SKIP: Gold is up in 2026. ETH ETFs just logged $216M in weekly inflows while BTC bled $460M. Capital d
+        retells: ETH ETFs pulled $216M in inflows this week. BTC funds shed $460M. Institutional 
+        shared figures: ['$216m', '$460m']   overlap 0.21
+  keep: Lisk surged 269% on a blockchain shutdown and 100M token burn. The clearest altcoin catalyst thi
+  keep: Prediction markets now price Josh Shapiro as a 2028 frontrunner and September Fed cut odds are s
+  keep: Safety regulations on frontier AI are more likely to entrench OpenAI and Anthropic than slow the
+
+-- what the next post would be --
+slot chosen: #1  Lisk surged 269% on a blockchain shutdown and 100M token burn. The clearest altcoin cataly
