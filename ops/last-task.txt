@@ -1,96 +1,96 @@
-=== X QUEUE MECHANICS 2026-09-13T13:28:05Z ===
+=== post_from_queue.py 125-215 ===
+        return True  # fail-open: if check errors, don't block the post
 
--- x_post_queue.json (raw, 1399 bytes) --
-{
-  "date": "2026-09-13",
-  "pending": [
-    "Lisk surged 269% on a blockchain shutdown and 100M [redacted] The clearest altcoin catalyst this quarter isn't a product launch \u2014 it's a controlled demolition. Scarcity manufactured on exit. Know the math. | @AITechWireIO",
-    "Prediction markets now price Josh Shapiro as a 2028 frontrunner and September Fed cut odds are shifting in real time. Polymarket and Kalshi move faster than any analyst note. The odds are the positioning. Act accordingly. | @AITechWireIO",
-    "Safety regulations on frontier AI are more likely to entrench OpenAI and Anthropic than slow them. Compliance costs crush challengers. The labs that survive the regulatory layer own the decade. Steady hands beat loud money. | @AITechWireIO",
-    "Gold is up in 2026. ETH ETFs just logged $216M in weekly inflows while BTC bled $460M. Capital doesn't pick one asset class \u2014 it picks the one with the clearest narrative. Right now ETH has it. Own accordingly. | @AITechWireIO"
-  ],
-  "posted": [
-    {
-      "text": "ETH ETFs pulled $216M in inflows this week. BTC funds shed $460M. Institutional rotation doesn't happen quietly \u2014 it happens in $676M swings. ETH is outperforming BTC quarter-to-date. One of them is wrong. | @AITechWireIO",
-      "url": "https://x.com/AITechWireIO/status/2099106920757928446",
-      "time": "2026-09-13T12:04:24.476068"
-    }
-  ]
-}
 
--- how the queue is WRITTEN (write_x_posts) --
-resp = client.messages.create(model='claude-sonnet-4-6', max_tokens=1500, messages=[{'role':'user','content':prompt}])
-        raw = resp.content[0].text.strip()
-        match = re.search(r'\[.*\]', raw, re.DOTALL)
-        stories = json.loads(match.group(0)) if match else []
-        log(f"⚠️  Fallback: {len(stories)} stories from Claude knowledge")
-        return stories
+def main():
+    # ── Load queue ──────────────────────────────────────────────
+    if not os.path.exists(QUEUE_PATH):
+        print("📭 No queue file — nothing to post")
+        return
 
-# ─── STEP 2: WRITE X POSTS ────────────────────────────────────────────────────
+    try:
+        queue = json.load(open(QUEUE_PATH))
+    except Exception as e:
+        print(f"❌ Could not read queue: {e}")
+        return
 
-def write_x_posts(client, stories):
-    log("✍️  Writing X posts...")
-    stories_text = "\n".join([
-        f"{i+1}. [{s['section'].upper()}] {s['headline']}\n   {s['summary']}\n   Angle: {s['angle']}"
-        for i, s in enumerate(stories[:5])
-    ])
+    # Use CDT (UTC-5) for date comparison — pipeline writes queue at 7 AM CDT
+    # but 7 PM CDT = 00:00 UTC next day, so UTC date.today() returns tomorrow's date
+    cdt = datetime.timezone(datetime.timedelta(hours=-5))
+    today = datetime.datetime.now(cdt).strftime('%Y-%m-%d')
+    queue_date = queue.get('date', '')
+    if queue_date != today:
+        print(f"⏭️  Queue is from {queue_date} — not today CDT ({today}), skipping")
+        return
 
-    prompt = f"""You are the social media voice of AITechWire (@AITechWireIO).
-Today is {today_str()}.
+    pending = queue.get('pending', [])
+    if not pending:
+        print("📭 Queue empty — all posts already published today")
+        return
 
-Write 5 X (Twitter) posts based on these stories:
-{stories_text}
+    post_text = pending[0]
+    total_today = len(queue.get('posted', [])) + len(pending)
+    slot_num   = len(queue.get('posted', [])) + 1
 
-RULES FOR EACH POST:
-- MAX 240 characters for the body BEFORE " | @AITechWireIO" is appended — this is a HARD LIMIT, not a guideline
-- COUNT your characters before writing each post. If it exceeds 240, rewrite it shorter — do NOT truncate mid-sentence
-- MUST be a complete thought ending with . or ! or ? - never cut mid-sentence
-- No hashtags (they look spammy)
-- Aim for 160-220 chars — this gives headroom and still delivers punch. A tight 180-char post beats a rejected 285-char post every time
-- Do NOT include " | @AITechWireIO" — it is appended automatically
+    log(f"📋 Posting queued tweet [{slot_num}/{total_today}]...")
 
-TONE & STYLE - rotate through these 5 types, one per post:
+    # ── Freshness gate ───────────────────────────────────────────
+    # Before posting, verify the story hasn't been overtaken by breaking news.
+    # High-volatility topics (geopolitics, earnings, regulatory) get a quick
+    # Grok search. If the situation has materially reversed, skip this post.
+    env_for_check = load_env()
+    if not freshness_check(post_text, env_for_check, slot_num, total_today):
+        # Move stale post to 'skipped' and exit cleanly
+        queue['pending'] = pending[1:]
+        queue.setdefault('skipped', []).append({
+            'text':   post_text,
+            'reason': 'stale — situation changed since morning research',
+            'time':   datetime.datetime.utcnow().isoformat() + 'Z',
+        })
+        json.dump(queue, open(QUEUE_PATH, 'w'), indent=2)
+        print(f"⏭️  Post [{slot_num}] skipped — freshness check failed (story no longer current)")
+        return
 
-⭐ PERFORMANCE DATA (16-week real X API data, Jun 15 – Aug 30, 2026):
-   DeFi demystified: 7.9V Wk16 | 7.5V Wk15 | 19.0V Wk13 | 24.8V Wk12 → ANALOGY FATIGUE CONFIRMED. "Works like a stock exchange" is RETIRED — audience has absorbed it. Like rate still 1.0L/post (high quality, low reach). Fi
+    # ── Post to X ───────────────────────────────────────────────
+    env = load_env()
+    missing = [k for k in ('X_CONSUMER_KEY','X_CONSUMER_SECRET',
+                           'X_ACCESS_TOKEN','X_ACCESS_TOKEN_SECRET') if k not in env]
+    if missing:
+        print(f"❌ Missing X credentials: {missing}")
+        return
 
--- how items LEAVE the queue (post_from_queue) --
-8:If the queue is empty or stale (not today's date), exits silently.
-25:    with open(LOG_PATH, "a") as f:
-32:        for line in open(ENV_PATH):
-52:    r'rate cut', r'rate hike', r'emergency', r'powell', r'warsh.*today',
-65:def freshness_check(post_text, env, slot_num, total_today):
-86:    today_str = datetime.datetime.now(cdt).strftime("%B %d, %Y")
-88:    prompt = f"""Today is {today_str}. I'm about to post this on X:
-101:        payload = json.dumps({
-112:        resp = json.loads(urllib.request.urlopen(req, timeout=15).read())
-135:        queue = json.load(open(QUEUE_PATH))
-141:    # but 7 PM CDT = 00:00 UTC next day, so UTC date.today() returns tomorrow's date
-143:    today = datetime.datetime.now(cdt).strftime('%Y-%m-%d')
-145:    if queue_date != today:
-146:        print(f"⏭️  Queue is from {queue_date} — not today CDT ({today}), skipping")
-151:        print("📭 Queue empty — all posts already published today")
-155:    total_today = len(queue.get('posted', [])) + len(pending)
-156:    slot_num   = len(queue.get('posted', [])) + 1
-158:    log(f"📋 Posting queued tweet [{slot_num}/{total_today}]...")
-165:    if not freshness_check(post_text, env_for_check, slot_num, total_today):
-173:        json.dump(queue, open(QUEUE_PATH, 'w'), indent=2)
-195:        log(f"✅ Posted [{slot_num}/{total_today}]: {url}")
-199:        if 'posted' not in queue:
-200:            queue['posted'] = []
-201:        queue['posted'].append({
-206:        json.dump(queue, open(QUEUE_PATH, 'w'), indent=2)
-210:            post_x_post_live(slot_num, total_today, post_text, url)
-216:        print(f"\n⚡ AITechWire — Queued Post [{slot_num}/{total_today}] Published")
-220:            print(f"📋 {remaining} mor
+    try:
+        client = tweepy.Client(
+            consumer_key    = env['X_CONSUMER_KEY'],
+            consumer_secret = env['X_CONSUMER_SECRET'],
+            access_token    = env['X_ACCESS_TOKEN'],
+            access_token_secret = env['X_ACCESS_TOKEN_SECRET'],
+        )
+        result   = client.create_tweet(text=post_text)
+        tweet_id = result.data['id']
+        url      = f"https://x.com/AITechWireIO/status/{tweet_id}"
+        log(f"✅ Posted [{slot_num}/{total_today}]: {url}")
 
--- is there a template pool the posts are drawn from --
-3
-aitechwire_daily.py:210:EVERGREEN NAMED-ANALYST BAN without live event (Wk13 confirmed): Raoul Pal energy/compute thesis (3V), Anthropic Reed's Law (3V) — both named analysts, both well-written, both without live event anchors. The formula is: Named analyst + live event that validates the thesis TODAY = 15-35V. Named analyst alone = 3V. If you're writing about what an analyst believes without tying it to something that happened today, don't write it.
+        # ── Update queue ─────────────────────────────────────────
+        queue['pending'] = pending[1:]
+        if 'posted' not in queue:
+            queue['posted'] = []
+        queue['posted'].append({
+            'text': post_text,
+            'url':  url,
+            'time': datetime.datetime.utcnow().isoformat() + 'Z',
+        })
+        json.dump(queue, open(QUEUE_PATH, 'w'), indent=2)
 
--- any record of what was actually sent --
--rw-rw-r-- 1 ubuntu ubuntu  1399 Sep 13 12:04 x_post_queue.json
-95:- SAFE: [one sentence why it's still accurate]
-96:- STALE: [one sentence what changed]
-193:        tweet_id = result.data['id']
-194:        url      = f"https://x.com/AITechWireIO/status/{tweet_id}"
+        # Discord notification
+        try:
+            post_x_post_live(slot_num, total_today, post_text, url)
+        except Exception:
+            pass
+
+        # ── Summary for Telegram report ──────────────────────────
+        remaining = len(queue['pending'])
+=== where the queue json is written in aitechwire_daily ===
+51:QUEUE_PATH = "/home/ubuntu/.openclaw/workspace/scripts/x_post_queue.json"
+223:   "Most people think the Fed controls inflation. It doesn't. The Fed only controls short-term rates - inflation is driven by supply chains, energy, and fiscal spending. Raising rates just slows growth. That's the trap."
+470:                'pending': to_queue,
