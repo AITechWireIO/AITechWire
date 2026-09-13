@@ -1,45 +1,33 @@
 {
- "generated_utc": "2026-09-13T14:02:47Z",
+ "generated_utc": "2026-09-13T15:38:16Z",
  "date": "2026-09-13",
- "count": 3,
- "swept": 5,
+ "count": 2,
+ "swept": 2,
  "drafts": [
   {
    "n": 1,
-   "handle": "CryptoVince_",
+   "handle": "chachaX72",
    "lane": "ETF / institutional crypto",
-   "url": "https://x.com/CryptoVince_/status/2099104633935286620",
-   "likes": 18,
+   "url": "https://x.com/chachaX72/status/2099142231018082802",
+   "likes": 3,
    "replies": 0,
-   "age_min": 124,
+   "age_min": 71,
    "seen_before": 0,
-   "reply": "Volume concentration at these levels after an ETF debut historically faded as speculative flows rotated elsewhere.",
-   "chars": 114
+   "reply": "Top 10K hold 53.8B versus 21.9B on exchanges, so ETF volume of 35.7M is a thin overlay on concentrated supply.",
+   "chars": 110
   },
   {
    "n": 2,
-   "handle": "Lucky_m_X",
+   "handle": "RealAMShadow",
    "lane": "ETF / institutional crypto",
-   "url": "https://x.com/Lucky_m_X/status/2099099196171198835",
-   "likes": 13,
-   "replies": 1,
-   "age_min": 146,
+   "url": "https://x.com/RealAMShadow/status/2099124433067630872",
+   "likes": 3,
+   "replies": 4,
+   "age_min": 142,
    "seen_before": 0,
-   "reply": "Regulatory filings alone do not create institutional liquidity. Custody providers and prime brokers still need to list LTC pairs and offer leverage before large allocators can participate.",
-   "chars": 188
-  },
-  {
-   "n": 3,
-   "handle": "AndreeaTomoiag3",
-   "lane": "ETF / institutional crypto",
-   "url": "https://x.com/AndreeaTomoiag3/status/2099105814598336654",
-   "likes": 9,
-   "replies": 1,
-   "age_min": 120,
-   "seen_before": 0,
-   "reply": "Overlapping Bitcoin options expiry on the same Friday produces extra dealer hedging pressure that equity triple witching does not generate by itself.",
-   "chars": 149
+   "reply": "Onchain exchange balances can fall even when U.S. spot Bitcoin ETF flows print negative, which flags a demand channel those funds miss.",
+   "chars": 135
   }
  ],
- "text": "B2 reply batch 2026-09-13 14:00 UTC (seeded from the run's Discord delivery)"
+ "text": "B2 reply batch 2026-09-13 15:36 UTC\n\n1. @chachaX72  ETF / institutional crypto  3 likes / 0 replies / 71m old\nhttps://x.com/chachaX72/status/2099142231018082802\n\nREPLY (110 chars):\nTop 10K hold 53.8B versus 21.9B on exchanges, so ETF volume of 35.7M is a thin overlay on concentrated supply.\n\n2. @RealAMShadow  ETF / institutional crypto  3 likes / 4 replies / 142m old\nhttps://x.com/RealAMShadow/status/2099124433067630872\n\nREPLY (135 chars):\nOnchain exchange balances can fall even when U.S. spot Bitcoin ETF flows print negative, which flags a demand channel those funds miss.\n\nPost by hand. Tell Claude if you reword anything."
 }
