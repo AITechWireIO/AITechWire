@@ -1,46 +1,48 @@
-=== reply batch: where do the drafts GO ===
-4:Sweeps X for reply-able posts on AITechWire's four lanes, drafts 2-3 replies with
-5:Grok, and delivers link + draft to Oleg by Telegram and to Discord.
-7:IT NEVER POSTS TO X. Drafting only. Oleg posts by hand.
+=== how post_from_queue reaches #x-posts ===
+12-import tweepy
+13-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+14:from discord_notify import post_x_post_live
+15-
+16-ENV_PATH   = "/home/ubuntu/.openclaw/.env"
+17-QUEUE_PATH = "/home/ubuntu/.openclaw/workspace/scripts/x_post_queue.json"
+18-LOG_PATH   = "/home/ubuntu/.openclaw/workspace/scripts/aitechwire_daily.log"
+19-
+20-
+21-def log(msg):
+22-    ts = datetime.datetime.now().strftime("%H:%M:%S")
+23-    line = f"[{ts}] {msg}"
+24-    print(line)
+25-    with open(LOG_PATH, "a") as f:
+26-        f.write(line + "\n")
+27-
+28-
+29-def load_env():
+30-    env = {}
+31-    try:
+32-        for line in open(ENV_PATH):
+--
+246-        # Discord notification
+247-        try:
+248:            post_x_post_live(slot_num, total_today, post_text, url)
+249-        except Exception:
+250-            pass
+251-
+252-        # ── Summary for Telegram report ───────────────────────�
+253-        remaining = len(queue['pending'])
+254-        print(f"\n⚡ AITechWire — Queued Post [{slot_num}/{total_today}] Published")
+255-        print(f"🔗 {url}")
+256-        print(f"📝 {post_text[:120]}{'...' if len(post_text) > 120 else ''}")
+257-        if remaining:
+
+=== env var names available (names only, no values) ===
+B1_TG_WEBHOOK_SECRET
+B1_TT_WEBHOOK_AUTH_VALUE
+COWORK_WEBHOOK_URL
+DISCORD_BOT_TOKEN
+DISCORD_SERVER_ID
+TT_WEBHOOK_SECRET
+TT_WEBHOOK_URL
+
+=== which env names the reply batch looks for ===
 15:DISCORD_WEBHOOK_ENV = 'COWORK_WEBHOOK_URL'
-16:TELEGRAM_CHAT = '1467147287'
-50:MAX_DRAFTS = 3
-52:DRAFT_RULES = """You write replies for a finance/AI news account. Draft ONE reply to the post below.
-66:    print('%s %s' % (datetime.now(timezone.utc).strftime('%H:%M:%S'), m), flush=True)
-72:        for line in open(path):
-86:    with urllib.request.urlopen(req, timeout=timeout) as r:
-165:        if len(chosen) >= MAX_DRAFTS:
-170:# ---------------------------------------------------------------- drafting
-204:def draft(xai_key, c):
-205:    base = '%s\n\nPOST by @%s:\n%s' % (DRAFT_RULES, c['handle'], c['text'])
-208:        body = json.dumps({
-217:            log('draft @%s attempt %d failed: %s' % (c['handle'], attempt, e))
-223:        log('draft @%s attempt %d rejected: %s' % (c['handle'], attempt, why))
-230:def send_telegram(token, text):
-234:        http_json('https://api.telegram.org/bot%s/sendMessage' % token, None,
-235:                  json.dumps({'chat_id': TELEGRAM_CHAT, 'text': text,
-239:        log('telegram failed: %s' % e)
-243:def send_discord(webhook, text):
-244:    if not webhook:
-248:            http_json(webhook, None,
-249:                      json.dumps({'content': text[i:i + 1900]}).encode(), 30)
-253:        log('discord failed: %s' % e)
-259:        return json.load(open(STATE))
-267:        json.dump(s, open(STATE, 'w'), indent=1)
 279:    hook = env.get(DISCORD_WEBHOOK_ENV) or env.get('COWORK_DISCORD_WEBHOOK')
-283:        send_telegram(tg, msg)
-
-=== draft output files ===
--rw-r--r-- 1 ubuntu ubuntu  879 Sep 13 14:02 ../b2_reply_batch_state.json
--rw-rw-r-- 1 ubuntu ubuntu  376 Sep 13 14:45 ../logs/b2_reply_batch.log
--rw-rw-r-- 1 ubuntu ubuntu   75 Jun 18 18:00 reply_game_state.json
--rw-rw-r-- 1 ubuntu ubuntu 5478 Jul 10 09:01 reply_state.json
-
-=== last run: the actual drafts ===
-14:00:06 [Fed / macro] 0 qualified (lane-relevant)
-14:00:08 [AI infrastructure] 0 qualified (lane-relevant)
-14:00:10 [Prediction markets] 0 qualified (lane-relevant)
-14:00:12 [ETF / institutional crypto] 5 qualified (lane-relevant)
-14:02:47 discord failed: Expecting value: line 1 column 1 (char 0)
-14:02:47 delivered 3 draft(s) | telegram=False discord=False
-batch ran today
