@@ -1,8 +1,4 @@
-=== reply batch log, last 3 runs ===
-14:00:06 [Fed / macro] 0 qualified (lane-relevant)
-14:00:08 [AI infrastructure] 0 qualified (lane-relevant)
-14:00:10 [Prediction markets] 0 qualified (lane-relevant)
-14:00:12 [ETF / institutional crypto] 5 qualified (lane-relevant)
+:00:12 [ETF / institutional crypto] 5 qualified (lane-relevant)
 14:02:47 discord failed: Expecting value: line 1 column 1 (char 0)
 14:02:47 delivered 3 draft(s) | telegram=False discord=False
 batch ran today
@@ -21,16 +17,7 @@ batch ran today
 14:01:22 delivered to #x-posts
 14:01:22 delivered 1 draft(s) | telegram=False discord=True
 batch ran today
-
-=== the filters as configured ===
-18:LANES = [
-31:MIN_FOLLOWERS, MAX_FOLLOWERS = 1000, 25000
-32:MIN_AGE_MIN, MAX_AGE_MIN = 10, 240
-33:MIN_LIKES, MAX_REPLIES = 2, 15
-49:MIN_LANE_TERMS = 2
-50:MAX_DRAFTS = 3
-123:        if not (MIN_FOLLOWERS <= f <= MAX_FOLLOWERS):
-130:        if not (MIN_AGE_MIN <= age <= MAX_AGE_MIN):
-134:        if likes < MIN_LIKES or replies > MAX_REPLIES:
-140:        if len(_hits) < MIN_LANE_TERMS:
-165:        if len(chosen) >= MAX_DRAFTS:
+15:05:48 [Fed / macro] funnel: 48 returned by search -> 0 cleared size/age/engagement -> 0 on-topic
+15:05:50 [AI infrastructure] funnel: 50 returned by search -> 0 cleared size/age/engagement -> 0 on-topic
+15:05:53 [Prediction markets] funnel: 50 returned by search -> 0 cleared size/age/engagement -> 0 on-topic
+15:05:55 [ETF / institutional crypto] funnel: 50 returned by search -> 4 cleared size/age/engagement -> 4 on-topic
