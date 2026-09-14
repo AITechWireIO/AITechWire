@@ -1,45 +1,45 @@
 {
- "generated_utc": "2026-09-14T15:19:23Z",
+ "generated_utc": "2026-09-14T21:08:21Z",
  "date": "2026-09-14",
  "count": 3,
  "swept": 5,
  "drafts": [
   {
    "n": 1,
-   "handle": "DustinGouker",
-   "lane": "Prediction markets",
-   "url": "https://x.com/DustinGouker/status/2099514936921874475",
-   "likes": 2,
+   "handle": "GoldSeekcom",
+   "lane": "ETF / institutional crypto",
+   "url": "https://x.com/GoldSeekcom/status/2099581518951690503",
+   "likes": 3,
    "replies": 0,
-   "age_min": 10,
+   "age_min": 95,
    "seen_before": 0,
-   "reply": "Enforcement in prediction markets frequently hinges on contract design and who can trade rather than on headline volume. historically similar design fights defined early futures regulation.",
-   "chars": 189
+   "reply": "Buybacks shrink the tradable Treasury float and can push residual cash into gold as a non sovereign store of value when fiscal issuance remains heavy.",
+   "chars": 150
   },
   {
    "n": 2,
-   "handle": "Michelleki00",
-   "lane": "ETF / institutional crypto",
-   "url": "https://x.com/Michelleki00/status/2099505531257758174",
-   "likes": 2,
-   "replies": 0,
-   "age_min": 48,
-   "seen_before": 1,
-   "reply": "ETF inflows over consecutive days do not lock in lasting demand, historically similar launches saw profit taking after the initial allocation window. Daily income claims rest on a separate risk and liquidity stack.",
-   "chars": 214
+   "handle": "ChrisGPT",
+   "lane": "AI infrastructure",
+   "url": "https://x.com/ChrisGPT/status/2099604712458694989",
+   "likes": 11,
+   "replies": 3,
+   "age_min": 3,
+   "seen_before": 0,
+   "reply": "Apple is shipping a rebuilt assistant inside its OS rather than a public model API, so developers still need outside labs for anything beyond Siri.",
+   "chars": 147
   },
   {
    "n": 3,
-   "handle": "CoinpediaNews",
+   "handle": "ETFDb",
    "lane": "ETF / institutional crypto",
-   "url": "https://x.com/CoinpediaNews/status/2099497715264840021",
-   "likes": 2,
-   "replies": 0,
-   "age_min": 79,
-   "seen_before": 1,
-   "reply": "Ethereum products pulled in 197.11M while Bitcoin funds saw 462.73M leave, and the resulting 255.49M net outflow highlights rotation inside crypto rather than a uniform exit from the asset class.",
-   "chars": 195
+   "url": "https://x.com/ETFDb/status/2099578680150196598",
+   "likes": 3,
+   "replies": 2,
+   "age_min": 107,
+   "seen_before": 0,
+   "reply": "The 76.88 percent ETHU and 76.14 percent ETHT returns reflect 2x daily resets that will also produce 2x losses if Ether falls.",
+   "chars": 126
   }
  ],
- "text": "B2 reply batch 2026-09-14 15:16 UTC\n\n1. @DustinGouker  Prediction markets  2 likes / 0 replies / 10m old\nhttps://x.com/DustinGouker/status/2099514936921874475\n\nREPLY (189 chars):\nEnforcement in prediction markets frequently hinges on contract design and who can trade rather than on headline volume. historically similar design fights defined early futures regulation.\n\n2. @Michelleki00  ETF / institutional crypto  2 likes / 0 replies / 48m old  (seen 1 day(s) before) -> added to standing roster\nhttps://x.com/Michelleki00/status/2099505531257758174\n\nREPLY (214 chars):\nETF inflows over consecutive days do not lock in lasting demand, historically similar launches saw profit taking after the initial allocation window. Daily income claims rest on a separate risk and liquidity stack.\n\n3. @CoinpediaNews  ETF / institutional crypto  2 likes / 0 replies / 79m old  (seen 1 day(s) before) -> added to standing roster\nhttps://x.com/CoinpediaNews/status/2099497715264840021\n\nREPLY (195 chars):\nEthereum products pulled in 197.11M while Bitcoin funds saw 462.73M leave, and the resulting 255.49M net outflow highlights rotation inside crypto rather than a uniform exit from the asset class.\n\nPost by hand. Tell Claude if you reword anything."
+ "text": "B2 reply batch 2026-09-14 21:06 UTC\n\n1. @GoldSeekcom  ETF / institutional crypto  3 likes / 0 replies / 95m old\nhttps://x.com/GoldSeekcom/status/2099581518951690503\n\nREPLY (150 chars):\nBuybacks shrink the tradable Treasury float and can push residual cash into gold as a non sovereign store of value when fiscal issuance remains heavy.\n\n2. @ChrisGPT  AI infrastructure  11 likes / 3 replies / 3m old\nhttps://x.com/ChrisGPT/status/2099604712458694989\n\nREPLY (147 chars):\nApple is shipping a rebuilt assistant inside its OS rather than a public model API, so developers still need outside labs for anything beyond Siri.\n\n3. @ETFDb  ETF / institutional crypto  3 likes / 2 replies / 107m old\nhttps://x.com/ETFDb/status/2099578680150196598\n\nREPLY (126 chars):\nThe 76.88 percent ETHU and 76.14 percent ETHT returns reflect 2x daily resets that will also produce 2x losses if Ether falls.\n\nPost by hand. Tell Claude if you reword anything."
 }
