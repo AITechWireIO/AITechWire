@@ -1,20 +1,2 @@
-ch -> 4 cleared size/age/engagement -> 4 on-topic
-15:09:27 drafts written but push failed: To https://github.com/AITechWireIO/AITechWire.git
- ! [remote rejected] main -> main (cannot lock ref
-15:09:27 delivered to #x-posts
-15:09:27 delivered 3 draft(s) | telegram=False discord=True
-15:16:26 [Fed / macro] funnel: 50 returned -> 0 cleared -> 0 on-topic
-15:16:26 [Fed / macro]   followers seen: min 0 / mid 2498 / max 1052036  (band 1000-25000)
-15:16:26 [Fed / macro]   rejected: too small 20, followers 13, too new 12, no bio 3
-15:16:28 [AI infrastructure] funnel: 50 returned -> 0 cleared -> 0 on-topic
-15:16:28 [AI infrastructure]   followers seen: min 1 / mid 2498 / max 10447743  (band 1000-25000)
-15:16:28 [AI infrastructure]   rejected: too new 20, too small 16, followers 8, no bio 5
-15:16:30 [Prediction markets] funnel: 50 returned -> 1 cleared -> 1 on-topic
-15:16:30 [Prediction markets]   followers seen: min 5 / mid 1877 / max 6213200  (band 1000-25000)
-15:16:30 [Prediction markets]   rejected: too small 20, too new 14, followers 13, too few likes 2
-15:16:34 [ETF / institutional crypto] funnel: 50 returned -> 4 cleared -> 4 on-topic
-15:16:34 [ETF / institutional crypto]   followers seen: min 0 / mid 933 / max 1273277  (band 1000-25000)
-15:16:34 [ETF / institutional crypto]   rejected: too small 26, too few likes 10, followers 9, no bio 1
-15:19:24 drafts published to /ops/replies.json (3)
-15:19:24 delivered to #x-posts
-15:19:24 delivered 3 draft(s) | telegram=False discord=True
+32:MIN_AGE_MIN, MAX_AGE_MIN = 2, 240  # B2-AGE: 10 threw away 46 fresh posts per sweep; being early helps a reply
+COMPILES_OK
