@@ -1,23 +1,20 @@
-:00:12 [ETF / institutional crypto] 5 qualified (lane-relevant)
-14:02:47 discord failed: Expecting value: line 1 column 1 (char 0)
-14:02:47 delivered 3 draft(s) | telegram=False discord=False
-batch ran today
-15:35:55 [Fed / macro] 0 qualified (lane-relevant)
-15:35:57 [AI infrastructure] 0 qualified (lane-relevant)
-15:36:00 [Prediction markets] 0 qualified (lane-relevant)
-15:36:02 [ETF / institutional crypto] 2 qualified (lane-relevant)
-15:38:17 drafts published to /ops/replies.json (2)
-15:38:17 delivered to #x-posts
-15:38:17 delivered 2 draft(s) | telegram=False discord=True
-14:00:06 [Fed / macro] 0 qualified (lane-relevant)
-14:00:09 [AI infrastructure] 0 qualified (lane-relevant)
-14:00:11 [Prediction markets] 0 qualified (lane-relevant)
-14:00:13 [ETF / institutional crypto] 1 qualified (lane-relevant)
-14:01:22 drafts published to /ops/replies.json (1)
-14:01:22 delivered to #x-posts
-14:01:22 delivered 1 draft(s) | telegram=False discord=True
-batch ran today
-15:05:48 [Fed / macro] funnel: 48 returned by search -> 0 cleared size/age/engagement -> 0 on-topic
-15:05:50 [AI infrastructure] funnel: 50 returned by search -> 0 cleared size/age/engagement -> 0 on-topic
-15:05:53 [Prediction markets] funnel: 50 returned by search -> 0 cleared size/age/engagement -> 0 on-topic
-15:05:55 [ETF / institutional crypto] funnel: 50 returned by search -> 4 cleared size/age/engagement -> 4 on-topic
+ch -> 4 cleared size/age/engagement -> 4 on-topic
+15:09:27 drafts written but push failed: To https://github.com/AITechWireIO/AITechWire.git
+ ! [remote rejected] main -> main (cannot lock ref
+15:09:27 delivered to #x-posts
+15:09:27 delivered 3 draft(s) | telegram=False discord=True
+15:16:26 [Fed / macro] funnel: 50 returned -> 0 cleared -> 0 on-topic
+15:16:26 [Fed / macro]   followers seen: min 0 / mid 2498 / max 1052036  (band 1000-25000)
+15:16:26 [Fed / macro]   rejected: too small 20, followers 13, too new 12, no bio 3
+15:16:28 [AI infrastructure] funnel: 50 returned -> 0 cleared -> 0 on-topic
+15:16:28 [AI infrastructure]   followers seen: min 1 / mid 2498 / max 10447743  (band 1000-25000)
+15:16:28 [AI infrastructure]   rejected: too new 20, too small 16, followers 8, no bio 5
+15:16:30 [Prediction markets] funnel: 50 returned -> 1 cleared -> 1 on-topic
+15:16:30 [Prediction markets]   followers seen: min 5 / mid 1877 / max 6213200  (band 1000-25000)
+15:16:30 [Prediction markets]   rejected: too small 20, too new 14, followers 13, too few likes 2
+15:16:34 [ETF / institutional crypto] funnel: 50 returned -> 4 cleared -> 4 on-topic
+15:16:34 [ETF / institutional crypto]   followers seen: min 0 / mid 933 / max 1273277  (band 1000-25000)
+15:16:34 [ETF / institutional crypto]   rejected: too small 26, too few likes 10, followers 9, no bio 1
+15:19:24 drafts published to /ops/replies.json (3)
+15:19:24 delivered to #x-posts
+15:19:24 delivered 3 draft(s) | telegram=False discord=True
