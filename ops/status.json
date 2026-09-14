@@ -1,10 +1,10 @@
 {
- "generated_utc": "2026-09-14T11:05:01Z",
+ "generated_utc": "2026-09-14T12:05:01Z",
  "today": "2026-09-14",
  "article_today": [],
  "latest_article": "2026-09-13-eth-etfs-see-216m-inflows-while-btc-funds-lose-460m.html",
  "article_count": 90,
- "process_running": "1",
+ "process_running": "3",
  "cron": [
   "0 14 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_batch.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
   "45 14 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
