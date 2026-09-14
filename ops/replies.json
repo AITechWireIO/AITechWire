@@ -1,21 +1,45 @@
 {
- "generated_utc": "2026-09-14T14:01:20Z",
+ "generated_utc": "2026-09-14T15:09:25Z",
  "date": "2026-09-14",
- "count": 1,
- "swept": 1,
+ "count": 3,
+ "swept": 4,
  "drafts": [
   {
    "n": 1,
-   "handle": "aureliane0",
+   "handle": "Michelleki00",
    "lane": "ETF / institutional crypto",
-   "url": "https://x.com/aureliane0/status/2099493884912914907",
+   "url": "https://x.com/Michelleki00/status/2099505531257758174",
+   "likes": 2,
+   "replies": 0,
+   "age_min": 37,
+   "seen_before": 0,
+   "reply": "Spot ETF inflow streaks count creations only and ignore redemptions plus secondary market selling of the same asset.",
+   "chars": 116
+  },
+  {
+   "n": 2,
+   "handle": "CoinpediaNews",
+   "lane": "ETF / institutional crypto",
+   "url": "https://x.com/CoinpediaNews/status/2099497715264840021",
+   "likes": 2,
+   "replies": 0,
+   "age_min": 68,
+   "seen_before": 0,
+   "reply": "Bitcoin ETF outflows of $462.73M and Ethereum inflows of $197.11M produced a $255.49M net redemption. Split flows mark a rotation in wrappers, not a uniform exit from crypto.",
+   "chars": 174
+  },
+  {
+   "n": 3,
+   "handle": "ToxicBTC21M",
+   "lane": "ETF / institutional crypto",
+   "url": "https://x.com/ToxicBTC21M/status/2099499899628998783",
    "likes": 3,
    "replies": 1,
-   "age_min": 18,
+   "age_min": 59,
    "seen_before": 0,
-   "reply": "Net selling recorded through June and early July is not undone by a 7-day average that has moved away from -5K BTC per day.",
-   "chars": 123
+   "reply": "Bitcoin related securities add issuer credit and equity beta that pure BTC does not. historically crowding into one theme preceded sharp reversals when funding tightened.",
+   "chars": 170
   }
  ],
- "text": "B2 reply batch 2026-09-14 14:00 UTC\n\n1. @aureliane0  ETF / institutional crypto  3 likes / 1 replies / 18m old\nhttps://x.com/aureliane0/status/2099493884912914907\n\nREPLY (123 chars):\nNet selling recorded through June and early July is not undone by a 7-day average that has moved away from -5K BTC per day.\n\nPost by hand. Tell Claude if you reword anything."
+ "text": "B2 reply batch 2026-09-14 15:05 UTC\n\n1. @Michelleki00  ETF / institutional crypto  2 likes / 0 replies / 37m old\nhttps://x.com/Michelleki00/status/2099505531257758174\n\nREPLY (116 chars):\nSpot ETF inflow streaks count creations only and ignore redemptions plus secondary market selling of the same asset.\n\n2. @CoinpediaNews  ETF / institutional crypto  2 likes / 0 replies / 68m old\nhttps://x.com/CoinpediaNews/status/2099497715264840021\n\nREPLY (174 chars):\nBitcoin ETF outflows of $462.73M and Ethereum inflows of $197.11M produced a $255.49M net redemption. Split flows mark a rotation in wrappers, not a uniform exit from crypto.\n\n3. @ToxicBTC21M  ETF / institutional crypto  3 likes / 1 replies / 59m old\nhttps://x.com/ToxicBTC21M/status/2099499899628998783\n\nREPLY (170 chars):\nBitcoin related securities add issuer credit and equity beta that pure BTC does not. historically crowding into one theme preceded sharp reversals when funding tightened.\n\nPost by hand. Tell Claude if you reword anything."
 }
