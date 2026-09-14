@@ -1,19 +1,18 @@
-=== cost history, last 10 days ===
-{'date': '2026-08-28', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
-{'date': '2026-08-30', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
-{'date': '2026-09-01', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
-{'date': '2026-09-01', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
-{'date': '2026-09-02', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
-{'date': '2026-09-05', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
-{'date': '2026-09-10', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
-{'date': '2026-09-12', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
-{'date': '2026-09-12', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
-{'date': '2026-09-14', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
+osts
+21:43:32 delivered 17 draft(s) | telegram=False discord=True
+21:49:20 [Fed / macro] funnel: 100 returned -> 2 cleared -> 0 on-topic
+21:49:20 [Fed / macro]   followers seen: min 0 / mid 1369 / max 10051947  (band 400-100000)
+21:49:20 [Fed / macro]   rejected: too few likes 33, too small 29, no bio 15, too new 12, followers 4
+21:49:22 [AI infrastructure] funnel: 100 returned -> 7 cleared -> 2 on-topic
+21:49:22 [AI infrastructure]   followers seen: min 6 / mid 410 / max 399086  (band 400-100000)
+21:49:22 [AI infrastructure]   rejected: too small 45, too few likes 32, no bio 6, too new 4, followers 2
+21:49:25 [Prediction markets] funnel: 100 returned -> 16 cleared -> 9 on-topic
+21:49:25 [Prediction markets]   followers seen: min 0 / mid 437 / max 26291936  (band 400-100000)
+21:49:25 [Prediction markets]   rejected: too small 45, too few likes 22, followers 7, too new 4, no bio 2
+21:49:27 [ETF / institutional crypto] funnel: 100 returned -> 9 cleared -> 4 on-topic
+21:49:27 [ETF / institutional crypto]   followers seen: min 0 / mid 1665 / max 606592  (band 400-100000)
+21:49:27 [ETF / institutional crypto]   rejected: too small 31, too old 26, too few likes 22, followers 6, no bio 4
 
-=== what the sweep costs per run: search calls and draft calls ===
-18:LANES = [
-95:        'max_results': '50',
-265:    return [text[i:i + 1900] for i in range(0, len(text), 1900)] or ['']
-
-=== X API plan / tier hints ===
-100:    url = 'https://api.x.com/2/tweets/search/recent?' + urllib.parse.urlencode(params)
+=== growth ledger ===
+growth ledger: 0 account(s) at /home/ubuntu/.openclaw/workspace/x_growth_history.json
+0 with more than one observation (measured growth possible)
