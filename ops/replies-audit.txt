@@ -1,64 +1,36 @@
-=== discord_notify.py interface ===
-4:====================================================
-5:Posts structured updates to the right channels.
-11:ENV_PATH = "/home/ubuntu/.openclaw/.env"
-14:CHANNELS = {
-50:def load_token():
-61:def post(channel_name, content=None, embed=None):
-64:    channel_id = CHANNELS.get(channel_name)
-65:    if not channel_id or not token:
-77:            f'https://discord.com/api/v10/channels/{channel_id}/messages',
-99:def post_research_feed(stories):
-117:def post_x_post_live(slot, total, post_text, tweet_url):
-131:def post_pipeline_summary(article_headline, article_url, posts_live, costs, stories):
-151:def post_error(source, error_msg):
-159:def post_memory_update(what_changed, why):
-166:def post_performance_summary(data):
+=== reply batch log, last 3 runs ===
+14:00:06 [Fed / macro] 0 qualified (lane-relevant)
+14:00:08 [AI infrastructure] 0 qualified (lane-relevant)
+14:00:10 [Prediction markets] 0 qualified (lane-relevant)
+14:00:12 [ETF / institutional crypto] 5 qualified (lane-relevant)
+14:02:47 discord failed: Expecting value: line 1 column 1 (char 0)
+14:02:47 delivered 3 draft(s) | telegram=False discord=False
+batch ran today
+15:35:55 [Fed / macro] 0 qualified (lane-relevant)
+15:35:57 [AI infrastructure] 0 qualified (lane-relevant)
+15:36:00 [Prediction markets] 0 qualified (lane-relevant)
+15:36:02 [ETF / institutional crypto] 2 qualified (lane-relevant)
+15:38:17 drafts published to /ops/replies.json (2)
+15:38:17 delivered to #x-posts
+15:38:17 delivered 2 draft(s) | telegram=False discord=True
+14:00:06 [Fed / macro] 0 qualified (lane-relevant)
+14:00:09 [AI infrastructure] 0 qualified (lane-relevant)
+14:00:11 [Prediction markets] 0 qualified (lane-relevant)
+14:00:13 [ETF / institutional crypto] 1 qualified (lane-relevant)
+14:01:22 drafts published to /ops/replies.json (1)
+14:01:22 delivered to #x-posts
+14:01:22 delivered 1 draft(s) | telegram=False discord=True
+batch ran today
 
-=== the generic sender, if there is one ===
-61:def post(channel_name, content=None, embed=None):
-62-    """Post a message to a Discord channel. Supports plain text and embeds."""
-63-    token = load_token()
-64-    channel_id = CHANNELS.get(channel_name)
-65-    if not channel_id or not token:
-66-        print(f"  ⚠️  Discord: can't post to #{channel_name}")
-67-        return False
-68-
-69-    payload = {}
-70-    if content:
-71-        payload['content'] = str(content)[:2000]
-72-    if embed:
-73-        payload['embeds'] = [embed]
---
-99:def post_research_feed(stories):
-100-    """Post morning research stories to #research-feed."""
-101-    today = datetime.date.today().strftime("%B %d, %Y")
-102-    lines = [f"🔍 **Research Feed — {today}**\n"]
-103-    for i, s in enumerate(stories):
-104-        score = s.get('_score', '?')
-105-        pillar = s.get('pillar', s.get('section', '?')).upper()
-106-        headline = s.get('headline', '')[:80]
-107-        volume = s.get('volume', '')
-108-        vol_icon = {'high': '🔥', 'medium': '📊', 'low': '📉'}.get(volume, '📊')
-109-        lines.append(f"**{i+1}.** [{pillar}] {vol_icon} {headline}  `score: {score}/40`")
-110-        voices = s.get('key_voices', [])
-111-        if voices:
---
-117:def post_x_post_live(slot, total, post_text, tweet_url):
-118-    """Post to #x-posts when a tweet fires."""
-119-    time_slots = {1: '7:00 AM', 2: '10:00 AM', 3: '1:00 PM', 4: '4:00 PM', 5: '7:00 PM'}
-120-    slot_time = time_slots.get(slot, f'slot {slot}')
-121-    embed = {
-122-        'color': 0x1DA1F2,
-123-        'title': f'🐦 Post [{slot}/{total}] — {slot_time} CDT',
-124-        'description': post_text,
-125-        'url': tweet_url,
-126-        'footer': {'text': '@AITechWireIO'}
-127-    }
-128-    return post('x-posts', embed=embed)
-129-
---
-131:def post_pipeline_summary(article_headline, article_url, posts_live, costs, stories):
-132-    """Post daily pipeline summary to #pipeline-log."""
-133-    today = datetime.date.today().strftime("%B %d, %Y")
-134-    embed = {
+=== the filters as configured ===
+18:LANES = [
+31:MIN_FOLLOWERS, MAX_FOLLOWERS = 1000, 25000
+32:MIN_AGE_MIN, MAX_AGE_MIN = 10, 240
+33:MIN_LIKES, MAX_REPLIES = 2, 15
+49:MIN_LANE_TERMS = 2
+50:MAX_DRAFTS = 3
+123:        if not (MIN_FOLLOWERS <= f <= MAX_FOLLOWERS):
+130:        if not (MIN_AGE_MIN <= age <= MAX_AGE_MIN):
+134:        if likes < MIN_LIKES or replies > MAX_REPLIES:
+140:        if len(_hits) < MIN_LANE_TERMS:
+165:        if len(chosen) >= MAX_DRAFTS:
