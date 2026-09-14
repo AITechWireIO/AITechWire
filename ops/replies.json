@@ -1,45 +1,45 @@
 {
- "generated_utc": "2026-09-14T15:09:25Z",
+ "generated_utc": "2026-09-14T15:19:23Z",
  "date": "2026-09-14",
  "count": 3,
- "swept": 4,
+ "swept": 5,
  "drafts": [
   {
    "n": 1,
+   "handle": "DustinGouker",
+   "lane": "Prediction markets",
+   "url": "https://x.com/DustinGouker/status/2099514936921874475",
+   "likes": 2,
+   "replies": 0,
+   "age_min": 10,
+   "seen_before": 0,
+   "reply": "Enforcement in prediction markets frequently hinges on contract design and who can trade rather than on headline volume. historically similar design fights defined early futures regulation.",
+   "chars": 189
+  },
+  {
+   "n": 2,
    "handle": "Michelleki00",
    "lane": "ETF / institutional crypto",
    "url": "https://x.com/Michelleki00/status/2099505531257758174",
    "likes": 2,
    "replies": 0,
-   "age_min": 37,
-   "seen_before": 0,
-   "reply": "Spot ETF inflow streaks count creations only and ignore redemptions plus secondary market selling of the same asset.",
-   "chars": 116
+   "age_min": 48,
+   "seen_before": 1,
+   "reply": "ETF inflows over consecutive days do not lock in lasting demand, historically similar launches saw profit taking after the initial allocation window. Daily income claims rest on a separate risk and liquidity stack.",
+   "chars": 214
   },
   {
-   "n": 2,
+   "n": 3,
    "handle": "CoinpediaNews",
    "lane": "ETF / institutional crypto",
    "url": "https://x.com/CoinpediaNews/status/2099497715264840021",
    "likes": 2,
    "replies": 0,
-   "age_min": 68,
-   "seen_before": 0,
-   "reply": "Bitcoin ETF outflows of $462.73M and Ethereum inflows of $197.11M produced a $255.49M net redemption. Split flows mark a rotation in wrappers, not a uniform exit from crypto.",
-   "chars": 174
-  },
-  {
-   "n": 3,
-   "handle": "ToxicBTC21M",
-   "lane": "ETF / institutional crypto",
-   "url": "https://x.com/ToxicBTC21M/status/2099499899628998783",
-   "likes": 3,
-   "replies": 1,
-   "age_min": 59,
-   "seen_before": 0,
-   "reply": "Bitcoin related securities add issuer credit and equity beta that pure BTC does not. historically crowding into one theme preceded sharp reversals when funding tightened.",
-   "chars": 170
+   "age_min": 79,
+   "seen_before": 1,
+   "reply": "Ethereum products pulled in 197.11M while Bitcoin funds saw 462.73M leave, and the resulting 255.49M net outflow highlights rotation inside crypto rather than a uniform exit from the asset class.",
+   "chars": 195
   }
  ],
- "text": "B2 reply batch 2026-09-14 15:05 UTC\n\n1. @Michelleki00  ETF / institutional crypto  2 likes / 0 replies / 37m old\nhttps://x.com/Michelleki00/status/2099505531257758174\n\nREPLY (116 chars):\nSpot ETF inflow streaks count creations only and ignore redemptions plus secondary market selling of the same asset.\n\n2. @CoinpediaNews  ETF / institutional crypto  2 likes / 0 replies / 68m old\nhttps://x.com/CoinpediaNews/status/2099497715264840021\n\nREPLY (174 chars):\nBitcoin ETF outflows of $462.73M and Ethereum inflows of $197.11M produced a $255.49M net redemption. Split flows mark a rotation in wrappers, not a uniform exit from crypto.\n\n3. @ToxicBTC21M  ETF / institutional crypto  3 likes / 1 replies / 59m old\nhttps://x.com/ToxicBTC21M/status/2099499899628998783\n\nREPLY (170 chars):\nBitcoin related securities add issuer credit and equity beta that pure BTC does not. historically crowding into one theme preceded sharp reversals when funding tightened.\n\nPost by hand. Tell Claude if you reword anything."
+ "text": "B2 reply batch 2026-09-14 15:16 UTC\n\n1. @DustinGouker  Prediction markets  2 likes / 0 replies / 10m old\nhttps://x.com/DustinGouker/status/2099514936921874475\n\nREPLY (189 chars):\nEnforcement in prediction markets frequently hinges on contract design and who can trade rather than on headline volume. historically similar design fights defined early futures regulation.\n\n2. @Michelleki00  ETF / institutional crypto  2 likes / 0 replies / 48m old  (seen 1 day(s) before) -> added to standing roster\nhttps://x.com/Michelleki00/status/2099505531257758174\n\nREPLY (214 chars):\nETF inflows over consecutive days do not lock in lasting demand, historically similar launches saw profit taking after the initial allocation window. Daily income claims rest on a separate risk and liquidity stack.\n\n3. @CoinpediaNews  ETF / institutional crypto  2 likes / 0 replies / 79m old  (seen 1 day(s) before) -> added to standing roster\nhttps://x.com/CoinpediaNews/status/2099497715264840021\n\nREPLY (195 chars):\nEthereum products pulled in 197.11M while Bitcoin funds saw 462.73M leave, and the resulting 255.49M net outflow highlights rotation inside crypto rather than a uniform exit from the asset class.\n\nPost by hand. Tell Claude if you reword anything."
 }
