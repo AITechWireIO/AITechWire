@@ -1,20 +1,20 @@
 {
- "generated_utc": "2026-09-14T22:02:12Z",
+ "generated_utc": "2026-09-14T22:11:54Z",
  "date": "2026-09-14",
- "count": 15,
- "swept": 15,
+ "count": 13,
+ "swept": 16,
  "drafts": [
   {
    "n": 1,
-   "handle": "USDai_Official",
+   "handle": "chiefofautism",
    "lane": "AI infrastructure",
-   "url": "https://x.com/USDai_Official/status/2099612628675088731",
-   "likes": 20,
-   "replies": 6,
-   "age_min": 15,
+   "url": "https://x.com/chiefofautism/status/2099616445034353094",
+   "likes": 2,
+   "replies": 0,
+   "age_min": 7,
    "seen_before": 0,
-   "reply": "Power and cooling for 192 GPUs sit outside the loan and can consume the 13 percent return.",
-   "chars": 90
+   "reply": "Rushing a GPU purchase for local models locks in last generation pricing while new silicon and quantization methods keep shifting the useful floor.",
+   "chars": 147
   },
   {
    "n": 2,
@@ -23,34 +23,34 @@
    "url": "https://x.com/gokhshtein/status/2099609585392799829",
    "likes": 3,
    "replies": 1,
-   "age_min": 27,
+   "age_min": 35,
    "seen_before": 1,
-   "reply": "Prediction market odds on the CLARITY Act leave committee schedules and whip counts unchanged.",
-   "chars": 94
+   "reply": "Prediction market odds on the CLARITY Act leave Senate scheduling and conference negotiations unpriced.",
+   "chars": 103
   },
   {
    "n": 3,
-   "handle": "W3BCMedia",
-   "lane": "Prediction markets",
-   "url": "https://x.com/W3BCMedia/status/2099607872510320927",
-   "likes": 2,
+   "handle": "jade_defi",
+   "lane": "Fed / macro",
+   "url": "https://x.com/jade_defi/status/2099617173601681776",
+   "likes": 5,
    "replies": 0,
-   "age_min": 34,
-   "seen_before": 1,
-   "reply": "Election contracts carry post-event contestation risk that sports markets almost never face, so the dual catalyst is not a uniform stress test.",
-   "chars": 143
+   "age_min": 4,
+   "seen_before": 0,
+   "reply": "Order of events matters. A CLARITY Act vote can reprice crypto risk before the FOMC lands, packing consecutive shocks into a tight liquidity window.",
+   "chars": 148
   },
   {
    "n": 4,
    "handle": "jaekwon",
    "lane": "Prediction markets",
    "url": "https://x.com/jaekwon/status/2099615094024097976",
-   "likes": 4,
-   "replies": 0,
-   "age_min": 5,
+   "likes": 6,
+   "replies": 2,
+   "age_min": 13,
    "seen_before": 0,
-   "reply": "Staking conviction without capital at risk still requires someone to pay for verification. Otherwise false claims sit unchallenged.",
-   "chars": 131
+   "reply": "Distinguishing current facts from future events does not remove the oracle problem that prediction markets already face.",
+   "chars": 120
   },
   {
    "n": 5,
@@ -59,46 +59,46 @@
    "url": "https://x.com/GoldSeekcom/status/2099581518951690503",
    "likes": 4,
    "replies": 1,
-   "age_min": 139,
+   "age_min": 146,
    "seen_before": 2,
-   "reply": "Treasury buybacks return cash to holders who frequently reinvest in equities and credit rather than gold, so the metal still depends on the path of real rates.",
-   "chars": 159
+   "reply": "Treasury buybacks recycle existing liabilities. Gold prices still follow real yields and dollar strength more closely.",
+   "chars": 118
   },
   {
    "n": 6,
-   "handle": "HammerTimeLays",
+   "handle": "Crispyduck",
    "lane": "Prediction markets",
-   "url": "https://x.com/HammerTimeLays/status/2099608977378099544",
-   "likes": 5,
-   "replies": 0,
-   "age_min": 30,
-   "seen_before": 1,
-   "reply": "Kalshi contracts can be bought and sold continuously while the Bet365 ticket at +4500 cannot.",
-   "chars": 93
+   "url": "https://x.com/Crispyduck/status/2099613711568626104",
+   "likes": 4,
+   "replies": 1,
+   "age_min": 18,
+   "seen_before": 0,
+   "reply": "Mixing kids apps with gacha, poker and tokenized assets puts the same brand under both gambling and child safety regimes at once.",
+   "chars": 129
   },
   {
    "n": 7,
+   "handle": "MarketCanary",
+   "lane": "Fed / macro",
+   "url": "https://x.com/MarketCanary/status/2099616304403448194",
+   "likes": 12,
+   "replies": 2,
+   "age_min": 8,
+   "seen_before": 0,
+   "reply": "A hold Wednesday still leaves room for a hawkish statement that caps the move. Targets of 89k on BTC and 3000 on ETH treat no hike as stimulus rather than a pause.",
+   "chars": 163
+  },
+  {
+   "n": 8,
    "handle": "heyydemini",
    "lane": "Prediction markets",
    "url": "https://x.com/heyydemini/status/2099611171619758429",
    "likes": 6,
    "replies": 1,
-   "age_min": 21,
+   "age_min": 28,
    "seen_before": 0,
-   "reply": "Retail flow into Kalshi NFL contracts still behaves like sportsbook action rather than probability updating.",
-   "chars": 108
-  },
-  {
-   "n": 8,
-   "handle": "PolymarketLoL",
-   "lane": "Prediction markets",
-   "url": "https://x.com/PolymarketLoL/status/2099608619889119408",
-   "likes": 3,
-   "replies": 1,
-   "age_min": 31,
-   "seen_before": 1,
-   "reply": "Esports prediction contracts often trade thin so a few orders can pin the displayed probability away from the seed ranking.",
-   "chars": 123
+   "reply": "NFL volume of a billion in week 1 on prediction markets does not transfer to tighter spreads on earnings or Fed contracts.",
+   "chars": 122
   },
   {
    "n": 9,
@@ -107,83 +107,59 @@
    "url": "https://x.com/petrowashere/status/2099607527725920720",
    "likes": 2,
    "replies": 0,
-   "age_min": 35,
+   "age_min": 43,
    "seen_before": 0,
-   "reply": "ETF shares leave holders unable to transact on the Bitcoin network or withdraw the coins, so exposure stays trapped inside the fund.",
-   "chars": 132
+   "reply": "Retail investors in a spot bitcoin ETF cannot take delivery of the coins. Creation and redemption sit with authorized participants only.",
+   "chars": 136
   },
   {
    "n": 10,
-   "handle": "ETFDb",
-   "lane": "ETF / institutional crypto",
-   "url": "https://x.com/ETFDb/status/2099578680150196598",
-   "likes": 4,
-   "replies": 3,
-   "age_min": 150,
-   "seen_before": 2,
-   "reply": "Leveraged ether products posted 76.88 and 76.14 while unlevered ether gained 35.50, so 2x exposure, not blockchain status, accounts for the lead over the 41.80 bitcoin 2x ETF.",
-   "chars": 175
+   "handle": "MarketAtlas",
+   "lane": "Fed / macro",
+   "url": "https://x.com/MarketAtlas/status/2099617862860386532",
+   "likes": 2,
+   "replies": 1,
+   "age_min": 2,
+   "seen_before": 0,
+   "reply": "Private credit default data often excludes PIK interest and amend and extend transactions that would register as defaults in public markets.",
+   "chars": 140
   },
   {
    "n": 11,
+   "handle": "XrpArab",
+   "lane": "ETF / institutional crypto",
+   "url": "https://x.com/XrpArab/status/2099604102389113244",
+   "likes": 2,
+   "replies": 0,
+   "age_min": 56,
+   "seen_before": 0,
+   "reply": "A vote date does not equal immediate classification change, historically similar catalysts faded without follow through volume.",
+   "chars": 127
+  },
+  {
+   "n": 12,
    "handle": "DailyEdgeSports",
    "lane": "Prediction markets",
    "url": "https://x.com/DailyEdgeSports/status/2099610406180257953",
    "likes": 2,
    "replies": 0,
-   "age_min": 24,
+   "age_min": 31,
    "seen_before": 0,
-   "reply": "Machine learning models that backtest five-leg NFL tickets still overfit the same cashed paths that public posts display.",
-   "chars": 121
-  },
-  {
-   "n": 12,
-   "handle": "computesgazette",
-   "lane": "AI infrastructure",
-   "url": "https://x.com/computesgazette/status/2099613542936666188",
-   "likes": 2,
-   "replies": 0,
-   "age_min": 11,
-   "seen_before": 0,
-   "reply": "Unpaid listings for makers of boards and cartridges expose the aftermarket layer that still determines whether commodity machines stay in use.",
-   "chars": 142
+   "reply": "Combo bets on prediction markets concentrate exposure to a single weekend of outcomes rather than diversifying across independent events.",
+   "chars": 137
   },
   {
    "n": 13,
-   "handle": "PickTheOdd",
-   "lane": "Prediction markets",
-   "url": "https://x.com/PickTheOdd/status/2099606480546636165",
-   "likes": 9,
-   "replies": 1,
-   "age_min": 39,
-   "seen_before": 1,
-   "reply": "Sportsbooks already price football with AI models. An odds screen over 120 apps mostly shows how fast that pricing converges.",
-   "chars": 125
-  },
-  {
-   "n": 14,
-   "handle": "bigfatsaint",
-   "lane": "ETF / institutional crypto",
-   "url": "https://x.com/bigfatsaint/status/2099560458776940600",
-   "likes": 13,
-   "replies": 8,
-   "age_min": 222,
-   "seen_before": 1,
-   "reply": "ETF products already hold $1.34B in net inflows but that capital sits with custodians and does not automatically increase validator revenue or on-chain velocity.",
-   "chars": 161
-  },
-  {
-   "n": 15,
-   "handle": "nastia__kashuba",
-   "lane": "Prediction markets",
-   "url": "https://x.com/nastia__kashuba/status/2099608184679723176",
-   "likes": 8,
+   "handle": "StephenZeiner",
+   "lane": "AI infrastructure",
+   "url": "https://x.com/StephenZeiner/status/2099616161616781468",
+   "likes": 2,
    "replies": 0,
-   "age_min": 33,
-   "seen_before": 1,
-   "reply": "App Store position reflects download velocity rather than whether prediction markets hold users past the first event cycle.",
-   "chars": 123
+   "age_min": 8,
+   "seen_before": 0,
+   "reply": "Open signaling of intent to host superintelligence would convert a datacenter build into a national security review and freeze capital markets access.",
+   "chars": 150
   }
  ],
- "text": "B2 reply batch 2026-09-14 21:49 UTC\n\n1. @USDai_Official  AI infrastructure  20 likes / 6 replies / 15m old\nhttps://x.com/USDai_Official/status/2099612628675088731\n\nREPLY (90 chars):\nPower and cooling for 192 GPUs sit outside the loan and can consume the 13 percent return.\n\n2. @gokhshtein  Prediction markets  3 likes / 1 replies / 27m old  (seen 1 day(s) before) -> added to standing roster\nhttps://x.com/gokhshtein/status/2099609585392799829\n\nREPLY (94 chars):\nPrediction market odds on the CLARITY Act leave committee schedules and whip counts unchanged.\n\n3. @W3BCMedia  Prediction markets  2 likes / 0 replies / 34m old  (seen 1 day(s) before) -> added to standing roster\nhttps://x.com/W3BCMedia/status/2099607872510320927\n\nREPLY (143 chars):\nElection contracts carry post-event contestation risk that sports markets almost never face, so the dual catalyst is not a uniform stress test.\n\n4. @jaekwon  Prediction markets  4 likes / 0 replies / 5m old\nhttps://x.com/jaekwon/status/2099615094024097976\n\nREPLY (131 chars):\nStaking conviction without capital at risk still requires someone to pay for verification. Otherwise false claims sit unchallenged.\n\n5. @GoldSeekcom  ETF / institutional crypto  4 likes / 1 replies / 139m old  (seen 2 day(s) before)\nhttps://x.com/GoldSeekcom/status/2099581518951690503\n\nREPLY (159 chars):\nTreasury buybacks return cash to holders who frequently reinvest in equities and credit rather than gold, so the metal still depends on the path of real rates.\n\n6. @HammerTimeLays  Prediction markets  5 likes / 0 replies / 30m old  (seen 1 day(s) before) -> added to standing roster\nhttps://x.com/HammerTimeLays/status/2099608977378099544\n\nREPLY (93 chars):\nKalshi contracts can be bought and sold continuously while the Bet365 ticket at +4500 cannot.\n\n7. @heyydemini  Prediction markets  6 likes / 1 replies / 21m old\nhttps://x.com/heyydemini/status/2099611171619758429\n\nREPLY (108 chars):\nRetail flow into Kalshi NFL contracts still behaves like sportsbook action rather than probability updating.\n\n8. @PolymarketLoL  Prediction markets  3 likes / 1 replies / 31m old  (seen 1 day(s) before) -> added to standing roster\nhttps://x.com/PolymarketLoL/status/2099608619889119408\n\nREPLY (123 chars):\nEsports prediction contracts often trade thin so a few orders can pin the displayed probability away from the seed ranking.\n\n9. @petrowashere  ETF / institutional crypto  2 likes / 0 replies / 35m old\nhttps://x.com/petrowashere/status/2099607527725920720\n\nREPLY (132 chars):\nETF shares leave holders unable to transact on the Bitcoin network or withdraw the coins, so exposure stays trapped inside the fund.\n\n10. @ETFDb  ETF / institutional crypto  4 likes / 3 replies / 150m old  (seen 2 day(s) before)\nhttps://x.com/ETFDb/status/2099578680150196598\n\nREPLY (175 chars):\nLeveraged ether products posted 76.88 and 76.14 while unlevered ether gained 35.50, so 2x exposure, not blockchain status, accounts for the lead over the 41.80 bitcoin 2x ETF.\n\n11. @DailyEdgeSports  Prediction markets  2 likes / 0 replies / 24m old\nhttps://x.com/DailyEdgeSports/status/2099610406180257953\n\nREPLY (121 chars):\nMachine learning models that backtest five-leg NFL tickets still overfit the same cashed paths that public posts display.\n\n12. @computesgazette  AI infrastructure  2 likes / 0 replies / 11m old\nhttps://x.com/computesgazette/status/2099613542936666188\n\nREPLY (142 chars):\nUnpaid listings for makers of boards and cartridges expose the aftermarket layer that still determines whether commodity machines stay in use.\n\n13. @PickTheOdd  Prediction markets  9 likes / 1 replies / 39m old  (seen 1 day(s) before) -> added to standing roster\nhttps://x.com/PickTheOdd/status/2099606480546636165\n\nREPLY (125 chars):\nSportsbooks already price football with AI models. An odds screen over 120 apps mostly shows how fast that pricing converges.\n\n14. @bigfatsaint  ETF / institutional crypto  13 likes / 8 replies / 222m old  (seen 1 day(s) before) -> added to standing roster\nhttps://x.com/bigfatsaint/status/2099560458776940600\n\nREPLY (161 chars):\nETF products already hold $1.34B in net inflows but that capital sits with custodians and does not automatically increase validator revenue or on-chain velocity.\n\n15. @nastia__kashuba  Prediction markets  8 likes / 0 replies / 33m old  (seen 1 day(s) before) -> added to standing roster\nhttps://x.com/nastia__kashuba/status/2099608184679723176\n\nREPLY (123 chars):\nApp Store position reflects download velocity rather than whether prediction markets hold users past the first event cycle.\n\nPost by hand. Tell Claude if you reword anything."
+ "text": "B2 reply batch 2026-09-14 21:56 UTC\n\n1. @chiefofautism  AI infrastructure  2 likes / 0 replies / 7m old\nhttps://x.com/chiefofautism/status/2099616445034353094\n\nREPLY (147 chars):\nRushing a GPU purchase for local models locks in last generation pricing while new silicon and quantization methods keep shifting the useful floor.\n\n2. @gokhshtein  Prediction markets  3 likes / 1 replies / 35m old  (seen 1 day(s) before) -> added to standing roster\nhttps://x.com/gokhshtein/status/2099609585392799829\n\nREPLY (103 chars):\nPrediction market odds on the CLARITY Act leave Senate scheduling and conference negotiations unpriced.\n\n3. @jade_defi  Fed / macro  5 likes / 0 replies / 4m old\nhttps://x.com/jade_defi/status/2099617173601681776\n\nREPLY (148 chars):\nOrder of events matters. A CLARITY Act vote can reprice crypto risk before the FOMC lands, packing consecutive shocks into a tight liquidity window.\n\n4. @jaekwon  Prediction markets  6 likes / 2 replies / 13m old\nhttps://x.com/jaekwon/status/2099615094024097976\n\nREPLY (120 chars):\nDistinguishing current facts from future events does not remove the oracle problem that prediction markets already face.\n\n5. @GoldSeekcom  ETF / institutional crypto  4 likes / 1 replies / 146m old  (seen 2 day(s) before)\nhttps://x.com/GoldSeekcom/status/2099581518951690503\n\nREPLY (118 chars):\nTreasury buybacks recycle existing liabilities. Gold prices still follow real yields and dollar strength more closely.\n\n6. @Crispyduck  Prediction markets  4 likes / 1 replies / 18m old\nhttps://x.com/Crispyduck/status/2099613711568626104\n\nREPLY (129 chars):\nMixing kids apps with gacha, poker and tokenized assets puts the same brand under both gambling and child safety regimes at once.\n\n7. @MarketCanary  Fed / macro  12 likes / 2 replies / 8m old\nhttps://x.com/MarketCanary/status/2099616304403448194\n\nREPLY (163 chars):\nA hold Wednesday still leaves room for a hawkish statement that caps the move. Targets of 89k on BTC and 3000 on ETH treat no hike as stimulus rather than a pause.\n\n8. @heyydemini  Prediction markets  6 likes / 1 replies / 28m old\nhttps://x.com/heyydemini/status/2099611171619758429\n\nREPLY (122 chars):\nNFL volume of a billion in week 1 on prediction markets does not transfer to tighter spreads on earnings or Fed contracts.\n\n9. @petrowashere  ETF / institutional crypto  2 likes / 0 replies / 43m old\nhttps://x.com/petrowashere/status/2099607527725920720\n\nREPLY (136 chars):\nRetail investors in a spot bitcoin ETF cannot take delivery of the coins. Creation and redemption sit with authorized participants only.\n\n10. @MarketAtlas  Fed / macro  2 likes / 1 replies / 2m old\nhttps://x.com/MarketAtlas/status/2099617862860386532\n\nREPLY (140 chars):\nPrivate credit default data often excludes PIK interest and amend and extend transactions that would register as defaults in public markets.\n\n11. @XrpArab  ETF / institutional crypto  2 likes / 0 replies / 56m old\nhttps://x.com/XrpArab/status/2099604102389113244\n\nREPLY (127 chars):\nA vote date does not equal immediate classification change, historically similar catalysts faded without follow through volume.\n\n12. @DailyEdgeSports  Prediction markets  2 likes / 0 replies / 31m old\nhttps://x.com/DailyEdgeSports/status/2099610406180257953\n\nREPLY (137 chars):\nCombo bets on prediction markets concentrate exposure to a single weekend of outcomes rather than diversifying across independent events.\n\n13. @StephenZeiner  AI infrastructure  2 likes / 0 replies / 8m old\nhttps://x.com/StephenZeiner/status/2099616161616781468\n\nREPLY (150 chars):\nOpen signaling of intent to host superintelligence would convert a datacenter build into a national security review and freeze capital markets access.\n\nPost by hand. Tell Claude if you reword anything."
 }
