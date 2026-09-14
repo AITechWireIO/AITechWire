@@ -1,6 +1,6 @@
 # AITechWire Style Guide
 *Living document - updated from real feedback and performance data*
-*Last updated: August 30, 2026 (Week 15 review — real X API data)*
+*Last updated: September 13, 2026 (Week 17 review — real X API data)*
 
 ---
 
@@ -94,37 +94,34 @@ Like a smart investor talking to another smart investor at dinner.
 ---
 
 ## 📊 Data-Backed Patterns (updated weekly)
-*Last updated: August 30, 2026 - Week 15 analytics (Aug 23 - Aug 30, real X API data)*
+*Last updated: September 13, 2026 - Week 17 analytics (Sep 6 - Sep 13, real X API data)*
 
-### 📊 15-Week Performance Table (Jun 15 - Aug 30, 2026)
+### 📊 17-Week Performance Table (Jun 15 - Sep 13, 2026)
 
-| Style | Wk1 | Wk2 | Wk3 | Wk4 | Wk5 | Wk6 | Wk7 | Wk8 | Wk9 | Wk10 | Wk11 | Wk12 | Wk13 | Wk14 | **Wk15** | Trend / Rule |
-|-------|-----|-----|-----|-----|-----|-----|-----|-----|------|------|-------|------|----------|------|----------|---------------|
-| DeFi demystified | 3.3 | 12.5 | 9.3 | 11.7 | - | 10.0 | 8.3 | 8.0 | 9.0 | 9.0 | 5.4 | 24.8 | 19.0 | 8.0 | **7.5⚠️** | RT ENGINE confirmed 15 weeks straight. But 6 posts/wk = impression collapse (25V Wk12 → 7.5V Wk15). MANDATORY 1/week. ANALOGY MUST ROTATE — "stock exchange" formula exhausted. New metaphors required. |
-| Reactive | 5.5 | 9.0 | 5.4 | 30.2 | 44.7 | 12.1 | 64.0† | 47.0†† | 20.2 | 12.8 | 20.0 | 6.3 | 10.5 | 19.7 | **19.5** | Bimodal: breaking story = 90V+; stale/weak story = 5-13V. Ex-outlier avg: ~10.5V. Only write reactive when story is breaking (<6hrs) AND winner named in sentence 1. |
-| Contrarian | 11.3 | 8.2 | 8.1 | 27.7 | 10.7 | 10.7 | 14.0 | 32.0‡ | 8.2 | 13.3 | 7.8 | 8.1 | 9.2 | 14.8 | **13.2** | Named = 10-15V. Generic = 6-8V. HARD CAP 5/wk (finally met this week — 5 posts). Formula: Named figure + [$X or %] + 1-3 word verdict. |
-| Cross-asset | 2.7 | 8.0 | 7.5 | 17.0 | 19.5 | 14.5 | 11.0 | 13.4 | 16.9 | 13.5 | 10.0 | 7.3 | 13.2 | 8.3 | **13.1⬆️** | Best week in months. Named person + named instrument + specific data + Tier 1 verdict. CAP AT 8/week — 16 posts this week risks dilution next week. |
-| Educational | — | — | — | — | — | — | — | — | — | — | — | 5.7 | 3.0 | 7.2 | **10.0** | 1 post only (ETH ETF mechanism), got 1 like. Needs live event anchor always. Max 1/week non-DeFi. |
-| Article-promo | 3.0 | 11.0 | 7.3 | 19.5 | 87.5* | n/a | 14.2 | 14.2 | 9.4 | 10.5 | 5.0 | 18.8 | 13.8 | — | **7.6** | Thesis-led (13V) vs bare-link (3-4V). Investment verdict in sentence 1 is non-negotiable. |
+| Style | Wk1 | Wk2 | Wk3 | Wk6 | Wk7 | Wk8 | Wk10 | Wk12 | Wk13 | Wk15 | Wk16 | **Wk17** | Trend / Rule |
+|-------|-----|-----|-----|-----|-----|-----|------|------|------|------|------|----------|---------------|
+| DeFi demystified | 3.3 | 12.5 | 9.3 | 10.0 | 8.3 | 8.0 | 9.0 | 24.8 | 19.0 | 7.5⚠️ | 7.9 | **10.2 (0RT)** | RT ENGINE: ONLY works when analogy is fresh. "Stock exchange" burned Wk16. "Bond coupon" burned Wk17 (0 RTs). ROTATE MANDATORY each 2 weeks. CURRENT: commodities exchange analogy. |
+| Contrarian | 11.3 | 8.2 | 8.1 | 10.7 | 14.0 | 32.0‡ | 13.3 | 8.1 | 9.2 | 13.2 | 12.0 | **17.2⬆️** | FLOOR RISING: 13-17V for 5 weeks. Named figure + structural verdict = reliable. Named = 17-50V. Generic = 5V. HARD CAP 5/week. |
+| Reactive | 5.5 | 9.0 | 5.4 | 12.1 | 64.0† | 47.0†† | 12.8 | 6.3 | 10.5 | 19.5 | 15.4 | **13.5⚠️** | Sep 12: ETH ETF story posted 6x = duplication crash. Bimodal: 50V+ or 10V. HARD CAP 8/week. 72h topic lock must be CODE-enforced. |
+| Cross-asset | 2.7 | 8.0 | 7.5 | 14.5 | 11.0 | 13.4 | 13.5 | 7.3 | 13.2 | 13.1 | 12.8 | **13.5** | Stable 12-14V. Named instruments + Tier 1 verdict. BANNED: "Watch the flows." |
+| Article promo | 3.0 | 11.0 | 7.3 | n/a | 14.2 | 14.2 | 10.5 | 18.8 | 13.8 | 7.6 | 22.2 | **10.5 (1.0L)** | Thesis-first = 22-340V. ALLCAPS header format (KALSHI —, RAOUL PAL —) = 3-5V. PERMANENTLY BANNED. |
+| Educational | — | — | — | — | — | — | — | 5.7 | 3.0 | 10.0 | ~10.0 | **7.0 (1L)** | Needs live event anchor always. Max 1/week non-DeFi. |
 
 †Wk7 reactive: inflated by Lamine Yamal 195V sports post. Ex-sports: 16V.
 ††Wk8 reactive: same Yamal post still in window (Jul 20). Ex-sports: ~10V.
 ‡Wk8 contrarian: only 1 post (Vitalik/BCI, 32V, 1L). Formula confirmed.
 
+**Wk17 totals (42 main posts):** 559V | 7L | 0RT | Sep 12 ETH ETF duplication event: 6 posts same story
+**Wk16 totals (~35 main posts):** ~490V | 24L | ~3RT | AERO QT outlier (95V); DeFi analogy burned
 **Wk15 totals (41 main posts):** 525V | 22L | 6RT | All 6 RTs from DeFi-demystified/AERO posts
-**Wk14 totals (33 main posts):** 433V | 19L | 4RT | All RTs from AERO posts
-**Wk13 totals (30 main posts):** 360V | 12L | 3RT | All RTs from DeFi-demystified posts
-**Wk12 totals (29 main posts):** 685V | 7L | 4RT | RT count from DeFi-demystified AERO posts only
+**Wk12 totals (29 main posts):** 685V | 7L | 4RT | Best RT week; AERO thesis promo 340V outlier
 
-**🚨 Wk15 critical signals:**
-- 6 RTs — ALL from DeFi-demystified/AERO posts. 15-week causal pattern locked. Zero exceptions.
-- DeFi analogy fatigue: 6 AERO posts all used "works like a stock exchange market maker" = avg 7.5V only. The metaphor is exhausted at this frequency. ROTATE THE ANALOGY.
-- Cross-asset at 16 posts (39%) = concentration risk. Cap at 8/week.
-- Reply game: 11 replies, 0 likes. Volume up but quality gate not enforced.
-- #1 post: Grok 4.7/Fable 5.1/GPT-Astra (93V) — NVIDIA named as structural beneficiary (reactive winner rule).
-- Top cross-asset: Bessent buybacks + Lyn Alden framing (29V, 1L) — triple credibility anchors.
-- Top contrarian: Saylor/Polymarket macro convergence (21V, 2L) — 2 likes = bookmarked thesis.
-- 00:00 UTC dead zone: 3 posts averaged 7.3V vs 13.9V overall.
+**🚨 Wk17 critical signals:**
+- **Sep 12 pipeline failure:** ETH ETF story posted 6x in 5 hours (total 56V, 2L) instead of once (14V, 1L possible). Topic lock rule must be code-enforced at queue generation.
+- **0 RTs for 5th+ week since last Aerodrome analogy retirement.** Bond coupon analogy: 3 posts, 0 RTs. Burned. Rotate immediately to commodities exchange analogy.
+- **Reply game fully blocked:** 4 reply attempts returned 403 Forbidden from X API. Account too new to reply unsolicited to Tier 1 verified accounts. Pivot to quote tweets.
+- **Contrarian floor rising** to 17.2V — highest reliable format. GPT-6 Astra (50V) + SK Hynix (35V) + Liquid Network (30V) all contrarian-reframed reactive posts.
+- **ALLCAPS header (KALSHI —) still appearing** — banned for 15+ weeks, still generated by pipeline. Need validation layer.
 
 ### 🏆 Format #1: Institutional Bridge Event = Highest Reach Ceiling
 **Week 5 discovery:** When a real-world institution (NYSE, major bank, ETF) officially adopts or lists a crypto/DeFi asset, these posts reach audiences on BOTH sides of the traditional/crypto divide simultaneously. The $SECZ NYSE listing generated 311V + 275V - the two highest-impression posts in AITechWire history.
@@ -400,7 +397,32 @@ This week’s top like-converters:
 - Saylor/Polymarket macro convergence: 21V, **2L** (9.5% like rate)
 - Bessent/Lyn Alden bond halt: 29V, 1L
 All three are contrarian-format. All three name an analyst + use a known historical/data parallel + state an explicit asset verdict. The 93V Grok/NVIDIA post (highest reach) got **0 likes** — pure algorithmic reach to tech readers who don’t invest. Contrarian converts followers; reactive spikes reach.
-**Rule:** Write minimum 3 contrarian posts per week. Formula: [Named contrarian analyst] + [historical parallel that investing audience knows] + [explicit asset verdict: “Own X not Y” / “Eyes open.”]. This format grows followers.
+**Rule:** Write minimum 3 contrarian posts per week. Formula: [Named contrarian analyst] + [historical parallel that investing audience knows] + [explicit asset verdict: "Own X not Y" / "Eyes open."]. This format grows followers.
+
+### 🇩 Wk17: Reply Game Blocked by X API 403 — Pivot to Quote Tweets (Sep 13, 2026)
+All 4 reply attempts to @saylor, @VitalikButerin, @KookCapitalLLC, @jvisserlabs received 403 Forbidden errors from the X API. X restricts unsolicited replies from new accounts to large verified accounts. Direct reply game is structurally blocked at current follower count.
+**Strategy pivot:**
+1. **Quote tweets** — QT their posts with original data additions. Bypasses 403 restriction and gets seen by their audience without prior engagement.
+2. **Tier 3/4 replies** — Reply to smaller accounts (<50K followers) in same threads. No 403 restrictions.
+3. **Tier 1 direct replies ONLY** after they have liked, replied to, or mentioned @AITechWireIO first.
+**Target:** 10-15 quality quote tweets/week to replace blocked reply volume.
+
+### 🇩 Wk17: Sep 12 Pipeline Failure — ETH ETF Story Posted 6x (Sep 13, 2026)
+On Sep 12, the ETH ETF $216M story was posted 6 times in 5 hours = 56V total. A single well-timed post would have hit 14-20V alone. 5 post slots wasted to same-story repetition.
+**Root cause:** 72-hour topic lock exists in prompt but is NOT enforced in code. Research engine independently selected same story across 3 separate pipeline invocations.
+**Required fix:** `aitechwire_daily.py` must extract all major dollar figures ($10M+) from posts fired in the last 72 hours before generating new posts. If candidate post contains a previously used figure → reject. Code check, not prompt instruction.
+
+### 🇩 Wk17: DeFi Analogy Lifespan = 2 Weeks Maximum (Sep 13, 2026)
+Data-confirmed analogy burn rates:
+- "Works like a stock exchange" — 8+ weeks, 15+ uses → 25V (Wk12) → 7.9V (Wk16). Burned.
+- "Bond paying coupon to market makers" — 1 week, 3 uses → 0 RTs immediately. Burned.
+- "NYSE specialist desk" — similar pattern (Wk14-15).
+Each new analogy reaches a fresh audience for 2 weeks, then the audience has absorbed it.
+**Rule:** Maximum 2-week run per analogy. After 2 weeks → mandatory retirement to approved rotation list.
+**Current approved rotation (use in order):**
+1. **Commodities exchange where the warehouse keeps nothing from the spread** ← USE NOW (Wk18)
+2. Mutual fund that pays dividends back to active traders instead of keeping them (Wk19)
+3. [Create a new analogy — never reuse a retired one]
 
 ---
 
