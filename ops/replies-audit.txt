@@ -1,2 +1,19 @@
-32:MIN_AGE_MIN, MAX_AGE_MIN = 2, 240  # B2-AGE: 10 threw away 46 fresh posts per sweep; being early helps a reply
-COMPILES_OK
+=== cost history, last 10 days ===
+{'date': '2026-08-28', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
+{'date': '2026-08-30', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
+{'date': '2026-09-01', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
+{'date': '2026-09-01', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
+{'date': '2026-09-02', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
+{'date': '2026-09-05', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
+{'date': '2026-09-10', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
+{'date': '2026-09-12', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
+{'date': '2026-09-12', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
+{'date': '2026-09-14', 'variable': 0.007, 'fixed_daily': 0.9197, 'total': 0.926667, 'input_tokens': 0, 'output_tokens': 0}
+
+=== what the sweep costs per run: search calls and draft calls ===
+18:LANES = [
+95:        'max_results': '50',
+265:    return [text[i:i + 1900] for i in range(0, len(text), 1900)] or ['']
+
+=== X API plan / tier hints ===
+100:    url = 'https://api.x.com/2/tweets/search/recent?' + urllib.parse.urlencode(params)
