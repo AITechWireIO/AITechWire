@@ -1,10 +1,40 @@
-crontab: moved 2 line(s) 14->15 UTC, rc=0 
-age window was 2..240 (tuple form)
-ceiling now 120 min, compiles clean
---- installed schedule now ---
-0 15 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_batch.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1
-45 15 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1
-0 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 aitechwire_daily.py >> /home/ubuntu/.openclaw/workspace/logs/aitechwire_daily.log 2>&1
-30 13 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_article_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/aitechwire_daily.log 2>&1
-5 * * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_status.py >> /home/ubuntu/.openclaw/workspace/logs/b2_status.log 2>&1
-verified in file: MIN_AGE_MIN, MAX_AGE_MIN = 2, 120  # B2-AGE: 10 thr
+== LINKEDIN / DEVTO: any code at all? ==
+/home/ubuntu/.openclaw/workspace/scripts/__pycache__/aitechwire_daily.cpython-314.pyc
+/home/ubuntu/.openclaw/workspace/scripts/__pycache__/og_image.cpython-314.pyc
+/home/ubuntu/.openclaw/workspace/scripts/aitechwire_daily.py.preSS.bak
+/home/ubuntu/.openclaw/workspace/scripts/aitechwire_daily.py.preHS.bak
+/home/ubuntu/.openclaw/workspace/scripts/aitechwire_daily.py
+/home/ubuntu/.openclaw/workspace/scripts/og_image.py
+/home/ubuntu/.openclaw/workspace/scripts/aitechwire_daily.py.preXF.bak
+/home/ubuntu/.openclaw/workspace/scripts/aitechwire_daily.py.preNR.bak
+/home/ubuntu/.openclaw/workspace/scripts/aitechwire_daily.py.preCONTRACT.bak
+/home/ubuntu/.openclaw/workspace/scripts/aitechwire_daily.py.preSG.bak
+/home/ubuntu/.openclaw/workspace/scripts/gm_briefing_post.py
+/home/ubuntu/.openclaw/workspace/scripts/aitechwire_daily.py.preCLOSE.bak
+== credentials present? (names only, never values) ==
+NO linkedin/devto key in .env
+== any log evidence of a post to either, ever? ==
+[12:06:29] ✅ LinkedIn webhook fired (status 200)
+[12:06:29] ⏭️  Dev.to skipped - section 'prediction-markets' not in tech gate
+== 14 Sep hero on disk? ==
+2026-09-14-prediction-markets-active-on-fed-rate-move-og.jpg 35817
+== how did today publish after QA blocked at 12:07? ==
+305:[12:07:38] FACT-REPAIR: article now passes fact-check after 1 rewrite(s)
+306:[12:07:38] ✅ Fact-check passed after repair - proceeding to publish
+307:[12:07:38] ✅ Fact-check passed - all claims supported by fetched sources
+308:[12:07:38] QA-PRESYNC: normalized 1 page(s)
+309:[12:07:38] 🔍 Running pre-deploy QA...
+310:[12:07:38] ❌ QA FAILED - deployment blocked
+311:[12:07:38]     ❌ Image file missing: 2026-09-14-prediction-markets-active-on-fed-rate-move-hero.jpg (referenced in 2026-09-14-prediction-markets-active-on-fed-rate-move.html)
+312:[12:07:38] ❌ Deployment blocked by QA - article NOT published
+313:[12:07:38] ❌ Pipeline error: QA failed - deployment blocked
+314:[12:07:38] Traceback (most recent call last):
+== git log today ==
+5467b89 21:05 ops: publish pipeline status
+3579d7b 20:53 ops: shift Daily Replies to 10:00 Central, 2h age ceiling
+4cd6bbf 20:05 ops: publish pipeline status
+ca8e57c 19:05 ops: publish pipeline status
+51d4502 18:05 ops: publish pipeline status
+523bc6b 17:05 ops: publish pipeline status
+d06262d 16:05 ops: publish pipeline status
+85f6d6f 15:05 ops: publish pipeline status
