@@ -1,10 +1,10 @@
 {
- "generated_utc": "2026-09-15T11:05:01Z",
+ "generated_utc": "2026-09-15T12:05:02Z",
  "today": "2026-09-15",
  "article_today": [],
  "latest_article": "2026-09-14-prediction-markets-active-on-fed-rate-move.html",
  "article_count": 91,
- "process_running": "1",
+ "process_running": "3",
  "cron": [
   "0 14 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_batch.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
   "45 14 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
