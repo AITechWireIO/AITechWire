@@ -1,57 +1,64 @@
-== every git add in the pipeline ==
-1063:        # of the repo before staging, so `git add -A` cannot sweep it live.
-1115:            "git add -A",
-== the staging + commit + push region ==
-1	            "rebuild_homepage",
-     2	            "/home/ubuntu/.openclaw/workspace/scripts/rebuild_homepage.py"
-     3	        )
-     4	        rh = importlib.util.module_from_spec(spec)
-     5	        spec.loader.exec_module(rh)
-     6	        rh.build_homepage()
-     7	        log("✅ Homepage rebuilt with latest articles")
-     8	    except Exception as e:
-     9	        log(f"⚠️  Homepage rebuild failed (non-blocking): {e}")
-    10	
-    11	    log("🚀 Pushing to GitHub → Netlify auto-deploys...")
-    12	    try:
-    13	        import os as _os
-    14	        push_env = _os.environ.copy()
-    15	        push_env['GIT_TERMINAL_PROMPT'] = '0'  # never prompt - fail fast instead
-    16	
-    17	        # B2-QUARANTINE: a rejected article must never survive its run.
-    18	        # Any untracked, date-prefixed artifact from an earlier day is moved out
-    19	        # of the repo before staging, so `git add -A` cannot sweep it live.
-    20	        try:
-    21	            import datetime as _qdt, os as _qos, subprocess as _qsp
-    22	            _qtoday = _qdt.date.today().strftime('%Y-%m-%d')
-    23	            _qheld = '/home/ubuntu/aitechwire_held'
-    24	            _qos.makedirs(_qheld, exist_ok=True)
-    25	            # B2-QUARANTINE-ALL: same-day rejects were surviving and being swept live.
-    26	            try:
-    27	                _qkeep = _qos.path.basename(filename)
-    28	            except Exception:
-    29	                _qkeep = ''
-    30	            _qst = _qsp.run('cd %s && git status --porcelain' % SITE_DIR,
-    31	                            shell=True, capture_output=True, text=True).stdout
-    32	            for _qln in _qst.splitlines():
-    33	                if not _qln.startswith('??'):
-    34	                    continue
-    35	                _qrel = _qln[3:].strip()
-    36	                _qbase = _qos.path.basename(_qrel)
-    37	                if (_qbase.endswith('.html') and len(_qbase) > 10  # QUARHTML
-    38	                        and _qbase[:10].count('-') == 2 and _qbase != _qkeep
-    39	                        and not _qbase.startswith(_qtoday)):
-    40	                    _qsp.run(['mv', _qos.path.join(SITE_DIR, _qrel), _qheld], check=False)
-    41	                    log('QUARANTINED stale artifact: %s' % _qrel)
-    42	        except Exception as _qe:
-    43	            log('quarantine sweep failed (non-blocking): %s' % _qe)
-    44	
-    45	        # B2-HEADER-SYNC: one canonical logo+nav on every page before publish.
-    46	        try:
-    47	            import sys as _hs
-    48	            if "/home/ubuntu/.openclaw/workspace/scripts" not in _hs.path: _hs.path.insert(0,"/home/ubuntu/.openclaw/workspace/scripts")
-    49	            import site_header as _sh
-== what the run produces, by name (today) ==
-5730498 ops: quarantine rule probe
- ops/last-task.txt | 105 +++++++++++++++++++++++++++++++++++-------------------
- 1 file changed, 69 insertions(+), 36 deletions(-)
+== lines 1098-1160: the real staging block ==
+1	        try:
+     2	            import subprocess as _pcs, os as _pco
+     3	            _pcr = _pcs.run(["/usr/bin/python3",
+     4	                             "/home/ubuntu/.openclaw/workspace/scripts/publish_contract.py",
+     5	                             "--fix", "--today", _pco.path.basename(filename)],
+     6	                            capture_output=True, text=True, timeout=180)
+     7	            for _l in (_pcr.stdout or "").strip().split("\n")[-12:]:
+     8	                log("CONTRACT " + _l.strip())
+     9	            if _pcr.returncode != 0:
+    10	                raise RuntimeError("Publish contract violated - nothing published")
+    11	        except RuntimeError:
+    12	            raise
+    13	        except Exception as _pce:
+    14	            log("CONTRACT check could not run: %s" % _pce)
+    15	            raise RuntimeError("Publish contract could not be verified - nothing published")
+    16	        cmds = [
+    17	            f"cd {SITE_DIR}",
+    18	            "git add -A",
+    19	            f'git commit -m "📰 {today_str()}: {headline[:60]}" --allow-empty',
+    20	            "git push origin main"
+    21	        ]
+    22	        result = subprocess.run(
+    23	            " && ".join(cmds),
+    24	            shell=True, capture_output=True, text=True, env=push_env
+    25	        )
+    26	        if result.returncode == 0:
+    27	            log(f"✅ Pushed! Site will update in ~30 seconds")
+    28	            log(f"   Live at: https://aitechwire.io/{section}/{filename}")
+    29	        else:
+    30	            log(f"⚠️  Push issue: {result.stderr[:300]}")
+    31	            log(f"   stdout: {result.stdout[:200]}")
+    32	    except Exception as e:
+    33	        log(f"❌ GitHub push failed: {e}")
+    34	
+    35	# ─── COST TRACKER ─────────────────────────────────────────────────────
+    36	
+    37	COST_TRACKER = {
+    38	    'input_tokens': 0,
+    39	    'output_tokens': 0,
+    40	    'x_posts': 0,
+    41	}
+    42	
+    43	COST_LOG_PATH  = "/home/ubuntu/.openclaw/workspace/scripts/cost_history.json"
+    44	COSTS_CFG_PATH = "/home/ubuntu/.openclaw/workspace/scripts/costs.json"
+    45	
+    46	# Claude Sonnet pricing (per 1M tokens)
+    47	SONNET_INPUT_COST  = 0.003   # $3 per 1M input tokens
+    48	SONNET_OUTPUT_COST = 0.015   # $15 per 1M output tokens
+    49	X_COST_PER_POST    = 0.007   # ~$0.007 per tweet
+    50	
+    51	def load_all_costs():
+    52	    """Load B2-only subscription costs from costs.json and compute daily fixed total."""
+    53	    try:
+    54	        cfg = json.load(open(COSTS_CFG_PATH))
+    55	        subs = cfg.get('subscriptions', {})
+    56	        # Only include costs attributed to B2 (AITechWire)
+    57	        b2_subs = {k: v for k, v in subs.items() if v.get('b2', False)}
+    58	        fixed_monthly = sum(
+    59	            v['monthly'] for v in b2_subs.values()
+    60	            if v.get('type') == 'fixed'
+    61	        )
+    62	        return fixed_monthly, b2_subs
+    63	    except Exception as e:
