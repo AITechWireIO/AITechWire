@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-09-15T20:05:02Z",
+ "generated_utc": "2026-09-15T21:05:01Z",
  "today": "2026-09-15",
  "article_today": [
   "2026-09-15-eth-etfs-outpace-btc-in-september-inflows.html"
@@ -8,8 +8,8 @@
  "article_count": 92,
  "process_running": "1",
  "cron": [
-  "0 14 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_batch.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
-  "45 14 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
+  "0 15 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_batch.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
+  "45 15 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
   "0 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 aitechwire_daily.py >> /home/ubuntu/.openclaw/workspace/logs/aitechwire_daily.log 2>&1",
   "30 13 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_article_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/aitechwire_daily.log 2>&1",
   "5 * * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_status.py >> /home/ubuntu/.openclaw/workspace/logs/b2_status.log 2>&1"
