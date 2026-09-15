@@ -1,15 +1,14 @@
-APPLIED and compiles. New staging block:
-        # B2-STAGE: stage only this run's own output. "git add -A" committed
-        # whatever else sat in the tree, including articles the gate rejected.
-        _sslug = filename.rsplit('/', 1)[-1]
-        if _sslug.endswith('.html'):
-            _sslug = _sslug[:-5]
-        cmds = [
-            f"cd {SITE_DIR}",
-            "git add -u",
-            f'git add "{section}/{filename}"',
-            f"git add images/{_sslug}-hero.jpg images/{_sslug}-og.jpg 2>/dev/null; true",
-            f'git commit -m "📰 {today_str()}: {headline[:60]}" --allow-empty',
-            "git push origin main"
-        ]
-remaining "git add -A" in the pipeline: 2
+== every line mentioning add -A, with context ==
+1063:        # of the repo before staging, so `git add -A` cannot sweep it live.
+1113:        # B2-STAGE: stage only this run's own output. "git add -A" committed
+== any remaining add -A as an actual COMMAND anywhere in scripts? ==
+/home/ubuntu/.openclaw/workspace/scripts/aitechwire_daily.py:1113:        # B2-STAGE: stage only this run's own output. "git add -A" committed
+== gate still passes ==
+ok   HEADER ok — every article carries the one canonical menu
+  ok   PREVIEW ok — every article has a card X can fetch
+  ok   INDEX ok — every listed article exists (88 entries)
+  ok   TODAY ok — one article dated today
+  ok   LINKS ok — every internal link resolves
+  ok   REPEAT ok - today's story is not one of the last 7 days
+
+PUBLISH CONTRACT SATISFIED — clear to publish.
