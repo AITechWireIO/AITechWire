@@ -1,3 +1,33 @@
-F1 ok: sweep now .html from earlier days only
-F2 repaired 2: crypto/2026-08-16-aerodrome-metadex-what-code-says-about-aero.html, prediction-markets/2026-09-14-prediction-markets-active-on-fed-rate-move.html
-VERIFY 0 broken image ref(s) left
+== QA SITE ==
+arkets/2026-06-27-prediction-markets-face-state-regulatory-scrutiny.html (6 blank, 3 noopener)
+  ⚠️  Missing canonical URL: prediction-markets/2026-07-31-kalshi-faces-ny-state-lawsuit-on-gambling.html
+  ⚠️  target=_blank without rel=noopener mismatch: prediction-markets/2026-07-31-kalshi-faces-ny-state-lawsuit-on-gambling.html (6 blank, 4 noopener)
+  ⚠️  Missing canonical URL: prediction-markets/2026-09-14-prediction-markets-active-on-fed-rate-move.html
+  ⚠️  Multiple H1 tags (2): prediction-markets/2026-09-14-prediction-markets-active-on-fed-rate-move.html
+  ⚠️  target=_blank without rel=noopener mismatch: prediction-markets/2026-09-14-prediction-markets-active-on-fed-rate-move.html (6 blank, 4 noopener)
+  ⚠️  Missing canonical URL: prediction-markets/2026-08-04-prediction-markets-see-197m-midterms-volume.html
+  ⚠️  Multiple H1 tags (2): prediction-markets/2026-08-04-prediction-markets-see-197m-midterms-volume.html
+  ⚠️  target=_blank without rel=noopener mismatch: prediction-markets/2026-08-04-prediction-markets-see-197m-midterms-volume.html (6 blank, 4 noopener)
+  ⚠️  Missing canonical URL: prediction-markets/2026-09-10-polymarket-launches-new-markets-on-ai-politics.html
+  ⚠️  target=_blank without rel=noopener mismatch: prediction-markets/2026-09-10-polymarket-launches-new-markets-on-ai-politics.html (6 blank, 4 noopener)
+  ⚠️  Title too long (69 chars): prediction-markets/2026-06-28-polymarket-eth-june-28-close-favors-1500-1600-band.html
+  ⚠️  Meta description too long (180 chars): prediction-markets/2026-06-28-polymarket-eth-june-28-close-favors-1500-1600-band.html
+  ⚠️  Missing canonical URL: prediction-markets/2026-06-28-polymarket-eth-june-28-close-favors-1500-1600-band.html
+  ⚠️  target=_blank without rel=noopener mismatch: prediction-markets/2026-06-28-polymarket-eth-june-28-close-favors-1500-1600-band.html (6 blank, 3 noopener)
+  ⚠️  Missing twitter:image meta tag: subscribe-success.html
+  ⚠️  Missing twitter:image meta tag: 2026-07-18-bitcoin-is-digital-capital-strategy-transforms-it-into-digit.html
+  ⚠️  og:title may not match h1 in 2026-07-12-btc-is-digital-capital-strc-is-digital-credit-mstr-is-digita.html
+
+✅ PASSED: 577 checks
+
+🟢 CLEAR TO DEPLOY
+
+== PUBLISH CONTRACT ==
+ok   HEADER ok — every article carries the one canonical menu
+  ok   PREVIEW ok — every article has a card X can fetch
+  ok   INDEX ok — every listed article exists (88 entries)
+  ok   TODAY ok — one article dated today
+  ok   LINKS ok — every internal link resolves
+  ok   REPEAT ok - today's story is not one of the last 7 days
+
+PUBLISH CONTRACT SATISFIED — clear to publish.
