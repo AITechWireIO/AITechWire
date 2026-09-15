@@ -1,26 +1,10 @@
-=== site_header.py functions ===
-3:LOGO_HTML = """<a href="/" class="logo"><svg width="36" height="36" viewBox="0 0 400 400
-13:ITEMS = [("/","Home",None),
-20:def nav_html(active=None):
-29:def header_html(active=None):
-35:def infer_active(path, root=None):
-42:def normalize_file(path, active="__auto__", root=None):
-58:def normalize_site(root):
-
-=== does any page already have a footer block? ===
-aitechwire/index.html
-aitechwire/subscribe-success.html
---- footer sample from the homepage ---
-<footer>
-  <div class="footer-inner">
-    <div class="footer-brand">
-      <div class="logo" style="margin-bottom:12px"><svg width="36" height="36" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0">
-      <defs>
-        <radialGradient id="lgbg2" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#1a1a2e"/><stop offset="100%" stop-color="#0a0a0f"/></radialGradient>
-        <linearGradient id="lgbolt2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ffd96a"/><stop offset="100%" stop-color="#f0b429"/></linearGradient>
-      </defs>
-      <rect
-
-=== page count ===
-2
-107
+crontab: moved 2 line(s) 14->15 UTC, rc=0 
+age window was 2..240 (tuple form)
+ceiling now 120 min, compiles clean
+--- installed schedule now ---
+0 15 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_batch.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1
+45 15 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1
+0 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 aitechwire_daily.py >> /home/ubuntu/.openclaw/workspace/logs/aitechwire_daily.log 2>&1
+30 13 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_article_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/aitechwire_daily.log 2>&1
+5 * * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_status.py >> /home/ubuntu/.openclaw/workspace/logs/b2_status.log 2>&1
+verified in file: MIN_AGE_MIN, MAX_AGE_MIN = 2, 120  # B2-AGE: 10 thr
