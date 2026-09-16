@@ -1,4 +1,48 @@
-[FACTS] applied: source text per source 1200 -> 6000 chars
-applied: framing block declared not-a-source
-762:                           "NOT appear in the article.\n\n")  # B2-FRAMING
-766:            source_context += f"{src['text'][:6000]}\n\n"  # B2-FULLSRC
+[XPROBE] === where a tweet is actually posted ===
+/home/ubuntu/.openclaw/workspace/scripts/aitechwire_daily.py:474:def post_to_x(posts, env):
+/home/ubuntu/.openclaw/workspace/scripts/aitechwire_daily.py:500:            result = client.create_tweet(text=cleaned[0])
+/home/ubuntu/.openclaw/workspace/scripts/aitechwire_daily.py:1762:            ).create_tweet(text=promo_text)
+/home/ubuntu/.openclaw/workspace/scripts/og_image_generator.py:370:        result   = client.create_tweet(text=post_text, media_ids=[media_id])
+/home/ubuntu/.openclaw/workspace/scripts/post_from_queue.py:223:        result   = client.create_tweet(text=post_text)
+/home/ubuntu/.openclaw/workspace/scripts/thread_engine.py:360:            result = client.create_tweet(**kwargs)
+/home/ubuntu/.openclaw/workspace/scripts/x_reply_game.py:304:                result = x.create_tweet(text=validated, in_reply_to_tweet_id=int(pid))
+/home/ubuntu/.openclaw/workspace/scripts/x_reply_monitor.py:186:        result = client_x.create_tweet(
+/home/ubuntu/.openclaw/workspace/scripts/x_reply_monitor.py:308:            result = x_client.create_tweet(text=final, in_reply_to_tweet_id=int(d['reply_id']))
+=== write_x_posts: the prompt it uses ===
+def write_x_posts(client, stories):
+    log("✍️  Writing X posts...")
+    stories_text = "\n".join([
+        f"{i+1}. [{s['section'].upper()}] {s['headline']}\n   {s['summary']}\n   Angle: {s['angle']}"
+        for i, s in enumerate(stories[:5])
+    ])
+
+    prompt = f"""You are the social media voice of AITechWire (@AITechWireIO).
+Today is {today_str()}.
+
+Write 5 X (Twitter) posts based on these stories:
+{stories_text}
+
+RULES FOR EACH POST:
+- MAX 240 characters for the body BEFORE " | @AITechWireIO" is appended — this is a HARD LIMIT, not a guideline
+- COUNT your characters before writing each post. If it exceeds 240, rewrite it shorter — do NOT truncate mid-sentence
+- MUST be a complete thought ending with . or ! or ? - never cut mid-sentence
+- No hashtags (they look spammy)
+- Aim for 160-220 chars — this gives headroom and still delivers punch. A tight 180-char post beats a rejected 285-char post every time
+- Do NOT include " | @AITechWireIO" — it is appended automatically
+
+TONE & STYLE - rotate through these 5 types, one per post:
+
+⭐ PERFORMANCE DATA (17-week real X API data, Jun 15 – Sep 13, 2026):
+   Contrarian: 17.2V Wk17 | 12.0V Wk16 | 21.4V Wk15 → FLOOR RISING. Named figure + structural verdict formula reliable across 5 weeks. BEST FORMAT for follower conversion. HARD CAP 5/week. Named figure + specific $ or % + 1-3 word verdict required. Generic contrarian without named source = 5-10V.
+   Reactive: 13.5V Wk17 (26 posts = FORMAT DILUTION via Sep 12 ETH ETF x6 duplication) | 15.4V Wk16 → BIMODAL: either 50V+ (breaking AI/macro + named winner sentence 1) or 10V. HARD CAP 8 reactive posts/week. Sep 12 malfunction: ETH ETF story posted 6x in 5 hours = severe topic lock failure.
+   Cross-asset: 13.5V Wk17 | 12.8V Wk16 → Stable 12-14V. Named instruments + Tier 1 verdict required. BANNED endings: "Watch the flows." APPROVED: "One of them is wrong." / "Own accordingly." / "Steady hands beat loud money."
+   Article promo: 10.5V Wk17 (2 posts, 1.0L avg) | 22.2V Wk16 → Thesis-first promos outperform. ALLCAPS header format (RAOUL PAL —, KALSHI —) averaging 3-5V. ALLCAPS = BANNED. Validation required: if post body starts with ALLCAPS word + " — ", reject.
+   DeFi demystified: 10.2V Wk17 (0 RTs) | 7.9V Wk16 (0 RTs) | 24.8V Wk12 (4 RTs) → "Bond paying coupon to market makers" analogy NOW BURNED after 3 uses Wk17, 0 RTs. Analogies burn in 2-3 weeks. MANDATORY ROTATION to next approved analogy: commodities exchange where warehouse earns nothing from the spread. NEVER reuse burned analogy. MANDATORY 1/week, MAX 1/week.
+   Educational non-DeFi: 7.0V Wk17 (1 post, 1L) → Only works with live event anchor. No anchor = 3V baseline.
+   Educational (non-DeFi): 3-6V baseline → ONLY write if live event occurred TODAY that makes mechanism relevant. NO live anchor = 3V. One per week max.
+   Thread [1/n]: varies | 17.3V Wk9-10 → REQUIRES weekly/same-day figure. Hook must name recency. Monthly aggregate = 4V.
+   One-liner: use when $500M+ figure + before/after moment. Never embed URL in body.
+PRIORITY ORDER (updated Aug 30, 2026 — Wk16 real data): Contrarian [follower conversion king: 2L on 18V] > Reactive [ONLY when 90V+ story — named winner sentence 1] > Article promo [thesis-first + community QT bait = 95V; ALLCAPS = BANNED] > Cross-asset [12-13V stable; Tier 1 verdict required] > DeFi demystified [ROTATE ANALOGY — stock exchange RETIRED; 1.0L/post still high quality; MANDATORY 1/week max 1/week] > Educational non-DeFi [live anchor required or 3V] > Thread opener [same-day hook required].
+FORMAT DIVERSITY RULE: In any batch of 5 posts, MAXIMUM 2 may be reactive. MAXIMUM 1 contrarian per batch. The remaining 2-3 MUST be cross-asset, educational/DeFi-demystified, or thread-opener. Contrarian at 50% of weekly posts (Wk10) = format dilution even with named figures. HARD CAP: 5 contrarian per full week — pipeline must track and enforce this.
+
+REPLY QUALITY RULE (Wk12 confirmed): Replies to @saylor/@LynAldenContact/@VitalikButerin/@jvisserlabs that add a specific data point the original thread missed convert at 0.5L/reply. Generic replies without new dat
