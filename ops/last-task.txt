@@ -1,4 +1,2 @@
-[F2] wrote b2_image_repair.py
-COMPILE FAIL reverted:   File "b2_image_repair.py", line 8
-    for u in set(re.findall(r'aitechwire[.]io(/images/[^"']+)',h)):
-                
+[F2B] module compiles
+FIX2 ok: dead image refs repaired before the gate
