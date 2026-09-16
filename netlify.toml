@@ -1,5 +1,8 @@
 [build]
   publish = "."
+  # B2-DEPLOY-GUARD: skip the build when no published file changed.
+  # Every push was a production deploy; ops/logs/scripts/state churn burned credits.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':!x_post_queue.json' ':!logs' ':!scripts' ':!ops' ':!*.log' ':!*.bak'"
 
 # 404 fallback — send unknown paths to homepage
 [[redirects]]
