@@ -1,1 +1,4 @@
-[LANES2] OK: 8 lanes; 8 term sets; ['Fed / macro', 'AI infrastructure', 'Prediction markets', 'ETF / institutional crypto', 'Stablecoins / payments', 'Tokenization / RWA', 'AI models / agents', 'Equities / markets']
+[FACTS] applied: source text per source 1200 -> 6000 chars
+applied: framing block declared not-a-source
+762:                           "NOT appear in the article.\n\n")  # B2-FRAMING
+766:            source_context += f"{src['text'][:6000]}\n\n"  # B2-FULLSRC
