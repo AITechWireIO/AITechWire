@@ -1,40 +1,32 @@
-[LANES] moved 2 job(s): sweep 12:05 UTC = 7:05 CT, watchdog 12:50 UTC = 7:50 CT, rc=0
---- crontab now ---
-5 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_batch.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1
-50 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1
-0 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 aitechwire_daily.py >> /home/ubuntu/.openclaw/workspace/logs/aitechwire_daily.log 2>&1
-30 13 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_article_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/aitechwire_daily.log 2>&1
-5 12,21 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_status.py >> /home/ubuntu/.openclaw/workspace/logs/b2_status.log 2>&1
---- current lanes / search terms ---
-LANES = [
-    ('Fed / macro',
-     '(Fed OR FOMC OR "rate cut" OR inflation OR Treasury OR "10-year") '),
-    ('AI infrastructure',
-     '("AI infrastructure" OR "data center" OR datacenter OR GPU OR hyperscaler OR compute) '),
-    ('Prediction markets',
-     '(Polymarket OR Kalshi OR "prediction market" OR "prediction markets") '),
-    ('ETF / institutional crypto',
-     '("bitcoin ETF" OR "ETF inflows" OR "ETF outflows" OR IBIT OR "spot ETF") '),
-]
-COMMON = ('-aerodrome -velodrome -airdrop -giveaway -is:retweet -is:reply '
-          '-is:quote lang:en')
-
-MIN_FOLLOWERS, MAX_FOLLOWERS = 1000, 100000  # B2-BAND: 400 put the median candidate on the floor; let growth select
-MIN_AGE_MIN, MAX_AGE_MIN = 2, 120  # B2-AGE: 10 threw away 46 fresh posts per sweep; being early helps a reply
-MIN_LIKES, MAX_REPLIES = 2, 15
-# B2-LANE-RELEVANCE: one keyword is a match, two are a subject.
+[LT] LANE_TERMS block:
 LANE_TERMS = {
-    'F
---- knobs ---
-31:MIN_FOLLOWERS, MAX_FOLLOWERS = 1000, 100000  # B2-BAND: 400 put the median candidate on the floor; let growth select
-32:MIN_AGE_MIN, MAX_AGE_MIN = 2, 120  # B2-AGE: 10 threw away 46 fresh posts per sweep; being early helps a reply
-33:MIN_LIKES, MAX_REPLIES = 2, 15
-50:MAX_DRAFTS = 50
-95:        'max_results': '100',
-128:        if not (MIN_FOLLOWERS <= f <= MAX_FOLLOWERS):
-129:            _rej['followers' if f > MAX_FOLLOWERS else 'too small'] += 1  # B2-FUNNEL2
-136:        if not (MIN_AGE_MIN <= age <= MAX_AGE_MIN):
-137:            _rej['too old' if age > MAX_AGE_MIN else 'too new'] += 1  # B2-FUNNEL2
-142:        if likes < MIN_LIKES or replies > MAX_REPLIES:
-143:            _rej['too few likes' if likes < MIN_LIKES else 'too many replies'] += 1  # B2-FUNNEL2
-177:            % (lane, _s[0], _s[len(_s)//2], _s[-1], MIN_FOLLOWERS, MAX_FOLLOWERS))
+    'Fed / macro': ('fed', 'fomc', 'rate', 'rates', 'inflation', 'cpi', 'ppi',
+                    'treasury', 'yield', 'yields', 'basis', 'hike', 'cut',
+                    'powell', 'macro', 'bps', 'dollar', 'recession'),
+    'AI infrastructure': ('ai', 'gpu', 'gpus', 'compute', 'datacenter', 'data center',
+                          'nvidia', 'hyperscaler', 'inference', 'training', 'model',
+                          'chips', 'capex', 'cluster', 'tokens', 'llm'),
+    'Prediction markets': ('polymarket', 'kalshi', 'prediction', 'odds', 'market',
+                           'contract', 'resolve', 'bettors', 'probability', 'implied'),
+    'ETF / institutional crypto': ('etf', 'etfs', 'inflow', 'inflows', 'outflow',
+                                   'outflows', 'ibit', 'fbtc', 'blackrock', 'custody',
+                                   'institutional', 'aum', 'allocation', 'bitcoin',
+                                   'ethereum', 'btc', 'eth', 'spot'),
+}
+MIN_LANE_TERMS = 2
+MAX_DRAFTS = 50
+
+DRAFT_RULES = """You write replies for a finance/AI news account. Draft ONE reply to the post below.
+
+Hard rules:
+- Under 240 characters. Count them.
+- Add a point the post did not make. Never agreement, never a compliment opener.
+- No link, no pitch, no hashtags, no mention of any publication.
+- Every number you use must appear in the post itself. If you have no number from the post, use none.
+- If you reference a historical parallel, start that clause with "historically" so it 
+
+[LT] how it is used:
+35:LANE_TERMS = {
+49:MIN_LANE_TERMS = 2
+148:        _terms = LANE_TERMS.get(lane, ())
+150:        if len(_hits) < MIN_LANE_TERMS:
