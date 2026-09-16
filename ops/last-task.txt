@@ -1,1 +1,4 @@
-[F1] FIX1 ok: X posts can no longer kill the article run
+[F2] wrote b2_image_repair.py
+COMPILE FAIL reverted:   File "b2_image_repair.py", line 8
+    for u in set(re.findall(r'aitechwire[.]io(/images/[^"']+)',h)):
+                
