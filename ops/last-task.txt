@@ -1,2 +1,114 @@
-[F2B] module compiles
-FIX2 ok: dead image refs repaired before the gate
+[PROMPT] === the article writer prompt ===
+
+for _b in _recent:
+                if not _b:
+                    continue
+                _sh = _h & _b
+                _j = len(_sh) / float(len(_h | _b))
+                _num = any(_r.search(r'\d', w) for w in _sh)
+                if _j >= 0.5 or (len(_sh) >= 4 and _num):
+                    return True
+            return False
+
+        _fresh = [c for c in ordered if not _is_repeat(c)]
+        if _fresh and len(_fresh) < len(ordered):
+            log('NO-REPEAT: dropped %d candidate(s) already covered in the last 7 days'
+                % (len(ordered) - len(_fresh)))
+            ordered = _fresh
+        elif not _fresh:
+            log('NO-REPEAT: every candidate echoes a recent article - keeping the '
+                'full list and letting the publish contract decide')
+    except Exception as _nre:
+        log('NO-REPEAT failed (non-blocking): %s' % _nre)
+    try:
+        _STOP = {'with', 'from', 'that', 'this', 'have', 'will', 'says', 'said',
+                 'been', 'more', 'than', 'into', 'over', 'after', 'amid', 'about',
+                 'their', 'these', 'which', 'while', 'could', 'would', 'first'}
+
+        def _tok(x):
+            return {w for w in re.findall(r'[a-z0-9$]{4,}', (x or '').lower())
+                    if w not in _STOP}
+
+        def _match(_st, _items):
+            _h = _tok(_st.get('headline'))
+            _scored = []
+            for _it in (_items or []):
+                _t = _tok((_it.get('title') or '') + ' ' + (_it.get('text') or '')[:4000])
+                _scored.append((len(_h & _t), _it))
+            _scored.sort(key=lambda z: -z[0])
+            return (sum(z[0] for z in _scored[:3]),
+                    [z[1] for z in _scored if z[0] > 0])
+
+        _allowed = [c for c in ordered if not (last_ol & get_story_ol(c))] or ordered
+        _cands = _allowed[:3]
+        _ranked = sorted(((_match(c, source_items), c) for c in _cands),
+                         key=lambda z: -z[0][0])
+        (_score, _rel), _best = _ranked[0]
+
+        if _score > 0 and len(_rel) >= 2:
+            story = _best
+            source_items = _rel + [i for i in source_items if i not in _rel]
+            LAST_USED_SOURCES = source_items[:3]
+            _rank = _cands.index(_best) + 1
+            log('SELECTOR: "%s" (urgency rank %d of %d) chosen on source support '
+                '%d with %d matching source(s)'
+                % ((story.get('headline') or '')[:60], _rank, len(_cands), _score, len(_rel)))
+        else:
+            log('SELECTOR: none of the top %d candidates has 2+ matching sources '
+                '(best score %d) - writing the OL-permitted top story and expecting '
+                'the fact-check to hold' % (len(_cands), _score))
+    except Exception as _sel_e:
+        log('SELECTOR failed (non-blocking, falling back to urgency order): %s' % _sel_e)
+
+    section = story['section']
+    sec_info = SECTIONS[section]
+
+    log("🔍 Verifying entities with live search before writing...")
+    verified_facts = verify_entities(env or {}, story, source_items)
+    entity_block = ""
+    if verified_facts:
+        entity_block = (
+            "\n\n=== VERIFIED ENTITY FACTS (live search, current as of today) ===\n"
+            "CRITICAL: Use THESE verified titles/roles for any named people or institutions.\n"
+            "DO NOT use training-data memory for titles, roles, or positions - they may be outdated.\n\n"
+            + verified_facts +
+            "\n=== END VERIFIED ENTITY FACTS ===\n"
+        )
+
+    source_context = ""
+    if source_items:
+        source_context = "\n\n=== FETCHED SOURCE MATERIAL ===\n"
+        source_context += "CRITICAL: Every fact (date, number, name, event, quote) you write MUST come\n"
+        source_context += "from the source text below. Do NOT introduce any specific not present here.\n"
+        source_context += "Your analysis and insight go ON TOP of the verified facts - but the facts themselves\n"
+        source_context += "must be anchored in this material. No source = do not state it.\n\n"
+        for i, src in enumerate(source_items[:3], 1):
+            source_context += f"--- Source {i}: {src['title']} ---\n"
+            source_context += f"URL: {src['url']}\n"
+            source_context += f"{src['text'][:1200]}\n\n"
+        source_context += "=== END SOURCE MATERIAL ===\n"
+    else:
+        source_context = "\n\n⚠️  WARNING: No fetched sources provided. This article will be held at fact-check.\n"
+
+    prompt = f"""You are a senior editor at AITechWire, a sharp financial and AI media publication.
+
+Today is {today_str()}.
+Write a complete, publish-ready article in HTML (body content only, no <html>/<head>/<body> tags).
+
+STORY: {story['headline']}
+SUMMARY: {story['summary']}
+ANGLE: {story['angle']}
+SECTION: {sec_info['label']}
+{entity_block}{source_context}
+ARTICLE REQUIREMENTS:
+- 600-900 words
+- Punchy intro that hooks immediately
+=== does the writer receive fetched SOURCE TEXT? ===
+151:        raw = resp.content[0].text.strip()
+297:        raw = response.content[0].text.strip() if response.content else ""
+563:def verify_entities(env, story, source_items):
+577:    for src in (source_items or [])[:3]:
+620:def write_article(client, stories, env=None, source_items=None):
+621:    log("📝 Writing today's article from fetched sources...")
+715:        _ranked = sorted(((_match(c, source_items), c) for c in _cands),
+721:     
