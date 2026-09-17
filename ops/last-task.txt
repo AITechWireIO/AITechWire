@@ -1,38 +1,16 @@
-[TGREF] === does the exposed token appear anywhere else? (filenames only) ===
-bot id ends with ...418 (full value withheld)
-FILES containing this exact token:
-/home/ubuntu/.openclaw/workspace/cowork-task-log.json
-count of files: 1
+[TGCMP] === is the exposed bot the same bot Lexie/B1 uses? ===
+exposed bot id: ...418
+  DISCORD_BOT_TOKEN          not a telegram-shaped token (skipped)
+  B1_TELEGRAM_BOT_TOKEN      bot ...105  | SAME BOT: no | SAME SECRET: no
+  B1_BOT_TOKEN_100006        bot ...852  | SAME BOT: no | SAME SECRET: no
+  B1_BOT_TOKEN_100007        bot ...427  | SAME BOT: no | SAME SECRET: no
+  B1_BOT_TOKEN_100002        bot ...849  | SAME BOT: no | SAME SECRET: no
+  B1_TG_WEBHOOK_SECRET       not a telegram-shaped token (skipped)
 
-=== every distinct Telegram bot id used anywhere (ids only, secrets withheld) ===
-  bot ...105  referenced in 1 file(s)
-  bot ...418  referenced in 1 file(s)
-
-=== Telegram variable NAMES in the env file ===
-B1_BOT_TOKEN_100002
-B1_BOT_TOKEN_100006
-B1_BOT_TOKEN_100007
-B1_TELEGRAM_BOT_TOKEN
-B1_TG_WEBHOOK_SECRET
-DISCORD_BOT_TOKEN
-=== which scripts send to Telegram at all ===
-b1_bid_handler.py
-b1_demo_mode.py
-b1_digest_cron.py
-b1_egress_guard.py
-b1_fleet_cron.py
-b1_health_alarm.py
-b1_hygiene.py
-b1_negotiation_poller.py
-b1_pmv_cron.py
-b1_preflight.py
-b1_setup_wizard.py
-b1_state_sweep.py
-b1_thumbtack_listener.py
-b1_thumbtack_sender.py
-b1_tier_evaluator.py
-b1_voice.py
-b2_reply_batch.py
-discord_listener.py
-health_watcher.py
-telegram.py
+=== which env var each Telegram script reads ===
+  health_watcher.py        TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID
+  b1_health_alarm.py       B1_BOT_TOKEN_100006
+  b1_digest_cron.py        B1_TELEGRAM_BOT_TOKEN TELEGRAM_BOT_TOKEN
+  telegram.py              none
+  b2_reply_batch.py        TELEGRAM_CHAT
+  discord_listener.py      B1_TELEGRAM_BOT_TOKEN DISCORD_BOT_TOKEN TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID
