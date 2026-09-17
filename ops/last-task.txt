@@ -1,16 +1,6 @@
-[TGCMP] === is the exposed bot the same bot Lexie/B1 uses? ===
-exposed bot id: ...418
-  DISCORD_BOT_TOKEN          not a telegram-shaped token (skipped)
-  B1_TELEGRAM_BOT_TOKEN      bot ...105  | SAME BOT: no | SAME SECRET: no
-  B1_BOT_TOKEN_100006        bot ...852  | SAME BOT: no | SAME SECRET: no
-  B1_BOT_TOKEN_100007        bot ...427  | SAME BOT: no | SAME SECRET: no
-  B1_BOT_TOKEN_100002        bot ...849  | SAME BOT: no | SAME SECRET: no
-  B1_TG_WEBHOOK_SECRET       not a telegram-shaped token (skipped)
-
-=== which env var each Telegram script reads ===
-  health_watcher.py        TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID
-  b1_health_alarm.py       B1_BOT_TOKEN_100006
-  b1_digest_cron.py        B1_TELEGRAM_BOT_TOKEN TELEGRAM_BOT_TOKEN
-  telegram.py              none
-  b2_reply_batch.py        TELEGRAM_CHAT
-  discord_listener.py      B1_TELEGRAM_BOT_TOKEN DISCORD_BOT_TOKEN TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID
+[WHOBOT] === identity of every Telegram bot configured on this box ===
+EXPOSED (in cron line)     @Lexonia_OpenClaw_bot   "Lexie_AI"
+B1_TELEGRAM_BOT_TOKEN      @LexoniaDispatcher_bot  "Lexonia AI Dispatcher"
+B1_BOT_TOKEN_100006        @LexieAi_ProClean_bot   "Lexonia AI™ — Pro Clean"
+B1_BOT_TOKEN_100007        @LexieAi_QA07_bot       "LexieAi_QA07_bot"
+B1_BOT_TOKEN_100002        @LexieAi_Relix_bot      "LexieAi_Relix"
