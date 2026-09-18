@@ -1,13 +1,10 @@
 {
- "generated_utc": "2026-09-17T21:05:02Z",
- "today": "2026-09-17",
- "article_today": [
-  "2026-09-17-aero-defi-launches-on-new-chain-tokenized-stocks-advance.html",
-  "2026-09-17-fed-hikes-rates-25bps-to-375-4-signals-more.html"
- ],
+ "generated_utc": "2026-09-18T12:05:02Z",
+ "today": "2026-09-18",
+ "article_today": [],
  "latest_article": "2026-09-17-fed-hikes-rates-25bps-to-375-4-signals-more.html",
  "article_count": 95,
- "process_running": "1",
+ "process_running": "3",
  "cron": [
   "5 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_batch.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
   "50 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
