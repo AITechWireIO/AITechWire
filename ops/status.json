@@ -1,12 +1,10 @@
 {
- "generated_utc": "2026-09-18T21:05:02Z",
- "today": "2026-09-18",
- "article_today": [
-  "2026-09-18-prediction-markets-see-record-volumes-on-fedai.html"
- ],
+ "generated_utc": "2026-09-19T12:05:02Z",
+ "today": "2026-09-19",
+ "article_today": [],
  "latest_article": "2026-09-18-prediction-markets-see-record-volumes-on-fedai.html",
  "article_count": 94,
- "process_running": "1",
+ "process_running": "7",
  "cron": [
   "5 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_batch.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
   "50 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
