@@ -1,45 +1,21 @@
 {
- "generated_utc": "2026-09-19T12:07:43Z",
- "date": "2026-09-19",
- "count": 3,
- "swept": 3,
+ "generated_utc": "2026-09-20T12:06:12Z",
+ "date": "2026-09-20",
+ "count": 1,
+ "swept": 1,
  "drafts": [
   {
    "n": 1,
-   "handle": "PenguAsia",
-   "lane": "Tokenization / RWA",
-   "url": "https://x.com/PenguAsia/status/2101280250047222067",
-   "likes": 2,
-   "replies": 2,
-   "age_min": 4,
-   "seen_before": 0,
-   "reply": "Game communities around MapleStory Universe now serve as early liquidity for the tokenization and RWA themes that show up in card infrastructure research.",
-   "chars": 154
-  },
-  {
-   "n": 2,
-   "handle": "xrp_herald",
+   "handle": "1111mubest",
    "lane": "ETF / institutional crypto",
-   "url": "https://x.com/xrp_herald/status/2101265041983189215",
-   "likes": 4,
+   "url": "https://x.com/1111mubest/status/2101629424630132776",
+   "likes": 3,
    "replies": 1,
-   "age_min": 65,
+   "age_min": 57,
    "seen_before": 0,
-   "reply": "Client ETF inflows of 1.52 million can reverse on redemptions the next session, so a single print is not a positioning signal.",
-   "chars": 126
-  },
-  {
-   "n": 3,
-   "handle": "blockonomi",
-   "lane": "ETF / institutional crypto",
-   "url": "https://x.com/blockonomi/status/2101270229632385196",
-   "likes": 2,
-   "replies": 1,
-   "age_min": 44,
-   "seen_before": 0,
-   "reply": "Concentrated ETF inflows like Fidelity's $310.72M of the $433M total on Sept. 18 can amplify short-term price tests of $82K liquidity without guaranteeing a break of $83K resistance.",
-   "chars": 182
+   "reply": "Tax reporting across borders remains unsolved even if more countries publish clear crypto rules.",
+   "chars": 96
   }
  ],
- "text": "B2 reply batch 2026-09-19 12:05 UTC\n\n1. @PenguAsia  Tokenization / RWA  2 likes / 2 replies / 4m old\nhttps://x.com/PenguAsia/status/2101280250047222067\n\nREPLY (154 chars):\nGame communities around MapleStory Universe now serve as early liquidity for the tokenization and RWA themes that show up in card infrastructure research.\n\n2. @xrp_herald  ETF / institutional crypto  4 likes / 1 replies / 65m old\nhttps://x.com/xrp_herald/status/2101265041983189215\n\nREPLY (126 chars):\nClient ETF inflows of 1.52 million can reverse on redemptions the next session, so a single print is not a positioning signal.\n\n3. @blockonomi  ETF / institutional crypto  2 likes / 1 replies / 44m old\nhttps://x.com/blockonomi/status/2101270229632385196\n\nREPLY (182 chars):\nConcentrated ETF inflows like Fidelity's $310.72M of the $433M total on Sept. 18 can amplify short-term price tests of $82K liquidity without guaranteeing a break of $83K resistance.\n\nPost by hand. Tell Claude if you reword anything."
+ "text": "B2 reply batch 2026-09-20 12:05 UTC\n\n1. @1111mubest  ETF / institutional crypto  3 likes / 1 replies / 57m old\nhttps://x.com/1111mubest/status/2101629424630132776\n\nREPLY (96 chars):\nTax reporting across borders remains unsolved even if more countries publish clear crypto rules.\n\nPost by hand. Tell Claude if you reword anything."
 }
