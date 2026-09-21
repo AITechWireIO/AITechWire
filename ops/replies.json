@@ -1,21 +1,33 @@
 {
- "generated_utc": "2026-09-20T12:06:12Z",
- "date": "2026-09-20",
- "count": 1,
- "swept": 1,
+ "generated_utc": "2026-09-21T12:07:12Z",
+ "date": "2026-09-21",
+ "count": 2,
+ "swept": 2,
  "drafts": [
   {
    "n": 1,
-   "handle": "1111mubest",
+   "handle": "CryptoPulseXgl",
    "lane": "ETF / institutional crypto",
-   "url": "https://x.com/1111mubest/status/2101629424630132776",
-   "likes": 3,
-   "replies": 1,
-   "age_min": 57,
+   "url": "https://x.com/CryptoPulseXgl/status/2102001098219467160",
+   "likes": 4,
+   "replies": 0,
+   "age_min": 20,
    "seen_before": 0,
-   "reply": "Tax reporting across borders remains unsolved even if more countries publish clear crypto rules.",
-   "chars": 96
+   "reply": "Price at $84,700 leaves the $85,000 watch level untested. One 5.3% session does not prove ETF demand will persist into the close.",
+   "chars": 129
+  },
+  {
+   "n": 2,
+   "handle": "chainvestcrypto",
+   "lane": "ETF / institutional crypto",
+   "url": "https://x.com/chainvestcrypto/status/2101998652562579531",
+   "likes": 5,
+   "replies": 0,
+   "age_min": 30,
+   "seen_before": 0,
+   "reply": "A rebound from 75,000 that only tests 85,000 on short liquidations and ETF inflows can fade when covering is complete.",
+   "chars": 118
   }
  ],
- "text": "B2 reply batch 2026-09-20 12:05 UTC\n\n1. @1111mubest  ETF / institutional crypto  3 likes / 1 replies / 57m old\nhttps://x.com/1111mubest/status/2101629424630132776\n\nREPLY (96 chars):\nTax reporting across borders remains unsolved even if more countries publish clear crypto rules.\n\nPost by hand. Tell Claude if you reword anything."
+ "text": "B2 reply batch 2026-09-21 12:05 UTC\n\n1. @CryptoPulseXgl  ETF / institutional crypto  4 likes / 0 replies / 20m old\nhttps://x.com/CryptoPulseXgl/status/2102001098219467160\n\nREPLY (129 chars):\nPrice at $84,700 leaves the $85,000 watch level untested. One 5.3% session does not prove ETF demand will persist into the close.\n\n2. @chainvestcrypto  ETF / institutional crypto  5 likes / 0 replies / 30m old\nhttps://x.com/chainvestcrypto/status/2101998652562579531\n\nREPLY (118 chars):\nA rebound from 75,000 that only tests 85,000 on short liquidations and ETF inflows can fade when covering is complete.\n\nPost by hand. Tell Claude if you reword anything."
 }
