@@ -1,33 +1,45 @@
 {
- "generated_utc": "2026-09-21T12:07:12Z",
- "date": "2026-09-21",
- "count": 2,
- "swept": 2,
+ "generated_utc": "2026-09-22T12:08:02Z",
+ "date": "2026-09-22",
+ "count": 3,
+ "swept": 3,
  "drafts": [
   {
    "n": 1,
-   "handle": "CryptoPulseXgl",
+   "handle": "AP_Abacus",
    "lane": "ETF / institutional crypto",
-   "url": "https://x.com/CryptoPulseXgl/status/2102001098219467160",
-   "likes": 4,
-   "replies": 0,
-   "age_min": 20,
+   "url": "https://x.com/AP_Abacus/status/2102366776168214998",
+   "likes": 6,
+   "replies": 2,
+   "age_min": 7,
    "seen_before": 0,
-   "reply": "Price at $84,700 leaves the $85,000 watch level untested. One 5.3% session does not prove ETF demand will persist into the close.",
-   "chars": 129
+   "reply": "Concentrated inflows of 61.7M into a single product during a 1B Bitcoin ETF day leave the flow vulnerable to rapid reversal when desks rebalance.",
+   "chars": 145
   },
   {
    "n": 2,
-   "handle": "chainvestcrypto",
+   "handle": "_raysunited",
    "lane": "ETF / institutional crypto",
-   "url": "https://x.com/chainvestcrypto/status/2101998652562579531",
-   "likes": 5,
+   "url": "https://x.com/_raysunited/status/2102364948915495081",
+   "likes": 2,
    "replies": 0,
-   "age_min": 30,
+   "age_min": 14,
    "seen_before": 0,
-   "reply": "A rebound from 75,000 that only tests 85,000 on short liquidations and ETF inflows can fade when covering is complete.",
-   "chars": 118
+   "reply": "One day of nearly 12,000 BTC into ETFs measures creations, not lasting holder conviction. historically similar gold ETF spikes faded when liquidity rotated elsewhere.",
+   "chars": 166
+  },
+  {
+   "n": 3,
+   "handle": "TheMoonShow",
+   "lane": "ETF / institutional crypto",
+   "url": "https://x.com/TheMoonShow/status/2102365122488643687",
+   "likes": 6,
+   "replies": 1,
+   "age_min": 13,
+   "seen_before": 0,
+   "reply": "Concentrated inflows into IBIT ARKB and FBTC raise later redemption risk across Bitcoin ETFs.",
+   "chars": 93
   }
  ],
- "text": "B2 reply batch 2026-09-21 12:05 UTC\n\n1. @CryptoPulseXgl  ETF / institutional crypto  4 likes / 0 replies / 20m old\nhttps://x.com/CryptoPulseXgl/status/2102001098219467160\n\nREPLY (129 chars):\nPrice at $84,700 leaves the $85,000 watch level untested. One 5.3% session does not prove ETF demand will persist into the close.\n\n2. @chainvestcrypto  ETF / institutional crypto  5 likes / 0 replies / 30m old\nhttps://x.com/chainvestcrypto/status/2101998652562579531\n\nREPLY (118 chars):\nA rebound from 75,000 that only tests 85,000 on short liquidations and ETF inflows can fade when covering is complete.\n\nPost by hand. Tell Claude if you reword anything."
+ "text": "B2 reply batch 2026-09-22 12:05 UTC\n\n1. @AP_Abacus  ETF / institutional crypto  6 likes / 2 replies / 7m old\nhttps://x.com/AP_Abacus/status/2102366776168214998\n\nREPLY (145 chars):\nConcentrated inflows of 61.7M into a single product during a 1B Bitcoin ETF day leave the flow vulnerable to rapid reversal when desks rebalance.\n\n2. @_raysunited  ETF / institutional crypto  2 likes / 0 replies / 14m old\nhttps://x.com/_raysunited/status/2102364948915495081\n\nREPLY (166 chars):\nOne day of nearly 12,000 BTC into ETFs measures creations, not lasting holder conviction. historically similar gold ETF spikes faded when liquidity rotated elsewhere.\n\n3. @TheMoonShow  ETF / institutional crypto  6 likes / 1 replies / 13m old\nhttps://x.com/TheMoonShow/status/2102365122488643687\n\nREPLY (93 chars):\nConcentrated inflows into IBIT ARKB and FBTC raise later redemption risk across Bitcoin ETFs.\n\nPost by hand. Tell Claude if you reword anything."
 }
