@@ -1,12 +1,10 @@
 {
- "generated_utc": "2026-09-21T21:05:02Z",
- "today": "2026-09-21",
- "article_today": [
-  "2026-09-21-bitcoin-hits-7-month-high-above-81k-on-etf-inflows.html"
- ],
+ "generated_utc": "2026-09-22T12:05:04Z",
+ "today": "2026-09-22",
+ "article_today": [],
  "latest_article": "2026-09-21-bitcoin-hits-7-month-high-above-81k-on-etf-inflows.html",
  "article_count": 97,
- "process_running": "1",
+ "process_running": "5",
  "cron": [
   "5 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_batch.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
   "50 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
