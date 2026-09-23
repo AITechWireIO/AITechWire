@@ -98,23 +98,34 @@ Like a smart investor talking to another smart investor at dinner.
 
 ### 📊 17-Week Performance Table (Jun 15 - Sep 13, 2026)
 
-| Style | Wk1 | Wk2 | Wk3 | Wk6 | Wk7 | Wk8 | Wk10 | Wk12 | Wk13 | Wk15 | Wk16 | **Wk17** | Trend / Rule |
-|-------|-----|-----|-----|-----|-----|-----|------|------|------|------|------|----------|---------------|
-| DeFi demystified | 3.3 | 12.5 | 9.3 | 10.0 | 8.3 | 8.0 | 9.0 | 24.8 | 19.0 | 7.5⚠️ | 7.9 | **10.2 (0RT)** | RT ENGINE: ONLY works when analogy is fresh. "Stock exchange" burned Wk16. "Bond coupon" burned Wk17 (0 RTs). ROTATE MANDATORY each 2 weeks. CURRENT: commodities exchange analogy. |
-| Contrarian | 11.3 | 8.2 | 8.1 | 10.7 | 14.0 | 32.0‡ | 13.3 | 8.1 | 9.2 | 13.2 | 12.0 | **17.2⬆️** | FLOOR RISING: 13-17V for 5 weeks. Named figure + structural verdict = reliable. Named = 17-50V. Generic = 5V. HARD CAP 5/week. |
-| Reactive | 5.5 | 9.0 | 5.4 | 12.1 | 64.0† | 47.0†† | 12.8 | 6.3 | 10.5 | 19.5 | 15.4 | **13.5⚠️** | Sep 12: ETH ETF story posted 6x = duplication crash. Bimodal: 50V+ or 10V. HARD CAP 8/week. 72h topic lock must be CODE-enforced. |
-| Cross-asset | 2.7 | 8.0 | 7.5 | 14.5 | 11.0 | 13.4 | 13.5 | 7.3 | 13.2 | 13.1 | 12.8 | **13.5** | Stable 12-14V. Named instruments + Tier 1 verdict. BANNED: "Watch the flows." |
-| Article promo | 3.0 | 11.0 | 7.3 | n/a | 14.2 | 14.2 | 10.5 | 18.8 | 13.8 | 7.6 | 22.2 | **10.5 (1.0L)** | Thesis-first = 22-340V. ALLCAPS header format (KALSHI —, RAOUL PAL —) = 3-5V. PERMANENTLY BANNED. |
-| Educational | — | — | — | — | — | — | — | 5.7 | 3.0 | 10.0 | ~10.0 | **7.0 (1L)** | Needs live event anchor always. Max 1/week non-DeFi. |
+| Style | Wk1 | Wk2 | Wk3 | Wk6 | Wk7 | Wk8 | Wk10 | Wk12 | Wk13 | Wk15 | Wk16 | Wk17 | **Wk18** | Trend / Rule |
+|-------|-----|-----|-----|-----|-----|-----|------|------|------|------|------|------|----------|---------------|
+| Thread opener | — | 14.0 | 2.5 | 14.0 | 14.0 | 13.8 | 17.3 | — | — | — | — | — | **30.5⬆️** | Named analyst + live thesis + [1/n] = 25-35V RELIABLE. Reserve for 2/week max. |
+| DeFi demystified | 3.3 | 12.5 | 9.3 | 10.0 | 8.3 | 8.0 | 9.0 | 24.8 | 19.0 | 7.5⚠️ | 7.9 | 10.2 (0RT) | **10.7 (0RT)⚠️** | ANALOGY BURNED BY VOLUME (6 posts Wk18 vs cap of 1). RETIRE commodities exchange NOW. ROTATE to: mutual fund that pays dividends back to active traders. 1/week HARD CAP code-enforced. |
+| Contrarian | 11.3 | 8.2 | 8.1 | 10.7 | 14.0 | 32.0‡ | 13.3 | 8.1 | 9.2 | 13.2 | 12.0 | 17.2⬆️ | **11.8⚠️** | Dropped — missing decisive verdicts. Named figure + quantified challenge + verdict required. Generic observation endings = 7V. Decisive verdict endings = 18-20V. HARD CAP 5/week. |
+| Reactive | 5.5 | 9.0 | 5.4 | 12.1 | 64.0† | 47.0†† | 12.8 | 6.3 | 10.5 | 19.5 | 15.4 | 13.5⚠️ | **22.0⬆️** | Big event week (Fed hike + CLARITY fail) = bimodal confirmed: 50V (institutional bridge) vs 3V (3rd take same story). 72h topic lock MUST be code-enforced. |
+| Article promo | 3.0 | 11.0 | 7.3 | n/a | 14.2 | 14.2 | 10.5 | 18.8 | 13.8 | 7.6 | 22.2 | 10.5 (1.0L) | **14.0 (1.0L)⬆️** | Thesis-first = 14-340V. ALLCAPS header (FED —, TREASURY —) still appearing — add validation reject. |
+| Cross-asset | 2.7 | 8.0 | 7.5 | 14.5 | 11.0 | 13.4 | 13.5 | 7.3 | 13.2 | 13.1 | 12.8 | 13.5 | **10.2 (0.11L)⚠️** | Dropped — 9 posts, only 1 total like. Tier 1 verdict MANDATORY. Forced-choice ending required. Observation endings = 0 likes. |
+| Educational | — | — | — | — | — | — | — | 5.7 | 3.0 | 10.0 | ~10.0 | 7.0 (1L) | — | Covered by DeFi demystified this week. Max 1/week non-DeFi with live anchor. |
 
 †Wk7 reactive: inflated by Lamine Yamal 195V sports post. Ex-sports: 16V.
 ††Wk8 reactive: same Yamal post still in window (Jul 20). Ex-sports: ~10V.
 ‡Wk8 contrarian: only 1 post (Vitalik/BCI, 32V, 1L). Formula confirmed.
 
+**Wk18 totals (40 main posts + 60 replies):** 527V main | 13L | 0RT | Reply game: 1,547V/60 replies = 25.8V/reply (outpacing main posts). DeFi: 6 posts same analogy = self-burn. CLARITY Act: 3 takes on same story.
 **Wk17 totals (42 main posts):** 559V | 7L | 0RT | Sep 12 ETH ETF duplication event: 6 posts same story
 **Wk16 totals (~35 main posts):** ~490V | 24L | ~3RT | AERO QT outlier (95V); DeFi analogy burned
 **Wk15 totals (41 main posts):** 525V | 22L | 6RT | All 6 RTs from DeFi-demystified/AERO posts
 **Wk12 totals (29 main posts):** 685V | 7L | 4RT | Best RT week; AERO thesis promo 340V outlier
+
+**🚨 Wk18 critical signals (Sep 13-20, 2026 — real X API data):**
+- **DeFi demystified: 6 posts in one week vs cap of 1.** All "commodities exchange" analogy. Analogy burned by volume before the 2-week timer expires. RETIRE NOW. Rotate to: "mutual fund that pays dividends back to active traders instead of keeping them."
+- **0 RTs for 3rd consecutive week.** The RT engine is stalled. Volume-based analogy burn is the cause.
+- **Reply game outperforming main posts:** 60 replies = 1,547V (25.8V/reply) vs 40 main posts = 527V (13.2V/post). Prioritize reply quality over additional standalone posts.
+- **Single reply outlier: @j__fort @Novig — 310V, 0L.** Highest impression count of the week from a reply. Confirms: high-engagement threads produce massive reply reach.
+- **CLARITY Act: 3 takes on same vote in 24 hours** — 31V, 19V, 3V. Third take is invisible. 72h topic lock still not code-enforced.
+- **ALLCAPS article promos still appearing** (FED —, TREASURY —, AGENTS SURGE —). Still generating despite permanent ban. Add post-validation reject.
+- **Thread opener formula:** Named analyst + their own thesis quoted + live event validating it = 27-34V reliable. Both openers this week hit this range.
 
 **🚨 Wk17 critical signals:**
 - **Sep 12 pipeline failure:** ETH ETF story posted 6x in 5 hours (total 56V, 2L) instead of once (14V, 1L possible). Topic lock rule must be code-enforced at queue generation.
@@ -398,6 +409,20 @@ This week’s top like-converters:
 - Bessent/Lyn Alden bond halt: 29V, 1L
 All three are contrarian-format. All three name an analyst + use a known historical/data parallel + state an explicit asset verdict. The 93V Grok/NVIDIA post (highest reach) got **0 likes** — pure algorithmic reach to tech readers who don’t invest. Contrarian converts followers; reactive spikes reach.
 **Rule:** Write minimum 3 contrarian posts per week. Formula: [Named contrarian analyst] + [historical parallel that investing audience knows] + [explicit asset verdict: "Own X not Y" / "Eyes open."]. This format grows followers.
+
+### 🆕 Wk18: Reply Game Now Outperforms Main Posts Per-Impression (Sep 20, 2026)
+60 replies = 1,547V (25.8V/reply). 40 main posts = 527V (13.2V/post). The reply game generates ~2x the reach per output as a standalone post at current follower count. Single outlier: @j__fort @Novig (310V) — one sharp data addition to a high-engagement thread reached more people than the week's top standalone post.
+**New priority rule:** At current follower level, 30-50 quality replies to active threads > writing a 6th standalone post per day. Replies reach existing engaged audiences; standalones reach only algorithmic distribution. When the queue is full, replace the weakest standalone with 5 targeted replies.
+**Reply quality rule:** Every reply must add ONE specific data point not in the original thread. No opinion, no filler, no agreement. Data → invest-angle → done.
+
+### 🆕 Wk18: DeFi Analogy Burn by Volume, Not Age (Sep 20, 2026)
+The "commodities exchange" analogy was new in Wk17 (1 post → 0 RTs noted) and should have had its full 2-week lifespan. Instead the pipeline generated 6 posts with the same analogy in Wk18 — burning it by volume before the 2-week clock expired. 0 RTs in Wk18 despite the analogy still being theoretically fresh.
+**New sub-rule:** The 2-week analogy lifespan assumes 1 post/week (as per hard cap). If the hard cap is violated, the analogy burns proportionally faster. 6 posts = 6 weeks of burn in 7 days.
+**Immediate action:** Retire "commodities exchange" analogy. Next analogy to use (Wk19+): "mutual fund that pays dividends back to active traders instead of keeping them."
+
+### 🆕 Wk18: CLARITY Act Fatigue — 3 Takes on Same Vote = Diminishing to 3V (Sep 20, 2026)
+CLARITY Act failure generated: 31V (first take, structural reframe), 19V (Deutsche Bank angle, new protagonist), 11V ($570M liquidations, new data), 3V (same story, same framing). The decay curve is steep. The third post on the same event is invisible. The 72h topic lock is sufficient in theory but is still not code-enforced.
+**Rule (hardened):** Once a story has 2 posts, it is LOCKED for 72 hours regardless of pipeline intent. Code enforcement required — this is the 4th consecutive week the rule has been violated at the prompt level only.
 
 ### 🇩 Wk17: Reply Game Blocked by X API 403 — Pivot to Quote Tweets (Sep 13, 2026)
 All 4 reply attempts to @saylor, @VitalikButerin, @KookCapitalLLC, @jvisserlabs received 403 Forbidden errors from the X API. X restricts unsolicited replies from new accounts to large verified accounts. Direct reply game is structurally blocked at current follower count.
