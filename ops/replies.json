@@ -1,45 +1,21 @@
 {
- "generated_utc": "2026-09-23T12:08:03Z",
- "date": "2026-09-23",
- "count": 3,
- "swept": 3,
+ "generated_utc": "2026-09-24T12:06:09Z",
+ "date": "2026-09-24",
+ "count": 1,
+ "swept": 1,
  "drafts": [
   {
    "n": 1,
-   "handle": "stobixcom",
+   "handle": "charlesnwawo",
    "lane": "ETF / institutional crypto",
-   "url": "https://x.com/stobixcom/status/2102728821384282522",
-   "likes": 4,
-   "replies": 4,
-   "age_min": 8,
+   "url": "https://x.com/charlesnwawo/status/2103089226774388775",
+   "likes": 2,
+   "replies": 0,
+   "age_min": 16,
    "seen_before": 0,
-   "reply": "A single day of $1B into spot Bitcoin ETFs plus $648M in short liquidations can keep Bitcoin near $85K without broadening ownership. Forced covering disappears once the shorts are gone.",
-   "chars": 185
-  },
-  {
-   "n": 2,
-   "handle": "BitmonkCrypto",
-   "lane": "ETF / institutional crypto",
-   "url": "https://x.com/BitmonkCrypto/status/2102728708796604619",
-   "likes": 14,
-   "replies": 3,
-   "age_min": 9,
-   "seen_before": 0,
-   "reply": "Spot ETF creations often follow futures and OTC buying so the 999M Monday figure can arrive after BTC has already moved.",
-   "chars": 120
-  },
-  {
-   "n": 3,
-   "handle": "CryptoPulseXgl",
-   "lane": "ETF / institutional crypto",
-   "url": "https://x.com/CryptoPulseXgl/status/2102726243485614221",
-   "likes": 3,
-   "replies": 2,
-   "age_min": 18,
-   "seen_before": 1,
-   "reply": "Inflows of 162M after the 270M session have not cleared the 2800 level with ETH at 2733 as profit taking offsets the accumulation.",
-   "chars": 130
+   "reply": "ETF wrappers measure allocation appetite more than they measure whether capital ever leaves Bitcoin. Flow strength can coexist with thin participation in the rest of the stack.",
+   "chars": 176
   }
  ],
- "text": "B2 reply batch 2026-09-23 12:05 UTC\n\n1. @stobixcom  ETF / institutional crypto  4 likes / 4 replies / 8m old\nhttps://x.com/stobixcom/status/2102728821384282522\n\nREPLY (185 chars):\nA single day of $1B into spot Bitcoin ETFs plus $648M in short liquidations can keep Bitcoin near $85K without broadening ownership. Forced covering disappears once the shorts are gone.\n\n2. @BitmonkCrypto  ETF / institutional crypto  14 likes / 3 replies / 9m old\nhttps://x.com/BitmonkCrypto/status/2102728708796604619\n\nREPLY (120 chars):\nSpot ETF creations often follow futures and OTC buying so the 999M Monday figure can arrive after BTC has already moved.\n\n3. @CryptoPulseXgl  ETF / institutional crypto  3 likes / 2 replies / 18m old  (seen 1 day(s) before) -> added to standing roster\nhttps://x.com/CryptoPulseXgl/status/2102726243485614221\n\nREPLY (130 chars):\nInflows of 162M after the 270M session have not cleared the 2800 level with ETH at 2733 as profit taking offsets the accumulation.\n\nPost by hand. Tell Claude if you reword anything."
+ "text": "B2 reply batch 2026-09-24 12:05 UTC\n\n1. @charlesnwawo  ETF / institutional crypto  2 likes / 0 replies / 16m old\nhttps://x.com/charlesnwawo/status/2103089226774388775\n\nREPLY (176 chars):\nETF wrappers measure allocation appetite more than they measure whether capital ever leaves Bitcoin. Flow strength can coexist with thin participation in the rest of the stack.\n\nPost by hand. Tell Claude if you reword anything."
 }
