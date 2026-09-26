@@ -1,8 +1,21 @@
 {
- "generated_utc": "2026-09-25T12:05:17Z",
- "date": "2026-09-25",
- "count": 0,
- "swept": 0,
- "drafts": [],
- "text": "B2 reply batch 2026-09-25 12:05 UTC\n\nNo posts qualified today. Zero is a legal answer, nothing to post. Swept 0 candidates across 4 lanes."
+ "generated_utc": "2026-09-26T12:06:05Z",
+ "date": "2026-09-26",
+ "count": 1,
+ "swept": 1,
+ "drafts": [
+  {
+   "n": 1,
+   "handle": "derparsel",
+   "lane": "ETF / institutional crypto",
+   "url": "https://x.com/derparsel/status/2103810066470297793",
+   "likes": 5,
+   "replies": 3,
+   "age_min": 32,
+   "seen_before": 0,
+   "reply": "Cumulative flows up 25% to $1.5B since early August still sit on a far smaller AUM base than Bitcoin and Ethereum ETFs launched earlier.",
+   "chars": 136
+  }
+ ],
+ "text": "B2 reply batch 2026-09-26 12:05 UTC\n\n1. @derparsel  ETF / institutional crypto  5 likes / 3 replies / 32m old\nhttps://x.com/derparsel/status/2103810066470297793\n\nREPLY (136 chars):\nCumulative flows up 25% to $1.5B since early August still sit on a far smaller AUM base than Bitcoin and Ethereum ETFs launched earlier.\n\nPost by hand. Tell Claude if you reword anything."
 }
