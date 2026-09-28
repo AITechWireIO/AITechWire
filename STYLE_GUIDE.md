@@ -493,3 +493,39 @@ Each new analogy reaches a fresh audience for 2 weeks, then the audience has abs
 | Entry point | A problem the builder feels | A problem the investor feels |
 | Ends with | "Here's what it takes IRL" | "Here's what it means for your money" |
 | Investment angle | ❌ None | ✅ Always |
+
+### 🆕 Wk19: Cross-Asset Observation Endings Kill Likes (Sep 27, 2026)
+Week 19 data: 10 cross-asset posts, only 2 got likes. The 8 posts with 0 likes all ended on observations — not verdicts. Specific banned phrases (now with data to prove it):
+- "The divergence is the signal." → 0 likes confirmed
+- "Capital flows to where it's treated best — and right now that answer is obvious." → 0 likes
+- "and so far, it's been right." → 0 likes
+- "The attack surface isn't a server anymore. It's the agent's objective." → observation, not portfolio verdict → 0 likes
+**Updated banned endings (cross-asset + all formats):** "Watch the flows." / "The divergence is the signal." / "Capital flows to where it's treated best." / "and so far, it's been right." / "Worth watching." / "Eyes are on..."
+**Approved endings:** "One of them is wrong." / "One of those bets is early." / "Conflict of interest." / "That floor just got structural." / "Eyes open." / "Own accordingly." / "The answer matters."
+
+### 🆕 Wk19: Reactive Format — Extreme Data vs Moderate Data (Sep 27, 2026)
+This week's reactive split was decisive:
+- $1B ETF single day (largest since Oct 2025) → 19V, 1L ✅
+- Bitcoin never below realized price in full cycle (historical first) → 16V, 2L ✅
+- $347M over 5 straight days, AUM $108B → 12V, 1L ✅
+- Polymarket countersues NY AG (no dollar stakes stated) → 4V, 0L ❌
+- Meta Muse #1 App Store duplicate → 4V, 0L ❌
+**New rule:** Reactive posts MUST lead with the most extreme numeric fact about the story. If the fact isn't extreme enough to stand without explanation, reframe as contrarian. "Polymarket just countersued NY AG" needs stakes: "$20B+ market, federal jurisdiction decision." Without stakes, it's news, not intelligence.
+
+### 🆕 Wk19: Analogy Hard Cap Code Enforcement — Critical (Sep 27, 2026)
+The "mutual fund pays dividends to active traders" analogy was supposed to replace "commodities exchange" burned in Wk18. Wk19 ran it 3× in 3 consecutive days (Sep 22, 23, 24 at 18:00 UTC). Result: 7.5V avg, 0 RTs, analogy now burned. This is the 2nd consecutive week the hard cap was violated.
+**Pattern:** Prompt-only instruction cannot prevent the pipeline from reusing an analogy. The research engine generates posts independently and doesn't know what it ran yesterday.
+**Required code fix:** aitechwire_daily.py must track the last DeFi analogy used (by keyword) in the last 7 days. If candidate educational post contains the same analogy keyword → reject, regenerate.
+**Status:** Mutual fund analogy RETIRED. Current analogy (Wk20+): "NYSE specialist desk that routes order flow and keeps nothing — the protocol earns the spread."
+
+### 🆕 Wk19: DeFi Analogy Rotation — Active List (Sep 27, 2026)
+| Analogy | Status | Weeks active | Performance |
+|---------|--------|--------------|-------------|
+| Works like a stock exchange | ❌ RETIRED Wk16 | 8+ weeks | 7.9V by retirement |
+| Bond paying coupon to market makers | ❌ RETIRED Wk17 | 1 week (3 posts) | 0 RTs |
+| NYSE specialist desk | ❌ RETIRED Wk14-15 | 2 weeks | ~10V |
+| Commodities exchange where warehouse earns nothing | ❌ RETIRED Wk18 | 1 week (6 posts) | 0 RTs |
+| Mutual fund pays dividends to active traders | ❌ RETIRED Wk19 | 1 week (3 posts) | 0 RTs |
+| NYSE specialist desk routes order flow, keeps nothing | ✅ ACTIVE Wk20+ | starting now | TBD |
+| [New analogy — never repeat retired ones] | 📋 NEXT Wk22+ | — | — |
+
