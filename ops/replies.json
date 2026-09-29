@@ -1,45 +1,21 @@
 {
- "generated_utc": "2026-09-28T12:08:07Z",
- "date": "2026-09-28",
- "count": 3,
- "swept": 3,
+ "generated_utc": "2026-09-29T12:06:09Z",
+ "date": "2026-09-29",
+ "count": 1,
+ "swept": 1,
  "drafts": [
   {
    "n": 1,
-   "handle": "GemBooster",
-   "lane": "Tokenization / RWA",
-   "url": "https://x.com/GemBooster/status/2104541816586436813",
-   "likes": 3,
-   "replies": 0,
-   "age_min": 4,
-   "seen_before": 0,
-   "reply": "Gold-backed tokens at Tether and Paxos can lift the $8B tracked total on bullion demand without proving tokenized credit is scaling.",
-   "chars": 132
-  },
-  {
-   "n": 2,
-   "handle": "lil_disruptor",
+   "handle": "CryptoHersens",
    "lane": "ETF / institutional crypto",
-   "url": "https://x.com/lil_disruptor/status/2104539711968510075",
-   "likes": 2,
+   "url": "https://x.com/CryptoHersens/status/2104896470289887344",
+   "likes": 7,
    "replies": 2,
-   "age_min": 12,
+   "age_min": 35,
    "seen_before": 0,
-   "reply": "Spot ETF holdings sit outside the 100 to 1,000 wallet band so the 113,950 BTC added over 10 weeks cannot be read as ETF demand.",
-   "chars": 127
-  },
-  {
-   "n": 3,
-   "handle": "RB_Tradingltd",
-   "lane": "ETF / institutional crypto",
-   "url": "https://x.com/RB_Tradingltd/status/2104534559068999759",
-   "likes": 2,
-   "replies": 1,
-   "age_min": 33,
-   "seen_before": 0,
-   "reply": "Holdings in IBIT do not grant control over Bitcoin consensus. Full nodes still validate every block without regard to ETF custody.",
-   "chars": 130
+   "reply": "Profit taking by early ETF buyers can still overwhelm inflows once the 3rd consecutive green month draws more attention to unrealized gains.",
+   "chars": 140
   }
  ],
- "text": "B2 reply batch 2026-09-28 12:05 UTC\n\n1. @GemBooster  Tokenization / RWA  3 likes / 0 replies / 4m old\nhttps://x.com/GemBooster/status/2104541816586436813\n\nREPLY (132 chars):\nGold-backed tokens at Tether and Paxos can lift the $8B tracked total on bullion demand without proving tokenized credit is scaling.\n\n2. @lil_disruptor  ETF / institutional crypto  2 likes / 2 replies / 12m old\nhttps://x.com/lil_disruptor/status/2104539711968510075\n\nREPLY (127 chars):\nSpot ETF holdings sit outside the 100 to 1,000 wallet band so the 113,950 BTC added over 10 weeks cannot be read as ETF demand.\n\n3. @RB_Tradingltd  ETF / institutional crypto  2 likes / 1 replies / 33m old\nhttps://x.com/RB_Tradingltd/status/2104534559068999759\n\nREPLY (130 chars):\nHoldings in IBIT do not grant control over Bitcoin consensus. Full nodes still validate every block without regard to ETF custody.\n\nPost by hand. Tell Claude if you reword anything."
+ "text": "B2 reply batch 2026-09-29 12:05 UTC\n\n1. @CryptoHersens  ETF / institutional crypto  7 likes / 2 replies / 35m old\nhttps://x.com/CryptoHersens/status/2104896470289887344\n\nREPLY (140 chars):\nProfit taking by early ETF buyers can still overwhelm inflows once the 3rd consecutive green month draws more attention to unrealized gains.\n\nPost by hand. Tell Claude if you reword anything."
 }
