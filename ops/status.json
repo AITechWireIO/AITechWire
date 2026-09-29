@@ -1,12 +1,12 @@
 {
- "generated_utc": "2026-09-28T21:05:01Z",
- "today": "2026-09-28",
+ "generated_utc": "2026-09-29T12:05:02Z",
+ "today": "2026-09-29",
  "article_today": [
-  "2026-09-28-polymarket-fed-oct-hike-odds-at-64.html"
+  "2026-09-29-strategy-acquires-1665-btc-holds-847k-total.html"
  ],
- "latest_article": "2026-09-28-polymarket-fed-oct-hike-odds-at-64.html",
- "article_count": 101,
- "process_running": "1",
+ "latest_article": "2026-09-29-strategy-acquires-1665-btc-holds-847k-total.html",
+ "article_count": 102,
+ "process_running": "5",
  "cron": [
   "5 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_batch.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
   "50 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
