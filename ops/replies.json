@@ -1,21 +1,21 @@
 {
- "generated_utc": "2026-09-29T12:06:09Z",
- "date": "2026-09-29",
+ "generated_utc": "2026-09-30T12:06:07Z",
+ "date": "2026-09-30",
  "count": 1,
  "swept": 1,
  "drafts": [
   {
    "n": 1,
-   "handle": "CryptoHersens",
+   "handle": "AMINABankGlobal",
    "lane": "ETF / institutional crypto",
-   "url": "https://x.com/CryptoHersens/status/2104896470289887344",
-   "likes": 7,
-   "replies": 2,
-   "age_min": 35,
+   "url": "https://x.com/AMINABankGlobal/status/2105263636054773952",
+   "likes": 2,
+   "replies": 0,
+   "age_min": 16,
    "seen_before": 0,
-   "reply": "Profit taking by early ETF buyers can still overwhelm inflows once the 3rd consecutive green month draws more attention to unrealized gains.",
-   "chars": 140
+   "reply": "A 43 percent Q3 print still leaves open whether the move was driven by spot demand or leveraged futures. Liquidity drains in late year often reverse such gains regardless of the 9 year comparison.",
+   "chars": 196
   }
  ],
- "text": "B2 reply batch 2026-09-29 12:05 UTC\n\n1. @CryptoHersens  ETF / institutional crypto  7 likes / 2 replies / 35m old\nhttps://x.com/CryptoHersens/status/2104896470289887344\n\nREPLY (140 chars):\nProfit taking by early ETF buyers can still overwhelm inflows once the 3rd consecutive green month draws more attention to unrealized gains.\n\nPost by hand. Tell Claude if you reword anything."
+ "text": "B2 reply batch 2026-09-30 12:05 UTC\n\n1. @AMINABankGlobal  ETF / institutional crypto  2 likes / 0 replies / 16m old\nhttps://x.com/AMINABankGlobal/status/2105263636054773952\n\nREPLY (196 chars):\nA 43 percent Q3 print still leaves open whether the move was driven by spot demand or leveraged futures. Liquidity drains in late year often reverse such gains regardless of the 9 year comparison.\n\nPost by hand. Tell Claude if you reword anything."
 }
