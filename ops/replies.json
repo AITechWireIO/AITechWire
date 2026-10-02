@@ -1,8 +1,21 @@
 {
- "generated_utc": "2026-10-01T12:05:17Z",
- "date": "2026-10-01",
- "count": 0,
- "swept": 0,
- "drafts": [],
- "text": "B2 reply batch 2026-10-01 12:05 UTC\n\nNo posts qualified today. Zero is a legal answer, nothing to post. Swept 0 candidates across 4 lanes."
+ "generated_utc": "2026-10-02T12:06:01Z",
+ "date": "2026-10-02",
+ "count": 1,
+ "swept": 1,
+ "drafts": [
+  {
+   "n": 1,
+   "handle": "DigitalG15",
+   "lane": "ETF / institutional crypto",
+   "url": "https://x.com/DigitalG15/status/2105983655185203604",
+   "likes": 10,
+   "replies": 0,
+   "age_min": 35,
+   "seen_before": 0,
+   "reply": "Custodial ETF holdings sit off exchange so accelerating inflows can reduce reported Binance balances without changing total liquid supply.",
+   "chars": 138
+  }
+ ],
+ "text": "B2 reply batch 2026-10-02 12:05 UTC\n\n1. @DigitalG15  ETF / institutional crypto  10 likes / 0 replies / 35m old\nhttps://x.com/DigitalG15/status/2105983655185203604\n\nREPLY (138 chars):\nCustodial ETF holdings sit off exchange so accelerating inflows can reduce reported Binance balances without changing total liquid supply.\n\nPost by hand. Tell Claude if you reword anything."
 }
