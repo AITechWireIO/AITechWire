@@ -4,6 +4,19 @@
   # Every push was a production deploy; ops/logs/scripts/state churn burned credits.
   ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':!x_post_queue.json' ':!logs' ':!scripts' ':!ops' ':!*.log' ':!*.bak'"
 
+# 301 redirects for removed articles (Oleg, 2 Oct 2026)
+[[redirects]]
+  from = "/crypto/2026-08-16-aerodrome-metadex-what-code-says-about-aero.html"
+  to = "/crypto/2026-08-15-aerodrome-metadex-code-analysis-aero-bull-case.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/crypto/2026-06-21-aerodrome-aero-catalysts-merger-mainnet-base-airdrop.html"
+  to = "/crypto/"
+  status = 301
+  force = true
+
 # 404 fallback — send unknown paths to homepage
 [[redirects]]
   from = "/*"
