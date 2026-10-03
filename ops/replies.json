@@ -1,21 +1,45 @@
 {
- "generated_utc": "2026-10-02T12:06:01Z",
- "date": "2026-10-02",
- "count": 1,
- "swept": 1,
+ "generated_utc": "2026-10-03T12:07:57Z",
+ "date": "2026-10-03",
+ "count": 3,
+ "swept": 3,
  "drafts": [
   {
    "n": 1,
-   "handle": "DigitalG15",
-   "lane": "ETF / institutional crypto",
-   "url": "https://x.com/DigitalG15/status/2105983655185203604",
-   "likes": 10,
+   "handle": "SentoraHQ",
+   "lane": "Tokenization / RWA",
+   "url": "https://x.com/SentoraHQ/status/2106353637093949917",
+   "likes": 2,
    "replies": 0,
-   "age_min": 35,
+   "age_min": 4,
    "seen_before": 0,
-   "reply": "Custodial ETF holdings sit off exchange so accelerating inflows can reduce reported Binance balances without changing total liquid supply.",
-   "chars": 138
+   "reply": "On-chain usefulness does not give the token Fedwire finality. Holders still rely on the issuer to convert the token back into an actual Treasury.",
+   "chars": 145
+  },
+  {
+   "n": 2,
+   "handle": "2xnmore",
+   "lane": "Tokenization / RWA",
+   "url": "https://x.com/2xnmore/status/2106353579632263243",
+   "likes": 4,
+   "replies": 6,
+   "age_min": 5,
+   "seen_before": 0,
+   "reply": "Fee accrual to the token still decides upside after a product ships. Historically, live networks still left the token worthless when usage never hit the asset.",
+   "chars": 159
+  },
+  {
+   "n": 3,
+   "handle": "cryptovers3_",
+   "lane": "ETF / institutional crypto",
+   "url": "https://x.com/cryptovers3_/status/2106353506172961223",
+   "likes": 2,
+   "replies": 0,
+   "age_min": 5,
+   "seen_before": 0,
+   "reply": "Cooled ETF inflows shift the burden onto existing holders, so a hold in the mid-$80ks after the push toward $87k does not by itself restore the bid.",
+   "chars": 148
   }
  ],
- "text": "B2 reply batch 2026-10-02 12:05 UTC\n\n1. @DigitalG15  ETF / institutional crypto  10 likes / 0 replies / 35m old\nhttps://x.com/DigitalG15/status/2105983655185203604\n\nREPLY (138 chars):\nCustodial ETF holdings sit off exchange so accelerating inflows can reduce reported Binance balances without changing total liquid supply.\n\nPost by hand. Tell Claude if you reword anything."
+ "text": "B2 reply batch 2026-10-03 12:05 UTC\n\n1. @SentoraHQ  Tokenization / RWA  2 likes / 0 replies / 4m old\nhttps://x.com/SentoraHQ/status/2106353637093949917\n\nREPLY (145 chars):\nOn-chain usefulness does not give the token Fedwire finality. Holders still rely on the issuer to convert the token back into an actual Treasury.\n\n2. @2xnmore  Tokenization / RWA  4 likes / 6 replies / 5m old\nhttps://x.com/2xnmore/status/2106353579632263243\n\nREPLY (159 chars):\nFee accrual to the token still decides upside after a product ships. Historically, live networks still left the token worthless when usage never hit the asset.\n\n3. @cryptovers3_  ETF / institutional crypto  2 likes / 0 replies / 5m old\nhttps://x.com/cryptovers3_/status/2106353506172961223\n\nREPLY (148 chars):\nCooled ETF inflows shift the burden onto existing holders, so a hold in the mid-$80ks after the push toward $87k does not by itself restore the bid.\n\nPost by hand. Tell Claude if you reword anything."
 }
