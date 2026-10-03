@@ -1,12 +1,12 @@
 {
- "generated_utc": "2026-10-02T21:05:01Z",
- "today": "2026-10-02",
+ "generated_utc": "2026-10-03T12:05:01Z",
+ "today": "2026-10-03",
  "article_today": [
-  "2026-10-02-us-jobs-report-looms-with-soft-growth-expected.html"
+  "2026-10-03-the-cryptographic-world-computer-httpstcoueayodeupo-my-attem.html"
  ],
- "latest_article": "2026-10-02-us-jobs-report-looms-with-soft-growth-expected.html",
- "article_count": 106,
- "process_running": "1",
+ "latest_article": "2026-10-03-the-cryptographic-world-computer-httpstcoueayodeupo-my-attem.html",
+ "article_count": 105,
+ "process_running": "3",
  "cron": [
   "5 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_batch.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
   "50 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
