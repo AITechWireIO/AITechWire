@@ -1,5 +1,20 @@
 [
   {
+    "title": "Nvidia Blackwell Powers OpenAI GPT-6 Astra Ultrafast",
+    "url": "/ai-tech/2026-10-04-nvidia-blackwell-powers-openai-gpt-6-astra-ultrafast.html",
+    "section": "AI & Tech",
+    "date": "2026-10-04",
+    "excerpt": "OpenAI's new GPT-6 mode runs on Nvidia Blackwell GPUs delivering up to 8x faster token generation for agents and coding. The launch underscores Nvidia's central role in frontier inference as demand sh",
+    "tags": [
+      "AI",
+      "NVIDIA",
+      "OpenAI"
+    ],
+    "key_voices": [
+      "@jvisserlabs"
+    ]
+  },
+  {
     "title": "US jobs report looms with soft growth expected",
     "url": "/finance/2026-10-02-us-jobs-report-looms-with-soft-growth-expected.html",
     "section": "Finance",
