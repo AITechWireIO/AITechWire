@@ -1,45 +1,45 @@
 {
- "generated_utc": "2026-10-03T12:07:57Z",
- "date": "2026-10-03",
+ "generated_utc": "2026-10-04T12:07:33Z",
+ "date": "2026-10-04",
  "count": 3,
  "swept": 3,
  "drafts": [
   {
    "n": 1,
-   "handle": "SentoraHQ",
-   "lane": "Tokenization / RWA",
-   "url": "https://x.com/SentoraHQ/status/2106353637093949917",
-   "likes": 2,
+   "handle": "Bussio28Team",
+   "lane": "ETF / institutional crypto",
+   "url": "https://x.com/Bussio28Team/status/2106709972243341537",
+   "likes": 5,
    "replies": 0,
-   "age_min": 4,
+   "age_min": 28,
    "seen_before": 0,
-   "reply": "On-chain usefulness does not give the token Fedwire finality. Holders still rely on the issuer to convert the token back into an actual Treasury.",
-   "chars": 145
+   "reply": "Weekend liquidity remains thin enough that a single large ETF redemption can erase three consecutive green weeks even after 2.7 billion in September inflows.",
+   "chars": 157
   },
   {
    "n": 2,
-   "handle": "2xnmore",
+   "handle": "SentoraHQ",
    "lane": "Tokenization / RWA",
-   "url": "https://x.com/2xnmore/status/2106353579632263243",
+   "url": "https://x.com/SentoraHQ/status/2106716087265927443",
    "likes": 4,
-   "replies": 6,
-   "age_min": 5,
-   "seen_before": 0,
-   "reply": "Fee accrual to the token still decides upside after a product ships. Historically, live networks still left the token worthless when usage never hit the asset.",
-   "chars": 159
+   "replies": 1,
+   "age_min": 4,
+   "seen_before": 1,
+   "reply": "Off-chain borrower credit of $799M still depends on legal recovery outside the protocol. Crypto-linked credit of $778M inherits oracle and token volatility that Treasuries of $23M do not.",
+   "chars": 187
   },
   {
    "n": 3,
-   "handle": "cryptovers3_",
+   "handle": "CryptoHersens",
    "lane": "ETF / institutional crypto",
-   "url": "https://x.com/cryptovers3_/status/2106353506172961223",
+   "url": "https://x.com/CryptoHersens/status/2106705983535788415",
    "likes": 2,
-   "replies": 0,
-   "age_min": 5,
-   "seen_before": 0,
-   "reply": "Cooled ETF inflows shift the burden onto existing holders, so a hold in the mid-$80ks after the push toward $87k does not by itself restore the bid.",
-   "chars": 148
+   "replies": 1,
+   "age_min": 44,
+   "seen_before": 1,
+   "reply": "ETF share concentration lets a few large redemptions move price more sharply than dispersed retail selling ever could.",
+   "chars": 118
   }
  ],
- "text": "B2 reply batch 2026-10-03 12:05 UTC\n\n1. @SentoraHQ  Tokenization / RWA  2 likes / 0 replies / 4m old\nhttps://x.com/SentoraHQ/status/2106353637093949917\n\nREPLY (145 chars):\nOn-chain usefulness does not give the token Fedwire finality. Holders still rely on the issuer to convert the token back into an actual Treasury.\n\n2. @2xnmore  Tokenization / RWA  4 likes / 6 replies / 5m old\nhttps://x.com/2xnmore/status/2106353579632263243\n\nREPLY (159 chars):\nFee accrual to the token still decides upside after a product ships. Historically, live networks still left the token worthless when usage never hit the asset.\n\n3. @cryptovers3_  ETF / institutional crypto  2 likes / 0 replies / 5m old\nhttps://x.com/cryptovers3_/status/2106353506172961223\n\nREPLY (148 chars):\nCooled ETF inflows shift the burden onto existing holders, so a hold in the mid-$80ks after the push toward $87k does not by itself restore the bid.\n\nPost by hand. Tell Claude if you reword anything."
+ "text": "B2 reply batch 2026-10-04 12:05 UTC\n\n1. @Bussio28Team  ETF / institutional crypto  5 likes / 0 replies / 28m old\nhttps://x.com/Bussio28Team/status/2106709972243341537\n\nREPLY (157 chars):\nWeekend liquidity remains thin enough that a single large ETF redemption can erase three consecutive green weeks even after 2.7 billion in September inflows.\n\n2. @SentoraHQ  Tokenization / RWA  4 likes / 1 replies / 4m old  (seen 1 day(s) before) -> added to standing roster\nhttps://x.com/SentoraHQ/status/2106716087265927443\n\nREPLY (187 chars):\nOff-chain borrower credit of $799M still depends on legal recovery outside the protocol. Crypto-linked credit of $778M inherits oracle and token volatility that Treasuries of $23M do not.\n\n3. @CryptoHersens  ETF / institutional crypto  2 likes / 1 replies / 44m old  (seen 1 day(s) before) -> added to standing roster\nhttps://x.com/CryptoHersens/status/2106705983535788415\n\nREPLY (118 chars):\nETF share concentration lets a few large redemptions move price more sharply than dispersed retail selling ever could.\n\nPost by hand. Tell Claude if you reword anything."
 }
