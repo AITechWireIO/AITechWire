@@ -98,15 +98,15 @@ Like a smart investor talking to another smart investor at dinner.
 
 ### 📊 17-Week Performance Table (Jun 15 - Sep 13, 2026)
 
-| Style | Wk1 | Wk2 | Wk3 | Wk6 | Wk7 | Wk8 | Wk10 | Wk12 | Wk13 | Wk15 | Wk16 | Wk17 | **Wk18** | Trend / Rule |
+| Style | Wk1 | Wk2 | Wk3 | Wk6 | Wk7 | Wk8 | Wk10 | Wk12 | Wk13 | Wk15 | Wk16 | Wk17 | Wk18 | Wk19 | **Wk20** | Trend / Rule |
 |-------|-----|-----|-----|-----|-----|-----|------|------|------|------|------|------|----------|---------------|
-| Thread opener | — | 14.0 | 2.5 | 14.0 | 14.0 | 13.8 | 17.3 | — | — | — | — | — | **30.5⬆️** | Named analyst + live thesis + [1/n] = 25-35V RELIABLE. Reserve for 2/week max. |
-| DeFi demystified | 3.3 | 12.5 | 9.3 | 10.0 | 8.3 | 8.0 | 9.0 | 24.8 | 19.0 | 7.5⚠️ | 7.9 | 10.2 (0RT) | **10.7 (0RT)⚠️** | ANALOGY BURNED BY VOLUME (6 posts Wk18 vs cap of 1). RETIRE commodities exchange NOW. ROTATE to: mutual fund that pays dividends back to active traders. 1/week HARD CAP code-enforced. |
-| Contrarian | 11.3 | 8.2 | 8.1 | 10.7 | 14.0 | 32.0‡ | 13.3 | 8.1 | 9.2 | 13.2 | 12.0 | 17.2⬆️ | **11.8⚠️** | Dropped — missing decisive verdicts. Named figure + quantified challenge + verdict required. Generic observation endings = 7V. Decisive verdict endings = 18-20V. HARD CAP 5/week. |
-| Reactive | 5.5 | 9.0 | 5.4 | 12.1 | 64.0† | 47.0†† | 12.8 | 6.3 | 10.5 | 19.5 | 15.4 | 13.5⚠️ | **22.0⬆️** | Big event week (Fed hike + CLARITY fail) = bimodal confirmed: 50V (institutional bridge) vs 3V (3rd take same story). 72h topic lock MUST be code-enforced. |
-| Article promo | 3.0 | 11.0 | 7.3 | n/a | 14.2 | 14.2 | 10.5 | 18.8 | 13.8 | 7.6 | 22.2 | 10.5 (1.0L) | **14.0 (1.0L)⬆️** | Thesis-first = 14-340V. ALLCAPS header (FED —, TREASURY —) still appearing — add validation reject. |
-| Cross-asset | 2.7 | 8.0 | 7.5 | 14.5 | 11.0 | 13.4 | 13.5 | 7.3 | 13.2 | 13.1 | 12.8 | 13.5 | **10.2 (0.11L)⚠️** | Dropped — 9 posts, only 1 total like. Tier 1 verdict MANDATORY. Forced-choice ending required. Observation endings = 0 likes. |
-| Educational | — | — | — | — | — | — | — | 5.7 | 3.0 | 10.0 | ~10.0 | 7.0 (1L) | — | Covered by DeFi demystified this week. Max 1/week non-DeFi with live anchor. |
+| Thread opener | — | 14.0 | 2.5 | 14.0 | 14.0 | 13.8 | 17.3 | — | — | — | — | — | 30.5⬆️ | — | **—** | Named analyst + live thesis + [1/n] = 25-35V RELIABLE. Reserve for 2/week max. |
+| DeFi demystified | 3.3 | 12.5 | 9.3 | 10.0 | 8.3 | 8.0 | 9.0 | 24.8 | 19.0 | 7.5⚠️ | 7.9 | 10.2 (0RT) | 10.7 (0RT)⚠️ | 7.5 (0RT) | **23.7⬆️ (0RT)** | Toll highway (105V 1st use) vs clearinghouse x5 (9V avg). Format value = 100% concentrated in 1st use of fresh metaphor. HARD CAP 1/week. Rotate analogy every week. Wk21: NYSE specialist desk. |
+| Contrarian | 11.3 | 8.2 | 8.1 | 10.7 | 14.0 | 32.0‡ | 13.3 | 8.1 | 9.2 | 13.2 | 12.0 | 17.2⬆️ | 11.8⚠️ | 8.0 | **13.6⬆️** | Floor recovered. Named figure required. Rhetorical question format tested (Gold/BTC 113V) — first confirmed win for question vs verdict format. HARD CAP 5/week. |
+| Reactive | 5.5 | 9.0 | 5.4 | 12.1 | 64.0† | 47.0†† | 12.8 | 6.3 | 10.5 | 19.5 | 15.4 | 13.5⚠️ | 22.0⬆️ | 17.9 | **27.9⬆️** | 113V Gold/BTC outlier. Ex-outlier ~11V. Bimodal pattern confirmed 20 weeks straight. Name extreme stat + winner/loser in sentence 1. 72h topic lock still not code-enforced. |
+| Article promo | 3.0 | 11.0 | 7.3 | n/a | 14.2 | 14.2 | 10.5 | 18.8 | 13.8 | 7.6 | 22.2 | 10.5 (1.0L) | 14.0 (1.0L)⬆️ | ~10V | **15.0** | Thesis-first = 14-340V. ALLCAPS header still appearing — code validation needed. |
+| Cross-asset | 2.7 | 8.0 | 7.5 | 14.5 | 11.0 | 13.4 | 13.5 | 7.3 | 13.2 | 13.1 | 12.8 | 13.5 | 10.2 (0.11L)⚠️ | 11.2 | **23.0⬆️ (0.50L)** | Small sample (2 posts). Both used forced-choice or 3-way divergence. Time-anchored verdict format first confirmed. Observation endings still = 0 likes. |
+| Educational | — | — | — | — | — | — | — | 5.7 | 3.0 | 10.0 | ~10.0 | 7.0 (1L) | — | — | **—** | Covered by DeFi demystified this week. Max 1/week non-DeFi with live anchor. |
 
 †Wk7 reactive: inflated by Lamine Yamal 195V sports post. Ex-sports: 16V.
 ††Wk8 reactive: same Yamal post still in window (Jul 20). Ex-sports: ~10V.
@@ -117,6 +117,15 @@ Like a smart investor talking to another smart investor at dinner.
 **Wk16 totals (~35 main posts):** ~490V | 24L | ~3RT | AERO QT outlier (95V); DeFi analogy burned
 **Wk15 totals (41 main posts):** 525V | 22L | 6RT | All 6 RTs from DeFi-demystified/AERO posts
 **Wk12 totals (29 main posts):** 685V | 7L | 4RT | Best RT week; AERO thesis promo 340V outlier
+
+**🚨 Wk20 critical signals (Sep 27 – Oct 4, 2026 — real X API data):**
+- **Reactive outlier (113V, 5L): Gold/BTC rhetorical question format.** First confirmed win for question vs declarative verdict in cross-asset posts. Genuine ambiguity (both answers defensible) = double the addressable audience.
+- **DeFi demystified: toll highway first use (105V) vs clearinghouse repeats (9V avg).** 100% of the format’s value concentrated in the first-use of a fresh metaphor. Confirms: 1 post / 1 week / 1 new analogy = the only formula that works.
+- **0 pipeline RTs for 5th week since last fresh AERO post.** The RT engine requires: fresh analogy + 1 post + real dollar figure in body. All conditions met for toll highway (105V, $2.5M cited) but no RT. Hypothesis: RT engine may also need community priming (existing followers to seed sharing). Still under observation.
+- **Same-story triple-fire: Polymarket Fed hold posted 3x in 3 hours (Sep 30).** Topic lock not code-enforced. Third post (24V) outperformed the earlier two (8V, 11V) because it added the 3-way divergence reframe — same event, different frame = different post.
+- **ALLCAPS article promo appeared again (NVIDIA — at Oct 4 12:06).** 13V, 0L. 20+ weeks of this violation. Code-level rejection still not implemented.
+- **Reply game: 4 replies, 0 likes, 19V.** Opinion-mode not data-point mode. Reset to data-first reply rule.
+- **Wk20 totals (22 pipeline posts):** 494V | 10L | 1RT
 
 **🚨 Wk18 critical signals (Sep 13-20, 2026 — real X API data):**
 - **DeFi demystified: 6 posts in one week vs cap of 1.** All "commodities exchange" analogy. Analogy burned by volume before the 2-week timer expires. RETIRE NOW. Rotate to: "mutual fund that pays dividends back to active traders instead of keeping them."
@@ -493,6 +502,23 @@ Each new analogy reaches a fresh audience for 2 weeks, then the audience has abs
 | Entry point | A problem the builder feels | A problem the investor feels |
 | Ends with | "Here's what it takes IRL" | "Here's what it means for your money" |
 | Investment angle | ❌ None | ✅ Always |
+
+### 🆕 Wk20: Rhetorical Question Format for Genuinely Ambiguous Cross-Asset Posts (Oct 4, 2026)
+Gold/BTC post (113V, 5L): "Which one just got a larger institutional surface area?" — a question, not a verdict. Highest single-post like count in weeks. Both gold bulls AND crypto bulls self-selected a favorable answer, doubling the addressable audience. This is the first confirmed case where a question outperformed a declarative verdict.
+**New rule:** For cross-asset posts comparing two assets where both readers could defensibly disagree, use a rhetorical question instead of a declarative verdict. The question MUST be genuinely ambiguous — if the answer is obvious, use a declarative verdict ("One of them is wrong."). Ambiguous = both camps engage. Obvious = one camp agrees and the other scrolls past.
+
+### 🆕 Wk20: Time-Anchored Cross-Asset Verdict Outperforms Generic Verdicts (Oct 4, 2026)
+"Only one of those reads survives Wednesday." (24V, 1L) vs previous "One of them is wrong." The time-anchor creates urgency by naming a deadline. Readers who see a post with a pending resolution date engage because they can come back and check.
+**New rule:** When a macro catalyst is known and dated, use a time-anchored verdict: "Only one survives [event]." / "Only one of these reads survives the payroll print." / "One of these is wrong by Friday." Generic verdicts are fine; time-anchored verdicts convert slightly better on high-traffic event weeks.
+
+### 🆕 Wk20: DeFi Analogy Performance = 100% Concentrated in First Metaphor Use (Oct 4, 2026)
+Toll highway analogy — first use Sep 30 18:00 UTC → 105V, 1L. Same week's clearinghouse posts (variations on same fee-distribution theme): 13V, 7V, 7V. Three follow-up posts on the same mechanism concept averaged 9V. The format advantage is not in the protocol or the formula — it's in the novelty of the specific metaphor used.
+**Rule reinforced:** 1 DeFi-demystified post per week using a FRESH analogy. After the first use, retire it. Even if subsequent posts use different wording for the same underlying concept, the audience has already processed the mechanism. New metaphor = new reach ceiling. Same concept = baseline.
+
+### 🆕 Wk20: Current DeFi Analogy Rotation Status (Oct 4, 2026)
+Toll highway where voters collect tolls: ✅ USED Wk20 (105V) — RETIRE for Wk21.
+NYSE specialist desk that routes order flow and keeps nothing: ✅ ACTIVE for Wk21 (Oct 5+). Has not been used since Wk14-15 retirement — audience has refreshed.
+Wk22+ options: revenue-sharing LP in a real estate syndicate / ISP that charges bandwidth fees and returns them to the routers / commodities clearing member that earns the margin and distributes it.
 
 ### 🆕 Wk19: Cross-Asset Observation Endings Kill Likes (Sep 27, 2026)
 Week 19 data: 10 cross-asset posts, only 2 got likes. The 8 posts with 0 likes all ended on observations — not verdicts. Specific banned phrases (now with data to prove it):
