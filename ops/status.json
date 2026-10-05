@@ -1,12 +1,10 @@
 {
- "generated_utc": "2026-10-04T21:05:01Z",
- "today": "2026-10-04",
- "article_today": [
-  "2026-10-04-nvidia-blackwell-powers-openai-gpt-6-astra-ultrafast.html"
- ],
+ "generated_utc": "2026-10-05T12:05:01Z",
+ "today": "2026-10-05",
+ "article_today": [],
  "latest_article": "2026-10-04-nvidia-blackwell-powers-openai-gpt-6-astra-ultrafast.html",
  "article_count": 105,
- "process_running": "1",
+ "process_running": "3",
  "cron": [
   "5 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_batch.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
   "50 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
