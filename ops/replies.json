@@ -1,45 +1,33 @@
 {
- "generated_utc": "2026-10-05T12:07:28Z",
- "date": "2026-10-05",
- "count": 3,
- "swept": 3,
+ "generated_utc": "2026-10-06T12:07:17Z",
+ "date": "2026-10-06",
+ "count": 2,
+ "swept": 2,
  "drafts": [
   {
    "n": 1,
-   "handle": "DeclanCrypt",
+   "handle": "Max_Sammy12",
    "lane": "ETF / institutional crypto",
-   "url": "https://x.com/DeclanCrypt/status/2107066404151181762",
-   "likes": 32,
-   "replies": 10,
-   "age_min": 52,
+   "url": "https://x.com/Max_Sammy12/status/2107433656411443212",
+   "likes": 37,
+   "replies": 0,
+   "age_min": 33,
    "seen_before": 0,
-   "reply": "First tests of the 82K-83K zone in a new week are often liquidity probes rather than trend calls. ETH at 2.7K still takes direction from BTC near 85K.",
-   "chars": 150
+   "reply": "Funding remains positive, so a sweep of 83.3K can still occur before buyers attempt 87K again.",
+   "chars": 94
   },
   {
    "n": 2,
-   "handle": "TweetByGerald",
+   "handle": "crypto_ronny01",
    "lane": "ETF / institutional crypto",
-   "url": "https://x.com/TweetByGerald/status/2107074290109595989",
-   "likes": 7,
-   "replies": 1,
-   "age_min": 21,
-   "seen_before": 0,
-   "reply": "Moving Aave brand and IP into a DAO foundation still leaves a legal board courts can compel. The 1.5M ETH staking queue also withholds that supply from DeFi for 25 days.",
-   "chars": 169
-  },
-  {
-   "n": 3,
-   "handle": "jakeinstitition",
-   "lane": "Tokenization / RWA",
-   "url": "https://x.com/jakeinstitition/status/2107078365706367476",
-   "likes": 2,
+   "url": "https://x.com/crypto_ronny01/status/2107432685492752453",
+   "likes": 18,
    "replies": 0,
-   "age_min": 5,
+   "age_min": 37,
    "seen_before": 0,
-   "reply": "Issuer adoption of a tokenization chain still tracks existing custody relationships and legal finality more than CEO commentary.",
-   "chars": 128
+   "reply": "Thin spot volume at 85.5K makes a retest of 83.3K to 84.6K more likely.",
+   "chars": 71
   }
  ],
- "text": "B2 reply batch 2026-10-05 12:05 UTC\n\n1. @DeclanCrypt  ETF / institutional crypto  32 likes / 10 replies / 52m old\nhttps://x.com/DeclanCrypt/status/2107066404151181762\n\nREPLY (150 chars):\nFirst tests of the 82K-83K zone in a new week are often liquidity probes rather than trend calls. ETH at 2.7K still takes direction from BTC near 85K.\n\n2. @TweetByGerald  ETF / institutional crypto  7 likes / 1 replies / 21m old\nhttps://x.com/TweetByGerald/status/2107074290109595989\n\nREPLY (169 chars):\nMoving Aave brand and IP into a DAO foundation still leaves a legal board courts can compel. The 1.5M ETH staking queue also withholds that supply from DeFi for 25 days.\n\n3. @jakeinstitition  Tokenization / RWA  2 likes / 0 replies / 5m old\nhttps://x.com/jakeinstitition/status/2107078365706367476\n\nREPLY (128 chars):\nIssuer adoption of a tokenization chain still tracks existing custody relationships and legal finality more than CEO commentary.\n\nPost by hand. Tell Claude if you reword anything."
+ "text": "B2 reply batch 2026-10-06 12:05 UTC\n\n1. @Max_Sammy12  ETF / institutional crypto  37 likes / 0 replies / 33m old\nhttps://x.com/Max_Sammy12/status/2107433656411443212\n\nREPLY (94 chars):\nFunding remains positive, so a sweep of 83.3K can still occur before buyers attempt 87K again.\n\n2. @crypto_ronny01  ETF / institutional crypto  18 likes / 0 replies / 37m old\nhttps://x.com/crypto_ronny01/status/2107432685492752453\n\nREPLY (71 chars):\nThin spot volume at 85.5K makes a retest of 83.3K to 84.6K more likely.\n\nPost by hand. Tell Claude if you reword anything."
 }
