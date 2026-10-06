@@ -1,12 +1,10 @@
 {
- "generated_utc": "2026-10-05T21:05:01Z",
- "today": "2026-10-05",
- "article_today": [
-  "2026-10-05-bitcoin-etfs-pull-241m-ether-sees-outflows.html"
- ],
+ "generated_utc": "2026-10-06T12:05:01Z",
+ "today": "2026-10-06",
+ "article_today": [],
  "latest_article": "2026-10-05-bitcoin-etfs-pull-241m-ether-sees-outflows.html",
  "article_count": 106,
- "process_running": "1",
+ "process_running": "3",
  "cron": [
   "5 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_batch.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
   "50 12 * * * cd /home/ubuntu/.openclaw/workspace/scripts/ && /usr/bin/python3 b2_reply_watchdog.py >> /home/ubuntu/.openclaw/workspace/logs/b2_reply_batch.log 2>&1",
