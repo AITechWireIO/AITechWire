@@ -1,33 +1,57 @@
 {
- "generated_utc": "2026-10-06T12:07:17Z",
- "date": "2026-10-06",
- "count": 2,
- "swept": 2,
+ "generated_utc": "2026-10-07T12:08:22Z",
+ "date": "2026-10-07",
+ "count": 4,
+ "swept": 4,
  "drafts": [
   {
    "n": 1,
-   "handle": "Max_Sammy12",
+   "handle": "HODL15Capital",
    "lane": "ETF / institutional crypto",
-   "url": "https://x.com/Max_Sammy12/status/2107433656411443212",
-   "likes": 37,
-   "replies": 0,
-   "age_min": 33,
+   "url": "https://x.com/HODL15Capital/status/2107798130267935204",
+   "likes": 18,
+   "replies": 1,
+   "age_min": 24,
    "seen_before": 0,
-   "reply": "Funding remains positive, so a sweep of 83.3K can still occur before buyers attempt 87K again.",
-   "chars": 94
+   "reply": "Daily U.S. Bitcoin ETF inflows do not capture the much larger stock of coins held in self custody or overseas vehicles.",
+   "chars": 119
   },
   {
    "n": 2,
-   "handle": "crypto_ronny01",
+   "handle": "CoinGapeMedia",
    "lane": "ETF / institutional crypto",
-   "url": "https://x.com/crypto_ronny01/status/2107432685492752453",
-   "likes": 18,
-   "replies": 0,
-   "age_min": 37,
+   "url": "https://x.com/CoinGapeMedia/status/2107800664487379263",
+   "likes": 3,
+   "replies": 1,
+   "age_min": 14,
    "seen_before": 0,
-   "reply": "Thin spot volume at 85.5K makes a retest of 83.3K to 84.6K more likely.",
-   "chars": 71
+   "reply": "Bitcoin ETF inflows of 119M versus Ether outflows of 202M indicate rotation into Bitcoin that a 3 percent total cap drop can hide.",
+   "chars": 130
+  },
+  {
+   "n": 3,
+   "handle": "AnaCryptoN_S",
+   "lane": "ETF / institutional crypto",
+   "url": "https://x.com/AnaCryptoN_S/status/2107791546674241661",
+   "likes": 2,
+   "replies": 1,
+   "age_min": 51,
+   "seen_before": 0,
+   "reply": "ETF outflows of $202 million reflect listed product selling, not the full ETH market. Staking still removes circulating supply even when institutions sit out.",
+   "chars": 158
+  },
+  {
+   "n": 4,
+   "handle": "clarkron_2008",
+   "lane": "ETF / institutional crypto",
+   "url": "https://x.com/clarkron_2008/status/2107796281276162083",
+   "likes": 2,
+   "replies": 1,
+   "age_min": 32,
+   "seen_before": 0,
+   "reply": "Flow reports land after the session. 10.55M of Bitwise buying and 3.14M of net inflows will not rewrite a close that already occurred.",
+   "chars": 134
   }
  ],
- "text": "B2 reply batch 2026-10-06 12:05 UTC\n\n1. @Max_Sammy12  ETF / institutional crypto  37 likes / 0 replies / 33m old\nhttps://x.com/Max_Sammy12/status/2107433656411443212\n\nREPLY (94 chars):\nFunding remains positive, so a sweep of 83.3K can still occur before buyers attempt 87K again.\n\n2. @crypto_ronny01  ETF / institutional crypto  18 likes / 0 replies / 37m old\nhttps://x.com/crypto_ronny01/status/2107432685492752453\n\nREPLY (71 chars):\nThin spot volume at 85.5K makes a retest of 83.3K to 84.6K more likely.\n\nPost by hand. Tell Claude if you reword anything."
+ "text": "B2 reply batch 2026-10-07 12:05 UTC\n\n1. @HODL15Capital  ETF / institutional crypto  18 likes / 1 replies / 24m old\nhttps://x.com/HODL15Capital/status/2107798130267935204\n\nREPLY (119 chars):\nDaily U.S. Bitcoin ETF inflows do not capture the much larger stock of coins held in self custody or overseas vehicles.\n\n2. @CoinGapeMedia  ETF / institutional crypto  3 likes / 1 replies / 14m old\nhttps://x.com/CoinGapeMedia/status/2107800664487379263\n\nREPLY (130 chars):\nBitcoin ETF inflows of 119M versus Ether outflows of 202M indicate rotation into Bitcoin that a 3 percent total cap drop can hide.\n\n3. @AnaCryptoN_S  ETF / institutional crypto  2 likes / 1 replies / 51m old\nhttps://x.com/AnaCryptoN_S/status/2107791546674241661\n\nREPLY (158 chars):\nETF outflows of $202 million reflect listed product selling, not the full ETH market. Staking still removes circulating supply even when institutions sit out.\n\n4. @clarkron_2008  ETF / institutional crypto  2 likes / 1 replies / 32m old\nhttps://x.com/clarkron_2008/status/2107796281276162083\n\nREPLY (134 chars):\nFlow reports land after the session. 10.55M of Bitwise buying and 3.14M of net inflows will not rewrite a close that already occurred.\n\nPost by hand. Tell Claude if you reword anything."
 }
