@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [Claude Haiku 5.5 Ships at $0.10/M Input Tokens](https://aitechwire.io/ai-tech/2026-10-09-claude-haiku-55-ships-at-010m-input-tokens.html): Anthropic released cheaper, faster Haiku 5.5 on Oct 7-8 with aggressive pricing 75-90% below prior version. Accelerates agentic and cost-sensitive workloads across platforms. (2026-10-09)
 - [2026 Midterms: Democrats Favored in Prediction Markets](https://aitechwire.io/prediction-markets/2026-10-08-2026-midterms-democrats-favored-in-prediction-markets.html): Polymarket and Kalshi show Democrats at 91% for House control and ~62-64% for Senate or full sweep in 2026 midterms, with specific races like TX Senate seeing heavy volume on Dem candidates. Election  (2026-10-08)
 - [Anthropic Launches Free Claude for Startups](https://aitechwire.io/ai-tech/2026-10-07-anthropic-launches-free-claude-for-startups.html): Anthropic expands program offering eligible startups a free year of Claude Team plus $1K API credits. It boosts AI adoption among early-stage firms amid fierce OpenAI competition. (2026-10-07)
 - [Anthropic, OpenAI, Google, Meta Drop New AI Models](https://aitechwire.io/ai-tech/2026-10-06-anthropic-openai-google-meta-drop-new-ai-models.html): Anthropic released Claude Fable/Mythos 5.1, followed by Gemini 3.8 Flash, Muse Spark 1.3, and OpenAI's GPT-6 Astra in a clustered update wave. Labs accelerate releases amid IPO prep and developer comp (2026-10-06)
@@ -79,7 +80,6 @@ He said if you have money, it’s yo (2026-08-14)
 - [Prediction markets see $197M midterms volume](https://aitechwire.io/prediction-markets/2026-08-04-prediction-markets-see-197m-midterms-volume.html): Kalshi and Polymarket report nearly $200M wagered on US midterms with Dems favored for Congress control. Reflects growing use of markets for election odds amid polling skepticism. (2026-08-04)
 - [Polymarket/Kalshi Election Odds Steady Pre-Recess](https://aitechwire.io/prediction-markets/2026-08-03-polymarketkalshi-election-odds-steady-pre-recess.html): No major shifts reported in prediction market odds for key US events as crypto bill drama unfolds; focus remains on DC legislative outcomes impacting asset classes. (2026-08-03)
 - [Macro voices note ongoing fiscal challenges](https://aitechwire.io/finance/2026-08-02-macro-voices-note-ongoing-fiscal-challenges.html): Opinion leaders including Alden and others referenced persistent high deficits and geopolitical tensions impacting markets. No major Fed signals today but focus remains on recession risks and rate pat (2026-08-02)
-- [ETH Hovers Near $1,850 Support as Treasuries Lag](https://aitechwire.io/crypto/2026-08-01-eth-hovers-near-1850-support-as-treasuries-lag.html): Ethereum tests key $1,850 zone with treasury company momentum weak; failure risks drop to $1,700. Ties to broader crypto weakness post-Fed and July close. (2026-08-01)
 
 ## Elsewhere
 
