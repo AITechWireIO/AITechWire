@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [NVIDIA favored at 84% as largest company end-2026 on markets](https://aitechwire.io/ai-tech/2026-10-10-nvidia-favored-at-84-as-largest-company-end-2026-on-markets.html): Prediction markets price NVIDIA as top company by Dec 2026 at 84% odds amid AI capex boom. Reflects ongoing investor bets on AI leaders vs peers. (2026-10-10)
 - [Claude Haiku 5.5 Ships at $0.10/M Input Tokens](https://aitechwire.io/ai-tech/2026-10-09-claude-haiku-55-ships-at-010m-input-tokens.html): Anthropic released cheaper, faster Haiku 5.5 on Oct 7-8 with aggressive pricing 75-90% below prior version. Accelerates agentic and cost-sensitive workloads across platforms. (2026-10-09)
 - [2026 Midterms: Democrats Favored in Prediction Markets](https://aitechwire.io/prediction-markets/2026-10-08-2026-midterms-democrats-favored-in-prediction-markets.html): Polymarket and Kalshi show Democrats at 91% for House control and ~62-64% for Senate or full sweep in 2026 midterms, with specific races like TX Senate seeing heavy volume on Dem candidates. Election  (2026-10-08)
 - [Anthropic Launches Free Claude for Startups](https://aitechwire.io/ai-tech/2026-10-07-anthropic-launches-free-claude-for-startups.html): Anthropic expands program offering eligible startups a free year of Claude Team plus $1K API credits. It boosts AI adoption among early-stage firms amid fierce OpenAI competition. (2026-10-07)
@@ -79,7 +80,6 @@ He said if you have money, it’s yo (2026-08-14)
 - [Fed holds rates at 3.5-3.75%; crypto outlook cautious](https://aitechwire.io/finance/2026-08-05-fed-holds-rates-at-35-375-crypto-outlook-cautious.html): Rate decision supports dovish but wait-and-see stance; impacts BTC/ETH via inflation, jobs, ETF flows. Matters for August trading as next hike timing and dollar strength key variables. (2026-08-05)
 - [Prediction markets see $197M midterms volume](https://aitechwire.io/prediction-markets/2026-08-04-prediction-markets-see-197m-midterms-volume.html): Kalshi and Polymarket report nearly $200M wagered on US midterms with Dems favored for Congress control. Reflects growing use of markets for election odds amid polling skepticism. (2026-08-04)
 - [Polymarket/Kalshi Election Odds Steady Pre-Recess](https://aitechwire.io/prediction-markets/2026-08-03-polymarketkalshi-election-odds-steady-pre-recess.html): No major shifts reported in prediction market odds for key US events as crypto bill drama unfolds; focus remains on DC legislative outcomes impacting asset classes. (2026-08-03)
-- [Macro voices note ongoing fiscal challenges](https://aitechwire.io/finance/2026-08-02-macro-voices-note-ongoing-fiscal-challenges.html): Opinion leaders including Alden and others referenced persistent high deficits and geopolitical tensions impacting markets. No major Fed signals today but focus remains on recession risks and rate pat (2026-08-02)
 
 ## Elsewhere
 
