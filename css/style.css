@@ -551,3 +551,13 @@ footer {
 .brand-bars { display: flex; align-items: flex-end; gap: 9px; height: 120px; flex-shrink: 0; }
 .brand-bars i { display: block; width: 22px; border-radius: 4px 4px 0 0; opacity: .9; }
 @media (max-width: 760px) { .brand-bars { display: none; } .brand-big { font-size: 32px; } .brand-sub { letter-spacing: .2em; font-size: 11px; } .brand-tag { display: none; } .header-inner { height: 64px; } .brand-mark { width: 40px; height: 40px; } }
+
+/* ---- Phone section strip (12 Oct 2026): the nav links are hidden under 900px, this row brings the sections back ---- */
+.nav-mobile { display: none; }
+@media (max-width: 900px) {
+  .header-inner { height: auto; flex-wrap: wrap; padding: 10px 16px 0; row-gap: 6px; }
+  .nav-mobile { display: flex; flex-basis: 100%; gap: 8px; overflow-x: auto; padding: 2px 0 10px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .nav-mobile::-webkit-scrollbar { display: none; }
+  .nav-mobile a { white-space: nowrap; font-size: 13px; font-weight: 600; padding: 6px 12px; border: 1px solid var(--border); border-radius: 20px; color: var(--text-secondary); }
+  .nav-mobile a.active { color: var(--text-primary); background: var(--bg-card); border-color: var(--accent); }
+}
