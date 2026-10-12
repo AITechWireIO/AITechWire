@@ -528,3 +528,26 @@ footer {
   .newsletter-form { flex-direction: column; }
   .hero-title { font-size: 20px; }
 }
+
+/* ---- Option B brand (Oleg, 7 Oct 2026; built 12 Oct): logo mark + tagline in the header, brand banner on the homepage ---- */
+.header-inner { height: 72px; }
+.logo { gap: 12px; }
+.brand-mark { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 0 1px rgba(240,180,41,.35), 0 0 18px rgba(240,180,41,.18); }
+.brand-word { display: flex; flex-direction: column; line-height: 1.05; }
+.brand-name { font-size: 22px; font-weight: 800; letter-spacing: -0.5px; color: var(--text-primary); }
+.brand-name b { color: var(--accent); font-weight: 800; }
+.brand-tag { font-size: 9.5px; font-weight: 600; letter-spacing: .22em; color: #8e8ea8; margin-top: 4px; }
+.brand-strip { background: radial-gradient(ellipse at 20% 30%, #1b1840 0%, #0d0d16 55%, #0a0a0f 100%); border-bottom: 1px solid var(--border); }
+.brand-strip-inner { max-width: 1200px; margin: 0 auto; padding: 30px 24px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.brand-left { display: flex; align-items: center; gap: 22px; min-width: 0; }
+.brand-bolt { width: 46px; height: auto; flex-shrink: 0; filter: drop-shadow(0 0 14px rgba(240,180,41,.35)); }
+.brand-big { font-size: 44px; font-weight: 900; letter-spacing: -1.5px; color: var(--text-primary); line-height: 1; }
+.brand-big span { color: var(--accent); }
+.brand-sub { font-size: 13px; letter-spacing: .32em; color: #a3a3c2; margin-top: 10px; }
+.brand-rule { height: 1px; width: min(420px, 70vw); background: linear-gradient(90deg, var(--accent), transparent); margin: 12px 0; }
+.brand-pillars { font-size: 13.5px; color: var(--text-secondary); }
+.brand-cta { display: inline-block; margin-top: 14px; padding: 8px 16px; border-radius: 8px; background: var(--accent); color: #0a0a0f !important; font-weight: 700; font-size: 13.5px; }
+.brand-cta:hover { background: var(--accent-dim); }
+.brand-bars { display: flex; align-items: flex-end; gap: 9px; height: 120px; flex-shrink: 0; }
+.brand-bars i { display: block; width: 22px; border-radius: 4px 4px 0 0; opacity: .9; }
+@media (max-width: 760px) { .brand-bars { display: none; } .brand-big { font-size: 32px; } .brand-sub { letter-spacing: .2em; font-size: 11px; } .brand-tag { display: none; } .header-inner { height: 64px; } .brand-mark { width: 40px; height: 40px; } }
