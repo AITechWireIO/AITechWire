@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [Vitalik unveils paranoid AI agent privacy stack](https://aitechwire.io/ai-tech/2026-10-16-vitalik-unveils-paranoid-ai-agent-privacy-stack.html): VitalikButerin detailed a Tor + zkAPI + local LLM rewrite daemon for agent harnesses with per-conversation circuits and cover traffic. It matters today as AI agents gain traction and privacy concerns  (2026-10-16)
 - [Bitcoin holds near $81,200 as Korean market rout and stagflation fears hit risk assets](https://aitechwire.io/crypto/2026-10-15-bitcoin-holds-near-81200-as-korean-market-rout-and-stagflati.html): Bitcoin dropped to just above $80,000 before recovering to around $81,200, down roughly 0.5%, as South Korea's Kospi plunged 8% and triggered circuit breakers, while copper futures, Nasdaq futures, an (2026-10-15)
 - [US CPI Release Drives Market Volatility](https://aitechwire.io/finance/2026-10-14-us-cpi-release-drives-market-volatility.html): September inflation data lands today at 12:30 UTC, first major macro test after chip-stock rout spilled into crypto. Light leverage books mean any surprise could spark sharp moves in BTC and equities. (2026-10-14)
 - [Banks Report Earnings Amid High Yields](https://aitechwire.io/finance/2026-10-13-banks-report-earnings-amid-high-yields.html): AI inflation warnings add uncertainty to Fed path and bank outlooks. (2026-10-13)
@@ -79,7 +80,6 @@ He said if you have money, it’s yo (2026-08-14)
 - [VitalikButerin Praises Open Video AI Model](https://aitechwire.io/ai-tech/2026-08-10-vitalikbuterin-praises-open-video-ai-model.html): Vitalik highlights Minimax H3 as first open model outperforming closed competitors like HunyuanVideo. Marks shift toward more open AI development in video generation. (2026-08-10)
 - [Weak US Jobs Data Eases Fed Hike Bets](https://aitechwire.io/finance/2026-08-09-weak-us-jobs-data-eases-fed-hike-bets.html): July jobs report showed contraction, flipping market from hawkish to expecting potential cuts; 2y yields fell. Impacts finance investors' rate path views today. (2026-08-09)
 - [AI crypto boom cools; smart money shifts to BTC/ETH](https://aitechwire.io/crypto/2026-08-08-ai-crypto-boom-cools-smart-money-shifts-to-btceth.html): Capital is rotating from AI-themed tokens toward Bitcoin, Ethereum, tokenization, and stablecoins as hype fades. Institutions prioritize core infrastructure over speculative altcoin plays. (2026-08-08)
-- [AI Credit Bubble Warnings Escalate Bitcoin Bull Case](https://aitechwire.io/ai-tech/2026-08-07-ai-credit-bubble-warnings-escalate-bitcoin-bull-case.html): Analysts flag overleveraged AI data center spending as future catalyst via bailouts and liquidity. Ties macro AI boom to BTC price targets near $1M long-term. (2026-08-07)
 
 ## Elsewhere
 

@@ -1,5 +1,19 @@
 [
   {
+    "title": "Vitalik unveils paranoid AI agent privacy stack",
+    "url": "/ai-tech/2026-10-16-vitalik-unveils-paranoid-ai-agent-privacy-stack.html",
+    "section": "AI & Tech",
+    "date": "2026-10-16",
+    "excerpt": "VitalikButerin detailed a Tor + zkAPI + local LLM rewrite daemon for agent harnesses with per-conversation circuits and cover traffic. It matters today as AI agents gain traction and privacy concerns ",
+    "tags": [
+      "AI",
+      "AI Agents"
+    ],
+    "key_voices": [
+      "@vitalikbuterin"
+    ]
+  },
+  {
     "title": "Bitcoin holds near $81,200 as Korean market rout and stagflation fears hit risk assets",
     "url": "/crypto/2026-10-15-bitcoin-holds-near-81200-as-korean-market-rout-and-stagflati.html",
     "section": "Crypto",
