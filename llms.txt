@@ -15,6 +15,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 ## Latest articles
 
 - [Markets Price October Fed Rate Hike Odds at 15.5%, Hold at 84.5%](https://aitechwire.io/finance/2026-10-20-markets-price-october-fed-rate-hike-odds-at-155-hold-at-845.html): Sticky inflation and recent data keep December hike nearly fully priced in. (2026-10-20)
+- [The Case for AERO Now: 63% Below Its High, One Day Before the Aero Launch](https://aitechwire.io/crypto/2026-10-20-the-case-for-aero-now-63-below-its-high-one-day-before-the-a.html): Aerodrome and Velodrome relaunch as Aero tomorrow with 100% of exchange revenue to stakers, while AERO trades 63% below its high. Why now is the moment. (2026-10-20)
 - [JPMorgan expands JPM Coin to Ethereum](https://aitechwire.io/crypto/2026-10-19-jpmorgan-expands-jpm-coin-to-ethereum.html): JPM Coin deposit token now available on Ethereum for institutional clients, advancing tokenized deposits. Today it signals TradFi deepening into public blockchains, boosting stablecoin and RWA narrati (2026-10-19)
 - [Crypto ETF Outflows Accelerate on Rate Fears](https://aitechwire.io/crypto/2026-10-17-crypto-etf-outflows-accelerate-on-rate-fears.html): Signals cooling institutional flows despite prior accumulation. (2026-10-17)
 - [Vitalik unveils paranoid AI agent privacy stack](https://aitechwire.io/ai-tech/2026-10-16-vitalik-unveils-paranoid-ai-agent-privacy-stack.html): VitalikButerin detailed a Tor + zkAPI + local LLM rewrite daemon for agent harnesses with per-conversation circuits and cover traffic. It matters today as AI agents gain traction and privacy concerns  (2026-10-16)
@@ -79,7 +80,6 @@ In January 2010, Justice Scalia rendered a separate but equal democracy.
 He said if you have money, it’s yo (2026-08-14)
 - [Metaplanet Denies $320M Bitcoin Sale Rumors](https://aitechwire.io/crypto/2026-08-13-metaplanet-denies-320m-bitcoin-sale-rumors.html): Metaplanet CEO dismissed reports of selling 43,000 BTC, affirming holdings amid corporate treasury strategies. Clarifies position as BTC price hovers near key levels. (2026-08-13)
 - [Vitalik highlights single-digit overhead LLM proving](https://aitechwire.io/ai-tech/2026-08-12-vitalik-highlights-single-digit-overhead-llm-proving.html): VitalikButerin praised recent work achieving <10x overhead for LLM inference proving via STARKs. It matters as it accelerates practical ZK for AI agents and verifiable computation. (2026-08-12)
-- [AI supercycle drives resilient 2026 market outlook](https://aitechwire.io/ai-tech/2026-08-11-ai-supercycle-drives-resilient-2026-market-outlook.html): J.P. Morgan and others forecast double-digit equity gains fueled by AI investment. Relevant today as AI capex remains key growth driver amid macro resilience. (2026-08-11)
 
 ## Elsewhere
 
