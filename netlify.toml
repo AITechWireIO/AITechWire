@@ -17,6 +17,13 @@
   status = 301
   force = true
 
+# AERO article removed (Oleg, 20 Oct 2026); links already shared on X and LinkedIn land on the section page
+[[redirects]]
+  from = "/crypto/2026-10-20-aero-runs-into-the-aero-merger-while-the-business-stands-sti.html"
+  to = "/crypto/"
+  status = 301
+  force = true
+
 # 404 fallback — send unknown paths to homepage
 [[redirects]]
   from = "/*"
