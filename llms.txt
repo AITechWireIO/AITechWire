@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [US Stocks Mixed on Earnings; Fed Blackout](https://aitechwire.io/finance/2026-10-21-us-stocks-mixed-on-earnings-fed-blackout.html): Dow +1%, S&P +0.28%, Nasdaq flat amid strong earnings and easing yields. Fed in blackout ahead of Oct 27-28 FOMC with hike odds rising. (2026-10-21)
 - [Markets Price October Fed Rate Hike Odds at 15.5%, Hold at 84.5%](https://aitechwire.io/finance/2026-10-20-markets-price-october-fed-rate-hike-odds-at-155-hold-at-845.html): Sticky inflation and recent data keep December hike nearly fully priced in. (2026-10-20)
 - [The Case for AERO Now: 63% Below Its High, One Day Before the Aero Launch](https://aitechwire.io/crypto/2026-10-20-the-case-for-aero-now-63-below-its-high-one-day-before-the-a.html): Aerodrome and Velodrome relaunch as Aero tomorrow with 100% of exchange revenue to stakers, while AERO trades 63% below its high. Why now is the moment. (2026-10-20)
 - [JPMorgan expands JPM Coin to Ethereum](https://aitechwire.io/crypto/2026-10-19-jpmorgan-expands-jpm-coin-to-ethereum.html): JPM Coin deposit token now available on Ethereum for institutional clients, advancing tokenized deposits. Today it signals TradFi deepening into public blockchains, boosting stablecoin and RWA narrati (2026-10-19)
@@ -79,7 +80,6 @@ In January 2010, Justice Scalia rendered a separate but equal democracy.
 
 He said if you have money, it’s yo (2026-08-14)
 - [Metaplanet Denies $320M Bitcoin Sale Rumors](https://aitechwire.io/crypto/2026-08-13-metaplanet-denies-320m-bitcoin-sale-rumors.html): Metaplanet CEO dismissed reports of selling 43,000 BTC, affirming holdings amid corporate treasury strategies. Clarifies position as BTC price hovers near key levels. (2026-08-13)
-- [Vitalik highlights single-digit overhead LLM proving](https://aitechwire.io/ai-tech/2026-08-12-vitalik-highlights-single-digit-overhead-llm-proving.html): VitalikButerin praised recent work achieving <10x overhead for LLM inference proving via STARKs. It matters as it accelerates practical ZK for AI agents and verifiable computation. (2026-08-12)
 
 ## Elsewhere
 
