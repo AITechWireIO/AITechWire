@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [Bitcoin ETFs Pull $528M Inflows, $1B+ in 3 Days](https://aitechwire.io/crypto/2026-10-22-bitcoin-etfs-pull-528m-inflows-1b-in-3-days.html): U.S. spot Bitcoin ETFs recorded $528M net inflows on Oct 21, led by BlackRock's IBIT ($235M) and Fidelity's FBTC ($213M), reversing prior outflows and pushing three-day total over $1B. (2026-10-22)
 - [US Stocks Mixed on Earnings; Fed Blackout](https://aitechwire.io/finance/2026-10-21-us-stocks-mixed-on-earnings-fed-blackout.html): Dow +1%, S&P +0.28%, Nasdaq flat amid strong earnings and easing yields. Fed in blackout ahead of Oct 27-28 FOMC with hike odds rising. (2026-10-21)
 - [Markets Price October Fed Rate Hike Odds at 15.5%, Hold at 84.5%](https://aitechwire.io/finance/2026-10-20-markets-price-october-fed-rate-hike-odds-at-155-hold-at-845.html): Sticky inflation and recent data keep December hike nearly fully priced in. (2026-10-20)
 - [The Case for AERO Now: 63% Below Its High, One Day Before the Aero Launch](https://aitechwire.io/crypto/2026-10-20-the-case-for-aero-now-63-below-its-high-one-day-before-the-a.html): Aerodrome and Velodrome relaunch as Aero tomorrow with 100% of exchange revenue to stakers, while AERO trades 63% below its high. Why now is the moment. (2026-10-20)
@@ -79,7 +80,6 @@ In January 2010, Justice Scalia rendere](https://aitechwire.io/ai-tech/2026-08-1
 In January 2010, Justice Scalia rendered a separate but equal democracy.
 
 He said if you have money, it’s yo (2026-08-14)
-- [Metaplanet Denies $320M Bitcoin Sale Rumors](https://aitechwire.io/crypto/2026-08-13-metaplanet-denies-320m-bitcoin-sale-rumors.html): Metaplanet CEO dismissed reports of selling 43,000 BTC, affirming holdings amid corporate treasury strategies. Clarifies position as BTC price hovers near key levels. (2026-08-13)
 
 ## Elsewhere
 
