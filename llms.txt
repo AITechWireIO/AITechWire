@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [ETH Staking Hits 44M as Crypto ETFs See Mixed Flows](https://aitechwire.io/crypto/2026-10-23-eth-staking-hits-44m-as-crypto-etfs-see-mixed-flows.html): On-chain activity contrasts with institutional selling pressure. (2026-10-23)
 - [Bitcoin ETFs Pull $528M Inflows, $1B+ in 3 Days](https://aitechwire.io/crypto/2026-10-22-bitcoin-etfs-pull-528m-inflows-1b-in-3-days.html): U.S. spot Bitcoin ETFs recorded $528M net inflows on Oct 21, led by BlackRock's IBIT ($235M) and Fidelity's FBTC ($213M), reversing prior outflows and pushing three-day total over $1B. (2026-10-22)
 - [US Stocks Mixed on Earnings; Fed Blackout](https://aitechwire.io/finance/2026-10-21-us-stocks-mixed-on-earnings-fed-blackout.html): Dow +1%, S&P +0.28%, Nasdaq flat amid strong earnings and easing yields. Fed in blackout ahead of Oct 27-28 FOMC with hike odds rising. (2026-10-21)
 - [Markets Price October Fed Rate Hike Odds at 15.5%, Hold at 84.5%](https://aitechwire.io/finance/2026-10-20-markets-price-october-fed-rate-hike-odds-at-155-hold-at-845.html): Sticky inflation and recent data keep December hike nearly fully priced in. (2026-10-20)
@@ -73,13 +74,6 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 - [Jackson Hole symposium set for Aug 27-29 on fintech](https://aitechwire.io/finance/2026-08-16-jackson-hole-symposium-set-for-aug-27-29-on-fintech.html): Fed's Jackson Hole event themed 'Financial Innovation: Implications for Payments and Policy' approaches, likely addressing crypto and AI impacts. This could signal policy shifts for macro and crypto i (2026-08-16)
 - [AerodromeFi Shares Core Contracts Ahead of Audits](https://aitechwire.io/crypto/2026-08-15-aerodromefi-shares-core-contracts-ahead-of-audits.html): Base DeFi protocol Aerodrome released initial smart contracts as audits conclude. This advances liquidity and trading features on the chain. (2026-08-15)
 - [Aerodrome's Next Act: What the Metadex Code Actually Says About AERO](https://aitechwire.io/crypto/2026-08-15-aerodrome-metadex-code-analysis-aero-bull-case.html): AERO is down 70% into a major protocol redesign — not an exploit, not a team collapse. We read the 33,000 lines of Solidity Dromos Labs just published. Here's the investor takeaway. (2026-08-15)
-- [Citizens United has destroyed the democracy.
-
-In January 2010, Justice Scalia rendere](https://aitechwire.io/ai-tech/2026-08-14-citizens-united-has-destroyed-the-democracy-in-january-2010-.html): @scaramucci (Anthony Scaramucci) weighing in: Citizens United has destroyed the democracy.
-
-In January 2010, Justice Scalia rendered a separate but equal democracy.
-
-He said if you have money, it’s yo (2026-08-14)
 
 ## Elsewhere
 
