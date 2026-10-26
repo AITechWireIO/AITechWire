@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [Lyn Alden Bullish on Brazilian Stocks Long-Term](https://aitechwire.io/finance/2026-10-26-lyn-alden-bullish-on-brazilian-stocks-long-term.html): Lyn Alden noted buying Brazilian equities lower under Bolsonaro and remaining constructive through Lula. Highlights macro views on emerging markets resilient to political shifts. (2026-10-26)
 - [BTC ETFs see $636M outflow Oct 22, Oct net mixed](https://aitechwire.io/crypto/2026-10-25-btc-etfs-see-636m-outflow-oct-22-oct-net-mixed.html): Volatility highlights sensitivity to macro signals ahead of Fed meeting. (2026-10-25)
 - [Oil at 6-Month High Adds Macro Headwind for Risk Assets](https://aitechwire.io/finance/2026-10-24-oil-at-6-month-high-adds-macro-headwind-for-risk-assets.html): Fed officials cite inflation risks from AI boom and energy. (2026-10-24)
 - [ETH Staking Hits 44M as Crypto ETFs See Mixed Flows](https://aitechwire.io/crypto/2026-10-23-eth-staking-hits-44m-as-crypto-etfs-see-mixed-flows.html): On-chain activity contrasts with institutional selling pressure. (2026-10-23)
@@ -73,7 +74,6 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 - [Ethereum ETFs Record ~$5M Net Inflows on Aug 17](https://aitechwire.io/crypto/2026-08-19-ethereum-etfs-record-5m-net-inflows-on-aug-17.html): US spot Ethereum ETFs saw modest $5M inflows Aug 17, led by Fidelity's FETH, amid mixed Bitcoin ETF data. Indicates continued but cautious institutional demand for ETH exposure. (2026-08-19)
 - [SALT Wyoming Blockchain Symposium kicks off](https://aitechwire.io/crypto/2026-08-18-salt-wyoming-blockchain-symposium-kicks-off.html): Scaramucci opens Day 1 of the major crypto conference with strong attendance. Event focuses on Web3 and blockchain developments amid evolving regulation. (2026-08-18)
 - [Kalshi: 74% odds Fed holds rates in Sep](https://aitechwire.io/prediction-markets/2026-08-17-kalshi-74-odds-fed-holds-rates-in-sep.html): Kalshi markets price 74% chance Fed maintains rates at September FOMC meeting. Matters for macro investors pricing rate paths, bonds, and equity valuations. (2026-08-17)
-- [Jackson Hole symposium set for Aug 27-29 on fintech](https://aitechwire.io/finance/2026-08-16-jackson-hole-symposium-set-for-aug-27-29-on-fintech.html): Fed's Jackson Hole event themed 'Financial Innovation: Implications for Payments and Policy' approaches, likely addressing crypto and AI impacts. This could signal policy shifts for macro and crypto i (2026-08-16)
 
 ## Elsewhere
 
