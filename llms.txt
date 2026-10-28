@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [Fed Holds Rates Today, Eyes December Hike](https://aitechwire.io/finance/2026-10-28-fed-holds-rates-today-eyes-december-hike.html): Impacts markets, crypto, and borrowing costs globally today. (2026-10-28)
 - [Ripple wins final OCC approval for national trust bank](https://aitechwire.io/crypto/2026-10-27-ripple-wins-final-occ-approval-for-national-trust-bank.html): Ripple's RNTB receives final OCC charter approval, enabling RLUSD under federal oversight after conditional OK in 2025. Completes major regulatory milestone for stablecoin and banking push. (2026-10-27)
 - [Lyn Alden Bullish on Brazilian Stocks Long-Term](https://aitechwire.io/finance/2026-10-26-lyn-alden-bullish-on-brazilian-stocks-long-term.html): Lyn Alden noted buying Brazilian equities lower under Bolsonaro and remaining constructive through Lula. Highlights macro views on emerging markets resilient to political shifts. (2026-10-26)
 - [BTC ETFs see $636M outflow Oct 22, Oct net mixed](https://aitechwire.io/crypto/2026-10-25-btc-etfs-see-636m-outflow-oct-22-oct-net-mixed.html): Volatility highlights sensitivity to macro signals ahead of Fed meeting. (2026-10-25)
@@ -73,7 +74,6 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 - [Lyn Alden shares S&P yield vs Treasury chart](https://aitechwire.io/finance/2026-08-21-lyn-alden-shares-sp-yield-vs-treasury-chart.html): Lyn Alden highlights record low % of S&P stocks with yields above 10y Treasuries. Matters today as it underscores valuation shifts and income opportunities in current rate environment. (2026-08-21)
 - [Polymarket: Anthropic 99% favorite for best AI model end-Aug; NVIDIA 96% largest co](https://aitechwire.io/ai-tech/2026-08-20-polymarket-anthropic-99-favorite-for-best-ai-model-end-aug-n.html): Polymarket odds show Anthropic dominating AI model race and NVIDIA likely remaining world's largest company by market cap end of August. (2026-08-20)
 - [Ethereum ETFs Record ~$5M Net Inflows on Aug 17](https://aitechwire.io/crypto/2026-08-19-ethereum-etfs-record-5m-net-inflows-on-aug-17.html): US spot Ethereum ETFs saw modest $5M inflows Aug 17, led by Fidelity's FETH, amid mixed Bitcoin ETF data. Indicates continued but cautious institutional demand for ETH exposure. (2026-08-19)
-- [SALT Wyoming Blockchain Symposium kicks off](https://aitechwire.io/crypto/2026-08-18-salt-wyoming-blockchain-symposium-kicks-off.html): Scaramucci opens Day 1 of the major crypto conference with strong attendance. Event focuses on Web3 and blockchain developments amid evolving regulation. (2026-08-18)
 
 ## Elsewhere
 
