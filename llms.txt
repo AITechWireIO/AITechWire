@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [Prediction Markets Hit Record October Volumes](https://aitechwire.io/prediction-markets/2026-10-31-prediction-markets-hit-record-october-volumes.html): Kalshi and Polymarket set all-time monthly volume records with Kalshi at $65B+ MTD. Driven by sports, elections, and macro events with open interest at highs. (2026-10-31)
 - [Bitcoin drops toward key support after Fed dissent and weak tech earnings](https://aitechwire.io/crypto/2026-10-30-bitcoin-drops-toward-key-support-after-fed-dissent-and-weak-.html): Macro friction meets institutional infrastructure push. (2026-10-30)
 - [Phantom Integrates Kalshi Prediction Markets for US Users](https://aitechwire.io/prediction-markets/2026-10-29-phantom-integrates-kalshi-prediction-markets-for-us-users.html): Phantom wallet rolled out Kalshi-powered markets including 15-min Bitcoin contracts, sports, and politics to all eligible US users on Oct 29. Expands on-chain access to regulated event trading. (2026-10-29)
 - [Fed Holds Rates Today, Eyes December Hike](https://aitechwire.io/finance/2026-10-28-fed-holds-rates-today-eyes-december-hike.html): Impacts markets, crypto, and borrowing costs globally today. (2026-10-28)
@@ -73,7 +74,6 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 - [Scaramucci warns Congress recusing from key responsibilities](https://aitechwire.io/finance/2026-08-24-scaramucci-warns-congress-recusing-from-key-responsibilities.html): Anthony Scaramucci highlighted US Congress avoiding duties amid market and policy uncertainty. Ties into broader macro concerns on fiscal/political gridlock affecting finance. (2026-08-24)
 - [AerodromeFi releases Predictive Allocation codebase](https://aitechwire.io/crypto/2026-08-23-aerodromefi-releases-predictive-allocation-codebase.html): New DeFi primitive enables real-time reward optimization on Base. Public audit and buybacks signal protocol momentum. (2026-08-23)
 - [Polymarket-Kalshi variance widens on election odds](https://aitechwire.io/prediction-markets/2026-08-22-polymarket-kalshi-variance-widens-on-election-odds.html): Prediction markets show divergence with Polymarket flipping blue while Kalshi stays near 50/50 on key races. Highlights high uncertainty in turnout and external betting influence. (2026-08-22)
-- [Lyn Alden shares S&P yield vs Treasury chart](https://aitechwire.io/finance/2026-08-21-lyn-alden-shares-sp-yield-vs-treasury-chart.html): Lyn Alden highlights record low % of S&P stocks with yields above 10y Treasuries. Matters today as it underscores valuation shifts and income opportunities in current rate environment. (2026-08-21)
 
 ## Elsewhere
 
