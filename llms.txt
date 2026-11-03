@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [Apple Watch 'Audio Intelligence' enters beta with Live Rewind and Siri Recaps](https://aitechwire.io/ai-tech/2026-11-03-apple-watch-audio-intelligence-enters-beta-with-live-rewind-.html): Apple began beta testing four opt-in AI features for Apple Watch Series 12 under iOS 27.3, including Live Rewind and Siri Recaps that listen to and summarize conversations, alongside sound recognition (2026-11-03)
 - [BTC ETF Flows Rebound After Friday Outflows](https://aitechwire.io/crypto/2026-11-02-btc-etf-flows-rebound-after-friday-outflows.html): ETH ETFs extended inflows streak despite weekly net outflows. (2026-11-02)
 - [ETH/BTC rises 0.79% as Ethereum outperforms Bitcoin](https://aitechwire.io/crypto/2026-11-01-ethbtc-rises-079-as-ethereum-outperforms-bitcoin.html): ETH/BTC climbed to 0.02921 with ETH at $2,273 (+1.28%) vs BTC at $77,816 (+0.51%). Crypto market cap hit $2.705T amid relative strength in altcoins. (2026-11-01)
 - [Prediction Markets Hit Record October Volumes](https://aitechwire.io/prediction-markets/2026-10-31-prediction-markets-hit-record-october-volumes.html): Kalshi and Polymarket set all-time monthly volume records with Kalshi at $65B+ MTD. Driven by sports, elections, and macro events with open interest at highs. (2026-10-31)
@@ -73,7 +74,6 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 - [ETH ETFs attract $180M inflows, outperforming BTC](https://aitechwire.io/crypto/2026-08-27-eth-etfs-attract-180m-inflows-outperforming-btc.html): Spot Ethereum ETFs recorded another strong inflow day, part of a seven-day streak totaling ~$1B. ETH price rose 1.35% to ~$2,492 as altcoin momentum builds. (2026-08-27)
 - [CrowdStrike Q2 Earnings Due After Close Today](https://aitechwire.io/ai-tech/2026-08-26-crowdstrike-q2-earnings-due-after-close-today.html): CrowdStrike reports fiscal Q2 results post-market on Aug 26, with stock near record highs. Key for tech investors tracking AI/security sector performance. (2026-08-26)
 - [wagmiAlexander: Base On-Chain Stocks Quote 32-97 Cents Better Than IBKR](https://aitechwire.io/crypto/2026-08-25-wagmialexander-base-on-chain-stocks-quote-32-97-cents-better.html): Aerodrome on Base delivers superior quotes vs traditional brokers during market close, signaling DeFi disruption of equities trading. 'Everything is about to change' as first blocks with stocks launch (2026-08-25)
-- [Scaramucci warns Congress recusing from key responsibilities](https://aitechwire.io/finance/2026-08-24-scaramucci-warns-congress-recusing-from-key-responsibilities.html): Anthony Scaramucci highlighted US Congress avoiding duties amid market and policy uncertainty. Ties into broader macro concerns on fiscal/political gridlock affecting finance. (2026-08-24)
 
 ## Elsewhere
 
