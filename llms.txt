@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [Ethereum ETFs See $53M Inflows Breaking Outflow Streak](https://aitechwire.io/crypto/2026-11-05-ethereum-etfs-see-53m-inflows-breaking-outflow-streak.html): Spot ETH ETFs record first inflows in a week amid crypto recovery. Supports broader altcoin momentum as institutional interest returns post-election. (2026-11-05)
 - [BTC Price Rebounds Toward $78K Despite ETF Selling Pressure](https://aitechwire.io/crypto/2026-11-04-btc-price-rebounds-toward-78k-despite-etf-selling-pressure.html):  (2026-11-04)
 - [Apple Watch 'Audio Intelligence' enters beta with Live Rewind and Siri Recaps](https://aitechwire.io/ai-tech/2026-11-03-apple-watch-audio-intelligence-enters-beta-with-live-rewind-.html): Apple began beta testing four opt-in AI features for Apple Watch Series 12 under iOS 27.3, including Live Rewind and Siri Recaps that listen to and summarize conversations, alongside sound recognition (2026-11-03)
 - [BTC ETF Flows Rebound After Friday Outflows](https://aitechwire.io/crypto/2026-11-02-btc-etf-flows-rebound-after-friday-outflows.html): ETH ETFs extended inflows streak despite weekly net outflows. (2026-11-02)
@@ -73,7 +74,6 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 - [Stablecoin Facilities for GPU-Backed AI Lending Surge](https://aitechwire.io/crypto/2026-08-29-stablecoin-facilities-for-gpu-backed-ai-lending-surge.html): Bullish launched $100M stablecoin debt facility for GPU infrastructure loans; similar moves tie stablecoins to AI compute. Today this accelerates integration of crypto rails with AI capex boom. (2026-08-29)
 - [AerodromeFi Executes 155K AERO Buyback](https://aitechwire.io/crypto/2026-08-28-aerodromefi-executes-155k-aero-buyback.html): Protocol buys and locks tokens via PGF, nearing 200M total, highlighting on-chain DeFi strength. Signals growing tokenization and spot market momentum on Base. (2026-08-28)
 - [ETH ETFs attract $180M inflows, outperforming BTC](https://aitechwire.io/crypto/2026-08-27-eth-etfs-attract-180m-inflows-outperforming-btc.html): Spot Ethereum ETFs recorded another strong inflow day, part of a seven-day streak totaling ~$1B. ETH price rose 1.35% to ~$2,492 as altcoin momentum builds. (2026-08-27)
-- [CrowdStrike Q2 Earnings Due After Close Today](https://aitechwire.io/ai-tech/2026-08-26-crowdstrike-q2-earnings-due-after-close-today.html): CrowdStrike reports fiscal Q2 results post-market on Aug 26, with stock near record highs. Key for tech investors tracking AI/security sector performance. (2026-08-26)
 
 ## Elsewhere
 
