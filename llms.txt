@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [Bitcoin/ETH ETF Outflows Accelerate to $530M](https://aitechwire.io/crypto/2026-11-06-bitcoineth-etf-outflows-accelerate-to-530m.html): Spot products see heavy redemptions Nov 5 as crypto tracks tech weakness. IBIT and ETHA down sharply alongside coin prices. (2026-11-06)
 - [Ethereum ETFs See $53M Inflows Breaking Outflow Streak](https://aitechwire.io/crypto/2026-11-05-ethereum-etfs-see-53m-inflows-breaking-outflow-streak.html): Spot ETH ETFs record first inflows in a week amid crypto recovery. Supports broader altcoin momentum as institutional interest returns post-election. (2026-11-05)
 - [BTC Price Rebounds Toward $78K Despite ETF Selling Pressure](https://aitechwire.io/crypto/2026-11-04-btc-price-rebounds-toward-78k-despite-etf-selling-pressure.html):  (2026-11-04)
 - [Apple Watch 'Audio Intelligence' enters beta with Live Rewind and Siri Recaps](https://aitechwire.io/ai-tech/2026-11-03-apple-watch-audio-intelligence-enters-beta-with-live-rewind-.html): Apple began beta testing four opt-in AI features for Apple Watch Series 12 under iOS 27.3, including Live Rewind and Siri Recaps that listen to and summarize conversations, alongside sound recognition (2026-11-03)
@@ -73,7 +74,6 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 - [Raoul Pal Flags Compute Cost Crisis in AI Scaling](https://aitechwire.io/ai-tech/2026-08-30-raoul-pal-flags-compute-cost-crisis-in-ai-scaling.html): Raoul Pal notes urgent demand for more compute to cut costs or risk unusability. Ties directly to Anthropic-scale deals and broader AI infrastructure squeeze. (2026-08-30)
 - [Stablecoin Facilities for GPU-Backed AI Lending Surge](https://aitechwire.io/crypto/2026-08-29-stablecoin-facilities-for-gpu-backed-ai-lending-surge.html): Bullish launched $100M stablecoin debt facility for GPU infrastructure loans; similar moves tie stablecoins to AI compute. Today this accelerates integration of crypto rails with AI capex boom. (2026-08-29)
 - [AerodromeFi Executes 155K AERO Buyback](https://aitechwire.io/crypto/2026-08-28-aerodromefi-executes-155k-aero-buyback.html): Protocol buys and locks tokens via PGF, nearing 200M total, highlighting on-chain DeFi strength. Signals growing tokenization and spot market momentum on Base. (2026-08-28)
-- [ETH ETFs attract $180M inflows, outperforming BTC](https://aitechwire.io/crypto/2026-08-27-eth-etfs-attract-180m-inflows-outperforming-btc.html): Spot Ethereum ETFs recorded another strong inflow day, part of a seven-day streak totaling ~$1B. ETH price rose 1.35% to ~$2,492 as altcoin momentum builds. (2026-08-27)
 
 ## Elsewhere
 
