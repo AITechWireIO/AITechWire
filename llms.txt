@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [Crypto ETFs See $430M Outflows Amid Rout](https://aitechwire.io/crypto/2026-11-07-crypto-etfs-see-430m-outflows-amid-rout.html): Spot Bitcoin funds recorded heavy redemptions post-tech selloff; leverage flush dominated trading. On-chain data shows miner and whale activity spikes. (2026-11-07)
 - [Bitcoin/ETH ETF Outflows Accelerate to $530M](https://aitechwire.io/crypto/2026-11-06-bitcoineth-etf-outflows-accelerate-to-530m.html): Spot products see heavy redemptions Nov 5 as crypto tracks tech weakness. IBIT and ETHA down sharply alongside coin prices. (2026-11-06)
 - [Ethereum ETFs See $53M Inflows Breaking Outflow Streak](https://aitechwire.io/crypto/2026-11-05-ethereum-etfs-see-53m-inflows-breaking-outflow-streak.html): Spot ETH ETFs record first inflows in a week amid crypto recovery. Supports broader altcoin momentum as institutional interest returns post-election. (2026-11-05)
 - [BTC Price Rebounds Toward $78K Despite ETF Selling Pressure](https://aitechwire.io/crypto/2026-11-04-btc-price-rebounds-toward-78k-despite-etf-selling-pressure.html):  (2026-11-04)
@@ -73,7 +74,6 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 - [China Explores AI LLM/Agent Procurement Subsidies](https://aitechwire.io/ai-tech/2026-08-31-china-explores-ai-llmagent-procurement-subsidies.html): Ministry of Industry and IT released Aug 31 notice on first-purchase and risk-compensation models to boost procurement of large language models, AI agents, and token services. Signals accelerated stat (2026-08-31)
 - [Raoul Pal Flags Compute Cost Crisis in AI Scaling](https://aitechwire.io/ai-tech/2026-08-30-raoul-pal-flags-compute-cost-crisis-in-ai-scaling.html): Raoul Pal notes urgent demand for more compute to cut costs or risk unusability. Ties directly to Anthropic-scale deals and broader AI infrastructure squeeze. (2026-08-30)
 - [Stablecoin Facilities for GPU-Backed AI Lending Surge](https://aitechwire.io/crypto/2026-08-29-stablecoin-facilities-for-gpu-backed-ai-lending-surge.html): Bullish launched $100M stablecoin debt facility for GPU infrastructure loans; similar moves tie stablecoins to AI compute. Today this accelerates integration of crypto rails with AI capex boom. (2026-08-29)
-- [AerodromeFi Executes 155K AERO Buyback](https://aitechwire.io/crypto/2026-08-28-aerodromefi-executes-155k-aero-buyback.html): Protocol buys and locks tokens via PGF, nearing 200M total, highlighting on-chain DeFi strength. Signals growing tokenization and spot market momentum on Base. (2026-08-28)
 
 ## Elsewhere
 
