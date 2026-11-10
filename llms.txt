@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [Bitcoin Trades Near $74,500 as Prediction Markets Shift](https://aitechwire.io/crypto/2026-11-10-bitcoin-trades-near-74500-as-prediction-markets-shift.html): BTC trades near $74k-$75k with minor daily moves; Polymarket shows 88% odds above $74k today and rising ETH Nov targets. ETF outflows and liquidations add pressure. (2026-11-10)
 - [Apple Advances Agentic Siri in iOS](https://aitechwire.io/ai-tech/2026-11-09-apple-advances-agentic-siri-in-ios.html): Apple is pushing Siri toward agentic app control in upcoming iOS updates, with first-party actions and third-party support planned for 2027. This positions the assistant as a deeper AI interface amid  (2026-11-09)
 - [Strong Oct jobs data boosts Dec Fed hike odds to 80%+](https://aitechwire.io/finance/2026-11-08-strong-oct-jobs-data-boosts-dec-fed-hike-odds-to-80.html): Data revives inflation concerns over AI slowdown fears. (2026-11-08)
 - [Crypto ETFs See $430M Outflows Amid Rout](https://aitechwire.io/crypto/2026-11-07-crypto-etfs-see-430m-outflows-amid-rout.html): Spot Bitcoin funds recorded heavy redemptions post-tech selloff; leverage flush dominated trading. On-chain data shows miner and whale activity spikes. (2026-11-07)
@@ -73,7 +74,6 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 - [Scaramucci Hosts CZ on Crypto, Bitcoin & America Future](https://aitechwire.io/crypto/2026-09-02-scaramucci-hosts-cz-on-crypto-bitcoin-america-future.html): Anthony Scaramucci released an interview with CZ discussing Bitcoin's role, crypto regulation, and US positioning. The conversation highlights institutional and policy tailwinds for digital assets. (2026-09-02)
 - [Lyn Alden Revives Clorox Valuation Warning vs Treasuries](https://aitechwire.io/finance/2026-09-01-lyn-alden-revives-clorox-valuation-warning-vs-treasuries.html): Alden revisited 2020 Clorox 30x earnings post showing poor outcomes versus low-yield bonds. Current high valuations echo risks as yields rise above 4.75%. (2026-09-01)
 - [AI Compute Deals Fuel Capital Intensity Narrative](https://aitechwire.io/ai-tech/2026-09-01-ai-compute-deals-fuel-capital-intensity-narrative.html): Anthropic and OpenAI advance multi-billion GPU leases and custom silicon with Nvidia/CoreWeave amid IPO prep. Highlights shift from model race to infrastructure financing. (2026-09-01)
-- [China Explores AI LLM/Agent Procurement Subsidies](https://aitechwire.io/ai-tech/2026-08-31-china-explores-ai-llmagent-procurement-subsidies.html): Ministry of Industry and IT released Aug 31 notice on first-purchase and risk-compensation models to boost procurement of large language models, AI agents, and token services. Signals accelerated stat (2026-08-31)
 
 ## Elsewhere
 
