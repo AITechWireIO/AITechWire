@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [Polymarket: Jensen Huang 87% odds to exit Nvidia CEO by YE](https://aitechwire.io/prediction-markets/2026-11-12-polymarket-jensen-huang-87-odds-to-exit-nvidia-ceo-by-ye.html): Polymarket contract on Huang departure by end-2026 surged to 87% from 16.5% prior day; Kalshi shows 69-71% by Nov 13. Shift signals investor skepticism on Nvidia leadership amid AI compute scrutiny. (2026-11-12)
 - [Anthropic Launches IPO Roadshow at $70-78/Share](https://aitechwire.io/ai-tech/2026-11-11-anthropic-launches-ipo-roadshow-at-70-78share.html): Matters today as it tests AI infrastructure economics amid sector volatility and OpenAI's revenue surge. (2026-11-11)
 - [Bitcoin Trades Near $74,500 as Prediction Markets Shift](https://aitechwire.io/crypto/2026-11-10-bitcoin-trades-near-74500-as-prediction-markets-shift.html): BTC trades near $74k-$75k with minor daily moves; Polymarket shows 88% odds above $74k today and rising ETH Nov targets. ETF outflows and liquidations add pressure. (2026-11-10)
 - [Apple Advances Agentic Siri in iOS](https://aitechwire.io/ai-tech/2026-11-09-apple-advances-agentic-siri-in-ios.html): Apple is pushing Siri toward agentic app control in upcoming iOS updates, with first-party actions and third-party support planned for 2027. This positions the assistant as a deeper AI interface amid  (2026-11-09)
@@ -73,7 +74,6 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 - [Polymarket Launches New Markets on AI, Politics](https://aitechwire.io/prediction-markets/2026-09-10-polymarket-launches-new-markets-on-ai-politics.html): Polymarket added markets on OpenAI vs Anthropic Millennium Prize, hottest month record, and Trump-Iran tensions. Solana prediction market platform also went live standalone. (2026-09-10)
 - [OpenAI GPT-6 Astra Scores Perfect on Exam](https://aitechwire.io/ai-tech/2026-09-05-openai-gpt-6-astra-scores-perfect-on-exam.html): Reports indicate OpenAI’s latest model achieved historic perfect score on South Korea’s college entrance exam (수능), marking major capability leap. (2026-09-05)
 - [Scaramucci Hosts CZ on Crypto, Bitcoin & America Future](https://aitechwire.io/crypto/2026-09-02-scaramucci-hosts-cz-on-crypto-bitcoin-america-future.html): Anthony Scaramucci released an interview with CZ discussing Bitcoin's role, crypto regulation, and US positioning. The conversation highlights institutional and policy tailwinds for digital assets. (2026-09-02)
-- [Lyn Alden Revives Clorox Valuation Warning vs Treasuries](https://aitechwire.io/finance/2026-09-01-lyn-alden-revives-clorox-valuation-warning-vs-treasuries.html): Alden revisited 2020 Clorox 30x earnings post showing poor outcomes versus low-yield bonds. Current high valuations echo risks as yields rise above 4.75%. (2026-09-01)
 
 ## Elsewhere
 
