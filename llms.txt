@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [Aave v4 Avalanche Deposits Surge Past $225M](https://aitechwire.io/crypto/2026-11-15-aave-v4-avalanche-deposits-surge-past-225m.html): Deposits up 295% since late Oct with loans >$100M on Aave's first non-Eth expansion. Signals growing DeFi activity on alt L1s. (2026-11-15)
 - [Bitcoin Drops Below $68K on ETF Outflows, Liquidations](https://aitechwire.io/crypto/2026-11-14-bitcoin-drops-below-68k-on-etf-outflows-liquidations.html):  (2026-11-14)
 - [NVIDIA Turmoil Ripples to AI Tokens & Markets](https://aitechwire.io/ai-tech/2026-11-13-nvidia-turmoil-ripples-to-ai-tokens-markets.html): Huang exit fuels volatility in AI infrastructure plays and tokens like TAO/NEAR; prediction markets price Huang's new ventures and NVIDIA valuation scenarios. Compounds broader market jitters. (2026-11-13)
 - [Polymarket: Jensen Huang 87% odds to exit Nvidia CEO by YE](https://aitechwire.io/prediction-markets/2026-11-12-polymarket-jensen-huang-87-odds-to-exit-nvidia-ceo-by-ye.html): Polymarket contract on Huang departure by end-2026 surged to 87% from 16.5% prior day; Kalshi shows 69-71% by Nov 13. Shift signals investor skepticism on Nvidia leadership amid AI compute scrutiny. (2026-11-12)
@@ -73,7 +74,6 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 - [Prediction Markets Active on Fed Rate Move](https://aitechwire.io/prediction-markets/2026-09-14-prediction-markets-active-on-fed-rate-move.html): Polymarket and Kalshi see heavy volume on Sept 2026 FOMC outcomes with high odds on 25bp hike; other markets include 2028 nominations and OpenAI IPO by year-end at low odds (~5%). (2026-09-14)
 - [ETH ETFs see $216M inflows while BTC funds lose $460M](https://aitechwire.io/crypto/2026-09-13-eth-etfs-see-216m-inflows-while-btc-funds-lose-460m.html): Ethereum ETFs attracted $216M in net inflows last week while Bitcoin spot ETFs saw $460M in net outflows, marking a significant institutional rotation. (2026-09-13)
 - [ETH ETFs pull $216M inflows vs BTC outflows](https://aitechwire.io/crypto/2026-09-12-eth-etfs-pull-216m-inflows-vs-btc-outflows.html): Spot Ethereum ETFs attracted $216M on Sept 11 while Bitcoin ETFs saw $13M outflows. Signals clear rotation into ETH and higher-beta crypto amid macro data. (2026-09-12)
-- [Polymarket Launches New Markets on AI, Politics](https://aitechwire.io/prediction-markets/2026-09-10-polymarket-launches-new-markets-on-ai-politics.html): Polymarket added markets on OpenAI vs Anthropic Millennium Prize, hottest month record, and Trump-Iran tensions. Solana prediction market platform also went live standalone. (2026-09-10)
 
 ## Elsewhere
 
