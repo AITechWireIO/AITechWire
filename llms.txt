@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [Fed Hike Odds Rise; 4 Rate Hikes Priced by Mid-2027](https://aitechwire.io/finance/2026-11-18-fed-hike-odds-rise-4-rate-hikes-priced-by-mid-2027.html): Markets fully price Dec hike; persistent price pressures keep tightening in play. (2026-11-18)
 - [Bitcoin ETFs See First Inflow in 7 Days](https://aitechwire.io/crypto/2026-11-17-bitcoin-etfs-see-first-inflow-in-7-days.html): US spot Bitcoin ETFs recorded a $7.9M net inflow on Nov 16 after seven straight outflow days, led by BlackRock IBIT. (2026-11-17)
 - [Nvidia Earnings, Anthropic IPO Loom Amid AI Selloff](https://aitechwire.io/ai-tech/2026-11-16-nvidia-earnings-anthropic-ipo-loom-amid-ai-selloff.html): Nvidia reports Q3 results Tuesday after CEO Jensen Huang's resignation amid scandal; Anthropic set to price its massive IPO Wednesday. Markets price in volatility as AI trade tests resilience ahead of (2026-11-16)
 - [Aave v4 Avalanche Deposits Surge Past $225M](https://aitechwire.io/crypto/2026-11-15-aave-v4-avalanche-deposits-surge-past-225m.html): Deposits up 295% since late Oct with loans >$100M on Aave's first non-Eth expansion. Signals growing DeFi activity on alt L1s. (2026-11-15)
@@ -73,7 +74,6 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 - [Prediction Markets See Record Volumes on Fed/AI](https://aitechwire.io/prediction-markets/2026-09-18-prediction-markets-see-record-volumes-on-fedai.html): Kalshi and Polymarket traded heavily on recent Fed decision and AI-related contracts. Growing liquidity underscores integration of events, crypto rails, and AI pricing. (2026-09-18)
 - [AI Agents Surge Crypto Transactions on Agentic Rails](https://aitechwire.io/ai-tech/2026-09-16-ai-agents-surge-crypto-transactions-on-agentic-rails.html): Bloomberg reports exploding use of AI agents for crypto payments and trading. Raises guardrails debate while boosting on-chain volume and DeFi activity. (2026-09-16)
 - [ETH ETFs Outpace BTC in September Inflows](https://aitechwire.io/crypto/2026-09-15-eth-etfs-outpace-btc-in-september-inflows.html): Ethereum spot ETFs recorded ~$445M inflows vs Bitcoin's $467M MTD through mid-month, with strong daily rebounds including $121M on Sept 14 led by BlackRock; BTC ETFs added $160M ending prior outflow s (2026-09-15)
-- [Prediction Markets Active on Fed Rate Move](https://aitechwire.io/prediction-markets/2026-09-14-prediction-markets-active-on-fed-rate-move.html): Polymarket and Kalshi see heavy volume on Sept 2026 FOMC outcomes with high odds on 25bp hike; other markets include 2028 nominations and OpenAI IPO by year-end at low odds (~5%). (2026-09-14)
 
 ## Elsewhere
 
