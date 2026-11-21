@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [Mathematicians almost certain AI-assisted Riemann hypothesis proof is real](https://aitechwire.io/prediction-markets/2026-11-21-mathematicians-almost-certain-ai-assisted-riemann-hypothesis.html): Matters as it flips narrative from AI skepticism to rapid scientific breakthroughs. (2026-11-21)
 - [Coinbase Eyes In-House Prediction Markets by 2027](https://aitechwire.io/crypto/2026-11-20-coinbase-eyes-in-house-prediction-markets-by-2027.html): Coinbase plans proprietary event contracts launch H1 2027 after Kalshi success ($200M ARR); supports CFTC swap inclusion for sports/politics/weather. Senate advances DEATH BETS Act restrictions. (2026-11-20)
 - [Bitcoin ETFs See $306M Outflows as BTC Holds $63K](https://aitechwire.io/crypto/2026-11-19-bitcoin-etfs-see-306m-outflows-as-btc-holds-63k.html): U.S. spot Bitcoin ETFs recorded $306M net outflows Wednesday, with assets at $77.7B amid BTC dip below $63K and Anthropic IPO attention. Stablecoin supply also dropped $16B. (2026-11-19)
 - [Fed Hike Odds Rise; 4 Rate Hikes Priced by Mid-2027](https://aitechwire.io/finance/2026-11-18-fed-hike-odds-rise-4-rate-hikes-priced-by-mid-2027.html): Markets fully price Dec hike; persistent price pressures keep tightening in play. (2026-11-18)
@@ -73,7 +74,6 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 - [NVIDIA's Huang Warns OpenAI, Anthropic on AI Safety](https://aitechwire.io/ai-tech/2026-09-24-nvidias-huang-warns-openai-anthropic-on-ai-safety.html): Jensen Huang stated labs unable to contain AI experiments should be shut down, citing liabilities, after investing billions in both firms. The ultimatum comes amid safety concerns and calls to slow fr (2026-09-24)
 - [Bitcoin Holds Near $86K Amid ETF Inflows & Cycle Shift](https://aitechwire.io/crypto/2026-09-23-bitcoin-holds-near-86k-amid-etf-inflows-cycle-shift.html): BTC consolidates near $86,000 with strong institutional ETF demand shortening traditional cycles. On-chain data shows institutions accumulating through recent volatility. (2026-09-23)
 - [With CLARITY stalled, I expect the SEC, CFTC, and Treasury to advance rules under exi](https://aitechwire.io/ai-tech/2026-09-19-with-clarity-stalled-i-expect-the-sec-cftc-and-treasury-to-a.html): @saylor (Michael Saylor) weighing in: With CLARITY stalled, I expect the SEC, CFTC, and Treasury to advance rules under existing law, banks to expand Bitcoin custody and loans against it, and more cap (2026-09-19)
-- [Prediction Markets See Record Volumes on Fed/AI](https://aitechwire.io/prediction-markets/2026-09-18-prediction-markets-see-record-volumes-on-fedai.html): Kalshi and Polymarket traded heavily on recent Fed decision and AI-related contracts. Growing liquidity underscores integration of events, crypto rails, and AI pricing. (2026-09-18)
 
 ## Elsewhere
 
