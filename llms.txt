@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [Bitcoin ETFs See $1.8B Weekly Outflows](https://aitechwire.io/crypto/2026-11-23-bitcoin-etfs-see-18b-weekly-outflows.html): US spot BTC ETFs recorded ~$1.79B net outflows for Nov 16-20 week, with IBIT leading redemptions; some rebound inflows today via BlackRock. Signals weakening institutional demand amid rate hike fears  (2026-11-23)
 - [Fed Rate Hike Talk Weighs on Markets & Crypto](https://aitechwire.io/finance/2026-11-22-fed-rate-hike-talk-weighs-on-markets-crypto.html): Renewed 0.5% hike expectations and strong dollar contributed to risk-off across equities and digital assets. Bitcoin ETF outflows accelerated as macro uncertainty grew. (2026-11-22)
 - [Mathematicians almost certain AI-assisted Riemann hypothesis proof is real](https://aitechwire.io/prediction-markets/2026-11-21-mathematicians-almost-certain-ai-assisted-riemann-hypothesis.html): Matters as it flips narrative from AI skepticism to rapid scientific breakthroughs. (2026-11-21)
 - [Coinbase Eyes In-House Prediction Markets by 2027](https://aitechwire.io/crypto/2026-11-20-coinbase-eyes-in-house-prediction-markets-by-2027.html): Coinbase plans proprietary event contracts launch H1 2027 after Kalshi success ($200M ARR); supports CFTC swap inclusion for sports/politics/weather. Senate advances DEATH BETS Act restrictions. (2026-11-20)
@@ -73,7 +74,6 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 - [Anthropic Leads AI Model Benchmarks](https://aitechwire.io/ai-tech/2026-09-26-anthropic-leads-ai-model-benchmarks.html): Polymarket odds show Anthropic at 98.6% chance of best AI model end of September per LiveBench coding metrics. Matters for AI investors tracking model supremacy and valuation implications. (2026-09-26)
 - [OpenAI and Anthropic Advance Model Safety and IPO Talks](https://aitechwire.io/ai-tech/2026-09-25-openai-and-anthropic-advance-model-safety-and-ipo-talks.html): Frontier labs continue internal safety testing and valuation races, with Anthropic eyeing high targets and OpenAI deferring listings. Focus remains on capability thresholds and compute scaling. (2026-09-25)
 - [NVIDIA's Huang Warns OpenAI, Anthropic on AI Safety](https://aitechwire.io/ai-tech/2026-09-24-nvidias-huang-warns-openai-anthropic-on-ai-safety.html): Jensen Huang stated labs unable to contain AI experiments should be shut down, citing liabilities, after investing billions in both firms. The ultimatum comes amid safety concerns and calls to slow fr (2026-09-24)
-- [Bitcoin Holds Near $86K Amid ETF Inflows & Cycle Shift](https://aitechwire.io/crypto/2026-09-23-bitcoin-holds-near-86k-amid-etf-inflows-cycle-shift.html): BTC consolidates near $86,000 with strong institutional ETF demand shortening traditional cycles. On-chain data shows institutions accumulating through recent volatility. (2026-09-23)
 
 ## Elsewhere
 
