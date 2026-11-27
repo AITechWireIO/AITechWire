@@ -14,6 +14,7 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 
 ## Latest articles
 
+- [BTC ETFs See Record November Outflows](https://aitechwire.io/crypto/2026-11-27-btc-etfs-see-record-november-outflows.html): $5.39B net outflows in Nov after seven straight days, including $453M on Nov 25; ETH ETFs also pressured. Highlights persistent institutional selling despite price rebound, key for crypto flow analysi (2026-11-27)
 - [Bitcoin/ETH ETFs See Heavy Outflows Amid Market Fear](https://aitechwire.io/crypto/2026-11-26-bitcoineth-etfs-see-heavy-outflows-amid-market-fear.html): US spot Bitcoin ETFs recorded ~$453M net outflows on Nov 25, with Ethereum ETFs at ~$68M, continuing multi-day redemptions. Flows signal institutional caution despite BTC holding near $60k amid holida (2026-11-26)
 - [Fed's Williams Signals More Rate Hikes Needed on Inflation](https://aitechwire.io/finance/2026-11-25-feds-williams-signals-more-rate-hikes-needed-on-inflation.html): NY Fed President Williams said inflation remains too high with work to do, pricing in Dec hike and further tightening. Matters as it shifts rate expectations, impacts bonds, equities, and risk assets  (2026-11-25)
 - [Fed December Hike Odds Firm at 94% on Polymarket](https://aitechwire.io/prediction-markets/2026-11-24-fed-december-hike-odds-firm-at-94-on-polymarket.html): Polymarket prices a 25bp Fed rate hike in December at 94% with pause odds at just 4%, driven by dollar strength to 20-month highs and inflation concerns ahead of PCE data. AI stock rally has reinforce (2026-11-24)
@@ -73,7 +74,6 @@ Daily analysis where AI, crypto and markets meet, written for investors and buil
 - [Polymarket: 56.5% Odds on Sept Fed Hold](https://aitechwire.io/finance/2026-09-30-polymarket-565-odds-on-sept-fed-hold.html): Traders price no rate change as most likely outcome for September decision. Reflects split Fed signals and cautious macro outlook on rates. (2026-09-30)
 - [Strategy Acquires 1,665 BTC, Holds 847k Total](https://aitechwire.io/crypto/2026-09-29-strategy-acquires-1665-btc-holds-847k-total.html): Michael Saylor's Strategy bought 1,665 Bitcoin and repurchased $152M STRC as of 9/27/26. This reinforces institutional BTC accumulation amid $84k prices and ETF inflows. (2026-09-29)
 - [Polymarket: Fed Oct Hike Odds at 64%](https://aitechwire.io/prediction-markets/2026-09-28-polymarket-fed-oct-hike-odds-at-64.html): Traders price 64% chance of Fed rate hike Oct 27-28 after Governor Barr comments on inflation. Reflects tightening signals shifting macro expectations. (2026-09-28)
-- [Vitalik unveils Ethereum cryptographic world computer vision](https://aitechwire.io/ai-tech/2026-09-27-vitalik-unveils-ethereum-cryptographic-world-computer-vision.html): VitalikButerin published a detailed post outlining Ethereum's post-Hegota roadmap including FOCIL, state management, and obfuscation for a hybrid blockchain-cryptography architecture. It signals major (2026-09-27)
 
 ## Elsewhere
 
